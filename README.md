@@ -10,6 +10,6 @@ This project aims to create a connection between the EMF-IncQuery project's quer
  
 More info can be found here:
 * http://incquery.net/
-* http://incquery.net/
+* http://mbeddr.com/
 * http://www.jetbrains.com/mps/
 
