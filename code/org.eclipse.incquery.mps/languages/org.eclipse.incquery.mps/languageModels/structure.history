@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="-1" />
+    </dependencies>
+    <rename id="auek.7802504792141552484" type="CONCEPT" from="Variable" to="LocalVariable" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="0" />
+    </dependencies>
+    <rename id="auek.996292992025675760" type="CONCEPT" from="IdentifierWithType" to="Variable" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="1" />
+    </dependencies>
+    <rename id="auek.7802504792143045134" type="REFERENCE" from="var" to="variable" />
+  </StructureModification>
+</history>
+
