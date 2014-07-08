@@ -3,7 +3,7 @@
   <persistence version="8" />
   <language namespace="d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="2" />
+  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="17" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -214,7 +214,7 @@
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7802504792141496585" nodeInfo="nn">
               <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="7802504792141495956" nodeInfo="nn">
                 <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="7802504792141495957" nodeInfo="in">
-                  <link role="concept" roleId="tp25.1138405853777" targetNodeId="auek.996292992025672789" resolveInfo="Type" />
+                  <link role="concept" roleId="tp25.1138405853777" targetNodeId="auek.996292992025672789" resolveInfo="ConceptReferenceType" />
                 </node>
               </node>
             </node>
@@ -474,7 +474,7 @@
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="7802504792142319649" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <property name="name" nameId="tpck.1169194664001" value="RefType_SpecifyIndexForReference" />
-    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675491" resolveInfo="RefType" />
+    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="7802504792142319650" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7802504792142319651" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7802504792142319652" nodeInfo="nn">
@@ -547,7 +547,7 @@
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="7802504792142336700" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <property name="name" nameId="tpck.1169194664001" value="RefType_MakeReferenceClosure" />
-    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675491" resolveInfo="RefType" />
+    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="7802504792142336701" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7802504792142336702" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7802504792142382930" nodeInfo="nn">
@@ -617,7 +617,7 @@
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="7802504792142554550" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <property name="name" nameId="tpck.1169194664001" value="RefType_MakeReferenceNoneClosure" />
-    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675491" resolveInfo="RefType" />
+    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="7802504792142554551" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7802504792142554552" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7802504792142554553" nodeInfo="nn">
@@ -683,7 +683,7 @@
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="7802504792142563963" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <property name="name" nameId="tpck.1169194664001" value="RefType_RemoveIndexOfReference" />
-    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675491" resolveInfo="RefType" />
+    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="7802504792142563964" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7802504792142563965" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7802504792142563966" nodeInfo="nn">

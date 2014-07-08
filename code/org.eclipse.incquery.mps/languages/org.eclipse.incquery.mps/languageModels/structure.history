@@ -18,5 +18,95 @@
     </dependencies>
     <rename id="auek.7802504792143045134" type="REFERENCE" from="var" to="variable" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="2" />
+    </dependencies>
+    <rename id="auek.7241148409034581801" type="CONCEPT" from="PatternReferenceStatement" to="PatternInstantiationStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="3" />
+    </dependencies>
+    <rename id="auek.996292992025672789" type="CONCEPT" from="Type" to="BaseType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="4" />
+    </dependencies>
+    <rename id="auek.996292992025672790" type="REFERENCE" from="value" to="type" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="5" />
+    </dependencies>
+    <rename id="auek.996292992025672790" type="REFERENCE" from="type" to="typeValue" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="6" />
+    </dependencies>
+    <rename id="auek.996292992025672790" type="REFERENCE" from="typeValue" to="concept" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="7" />
+    </dependencies>
+    <rename id="auek.996292992025672789" type="CONCEPT" from="BaseType" to="Type" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="8" />
+    </dependencies>
+    <rename id="auek.996292992025675491" type="CONCEPT" from="RefType" to="LinkDeclarationType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="9" />
+    </dependencies>
+    <rename id="auek.996292992025672789" type="CONCEPT" from="Type" to="ConceptReferenceType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="10" />
+    </dependencies>
+    <rename id="auek.7241148409034581801" type="CONCEPT" from="PatternInstantiationStatement" to="PatternVariableDeclaration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="11" />
+    </dependencies>
+    <rename id="auek.7241148409037557254" type="REFERENCE" from="instance" to="declaration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="12" />
+    </dependencies>
+    <rename id="auek.7241148409037557179" type="CONCEPT" from="PatternUseStatement" to="PatternOperationCallStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="13" />
+    </dependencies>
+    <rename id="auek.7241148409034581801" type="CONCEPT" from="PatternVariableDeclaration" to="PatternMatcherVariableDeclaration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="14" />
+    </dependencies>
+    <rename id="auek.7241148409043933760" type="CONCEPT" from="PatternInstantiationExpression" to="PatternMatcherInstantiationExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="15" />
+    </dependencies>
+    <rename id="auek.332073910432795205" type="CONCEPT" from="QueryOperation" to="SingleValueQueryOperation" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="16" />
+    </dependencies>
+    <rename id="auek.332073910432955532" type="CONCEPT" from="AllValuesQueryOperation" to="AllMatchesQueryOperation" />
+  </StructureModification>
 </history>
 

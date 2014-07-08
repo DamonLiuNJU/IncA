@@ -3,7 +3,7 @@
   <persistence version="8" />
   <language namespace="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="2" />
+  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="17" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -12,9 +12,9 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <property name="name" nameId="tpck.1169194664001" value="ExpandPathExpressionTail" />
     <node role="actionsBuilder" roleId="tpdg.1138079416599" type="tpdg.SideTransformHintSubstituteActionsBuilder" typeId="tpdg.1138079221458" id="996292992028094531" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="auek.996292992025675491" resolveInfo="RefType" />
+      <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
       <node role="part" roleId="tpdg.1177442283389" type="tpdg.AddMenuPart" typeId="tpdg.1177323996388" id="996292992028095851" nodeInfo="ng">
-        <link role="concept" roleId="tpdg.1177333551023" targetNodeId="auek.996292992025675491" resolveInfo="RefType" />
+        <link role="concept" roleId="tpdg.1177333551023" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
         <node role="part" roleId="tpdg.1177333559040" type="tpdg.SimpleSideTransformMenuPart" typeId="tpdg.1177498013932" id="996292992028097167" nodeInfo="ng">
           <node role="handler" roleId="tpdg.1177498207384" type="tpdg.QueryFunction_SideTransform_Handler" typeId="tpdg.1177498227294" id="996292992028097168" nodeInfo="nn">
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="996292992028097169" nodeInfo="sn">
@@ -46,7 +46,7 @@
                   <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7802504792142757185" nodeInfo="nn">
                     <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="7802504792142757005" nodeInfo="nn">
                       <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="7802504792142757006" nodeInfo="in">
-                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="auek.996292992025675491" resolveInfo="RefType" />
+                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
                       </node>
                     </node>
                   </node>
@@ -86,7 +86,7 @@
               <node role="operand" roleId="tpee.1197027771414" type="tpdg.ConceptFunctionParameter_sourceNode" typeId="tpdg.1177497140107" id="996292992028109107" nodeInfo="nn" />
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="996292992028111155" nodeInfo="nn">
                 <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="996292992028376387" nodeInfo="nn">
-                  <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="auek.996292992025675491" resolveInfo="RefType" />
+                  <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
                 </node>
               </node>
             </node>
