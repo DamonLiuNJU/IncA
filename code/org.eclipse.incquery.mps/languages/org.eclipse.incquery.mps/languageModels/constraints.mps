@@ -153,7 +153,7 @@
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6888142545404374787" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6888142545404397414" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6888142545404397536" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f1uo.6888142545404376414" resolveInfo="refTypeValue" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f1uo.6888142545404376414" resolveInfo="linkDeclarationTypeValues" />
               <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="f1uo.6888142545404376232" resolveInfo="ScopingHelper" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConceptParameter_ReferentSearchScope_enclosingNode" typeId="tp1t.1148934636683" id="6888142545404399330" nodeInfo="nn" />
             </node>
