@@ -327,7 +327,7 @@
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="996292992025672694" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CompareFeature" />
-    <property name="hasNoDefaultMember" nameId="tpce.1212080844762" value="true" />
+    <property name="hasNoDefaultMember" nameId="tpce.1212080844762" value="false" />
     <property name="noValueText" nameId="tpce.1212087449254" value="==" />
     <property name="memberIdentifierPolicy" nameId="tpce.1197591154882" value="derive_from_internal_value" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />

@@ -4,7 +4,19 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
+    <modelRoot contentPath="${module}" type="java_classes">
+      <sourceRoot location="libs/guava-17.0.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201407291318.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.matchers_0.9.0.201407291318.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete_0.9.0.201407291318.jar" />
+    </modelRoot>
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="${module}/libs/guava-17.0.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201407291318.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.matchers_0.9.0.201407291318.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete_0.9.0.201407291318.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
