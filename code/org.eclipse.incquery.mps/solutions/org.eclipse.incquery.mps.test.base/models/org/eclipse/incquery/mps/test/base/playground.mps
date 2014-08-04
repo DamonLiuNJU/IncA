@@ -12,7 +12,7 @@
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language namespace="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="17" />
+  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="22" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <import index="f1uo" modelUID="r:326fd4ed-5369-4cc8-8788-92145c4d8911(org.eclipse.incquery.mps.runtime)" version="-1" />
@@ -24,7 +24,7 @@
     <property name="package" nameId="auek.996292992024500590" value="a.b.c" />
     <property name="name" nameId="tpck.1169194664001" value="PatternModel_a_b_c" />
     <node role="patterns" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="996292992025100282" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="test1" />
+      <property name="name" nameId="tpck.1169194664001" value="checkExpression" />
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="7802504792141939032" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="a" />
         <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="8800263097516742820" nodeInfo="ng">
@@ -39,8 +39,8 @@
       </node>
       <node role="bodies" roleId="auek.996292992024500596" type="auek.PatternBody" typeId="auek.996292992024500593" id="996292992025100284" nodeInfo="ng">
         <node role="constraints" roleId="auek.996292992024530408" type="auek.CheckConstraint" typeId="auek.996292992024530426" id="996292992026424821" nodeInfo="ng">
-          <node role="expression" roleId="auek.996292992025680416" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="5589093812001491214" nodeInfo="nn">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5589093812001492653" nodeInfo="nn">
+          <node role="expression" roleId="auek.996292992025680416" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="2281067221948924641" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2281067221948927783" nodeInfo="nn">
               <property name="value" nameId="tpee.1068580320021" value="10" />
             </node>
             <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="996292992026428574" nodeInfo="nn">
@@ -79,11 +79,11 @@
       </node>
     </node>
     <node role="patterns" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="8800263097516744515" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="patterns" />
+      <property name="name" nameId="tpck.1169194664001" value="conceptConstraint" />
       <node role="bodies" roleId="auek.996292992024500596" type="auek.PatternBody" typeId="auek.996292992024500593" id="5589093812002806612" nodeInfo="ng">
         <node role="constraints" roleId="auek.996292992024530408" type="auek.ConceptConstraint" typeId="auek.5589093812003084634" id="5589093812003244646" nodeInfo="ng">
           <link role="type" roleId="auek.5589093812003084769" targetNodeId="auek.996292992024449103" resolveInfo="Pattern" />
-          <node role="var" roleId="auek.5589093812003084950" type="auek.VariableReference" typeId="auek.996292992024566715" id="5589093812003244647" nodeInfo="ng">
+          <node role="var" roleId="auek.5589093812003084950" type="auek.DeclaredVariableReference" typeId="auek.996292992024566715" id="5589093812003244647" nodeInfo="ng">
             <link role="variable" roleId="auek.7802504792143045134" targetNodeId="8800263097516744604" resolveInfo="pattern" />
           </node>
         </node>
@@ -96,7 +96,7 @@
       </node>
     </node>
     <node role="patterns" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="8337440621608806882" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="bodiesOfPattern" />
+      <property name="name" nameId="tpck.1169194664001" value="pathExpression" />
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="8337440621608806926" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="p" />
         <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="8337440621608806930" nodeInfo="ng">
@@ -120,11 +120,11 @@
                 <link role="value" roleId="auek.6888142545404296242" targetNodeId="auek.996292992024500596" />
               </node>
             </node>
-            <node role="src" roleId="auek.996292992025662592" type="auek.VariableReference" typeId="auek.996292992024566715" id="8337440621608806943" nodeInfo="ng">
+            <node role="src" roleId="auek.996292992025662592" type="auek.DeclaredVariableReference" typeId="auek.996292992024566715" id="8337440621608806943" nodeInfo="ng">
               <link role="variable" roleId="auek.7802504792143045134" targetNodeId="8337440621608806926" resolveInfo="p" />
             </node>
-            <node role="trg" roleId="auek.996292992025662599" type="auek.VariableValue" typeId="auek.996292992024566673" id="8337440621608806958" nodeInfo="ng">
-              <node role="value" roleId="auek.996292992024566793" type="auek.VariableReference" typeId="auek.996292992024566715" id="8337440621608806960" nodeInfo="ng">
+            <node role="trg" roleId="auek.996292992025662599" type="auek.VariableValue" typeId="auek.996292992024566673" id="2281067221947060501" nodeInfo="ng">
+              <node role="value" roleId="auek.996292992024566793" type="auek.DeclaredVariableReference" typeId="auek.996292992024566715" id="2281067221947060504" nodeInfo="ng">
                 <link role="variable" roleId="auek.7802504792143045134" targetNodeId="8337440621608806932" resolveInfo="b" />
               </node>
             </node>
@@ -133,7 +133,7 @@
       </node>
     </node>
     <node role="patterns" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="8337440621608807428" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="constraintsOfPattern" />
+      <property name="name" nameId="tpck.1169194664001" value="pathExpressions1" />
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="8337440621608807463" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="p" />
         <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="8337440621608807467" nodeInfo="ng">
@@ -164,13 +164,70 @@
                 </node>
               </node>
             </node>
-            <node role="src" roleId="auek.996292992025662592" type="auek.VariableReference" typeId="auek.996292992024566715" id="8337440621608807480" nodeInfo="ng">
+            <node role="src" roleId="auek.996292992025662592" type="auek.DeclaredVariableReference" typeId="auek.996292992024566715" id="8337440621608807480" nodeInfo="ng">
               <link role="variable" roleId="auek.7802504792143045134" targetNodeId="8337440621608807463" resolveInfo="p" />
             </node>
-            <node role="trg" roleId="auek.996292992025662599" type="auek.VariableValue" typeId="auek.996292992024566673" id="8337440621608807502" nodeInfo="ng">
-              <node role="value" roleId="auek.996292992024566793" type="auek.VariableReference" typeId="auek.996292992024566715" id="8337440621608807504" nodeInfo="ng">
+            <node role="trg" roleId="auek.996292992025662599" type="auek.VariableValue" typeId="auek.996292992024566673" id="2281067221947060509" nodeInfo="ng">
+              <node role="value" roleId="auek.996292992024566793" type="auek.DeclaredVariableReference" typeId="auek.996292992024566715" id="2281067221947060512" nodeInfo="ng">
                 <link role="variable" roleId="auek.7802504792143045134" targetNodeId="8337440621608807469" resolveInfo="c" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="patterns" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="2281067221946532994" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="pathExpressions2" />
+      <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="2281067221946533063" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="p" />
+        <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="2281067221946533067" nodeInfo="ng">
+          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="auek.996292992024449103" resolveInfo="Pattern" />
+        </node>
+      </node>
+      <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="2281067221946533069" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="c" />
+        <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="2281067221946533075" nodeInfo="ng">
+          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="auek.996292992024530407" resolveInfo="Constraint" />
+        </node>
+      </node>
+      <node role="bodies" roleId="auek.996292992024500596" type="auek.PatternBody" typeId="auek.996292992024500593" id="2281067221946532995" nodeInfo="ng">
+        <node role="constraints" roleId="auek.996292992024530408" type="auek.PathExpressionConstraint" typeId="auek.996292992024530493" id="2281067221946533053" nodeInfo="ng">
+          <node role="head" roleId="auek.996292992027769733" type="auek.PathExpressionHead" typeId="auek.996292992025662526" id="2281067221946533054" nodeInfo="ng">
+            <link role="type" roleId="auek.996292992025662567" targetNodeId="auek.996292992024449103" resolveInfo="Pattern" />
+            <node role="tail" roleId="auek.5589093812001602541" type="auek.PathExpressionTail" typeId="auek.996292992025662591" id="2281067221946533077" nodeInfo="ng">
+              <property name="index" nameId="auek.996292992025662611" value="-1" />
+              <property name="closure" nameId="auek.996292992025662616" value="false" />
+              <node role="type" roleId="auek.996292992028124127" type="auek.LinkDeclarationType" typeId="auek.996292992025675491" id="2281067221946533083" nodeInfo="ng">
+                <link role="value" roleId="auek.6888142545404296242" targetNodeId="auek.996292992024500596" />
+              </node>
+            </node>
+            <node role="src" roleId="auek.996292992025662592" type="auek.DeclaredVariableReference" typeId="auek.996292992024566715" id="2281067221946533056" nodeInfo="ng">
+              <link role="variable" roleId="auek.7802504792143045134" targetNodeId="2281067221946533063" resolveInfo="p" />
+            </node>
+            <node role="trg" roleId="auek.996292992025662599" type="auek.VariableValue" typeId="auek.996292992024566673" id="2281067221948249478" nodeInfo="ng">
+              <node role="value" roleId="auek.996292992024566793" type="auek.TemporaryVariableReference" typeId="auek.2281067221947063313" id="2281067221948249484" nodeInfo="ng">
+                <property name="variable" nameId="auek.2281067221947980580" value="b" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="constraints" roleId="auek.996292992024530408" type="auek.PathExpressionConstraint" typeId="auek.996292992024530493" id="2281067221947060641" nodeInfo="ng">
+          <node role="head" roleId="auek.996292992027769733" type="auek.PathExpressionHead" typeId="auek.996292992025662526" id="2281067221947060643" nodeInfo="ng">
+            <link role="type" roleId="auek.996292992025662567" targetNodeId="auek.996292992024500593" resolveInfo="PatternBody" />
+            <node role="tail" roleId="auek.5589093812001602541" type="auek.PathExpressionTail" typeId="auek.996292992025662591" id="2281067221947060661" nodeInfo="ng">
+              <property name="index" nameId="auek.996292992025662611" value="-1" />
+              <property name="closure" nameId="auek.996292992025662616" value="false" />
+              <node role="type" roleId="auek.996292992028124127" type="auek.LinkDeclarationType" typeId="auek.996292992025675491" id="2281067221947060667" nodeInfo="ng">
+                <link role="value" roleId="auek.6888142545404296242" targetNodeId="auek.996292992024530408" />
+              </node>
+            </node>
+            <node role="trg" roleId="auek.996292992025662599" type="auek.VariableValue" typeId="auek.996292992024566673" id="2281067221948249605" nodeInfo="ng">
+              <node role="value" roleId="auek.996292992024566793" type="auek.DeclaredVariableReference" typeId="auek.996292992024566715" id="2281067221948266549" nodeInfo="ng">
+                <link role="variable" roleId="auek.7802504792143045134" targetNodeId="2281067221946533069" resolveInfo="c" />
+              </node>
+            </node>
+            <node role="src" roleId="auek.996292992025662592" type="auek.TemporaryVariableReference" typeId="auek.2281067221947063313" id="2281067221948266633" nodeInfo="ng">
+              <property name="variable" nameId="auek.2281067221947980580" value="b" />
             </node>
           </node>
         </node>
@@ -199,10 +256,10 @@
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7241148409044840239" nodeInfo="nr">
               <property name="name" nameId="tpck.1169194664001" value="t1" />
               <node role="type" roleId="tpee.5680397130376446158" type="auek.PatternMatcherType" typeId="auek.7241148409043460607" id="7241148409044840235" nodeInfo="ig">
-                <link role="pattern" roleId="auek.7241148409044603788" targetNodeId="996292992025100282" resolveInfo="test1" />
+                <link role="pattern" roleId="auek.7241148409044603788" targetNodeId="996292992025100282" resolveInfo="checkExpression" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="auek.PatternMatcherInstantiationExpression" typeId="auek.7241148409043933760" id="7241148409044840494" nodeInfo="ng">
-                <link role="pattern" roleId="auek.7241148409043933812" targetNodeId="996292992025100282" resolveInfo="test1" />
+                <link role="pattern" roleId="auek.7241148409043933812" targetNodeId="996292992025100282" resolveInfo="checkExpression" />
               </node>
             </node>
           </node>
