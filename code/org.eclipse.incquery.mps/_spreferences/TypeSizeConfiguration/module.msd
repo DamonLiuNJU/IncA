@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.eclipse.incquery.mps.__spreferences.TypeSizeConfiguration" uuid="~_PreferencesModule#org.eclipse.incquery.mps.__spreferences.TypeSizeConfiguration(org.eclipse.incquery.mps.__spreferences.TypeSizeConfiguration)" compileInMPS="true">
+<solution name="org.eclipse.incquery.mps.__spreferences.TypeSizeConfiguration" uuid="~_PreferencesModule#org.eclipse.incquery.mps.__spreferences.TypeSizeConfiguration" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
