@@ -254,6 +254,27 @@
         </node>
       </node>
     </node>
+    <node role="patterns" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="900061070401130215" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="patternCall" />
+      <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="900061070401130300" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="pattern" />
+        <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="900061070401137415" nodeInfo="ng">
+          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="auek.996292992024449103" resolveInfo="Pattern" />
+        </node>
+      </node>
+      <node role="bodies" roleId="auek.996292992024500596" type="auek.PatternBody" typeId="auek.996292992024500593" id="900061070401130216" nodeInfo="ng">
+        <node role="constraints" roleId="auek.996292992024530408" type="auek.PatternCompositionConstraint" typeId="auek.996292992024530460" id="900061070401137417" nodeInfo="ng">
+          <node role="call" roleId="auek.996292992028393460" type="auek.PatternCall" typeId="auek.996292992024566952" id="900061070401137418" nodeInfo="ng">
+            <link role="patternRef" roleId="auek.996292992028507459" targetNodeId="8800263097516744515" resolveInfo="conceptConstraint" />
+            <node role="parameters" roleId="auek.996292992028507462" type="auek.VariableValue" typeId="auek.996292992024566673" id="900061070401137423" nodeInfo="ng">
+              <node role="value" roleId="auek.996292992024566793" type="auek.DeclaredVariableReference" typeId="auek.996292992024566715" id="900061070401137429" nodeInfo="ng">
+                <link role="variable" roleId="auek.7802504792143045134" targetNodeId="900061070401130300" resolveInfo="pattern" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="7241148409034544945" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Test" />
