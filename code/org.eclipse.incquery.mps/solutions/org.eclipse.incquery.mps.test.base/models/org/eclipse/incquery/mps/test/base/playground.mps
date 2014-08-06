@@ -96,7 +96,7 @@
       </node>
     </node>
     <node role="patterns" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="8337440621608806882" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="pathExpression" />
+      <property name="name" nameId="tpck.1169194664001" value="pathExpressions0" />
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="8337440621608806926" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="p" />
         <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="8337440621608806930" nodeInfo="ng">
