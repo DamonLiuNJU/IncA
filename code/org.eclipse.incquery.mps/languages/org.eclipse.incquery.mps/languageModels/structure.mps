@@ -78,7 +78,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024530426" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CheckConstraint" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Check Constraint" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="check" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Check Constraint" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="996292992024530407" resolveInfo="Constraint" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="996292992025680416" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -112,7 +113,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024530460" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PatternCompositionConstraint" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Pattern Composition Constraint" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Pattern Composition Constraint" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="find" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="996292992024530407" resolveInfo="Constraint" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="996292992028393460" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -257,7 +259,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024567022" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="values" />
     <property name="name" nameId="tpck.1169194664001" value="CountAggregatorExpression" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Count Aggregator Expression" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="count" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Count Aggregator Expression" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="996292992024567002" resolveInfo="AggregatorExpression" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024567127" nodeInfo="ig">
