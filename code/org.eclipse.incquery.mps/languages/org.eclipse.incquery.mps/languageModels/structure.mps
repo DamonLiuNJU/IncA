@@ -388,6 +388,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7241148409043460607" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="usage" />
     <property name="name" nameId="tpck.1169194664001" value="PatternMatcherType" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="matcher" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Pattern Matcher" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790189" resolveInfo="Type" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7241148409044603788" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -399,9 +401,14 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7241148409043933760" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="usage" />
     <property name="name" nameId="tpck.1169194664001" value="PatternMatcherInstantiationExpression" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Instantiate Matcher for Pattern" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Instantiate Matcher" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="create matcher" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8066520122896896506" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="model" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7241148409043933812" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="pattern" />
@@ -422,7 +429,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="usage" />
     <property name="name" nameId="tpck.1169194664001" value="SingleValueQueryOperation" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Get Values of Parameter" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="get all values of parameter" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="getAllValues" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="332073910433176610" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -437,7 +444,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="332073910432955532" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="usage" />
     <property name="name" nameId="tpck.1169194664001" value="AllMatchesQueryOperation" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="get all matches" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="getAllMatches" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Get All Matches" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="332073910433377011" nodeInfo="ig">
