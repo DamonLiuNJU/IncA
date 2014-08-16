@@ -91,7 +91,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024530443" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CompareConstraint" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Compare Constraint" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="compare" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Compare Constraint" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="996292992024530407" resolveInfo="Constraint" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8396102296983865703" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="feature" />
@@ -132,7 +133,8 @@
     <property name="name" nameId="tpck.1169194664001" value="PathExpressionConstraint" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Path Expression Constraint" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Path Expression Constraint" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="path" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="996292992024530407" resolveInfo="Constraint" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="996292992027769733" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -464,7 +466,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5589093812003084634" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <property name="name" nameId="tpck.1169194664001" value="ConceptConstraint" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Concept Constraint" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Concept Constraint" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="concept" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="996292992024530407" resolveInfo="Constraint" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5589093812003084950" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />

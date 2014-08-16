@@ -6,20 +6,22 @@
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="libs/guava-17.0.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201408121633.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.base_0.9.0.201408121633.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.matchers_0.9.0.201408121633.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime_0.9.0.201408121633.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete_0.9.0.201408130948.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201408151517.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.base_0.9.0.201408151517.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.matchers_0.9.0.201408151517.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete_0.9.0.201408151517.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime_0.9.0.201408151517.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201408161048.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/libs/guava-17.0.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201408121633.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base_0.9.0.201408121633.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.matchers_0.9.0.201408121633.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime_0.9.0.201408121633.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete_0.9.0.201408130948.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201408151517.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base_0.9.0.201408151517.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.matchers_0.9.0.201408151517.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete_0.9.0.201408151517.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime_0.9.0.201408151517.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201408161048.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
