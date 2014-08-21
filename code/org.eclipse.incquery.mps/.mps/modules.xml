@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.base/org.eclipse.incquery.mps.test.base.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.ext/org.eclipse.incquery.mps.test.ext.msd" folder="tests" />
     </projectModules>
   </component>
 </project>
