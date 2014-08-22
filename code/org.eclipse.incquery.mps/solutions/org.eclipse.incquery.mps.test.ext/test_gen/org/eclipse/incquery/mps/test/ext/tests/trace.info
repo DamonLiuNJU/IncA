@@ -1,21 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeRef="r:f58b6da3-c890-4dc5-be17-4e222655e334(org.eclipse.incquery.mps.test.ext.tests@tests)/3770201403570108297">
-    <nodeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="19" startPosition="50" endLine="20" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="20" startPosition="171" endLine="21" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3770201403570313978" fileName="SimpleTest_Test.java" startLine="26" startPosition="52" endLine="27" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3770201403570546149" fileName="SimpleTest_Test.java" startLine="27" startPosition="46" endLine="28" endPosition="204" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3770201403570314064" fileName="SimpleTest_Test.java" startLine="28" startPosition="204" endLine="29" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="18" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleTest#()V" />
-    <nodeInfo nodeId="3770201403570313978" fileName="SimpleTest_Test.java" startLine="26" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleTest#()V" />
-    <scopeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="19" startPosition="50" endLine="21" endPosition="110" />
-    <scopeInfo nodeId="3770201403570313978" fileName="SimpleTest_Test.java" startLine="26" startPosition="52" endLine="29" endPosition="171">
-      <varInfo nodeId="3770201403570546150" varName="navigationHelper" />
+    <nodeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="22" startPosition="50" endLine="23" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="23" startPosition="171" endLine="24" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3770201403570313978" fileName="SimpleTest_Test.java" startLine="29" startPosition="52" endLine="30" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8967700537194956954" fileName="SimpleTest_Test.java" startLine="30" startPosition="46" endLine="31" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8967700537194955435" fileName="SimpleTest_Test.java" startLine="32" startPosition="11" endLine="33" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8967700537196458389" fileName="SimpleTest_Test.java" startLine="33" startPosition="57" endLine="34" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8967700537196465481" fileName="SimpleTest_Test.java" startLine="34" startPosition="122" endLine="35" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8967700537194959239" fileName="SimpleTest_Test.java" startLine="36" startPosition="37" endLine="37" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8967700537194957776" fileName="SimpleTest_Test.java" startLine="38" startPosition="7" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8967700537195133885" fileName="SimpleTest_Test.java" startLine="39" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3770201403570314064" fileName="SimpleTest_Test.java" startLine="40" startPosition="0" endLine="41" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="21" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleTest#()V" />
+    <nodeInfo nodeId="8967700537194958101" fileName="SimpleTest_Test.java" startLine="31" startPosition="161" endLine="38" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="3770201403570313978" fileName="SimpleTest_Test.java" startLine="29" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_simpleTest#()V" />
+    <scopeInfo nodeId="8967700537194958097" fileName="SimpleTest_Test.java" startLine="36" startPosition="0" endLine="37" endPosition="28">
+      <varInfo nodeId="8967700537194958099" varName="e" />
     </scopeInfo>
-    <scopeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="18" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="3770201403570313978" fileName="SimpleTest_Test.java" startLine="26" startPosition="0" endLine="31" endPosition="0" />
-    <unitInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="24" startPosition="0" endLine="32" endPosition="0" unitName="org.eclipse.incquery.mps.test.ext.tests.SimpleTest_Test$TestBody" />
-    <unitInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="16" startPosition="0" endLine="33" endPosition="0" unitName="org.eclipse.incquery.mps.test.ext.tests.SimpleTest_Test" />
+    <scopeInfo nodeId="8967700537194958098" fileName="SimpleTest_Test.java" startLine="36" startPosition="37" endLine="37" endPosition="28" />
+    <scopeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="22" startPosition="50" endLine="24" endPosition="110" />
+    <scopeInfo nodeId="8967700537194958102" fileName="SimpleTest_Test.java" startLine="32" startPosition="11" endLine="35" endPosition="52">
+      <varInfo nodeId="8967700537194955436" varName="engine" />
+      <varInfo nodeId="8967700537196458390" varName="matcher" />
+    </scopeInfo>
+    <scopeInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="21" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="3770201403570313978" fileName="SimpleTest_Test.java" startLine="29" startPosition="52" endLine="41" endPosition="171">
+      <varInfo nodeId="8967700537194956955" varName="scope" />
+    </scopeInfo>
+    <scopeInfo nodeId="3770201403570313978" fileName="SimpleTest_Test.java" startLine="29" startPosition="0" endLine="43" endPosition="0" />
+    <unitInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="27" startPosition="0" endLine="44" endPosition="0" unitName="org.eclipse.incquery.mps.test.ext.tests.SimpleTest_Test$TestBody" />
+    <unitInfo nodeId="3770201403570108297" fileName="SimpleTest_Test.java" startLine="19" startPosition="0" endLine="45" endPosition="0" unitName="org.eclipse.incquery.mps.test.ext.tests.SimpleTest_Test" />
+  </root>
+  <root nodeRef="r:f58b6da3-c890-4dc5-be17-4e222655e334(org.eclipse.incquery.mps.test.ext.tests@tests)/8967700537196013695">
+    <nodeInfo nodeId="8967700537195975437" fileName="PatternConceptConstraint.java" startLine="23" startPosition="41" endLine="24" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8967700537195975447" fileName="PatternConceptConstraint.java" startLine="29" startPosition="43" endLine="30" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8967700537195975455" fileName="PatternConceptConstraint.java" startLine="35" startPosition="43" endLine="36" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8967700537195975469" fileName="PatternConceptConstraint.java" startLine="41" startPosition="44" endLine="42" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8967700537195975476" fileName="PatternConceptConstraint.java" startLine="42" startPosition="66" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8967700537195975479" fileName="PatternConceptConstraint.java" startLine="44" startPosition="5" endLine="45" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8967700537195975485" fileName="PatternConceptConstraint.java" startLine="45" startPosition="35" endLine="46" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8967700537195975492" fileName="PatternConceptConstraint.java" startLine="46" startPosition="72" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8967700537195975493" fileName="PatternConceptConstraint.java" startLine="47" startPosition="0" endLine="48" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8967700537195975500" fileName="PatternConceptConstraint.java" startLine="48" startPosition="86" endLine="49" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8967700537195975509" fileName="PatternConceptConstraint.java" startLine="49" startPosition="82" endLine="50" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8967700537195975514" fileName="PatternConceptConstraint.java" startLine="50" startPosition="53" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8967700537195975518" fileName="PatternConceptConstraint.java" startLine="51" startPosition="0" endLine="52" endPosition="174" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8967700537195975533" fileName="PatternConceptConstraint.java" startLine="52" startPosition="174" endLine="53" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8967700537195975538" fileName="PatternConceptConstraint.java" startLine="54" startPosition="5" endLine="55" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8967700537195975546" fileName="PatternConceptConstraint.java" startLine="60" startPosition="53" endLine="61" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8967700537195975553" fileName="PatternConceptConstraint.java" startLine="69" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INSTANCE" />
+    <nodeInfo nodeId="8967700537195975560" fileName="PatternConceptConstraint.java" startLine="72" startPosition="51" endLine="73" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8967700537196387456" fileName="PatternConceptConstraint.java" startLine="82" startPosition="43" endLine="83" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8967700537195975435" fileName="PatternConceptConstraint.java" startLine="23" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFullyQualifiedName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8967700537195975442" fileName="PatternConceptConstraint.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getParameterNames#()Ljava/util/List;" />
+    <nodeInfo nodeId="8967700537195975453" fileName="PatternConceptConstraint.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getParameters#()Ljava/util/List;" />
+    <nodeInfo nodeId="8967700537195975544" fileName="PatternConceptConstraint.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="instance#()Lorg/eclipse/incquery/mps/test/ext/tests/PatternConceptConstraint;" />
+    <nodeInfo nodeId="8967700537195975558" fileName="PatternConceptConstraint.java" startLine="72" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="make#()Lorg/eclipse/incquery/mps/test/ext/tests/PatternConceptConstraint;" />
+    <nodeInfo nodeId="8967700537196367964" fileName="PatternConceptConstraint.java" startLine="81" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDisjunctBodies#()Lorg/eclipse/incquery/runtime/matchers/psystem/queries/PDisjunction;" />
+    <nodeInfo nodeId="8967700537195975477" fileName="PatternConceptConstraint.java" startLine="43" startPosition="0" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8967700537195975467" fileName="PatternConceptConstraint.java" startLine="41" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGetContainedBodies#()Ljava/util/Set;" />
+    <scopeInfo nodeId="8967700537195975436" fileName="PatternConceptConstraint.java" startLine="23" startPosition="41" endLine="24" endPosition="37" />
+    <scopeInfo nodeId="8967700537195975446" fileName="PatternConceptConstraint.java" startLine="29" startPosition="43" endLine="30" endPosition="77" />
+    <scopeInfo nodeId="8967700537195975454" fileName="PatternConceptConstraint.java" startLine="35" startPosition="43" endLine="36" endPosition="108" />
+    <scopeInfo nodeId="8967700537195975545" fileName="PatternConceptConstraint.java" startLine="60" startPosition="53" endLine="61" endPosition="56" />
+    <scopeInfo nodeId="8967700537195975559" fileName="PatternConceptConstraint.java" startLine="72" startPosition="51" endLine="73" endPosition="44" />
+    <scopeInfo nodeId="8967700537196367969" fileName="PatternConceptConstraint.java" startLine="82" startPosition="43" endLine="83" endPosition="52" />
+    <scopeInfo nodeId="8967700537195975435" fileName="PatternConceptConstraint.java" startLine="23" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="8967700537195975442" fileName="PatternConceptConstraint.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="8967700537195975453" fileName="PatternConceptConstraint.java" startLine="35" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="8967700537195975544" fileName="PatternConceptConstraint.java" startLine="60" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="8967700537195975558" fileName="PatternConceptConstraint.java" startLine="72" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="8967700537196367964" fileName="PatternConceptConstraint.java" startLine="81" startPosition="0" endLine="85" endPosition="0" />
+    <scopeInfo nodeId="8967700537195975478" fileName="PatternConceptConstraint.java" startLine="44" startPosition="5" endLine="53" endPosition="51">
+      <varInfo nodeId="8967700537195975480" varName="body" />
+      <varInfo nodeId="8967700537195975494" varName="exportedParameters" />
+      <varInfo nodeId="8967700537195975486" varName="var_pattern" />
+    </scopeInfo>
+    <scopeInfo nodeId="8967700537195975468" fileName="PatternConceptConstraint.java" startLine="41" startPosition="44" endLine="55" endPosition="18">
+      <varInfo nodeId="8967700537195975470" varName="bodies" />
+    </scopeInfo>
+    <scopeInfo nodeId="8967700537195975467" fileName="PatternConceptConstraint.java" startLine="41" startPosition="0" endLine="57" endPosition="0" />
+    <unitInfo nodeId="8967700537195975551" fileName="PatternConceptConstraint.java" startLine="66" startPosition="0" endLine="78" endPosition="0" unitName="org.eclipse.incquery.mps.test.ext.tests.PatternConceptConstraint$LazyHolder" />
+    <unitInfo nodeId="8967700537196013695" fileName="PatternConceptConstraint.java" startLine="20" startPosition="0" endLine="86" endPosition="0" unitName="org.eclipse.incquery.mps.test.ext.tests.PatternConceptConstraint" />
   </root>
 </debugInfo>
 

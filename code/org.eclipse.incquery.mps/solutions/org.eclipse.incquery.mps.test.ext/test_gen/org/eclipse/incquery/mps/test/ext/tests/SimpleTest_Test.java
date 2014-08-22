@@ -6,10 +6,13 @@ import jetbrains.mps.MPSLaunch;
 import jetbrains.mps.lang.test.runtime.BaseTransformationTest4;
 import org.junit.Test;
 import jetbrains.mps.lang.test.runtime.BaseTestBody;
-import org.eclipse.incquery.mps.runtime.MPSNavigationHelper;
-import org.eclipse.incquery.mps.runtime.MPSNavigationHelperImpl;
+import org.eclipse.incquery.mps.runtime.MPSScope;
 import jetbrains.mps.smodel.SModelRepository;
 import jetbrains.mps.smodel.SModelReference;
+import org.eclipse.incquery.runtime.api.IncQueryEngine;
+import org.eclipse.incquery.runtime.api.GenericPatternMatcher;
+import org.eclipse.incquery.mps.runtime.MPSQuerySpecification;
+import org.eclipse.incquery.runtime.exception.IncQueryException;
 import jetbrains.mps.lang.test.runtime.NodeCheckerUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
@@ -25,7 +28,16 @@ public class SimpleTest_Test extends BaseTransformationTest4 {
   public static class TestBody extends BaseTestBody {
     public void test_simpleTest() throws Exception {
       this.addNodeById("3770201403570041706");
-      MPSNavigationHelper navigationHelper = new MPSNavigationHelperImpl(SModelRepository.getInstance().getModelDescriptor(new SModelReference("org.eclipse.incquery.mps.test.base.playground", "")), null);
+      MPSScope scope = new MPSScope(SModelRepository.getInstance().getModelDescriptor(new SModelReference("org.eclipse.incquery.mps.test.base.playground", "")));
+      try {
+        IncQueryEngine engine = IncQueryEngine.on(scope);
+        GenericPatternMatcher matcher = engine.getMatcher(new MPSQuerySpecification(PatternConceptConstraint.instance()));
+        System.out.println(matcher.getAllMatches());
+      } catch (IncQueryException e) {
+        e.printStackTrace();
+      }
+
+
       NodeCheckerUtil.checkNodeForErrorMessages(SNodeOperations.cast(this.getNodeById("3770201403570041706"), "jetbrains.mps.lang.test.structure.TestNode"), false, false);
     }
   }
