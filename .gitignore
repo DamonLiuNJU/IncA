@@ -3,3 +3,5 @@
 **/source_gen/*
 **/source_gen.caches/*
 hs_err_pid*
+**/test_gen/*
+**/test_gen.caches/*

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="24">
+<model modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="26">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <language namespace="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
-  <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="24" implicit="yes" />
+  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="26" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024449103" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Pattern" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Pattern" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="p" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Pattern" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3770201403572950169" resolveInfo="PatternModelContent" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="996292992024500594" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -33,7 +31,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024500587" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PatternModel" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Pattern Model" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="pattern model" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Pattern Model" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="996292992024500590" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="package" />
@@ -387,24 +386,11 @@
     <property name="name" nameId="tpck.1169194664001" value="TemporaryVariable" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="996292992025675760" resolveInfo="Variable" />
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7241148409043460607" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="usage" />
-    <property name="name" nameId="tpck.1169194664001" value="PatternMatcherType" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="matcher" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Pattern Matcher" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790189" resolveInfo="Type" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7241148409044603788" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="pattern" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="996292992024449103" resolveInfo="Pattern" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7241148409043933760" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="usage" />
-    <property name="name" nameId="tpck.1169194664001" value="PatternMatcherInstantiationExpression" />
+    <property name="name" nameId="tpck.1169194664001" value="PatternMatcherInstantiation" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Instantiate Matcher" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="create matcher" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="instantiate matcher" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8066520122896896506" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />

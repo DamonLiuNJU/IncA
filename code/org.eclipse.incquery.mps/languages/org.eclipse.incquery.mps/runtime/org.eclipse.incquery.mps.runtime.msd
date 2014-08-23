@@ -17,6 +17,8 @@
       <sourceRoot location="libs/org.eclipse.incquery.runtime_0.9.0.201408211508.jar" />
       <sourceRoot location="libs/org.eclipse.osgi_3.10.0.v20140528-2014.jar" />
       <sourceRoot location="libs/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" />
+      <sourceRoot location="libs/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" />
+      <sourceRoot location="libs/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -32,6 +34,8 @@
     <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime_0.9.0.201408211508.jar" />
     <stubModelEntry path="${module}/libs/org.eclipse.osgi_3.10.0.v20140528-2014.jar" />
     <stubModelEntry path="${module}/libs/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

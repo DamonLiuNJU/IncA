@@ -150,5 +150,17 @@
     </dependencies>
     <rename id="auek.996292992024500588" type="CHILD" from="patterns" to="contents" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="24" />
+    </dependencies>
+    <rename id="auek.156470876049034450" type="CONCEPT" from="LocalPatternMatcherDeclaration" to="PatternMatcherDeclaration" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="25" />
+    </dependencies>
+    <rename id="auek.7241148409043933760" type="CONCEPT" from="PatternMatcherInstantiationExpression" to="PatternMatcherInstantiation" />
+  </StructureModification>
 </history>
 
