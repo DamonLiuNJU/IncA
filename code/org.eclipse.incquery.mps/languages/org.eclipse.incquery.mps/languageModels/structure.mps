@@ -404,41 +404,6 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="996292992024449103" resolveInfo="Pattern" />
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="332073910430957658" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="usage" />
-    <property name="name" nameId="tpck.1169194664001" value="DisposeOperation" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="dispose" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="332073910430969070" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="332073910432795205" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="usage" />
-    <property name="name" nameId="tpck.1169194664001" value="SingleValueQueryOperation" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Get Values of Parameter" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="getAllValues" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="332073910433176610" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="parameter" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="996292992024500592" resolveInfo="Parameter" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="332073910433377014" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="332073910432955532" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="usage" />
-    <property name="name" nameId="tpck.1169194664001" value="AllMatchesQueryOperation" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="getAllMatches" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Get All Matches" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="332073910433377011" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5589093812001602540" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <property name="name" nameId="tpck.1169194664001" value="PathExpressionElement" />
