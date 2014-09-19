@@ -162,5 +162,23 @@
     </dependencies>
     <rename id="auek.7241148409043933760" type="CONCEPT" from="PatternMatcherInstantiationExpression" to="PatternMatcherInstantiation" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="26" />
+    </dependencies>
+    <rename id="auek.8650544432873311946" type="CONCEPT" from="GetValuesOperation" to="GetAllValuesOperation" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="27" />
+    </dependencies>
+    <rename id="auek.8650544432877888542" type="CONCEPT" from="GetParameter" to="GetParameterNames" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="28" />
+    </dependencies>
+    <rename id="auek.8650544432877888542" type="CONCEPT" from="GetParameterNames" to="GetParameterNamesOperation" />
+  </StructureModification>
 </history>
 
