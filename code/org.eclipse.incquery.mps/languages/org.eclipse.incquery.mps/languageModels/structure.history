@@ -180,5 +180,17 @@
     </dependencies>
     <rename id="auek.8650544432877888542" type="CONCEPT" from="GetParameterNames" to="GetParameterNamesOperation" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="29" />
+    </dependencies>
+    <rename id="auek.7447605944634188286" type="CONCEPT" from="NewPartialMatchOperation" to="NewMatchOperation" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="30" />
+    </dependencies>
+    <rename id="auek.7447605944637160349" type="CONCEPT" from="MPSIncQueryOperation" to="MPSIncQueryMatcherOperation" />
+  </StructureModification>
 </history>
 
