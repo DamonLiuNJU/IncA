@@ -13,7 +13,7 @@
   <language namespace="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
   <language namespace="8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="26" />
+  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="34" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <import index="f1uo" modelUID="r:326fd4ed-5369-4cc8-8788-92145c4d8911(org.eclipse.incquery.mps.runtime)" version="-1" />
@@ -387,8 +387,8 @@
       </node>
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="8337440621608807469" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="c" />
-        <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="8337440621608807475" nodeInfo="ng">
-          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="auek.996292992024530407" resolveInfo="Constraint" />
+        <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="3481695433003452016" nodeInfo="ng">
+          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="auek.7705667014569610872" resolveInfo="Constraint" />
         </node>
       </node>
       <node role="bodies" roleId="auek.996292992024500596" type="auek.PatternBody" typeId="auek.996292992024500593" id="8337440621608807429" nodeInfo="ng">
@@ -432,7 +432,7 @@
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="2281067221946533069" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="c" />
         <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="2281067221946533075" nodeInfo="ng">
-          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="auek.996292992024530407" resolveInfo="Constraint" />
+          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="auek.7705667014569610872" resolveInfo="Constraint" />
         </node>
       </node>
       <node role="bodies" roleId="auek.996292992024500596" type="auek.PatternBody" typeId="auek.996292992024500593" id="2281067221946532995" nodeInfo="ng">
@@ -510,7 +510,7 @@
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="6085038789411032584" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="b" />
         <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="594138331666699771" nodeInfo="ng">
-          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="auek.996292992024530407" resolveInfo="Constraint" />
+          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="auek.7705667014569610872" resolveInfo="Constraint" />
         </node>
       </node>
       <node role="bodies" roleId="auek.996292992024500596" type="auek.PatternBody" typeId="auek.996292992024500593" id="6085038789410821095" nodeInfo="ng">
@@ -546,7 +546,7 @@
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="156470876049630908" nodeInfo="in">
               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="67jt.~IncQueryMatcher" resolveInfo="IncQueryMatcher" />
             </node>
-            <node role="initializer" roleId="tpee.1068431790190" type="auek.PatternMatcherInstantiation" typeId="auek.7241148409043933760" id="156470876049886834" nodeInfo="ng">
+            <node role="initializer" roleId="tpee.1068431790190" type="auek.MPSIncQueryMatcherInstantiation" typeId="auek.7241148409043933760" id="156470876049886834" nodeInfo="ng">
               <link role="pattern" roleId="auek.7241148409043933812" targetNodeId="8800263097516744515" resolveInfo="conceptConstraint" />
               <node role="model" roleId="auek.8066520122896896506" type="tp25.ModelReferenceExpression" typeId="tp25.559557797393017698" id="156470876050453948" nodeInfo="nn">
                 <property name="name" nameId="tp25.559557797393017702" value="org.eclipse.incquery.mps.test.base.playground" />

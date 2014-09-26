@@ -14,7 +14,7 @@
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="odoy" modelUID="f:java_stub#d78ad636-1087-4a2a-8147-0f6b287011c2#org.eclipse.incquery.runtime.matchers.psystem.basicdeferred(org.eclipse.incquery.mps.runtime/org.eclipse.incquery.runtime.matchers.psystem.basicdeferred@java_stub)" version="-1" />
   <import index="caqg" modelUID="f:java_stub#d78ad636-1087-4a2a-8147-0f6b287011c2#org.eclipse.incquery.runtime.matchers.psystem.basicenumerables(org.eclipse.incquery.mps.runtime/org.eclipse.incquery.runtime.matchers.psystem.basicenumerables@java_stub)" version="-1" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="31" />
+  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="34" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="jw44" modelUID="r:a3d630af-33bd-4299-b50a-447cfdd7361e(org.eclipse.incquery.mps.behavior)" version="-1" />
@@ -25,8 +25,8 @@
   <import index="ur2" modelUID="f:java_stub#d78ad636-1087-4a2a-8147-0f6b287011c2#org.eclipse.incquery.runtime.exception(org.eclipse.incquery.mps.runtime/org.eclipse.incquery.runtime.exception@java_stub)" version="-1" />
   <import index="qajj" modelUID="f:java_stub#d78ad636-1087-4a2a-8147-0f6b287011c2#org.eclipse.incquery.runtime.api.scope(org.eclipse.incquery.mps.runtime/org.eclipse.incquery.runtime.api.scope@java_stub)" version="-1" />
   <import index="jraf" modelUID="f:java_stub#d78ad636-1087-4a2a-8147-0f6b287011c2#com.google.common.collect(org.eclipse.incquery.mps.runtime/com.google.common.collect@java_stub)" version="-1" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" implicit="yes" />
@@ -2934,7 +2934,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="156470876049942575" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="auek.7241148409043933760" resolveInfo="PatternMatcherInstantiation" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="auek.7241148409043933760" resolveInfo="MPSIncQueryMatcherInstantiation" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplateWithContext_RuleConsequence" typeId="tpf8.8900764248744213868" id="156470876049948608" nodeInfo="ng">
         <node role="contentNode" roleId="tpf8.8900764248744213871" type="tpee.ClassConcept" typeId="tpee.1068390468198" id="156470876049948995" nodeInfo="ig">
           <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
@@ -4585,14 +4585,14 @@
                         <node role="type" roleId="tpee.5680397130376446158" type="tp2q.MapType" typeId="tp2q.1197683403723" id="156470876046711422" nodeInfo="in">
                           <node role="keyType" roleId="tp2q.1197683466920" type="tpee.StringType" typeId="tpee.1225271177708" id="156470876046711423" nodeInfo="in" />
                           <node role="valueType" roleId="tp2q.1197683475734" type="tp25.SNodeType" typeId="tp25.1138055754698" id="156470876046711424" nodeInfo="in">
-                            <link role="concept" roleId="tp25.1138405853777" targetNodeId="auek.2281067221948992820" resolveInfo="IGenVarNameProvider" />
+                            <link role="concept" roleId="tp25.1138405853777" targetNodeId="auek.2281067221948992820" resolveInfo="IGenNameProvider" />
                           </node>
                         </node>
                         <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="156470876046711425" nodeInfo="nn">
                           <node role="creator" roleId="tpee.1145553007750" type="tp2q.HashMapCreator" typeId="tp2q.1197686869805" id="156470876046711426" nodeInfo="nn">
                             <node role="keyType" roleId="tp2q.1197687026896" type="tpee.StringType" typeId="tpee.1225271177708" id="156470876046711427" nodeInfo="in" />
                             <node role="valueType" roleId="tp2q.1197687035757" type="tp25.SNodeType" typeId="tp25.1138055754698" id="156470876046711428" nodeInfo="in">
-                              <link role="concept" roleId="tp25.1138405853777" targetNodeId="auek.2281067221948992820" resolveInfo="IGenVarNameProvider" />
+                              <link role="concept" roleId="tp25.1138405853777" targetNodeId="auek.2281067221948992820" resolveInfo="IGenNameProvider" />
                             </node>
                           </node>
                         </node>

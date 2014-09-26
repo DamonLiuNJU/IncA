@@ -11,7 +11,7 @@
   <import index="ipj7" modelUID="r:72b2626f-5a0a-40af-a2b4-fbc2ae1b60c1(org.eclipse.incquery.mps.test.structure)" version="0" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpcu" modelUID="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" version="-1" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="31" />
+  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="34" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -39,7 +39,7 @@
                 </node>
               </node>
             </node>
-            <node role="initializer" roleId="tpee.1068431790190" type="auek.PatternMatcherInstantiation" typeId="auek.7241148409043933760" id="7224892637327661885" nodeInfo="ng">
+            <node role="initializer" roleId="tpee.1068431790190" type="auek.MPSIncQueryMatcherInstantiation" typeId="auek.7241148409043933760" id="7224892637327661885" nodeInfo="ng">
               <link role="pattern" roleId="auek.7241148409043933812" targetNodeId="7224892637326367999" resolveInfo="students" />
               <node role="model" roleId="auek.8066520122896896506" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7224892637327665397" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="7224892637327665276" nodeInfo="nn" />
@@ -116,17 +116,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node role="contents" roleId="auek.996292992024500588" type="auek.PatternModelContent" typeId="auek.3770201403572950169" id="7447605944642229441" nodeInfo="ng" />
-    <node role="contents" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="7447605944642229959" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="test" />
-      <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="7447605944642230587" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="a" />
-        <node role="type" roleId="auek.996292992025675764" type="auek.ConceptReferenceType" typeId="auek.996292992025672789" id="7447605944642231455" nodeInfo="ng">
-          <link role="concept" roleId="auek.7241148409041409499" targetNodeId="tpee.1070534370425" resolveInfo="IntegerType" />
-        </node>
-      </node>
-      <node role="bodies" roleId="auek.996292992024500596" type="auek.PatternBody" typeId="auek.996292992024500593" id="7447605944642229961" nodeInfo="ng" />
     </node>
     <node role="contents" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="1620063141947312092" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="directFriends" />
@@ -233,7 +222,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1620063141947337704" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1620063141947337705" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="matcher" />
-            <node role="initializer" roleId="tpee.1068431790190" type="auek.PatternMatcherInstantiation" typeId="auek.7241148409043933760" id="1620063141947337988" nodeInfo="ng">
+            <node role="initializer" roleId="tpee.1068431790190" type="auek.MPSIncQueryMatcherInstantiation" typeId="auek.7241148409043933760" id="1620063141947337988" nodeInfo="ng">
               <link role="pattern" roleId="auek.7241148409043933812" targetNodeId="1620063141947313579" resolveInfo="allFriends" />
               <node role="model" roleId="auek.8066520122896896506" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1620063141947338244" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="1620063141947338125" nodeInfo="nn" />

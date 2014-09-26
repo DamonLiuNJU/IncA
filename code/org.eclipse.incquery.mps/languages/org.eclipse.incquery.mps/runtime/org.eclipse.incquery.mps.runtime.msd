@@ -19,6 +19,7 @@
       <sourceRoot location="libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201408272229.jar" />
       <sourceRoot location="libs/org.eclipse.incquery.runtime.rete_0.9.0.201408272229.jar" />
       <sourceRoot location="libs/org.eclipse.incquery.runtime_0.9.0.201408272229.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.evm_0.9.0.201409251047.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -36,6 +37,7 @@
     <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201408272229.jar" />
     <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete_0.9.0.201408272229.jar" />
     <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime_0.9.0.201408272229.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.evm_0.9.0.201409251047.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
@@ -49,6 +51,7 @@
     <usedLanguage>fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)</usedLanguage>
     <usedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</usedLanguage>
     <usedLanguage>f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)</usedLanguage>
+    <usedLanguage>63650c59-16c8-498a-99c8-005c7ee9515d(jetbrains.mps.lang.access)</usedLanguage>
     <usedLanguage>7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</usedLanguage>
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
   </usedLanguages>

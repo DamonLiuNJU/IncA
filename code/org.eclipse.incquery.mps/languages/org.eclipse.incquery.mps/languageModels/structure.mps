@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="31">
+<model modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="34">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="31" implicit="yes" />
+  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="34" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024449103" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Pattern" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="p" />
@@ -26,6 +26,9 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8396102296983102185" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5610578079075490834" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2281067221948992820" resolveInfo="IGenNameProvider" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024500587" nodeInfo="ig">
@@ -154,7 +157,7 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Value Reference" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2281067221948993334" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2281067221948992820" resolveInfo="IGenVarNameProvider" />
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2281067221948992820" resolveInfo="IGenNameProvider" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="996292992024565924" nodeInfo="ig">
@@ -373,7 +376,7 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2281067221948999923" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2281067221948992820" resolveInfo="IGenVarNameProvider" />
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2281067221948992820" resolveInfo="IGenNameProvider" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6584777387165985962" nodeInfo="ig">
@@ -392,7 +395,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7241148409043933760" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="usage.matcher" />
-    <property name="name" nameId="tpck.1169194664001" value="PatternMatcherInstantiation" />
+    <property name="name" nameId="tpck.1169194664001" value="MPSIncQueryMatcherInstantiation" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Pattern Matcher Instantiation" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="get matcher" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
@@ -467,11 +470,11 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="996292992025675760" resolveInfo="Variable" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2281067221948995260" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2281067221948992820" resolveInfo="IGenVarNameProvider" />
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2281067221948992820" resolveInfo="IGenNameProvider" />
     </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2281067221948992820" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IGenVarNameProvider" />
+    <property name="name" nameId="tpck.1169194664001" value="IGenNameProvider" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="768444928086151186" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="values" />
