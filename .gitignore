@@ -6,3 +6,4 @@ hs_err_pid*
 **/test_gen/*
 **/test_gen.caches/*
 *.jar
+**/_spreferences/*

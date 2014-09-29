@@ -13,13 +13,16 @@
       <sourceRoot location="libs/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" />
       <sourceRoot location="libs/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" />
       <sourceRoot location="libs/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201408272229.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.base_0.9.0.201408272229.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.matchers_0.9.0.201408272229.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201408272229.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete_0.9.0.201408272229.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime_0.9.0.201408272229.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.evm_0.9.0.201409251047.jar" />
+      <sourceRoot location="libs/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" />
+      <sourceRoot location="libs/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.databinding.runtime_0.9.0.201409291103.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201409291103.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.base_0.9.0.201409291103.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.evm_0.9.0.201409291103.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.matchers_0.9.0.201409291103.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201409291103.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete_0.9.0.201409291103.jar" />
+      <sourceRoot location="libs/org.eclipse.incquery.runtime_0.9.0.201409291103.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -31,13 +34,16 @@
     <stubModelEntry path="${module}/libs/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" />
     <stubModelEntry path="${module}/libs/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" />
     <stubModelEntry path="${module}/libs/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201408272229.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base_0.9.0.201408272229.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.matchers_0.9.0.201408272229.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201408272229.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete_0.9.0.201408272229.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime_0.9.0.201408272229.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.evm_0.9.0.201409251047.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.databinding.runtime_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.evm_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.matchers_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime_0.9.0.201409291103.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
