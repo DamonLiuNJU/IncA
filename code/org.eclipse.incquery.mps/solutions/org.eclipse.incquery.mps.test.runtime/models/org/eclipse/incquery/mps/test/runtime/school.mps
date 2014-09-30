@@ -28,7 +28,7 @@
     </node>
     <node role="students" roleId="ipj7.7224892637325263851" type="ipj7.Student" typeId="ipj7.7224892637325261508" id="7224892637325561283" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Szabo Tamas" />
-      <node role="directFriends" roleId="ipj7.7224892637325261610" type="ipj7.StudentReference" typeId="ipj7.7224892637325261607" id="7224892637325561333" nodeInfo="ng">
+      <node role="directFriends" roleId="ipj7.7224892637325261610" type="ipj7.StudentReference" typeId="ipj7.7224892637325261607" id="2139054008193209754" nodeInfo="ng">
         <link role="student" roleId="ipj7.7224892637325261608" targetNodeId="7224892637325561286" resolveInfo="Jambor Attila" />
       </node>
     </node>
