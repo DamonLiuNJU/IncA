@@ -40,6 +40,9 @@
     </node>
     <node role="students" roleId="ipj7.7224892637325263851" type="ipj7.Student" typeId="ipj7.7224892637325261508" id="7224892637325561291" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Karai Tamas" />
+      <node role="directFriends" roleId="ipj7.7224892637325261610" type="ipj7.StudentReference" typeId="ipj7.7224892637325261607" id="7909703440080683257" nodeInfo="ng">
+        <link role="student" roleId="ipj7.7224892637325261608" targetNodeId="7224892637325561283" resolveInfo="Szabo Tamas" />
+      </node>
     </node>
     <node role="teachers" roleId="ipj7.7224892637325263846" type="ipj7.Teacher" typeId="ipj7.7224892637325261574" id="7224892637325561298" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Majzik Istvan" />
