@@ -46,6 +46,7 @@
   </root>
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="996292992028511162" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MakePatternCallTransitive" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992024566952" resolveInfo="PatternCall" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="996292992028511163" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="996292992028511164" nodeInfo="sn">
@@ -197,6 +198,7 @@
   </root>
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="7802504792141492274" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AddVariableTypeSpecifier" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675760" resolveInfo="Variable" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="7802504792141492275" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7802504792141492276" nodeInfo="sn">
@@ -482,7 +484,7 @@
     </node>
   </root>
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="7802504792142319649" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <property name="name" nameId="tpck.1169194664001" value="RefType_SpecifyIndexForReference" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="7802504792142319650" nodeInfo="nn">

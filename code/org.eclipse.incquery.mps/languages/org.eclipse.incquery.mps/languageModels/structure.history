@@ -210,5 +210,11 @@
     </dependencies>
     <rename id="auek.2281067221948992820" type="CONCEPT" from="IGenVarNameProvider" to="IGenNameProvider" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="34" />
+    </dependencies>
+    <rename id="auek.3770201403572950169" type="CONCEPT" from="PatternModelContent" to="EmptyPatternModelContent" />
+  </StructureModification>
 </history>
 

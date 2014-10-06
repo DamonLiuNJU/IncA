@@ -56,6 +56,7 @@
     </node>
   </root>
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="7802504792141485664" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="auek.996292992024449103" resolveInfo="Pattern" />
     <node role="property" roleId="tp1t.1213098023997" type="tp1t.NodePropertyConstraint" typeId="tp1t.1147467115080" id="7802504792141485665" nodeInfo="ng">
       <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="tpck.1169194664001" resolveInfo="name" />
@@ -73,6 +74,7 @@
     </node>
   </root>
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="7802504792141488797" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="auek.996292992025675760" resolveInfo="Variable" />
     <node role="property" roleId="tp1t.1213098023997" type="tp1t.NodePropertyConstraint" typeId="tp1t.1147467115080" id="7802504792141488798" nodeInfo="ng">
       <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="tpck.1169194664001" resolveInfo="name" />
@@ -90,6 +92,7 @@
     </node>
   </root>
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="7802504792142268133" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="auek.996292992025675491" resolveInfo="LinkDeclarationType" />
     <node role="referent" roleId="tp1t.1213100494875" type="tp1t.NodeReferentConstraint" typeId="tp1t.1148687176410" id="6888142545404297999" nodeInfo="ng">
       <link role="applicableLink" roleId="tp1t.1148687202698" targetNodeId="auek.6888142545404296242" />
@@ -107,6 +110,7 @@
     </node>
   </root>
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="7802504792143032563" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="auek.996292992024566952" resolveInfo="PatternCall" />
     <node role="referent" roleId="tp1t.1213100494875" type="tp1t.NodeReferentConstraint" typeId="tp1t.1148687176410" id="7802504792143035822" nodeInfo="ng">
       <link role="applicableLink" roleId="tp1t.1148687202698" targetNodeId="auek.996292992028507459" />

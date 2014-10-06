@@ -4,7 +4,7 @@
   <language namespace="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="34" />
+  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="35" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
   <import index="tpcu" modelUID="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
@@ -13,13 +13,13 @@
   <import index="67jt" modelUID="f:java_stub#d78ad636-1087-4a2a-8147-0f6b287011c2#org.eclipse.incquery.runtime.api(org.eclipse.incquery.mps.runtime/org.eclipse.incquery.runtime.api@java_stub)" version="-1" />
   <import index="f1uo" modelUID="r:326fd4ed-5369-4cc8-8788-92145c4d8911(org.eclipse.incquery.mps.runtime)" version="-1" />
   <import index="msyo" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" version="-1" />
+  <import index="ec5l" modelUID="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" version="-1" />
   <import index="1i04" modelUID="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" version="-1" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
-  <import index="ec5l" modelUID="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" version="-1" implicit="yes" />
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="996292992027769042" nodeInfo="ng">
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="auek.996292992024500587" resolveInfo="PatternModel" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="3770201403573623533" nodeInfo="ng">
@@ -269,6 +269,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="7241148409039581285" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="auek.996292992024500592" resolveInfo="Parameter" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="7241148409039581286" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7241148409039581287" nodeInfo="sn" />
@@ -291,6 +292,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="7241148409040954429" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="auek.996292992025672789" resolveInfo="ConceptReferenceType" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="156470876045837017" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="getPresentation" />
@@ -503,6 +505,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="8337440621608871713" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="auek.996292992024449103" resolveInfo="Pattern" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="8337440621608872474" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8337440621608872475" nodeInfo="sn" />
@@ -639,6 +642,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="399616624544736105" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="auek.996292992025675760" resolveInfo="Variable" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="399616624544736257" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="399616624544736258" nodeInfo="sn" />
@@ -974,6 +978,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="2281067221948992844" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="auek.2281067221948992820" resolveInfo="IGenNameProvider" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="2281067221948992847" nodeInfo="ng">
       <property name="isAbstract" nameId="1i04.1225194472834" value="true" />
@@ -1118,6 +1123,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="768444928081054059" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="auek.996292992024500593" resolveInfo="PatternBody" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="768444928081054062" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="getPresentation" />
@@ -1295,6 +1301,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="2759537156484716798" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="constraints" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="auek.996292992024566952" resolveInfo="PatternCall" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="2759537156484716801" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="getPresentation" />
@@ -1494,6 +1501,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="2759537156484992865" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="auek.7802504792141552484" resolveInfo="TemporaryVariable" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="2759537156484992868" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="getPresentation" />
