@@ -183,9 +183,14 @@
             <property name="name" nameId="tpck.1169194664001" value="matcher" />
             <node role="initializer" roleId="tpee.1068431790190" type="auek.MPSIncQueryMatcherInstantiation" typeId="auek.7241148409043933760" id="1620063141947337988" nodeInfo="ng">
               <link role="pattern" roleId="auek.7241148409043933812" targetNodeId="1620063141947313579" resolveInfo="allFriends" />
-              <node role="model" roleId="auek.8066520122896896506" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1620063141947338244" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="1620063141947338125" nodeInfo="nn" />
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="1620063141947338886" nodeInfo="nn" />
+              <node role="model" roleId="auek.8066520122896896506" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7147060725147031975" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7147060725147029433" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="7147060725147029267" nodeInfo="nn" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="7147060725147031352" nodeInfo="nn" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsIncludingImportedOperation" typeId="tp25.1176109685393" id="7147060725147032721" nodeInfo="nn">
+                  <link role="concept" roleId="tp25.1176109685394" targetNodeId="ipj7.7224892637325261564" resolveInfo="School" />
+                </node>
               </node>
             </node>
             <node role="type" roleId="tpee.5680397130376446158" type="auek.MPSIncQueryMatcher" typeId="auek.8650544432874604370" id="7447605944640376085" nodeInfo="ig">
