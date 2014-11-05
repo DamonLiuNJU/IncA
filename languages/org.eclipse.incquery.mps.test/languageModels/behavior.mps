@@ -39,6 +39,7 @@
   </root>
   <root type="auek.PatternModel" typeId="auek.996292992024500587" id="7224892637325800664" nodeInfo="ng">
     <property name="package" nameId="auek.996292992024500590" value="org.eclipse.incquery.mps.test" />
+    <node role="contents" roleId="auek.996292992024500588" type="auek.EmptyPatternModelContent" typeId="auek.3770201403572950169" id="9061361782195368710" nodeInfo="ng" />
     <node role="contents" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="7224892637326367999" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="students" />
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="7224892637326368053" nodeInfo="ng">
@@ -76,6 +77,7 @@
         </node>
       </node>
     </node>
+    <node role="contents" roleId="auek.996292992024500588" type="auek.EmptyPatternModelContent" typeId="auek.3770201403572950169" id="9061361782195368562" nodeInfo="ng" />
     <node role="contents" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="1620063141947312092" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="directFriends" />
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="1620063141947312144" nodeInfo="ng">
@@ -120,6 +122,7 @@
         </node>
       </node>
     </node>
+    <node role="contents" roleId="auek.996292992024500588" type="auek.EmptyPatternModelContent" typeId="auek.3770201403572950169" id="9061361782195368275" nodeInfo="ng" />
     <node role="contents" roleId="auek.996292992024500588" type="auek.Pattern" typeId="auek.996292992024449103" id="1620063141947313579" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="allFriends" />
       <node role="parameters" roleId="auek.996292992024500594" type="auek.Parameter" typeId="auek.996292992024500592" id="1620063141947313874" nodeInfo="ng">
