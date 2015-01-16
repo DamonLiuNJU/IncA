@@ -5,45 +5,45 @@
       <sourceRoot location="models" />
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="libs/com.google.guava_15.0.0.v201403281430.jar" />
-      <sourceRoot location="libs/org.apache.log4j_1.2.15.v201012070815.jar" />
-      <sourceRoot location="libs/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar" />
-      <sourceRoot location="libs/org.eclipse.emf.ecore_2.10.0.v20140514-1158.jar" />
-      <sourceRoot location="libs/org.eclipse.osgi_3.10.0.v20140528-2014.jar" />
-      <sourceRoot location="libs/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" />
-      <sourceRoot location="libs/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" />
-      <sourceRoot location="libs/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
-      <sourceRoot location="libs/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" />
-      <sourceRoot location="libs/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.databinding.runtime_0.9.0.201409291103.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201409291103.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.base_0.9.0.201409291103.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.evm_0.9.0.201409291103.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.matchers_0.9.0.201409291103.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201409291103.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime.rete_0.9.0.201409291103.jar" />
-      <sourceRoot location="libs/org.eclipse.incquery.runtime_0.9.0.201409291103.jar" />
+      <sourceRoot location="lib/com.google.guava_15.0.0.v201403281430.jar" />
+      <sourceRoot location="lib/org.apache.log4j_1.2.15.v201012070815.jar" />
+      <sourceRoot location="lib/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.ecore_2.10.0.v20140514-1158.jar" />
+      <sourceRoot location="lib/org.eclipse.osgi_3.10.0.v20140528-2014.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" />
+      <sourceRoot location="lib/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
+      <sourceRoot location="lib/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" />
+      <sourceRoot location="lib/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.databinding.runtime_0.9.0.201409291103.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.base.itc_0.9.0.201409291103.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.base_0.9.0.201409291103.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.evm_0.9.0.201409291103.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.matchers_0.9.0.201409291103.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201409291103.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete_0.9.0.201409291103.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime_0.9.0.201409291103.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${module}/libs/com.google.guava_15.0.0.v201403281430.jar" />
-    <stubModelEntry path="${module}/libs/org.apache.log4j_1.2.15.v201012070815.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.emf.ecore_2.10.0.v20140514-1158.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.osgi_3.10.0.v20140528-2014.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.databinding.runtime_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.base_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.evm_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.matchers_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime.rete_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/libs/org.eclipse.incquery.runtime_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/lib/com.google.guava_15.0.0.v201403281430.jar" />
+    <stubModelEntry path="${module}/lib/org.apache.log4j_1.2.15.v201012070815.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore_2.10.0.v20140514-1158.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.osgi_3.10.0.v20140528-2014.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.databinding.runtime_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.base.itc_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.base_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.evm_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.matchers_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime_0.9.0.201409291103.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
