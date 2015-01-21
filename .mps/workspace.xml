@@ -7,36 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c349ca97-cad7-446e-a3c7-1df24d5b7c12" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/com.google.guava_15.0.0.v201403281430.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.apache.log4j_1.2.15.v201012070815.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.emf.ecore_2.10.0.v20140514-1158.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.databinding.runtime.source_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.databinding.runtime_0.9.0.201409291042.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.databinding.runtime_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.base.itc.source_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.base.itc_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.base.source_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.base_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.evm.source_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.evm_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.matchers.source_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.matchers_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.rete.recipes.source_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.rete.source_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.rete_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime.source_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.incquery.runtime_0.9.0.201409291103.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.osgi_3.10.0.v20140528-2014.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/libs/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/modules.xml" afterPath="$PROJECT_DIR$/.mps/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="org.eclipse.incquery.mps.iws" />
@@ -53,7 +23,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:d9f741a5-6abe-42ab-bf06-1a267ecd151c(TempModel_1421422785859131000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;7839846028812223582&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;6584777387165629895&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7839846028812223583&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
+          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:9b4cfc3e-16c9-49f6-a096-0a42bcab3df1(TempModel_1421830419132102000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;3978189422527798351&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;6584777387165629895&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;3978189422527798352&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
         </TabState>
       </list>
     </option>
@@ -73,68 +43,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="org.eclipse.incquery.mps" pinned="false" current="true" current-in-tab="true">
-        <entry file="mps://node://org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="64" />
-                    <property name="caretX" value="111" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_dvtb4y_j3a" cellNumber="0" isInList="false">
-                      <node node_reference="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)/3445546000194874783" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)/3445546000194874783" viewPositionX="0" viewPositionY="-4">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mps-sl-all" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://de.slisson.mps.all.build/de.slisson.mps.all.build/mps-sl-all">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="48" />
-                    <property name="caretX" value="391" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_head" cellNumber="0" isInList="false">
-                      <node node_reference="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.slisson.mps.all.build)/4813947565937147450" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)/3445546000194874783" viewPositionX="0" viewPositionY="-4">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -181,10 +90,9 @@
     <option name="addReturnsOnImplement" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="-170" />
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="802" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -507,6 +415,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -524,6 +443,36 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tests">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tests">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.eclipse.incquery.mps.test.runtime">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.eclipse.incquery.mps.test.runtime.school">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Empty">
@@ -538,32 +487,9 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.eclipse.incquery.mps.build">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.eclipse.incquery.mps.build">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -578,7 +504,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$accent.home$/code/languages/com.lmsintl.accent.blocks" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
@@ -782,8 +708,8 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-170" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="802" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Search" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
@@ -800,13 +726,14 @@
       <window_info id="Tree" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="28" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Query Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44232515" sideWeight="0.5447498" order="30" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44549763" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38606676" sideWeight="0.48712447" order="24" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34444445" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34620887" sideWeight="0.5" order="18" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38606676" sideWeight="0.48712447" order="24" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32327586" sideWeight="0.49713877" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33605814" sideWeight="0.62927854" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33466136" sideWeight="0.62916666" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Context Sidebar" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32467532" sideWeight="0.4985694" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -815,7 +742,7 @@
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997114" sideWeight="0.5" order="25" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33510637" sideWeight="0.37072143" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33466136" sideWeight="0.37013888" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CBMC raw result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
@@ -831,7 +758,6 @@
       <window_info id="Block Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Datalogger Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Type System Performance Data" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Query Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44232515" sideWeight="0.5447498" order="30" side_tool="false" content_ui="tabs" />
       <window_info id="Feature Model Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="26" side_tool="false" content_ui="tabs" />
       <window_info id="Workflow" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -925,6 +851,42 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="mps://node://org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://de.slisson.mps.all.build/de.slisson.mps.all.build/mps-sl-all">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1853,74 +1815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.eclipse.incquery.mps/org.eclipse.incquery.mps.structure/MPSIncQueryMatcherInstantiation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="63" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:c189eb31-048a-45b6-801b-e2aa3404b83e(org.eclipse.incquery.mps.typesystem)/7147060725143361349" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:d3714ce4-5f84-4ca8-80f2-f367079f42c6(org.eclipse.incquery.mps.test.editor)/8779509957323357759" viewPositionX="0" viewPositionY="101">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="8" />
-                <property name="caretX" value="474" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:d3714ce4-5f84-4ca8-80f2-f367079f42c6(org.eclipse.incquery.mps.test.editor)/8779509957323416353" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:c189eb31-048a-45b6-801b-e2aa3404b83e(org.eclipse.incquery.mps.typesystem)/2022049302045086555" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.eclipse.incquery.mps.test/org.eclipse.incquery.mps.test.structure/Student">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="8" />
-                <property name="caretX" value="39" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_fao2ea_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:0975e64c-0ad7-4495-a99a-c275c88d9b86(org.eclipse.incquery.mps.test.behavior)/1620063141947337656" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:37273d5e-6a69-4e4b-9ab4-c9f2214cfd7a(org.eclipse.incquery.mps.test.runtime.school)/7224892637325561298" viewPositionX="0" viewPositionY="101">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:0975e64c-0ad7-4495-a99a-c275c88d9b86(org.eclipse.incquery.mps.test.behavior)/1620063141947337653" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://org.eclipse.incquery.mps.runtime/org.eclipse.incquery.mps.runtime/MPSNavigationHelperImpl">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -2217,15 +2111,15 @@
     <entry file="mps://node://org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="36">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="64" />
-                <property name="caretX" value="111" />
+                <property name="caretXRelative" value="28" />
+                <property name="caretX" value="135" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_dvtb4y_j3a" cellNumber="0" isInList="false">
-                  <node node_reference="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)/3445546000194874783" />
+                <cellInfo cellId="property_text_3" cellNumber="0" isInList="false">
+                  <node node_reference="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)/3445546000194874787" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2233,7 +2127,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)/3445546000194874783" viewPositionX="0" viewPositionY="-4">
+          <inspectorMemento currentlyEditedNode="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)/3445546000194874787" viewPositionX="0" viewPositionY="-4">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2261,7 +2155,121 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:b40f58fa-3189-413c-9678-41077cc732ed(org.eclipse.incquery.mps.build)/3445546000194874783" viewPositionX="0" viewPositionY="-4">
+          <inspectorMemento currentlyEditedNode="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.slisson.mps.all.build)/4813947565937147450" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.test/org.eclipse.incquery.mps.test.behavior/PatternModel (org.eclipse.incquery.mps.test)">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ykaf0c_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:0975e64c-0ad7-4495-a99a-c275c88d9b86(org.eclipse.incquery.mps.test.behavior)/9061361782195368275" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:37273d5e-6a69-4e4b-9ab4-c9f2214cfd7a(org.eclipse.incquery.mps.test.runtime.school)/7224892637325561309" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.test/org.eclipse.incquery.mps.test.structure/Student">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="69" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="52" />
+                <property name="caretX" value="423" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_qxdnuj_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:0975e64c-0ad7-4495-a99a-c275c88d9b86(org.eclipse.incquery.mps.test.behavior)/1620063141947337988" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:37273d5e-6a69-4e4b-9ab4-c9f2214cfd7a(org.eclipse.incquery.mps.test.runtime.school)/7224892637325561309" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:0975e64c-0ad7-4495-a99a-c275c88d9b86(org.eclipse.incquery.mps.test.behavior)/1620063141947337653" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps/org.eclipse.incquery.mps.structure/MPSIncQueryMatcherInstantiation">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="252" />
+                <property name="caretX" value="479" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:c189eb31-048a-45b6-801b-e2aa3404b83e(org.eclipse.incquery.mps.typesystem)/7241148409044602363" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:37273d5e-6a69-4e4b-9ab4-c9f2214cfd7a(org.eclipse.incquery.mps.test.runtime.school)/7224892637325561309" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c189eb31-048a-45b6-801b-e2aa3404b83e(org.eclipse.incquery.mps.typesystem)/7241148409044602360" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.test.runtime/org.eclipse.incquery.mps.test.runtime.school/Budapest University of Technology and Economics">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="96" />
+                <property name="caretX" value="111" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:37273d5e-6a69-4e4b-9ab4-c9f2214cfd7a(org.eclipse.incquery.mps.test.runtime.school)/7224892637325561309" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:37273d5e-6a69-4e4b-9ab4-c9f2214cfd7a(org.eclipse.incquery.mps.test.runtime.school)/7224892637325561309" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
