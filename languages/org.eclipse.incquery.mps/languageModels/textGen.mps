@@ -1,94 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:97a3ae7d-c70c-48a8-b591-6aac245c5b18(org.eclipse.incquery.mps.textGen)">
-  <persistence version="8" />
-  <language namespace="b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="auek" modelUID="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" version="34" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <import index="2omo" modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="12" implicit="yes" />
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="6565677854114826835" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="values" />
-    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="auek.996292992024566533" resolveInfo="BoolValue" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="6565677854114826836" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6565677854114826837" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="6565677854114830070" nodeInfo="nn">
-          <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="6565677854114830092" nodeInfo="ng">
-            <node role="value" roleId="2omo.1237305790512" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6565677854114839844" nodeInfo="nn">
-              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6565677854114840242" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="2omo.NodeParameter" typeId="2omo.1233748055915" id="6565677854114839937" nodeInfo="nn" />
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6565677854114841685" nodeInfo="nn">
-                  <link role="property" roleId="tp25.1138056395725" targetNodeId="auek.996292992024566534" resolveInfo="value" />
+<model ref="r:97a3ae7d-c70c-48a8-b591-6aac245c5b18(org.eclipse.incquery.mps.textGen)">
+  <persistence version="9" />
+  <languages>
+    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="-1" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports>
+    <import index="auek" ref="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" />
+  </imports>
+  <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
+        <child id="1197027771414" name="operand" index="2Oq$k0" />
+        <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
+        <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
+    </language>
+    <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen">
+      <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
+        <child id="1237305790512" name="value" index="lb14g" />
+      </concept>
+      <concept id="1237306079178" name="jetbrains.mps.lang.textGen.structure.AppendOperation" flags="nn" index="lc7rE">
+        <child id="1237306115446" name="part" index="lcghm" />
+      </concept>
+      <concept id="1233670071145" name="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration" flags="ig" index="WtQ9Q">
+        <reference id="1233670257997" name="conceptDeclaration" index="WuzLi" />
+        <child id="1233749296504" name="textGenBlock" index="11c4hB" />
+      </concept>
+      <concept id="1233748055915" name="jetbrains.mps.lang.textGen.structure.NodeParameter" flags="nn" index="117lpO" />
+      <concept id="1233749247888" name="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" flags="in" index="11bSqf" />
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="WtQ9Q" id="5GtYjzcasDj">
+    <property role="3GE5qa" value="values" />
+    <ref role="WuzLi" to="auek:RjyNapPtG5" resolve="BoolValue" />
+    <node concept="11bSqf" id="5GtYjzcasDk" role="11c4hB">
+      <node concept="3clFbS" id="5GtYjzcasDl" role="2VODD2">
+        <node concept="lc7rE" id="5GtYjzcatrQ" role="3cqZAp">
+          <node concept="l9hG8" id="5GtYjzcatsc" role="lcghm">
+            <node concept="3cpWs3" id="5GtYjzcavO$" role="lb14g">
+              <node concept="2OqwBi" id="5GtYjzcavUM" role="3uHU7w">
+                <node concept="117lpO" id="5GtYjzcavQ1" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5GtYjzcawhl" role="2OqNvi">
+                  <ref role="3TsBF5" to="auek:RjyNapPtG6" resolve="value" />
                 </node>
               </node>
-              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6565677854114838913" nodeInfo="nn" />
+              <node concept="Xl_RD" id="5GtYjzcavA1" role="3uHU7B" />
             </node>
           </node>
         </node>
       </node>
     </node>
-  </root>
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="6565677854114842606" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="values" />
-    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="auek.6584777387165985962" resolveInfo="DoubleValue" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="6565677854114842607" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6565677854114842608" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="6565677854114842631" nodeInfo="nn">
-          <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="6565677854114842653" nodeInfo="ng">
-            <node role="value" roleId="2omo.1237305790512" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6565677854114842891" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="2omo.NodeParameter" typeId="2omo.1233748055915" id="6565677854114842741" nodeInfo="nn" />
-              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6565677854114844328" nodeInfo="nn">
-                <link role="property" roleId="tp25.1138056395725" targetNodeId="auek.6584777387166676421" resolveInfo="value" />
+  </node>
+  <node concept="WtQ9Q" id="5GtYjzcawvI">
+    <property role="3GE5qa" value="values" />
+    <ref role="WuzLi" to="auek:5HxP2lv3qME" resolve="DoubleValue" />
+    <node concept="11bSqf" id="5GtYjzcawvJ" role="11c4hB">
+      <node concept="3clFbS" id="5GtYjzcawvK" role="2VODD2">
+        <node concept="lc7rE" id="5GtYjzcaww7" role="3cqZAp">
+          <node concept="l9hG8" id="5GtYjzcawwt" role="lcghm">
+            <node concept="2OqwBi" id="5GtYjzcaw$b" role="lb14g">
+              <node concept="117lpO" id="5GtYjzcawxP" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5GtYjzcawUC" role="2OqNvi">
+                <ref role="3TsBF5" to="auek:5HxP2lv63n5" resolve="value" />
               </node>
             </node>
           </node>
         </node>
       </node>
     </node>
-  </root>
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="6565677854114844496" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="values" />
-    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="auek.996292992024565941" resolveInfo="IntValue" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="6565677854114844497" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6565677854114844498" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="6565677854114844521" nodeInfo="nn">
-          <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="6565677854114844543" nodeInfo="ng">
-            <node role="value" roleId="2omo.1237305790512" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6565677854114867263" nodeInfo="nn">
-              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6565677854114867661" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="2omo.NodeParameter" typeId="2omo.1233748055915" id="6565677854114867356" nodeInfo="nn" />
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6565677854114869104" nodeInfo="nn">
-                  <link role="property" roleId="tp25.1138056395725" targetNodeId="auek.996292992024565942" resolveInfo="value" />
+  </node>
+  <node concept="WtQ9Q" id="5GtYjzcawXg">
+    <property role="3GE5qa" value="values" />
+    <ref role="WuzLi" to="auek:RjyNapPtyP" resolve="IntValue" />
+    <node concept="11bSqf" id="5GtYjzcawXh" role="11c4hB">
+      <node concept="3clFbS" id="5GtYjzcawXi" role="2VODD2">
+        <node concept="lc7rE" id="5GtYjzcawXD" role="3cqZAp">
+          <node concept="l9hG8" id="5GtYjzcawXZ" role="lcghm">
+            <node concept="3cpWs3" id="5GtYjzcaAwZ" role="lb14g">
+              <node concept="2OqwBi" id="5GtYjzcaABd" role="3uHU7w">
+                <node concept="117lpO" id="5GtYjzcaAys" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5GtYjzcaAXK" role="2OqNvi">
+                  <ref role="3TsBF5" to="auek:RjyNapPtyQ" resolve="value" />
                 </node>
               </node>
-              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6565677854114866454" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="" />
+              <node concept="Xl_RD" id="5GtYjzcaAkm" role="3uHU7B">
+                <property role="Xl_RC" value="" />
               </node>
             </node>
           </node>
         </node>
       </node>
     </node>
-  </root>
-  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="6565677854114869618" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="values" />
-    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="auek.996292992024566054" resolveInfo="StringValue" />
-    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="6565677854114869619" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6565677854114869620" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="6565677854114869643" nodeInfo="nn">
-          <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="6565677854114869665" nodeInfo="ng">
-            <node role="value" roleId="2omo.1237305790512" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6565677854114873266" nodeInfo="nn">
-              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6565677854114873729" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="\&quot;" />
+  </node>
+  <node concept="WtQ9Q" id="5GtYjzcaB5M">
+    <property role="3GE5qa" value="values" />
+    <ref role="WuzLi" to="auek:RjyNapPt$A" resolve="StringValue" />
+    <node concept="11bSqf" id="5GtYjzcaB5N" role="11c4hB">
+      <node concept="3clFbS" id="5GtYjzcaB5O" role="2VODD2">
+        <node concept="lc7rE" id="5GtYjzcaB6b" role="3cqZAp">
+          <node concept="l9hG8" id="5GtYjzcaB6x" role="lcghm">
+            <node concept="3cpWs3" id="5GtYjzcaBYM" role="lb14g">
+              <node concept="Xl_RD" id="5GtYjzcaC61" role="3uHU7w">
+                <property role="Xl_RC" value="\&quot;" />
               </node>
-              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6565677854114870654" nodeInfo="nn">
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6565677854114869753" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="\&quot;" />
+              <node concept="3cpWs3" id="5GtYjzcaBlY" role="3uHU7B">
+                <node concept="Xl_RD" id="5GtYjzcaB7T" role="3uHU7B">
+                  <property role="Xl_RC" value="\&quot;" />
                 </node>
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6565677854114871060" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="2omo.NodeParameter" typeId="2omo.1233748055915" id="6565677854114870755" nodeInfo="nn" />
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6565677854114872495" nodeInfo="nn">
-                    <link role="property" roleId="tp25.1138056395725" targetNodeId="auek.996292992024566055" resolveInfo="value" />
+                <node concept="2OqwBi" id="5GtYjzcaBsk" role="3uHU7w">
+                  <node concept="117lpO" id="5GtYjzcaBnz" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="5GtYjzcaBMJ" role="2OqNvi">
+                    <ref role="3TsBF5" to="auek:RjyNapPt$B" resolve="value" />
                   </node>
                 </node>
               </node>
@@ -97,6 +143,6 @@
         </node>
       </node>
     </node>
-  </root>
+  </node>
 </model>
 
