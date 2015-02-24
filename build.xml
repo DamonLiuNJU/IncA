@@ -108,8 +108,6 @@
           <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" />
           <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-          <module ref="50774306-a9df-40b3-8571-64880ad234e2(org.eclipse.incquery.mps.pluginSolution)" />
-          <module ref="d78ad636-1087-4a2a-8147-0f6b287011c2(org.eclipse.incquery.mps.runtime)" />
         </dependencies>
         <sources jar="org.eclipse.incquery.mps.pluginSolution-src.jar" descriptor="org.eclipse.incquery.mps.pluginSolution.msd" />
       </module>
@@ -307,11 +305,10 @@
       <chunk>
         <module file="${basedir}/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" />
         <module file="${basedir}/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" />
+        <module file="${basedir}/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" />
         <module file="${basedir}/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" />
       </chunk>
-      <chunk>
-        <module file="${basedir}/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" />
-      </chunk>
+      <chunk />
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
@@ -680,8 +677,8 @@
   <target name="cleanSources">
     <delete dir="${mps.incquery}/languages/org.eclipse.incquery.mps/source_gen" />
     <delete dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/source_gen" />
+    <delete dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.pluginSolution/source_gen" />
     <delete dir="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/source_gen" />
     <delete dir="${mps.incquery}/languages/org.eclipse.incquery.mps/generator/source_gen" />
-    <delete dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.pluginSolution/source_gen" />
   </target>
 </project>
