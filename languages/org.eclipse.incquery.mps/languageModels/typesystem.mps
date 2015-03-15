@@ -979,11 +979,11 @@
                         <node concept="2pIpSj" id="5a1QpFt6rq8" role="2pJxcM">
                           <ref role="2pIpSl" to="tp25:g$ehGDh" />
                           <node concept="36biLy" id="5a1QpFt6rqK" role="2pJxcZ">
-                            <node concept="10QFUN" id="5YH9iFAF0bN" role="36biLW">
-                              <node concept="37vLTw" id="5YH9iFAF0cq" role="10QFUP">
+                            <node concept="1PxgMI" id="431Ed0TSnXO" role="36biLW">
+                              <ref role="1PxNhF" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                              <node concept="37vLTw" id="5YH9iFAF0cq" role="1PxMeX">
                                 <ref role="3cqZAo" node="3MJHRxDKSm8" resolve="smallestType" />
                               </node>
-                              <node concept="3THzug" id="5YH9iFAF0c4" role="10QFUM" />
                             </node>
                           </node>
                         </node>
