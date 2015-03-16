@@ -3,13 +3,13 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.eclipse.incquery.mps" />
   <property name="build.layout" location="${build.dir}/artifacts/org.eclipse.incquery.mps" />
-  <property name="mps_home" location="" />
+  <property name="mps.home" location="" />
   <property name="mbeddr.github.core.home" location="" />
   <property name="smartmeter.code" location="" />
   <property name="accent.home" location="" />
   <property name="smartmeter.git.root" location="" />
   <property name="mps.incquery" location="${basedir}" />
-  <property name="artifacts.mps" location="${mps_home}" />
+  <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />
@@ -311,7 +311,7 @@
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
-      <macro name="mps_home" path="${mps_home}" />
+      <macro name="mps.home" path="${mps.home}" />
       <macro name="mbeddr.github.core.home" path="${mbeddr.github.core.home}" />
       <macro name="smartmeter.code" path="${smartmeter.code}" />
       <macro name="accent.home" path="${accent.home}" />
