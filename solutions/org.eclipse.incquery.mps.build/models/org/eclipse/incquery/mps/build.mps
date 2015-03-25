@@ -257,7 +257,7 @@
         </node>
         <node concept="1SiIV0" id="2Zh2tjQSBen" role="3bR37C">
           <node concept="3bR9La" id="2Zh2tjQSBeo" role="1SiIV1">
-            <property role="3bR36h" value="false" />
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="2Zh2tjQSyQt" resolve="org.eclipse.incquery.mps.runtime" />
           </node>
         </node>
@@ -785,6 +785,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4YODi$1lmsX" role="3bR37C">
+          <node concept="3bR9La" id="4YODi$1lmsY" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>
