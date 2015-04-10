@@ -79,9 +79,6 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
-      <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
-        <reference id="1176109685394" name="concept" index="3lApI3" />
-      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -352,14 +349,9 @@
             <property role="TrG5h" value="matcher" />
             <node concept="2UzQ1s" id="1pVBHwpumO4" role="33vP2m">
               <ref role="2UzQ1C" node="1pVBHwpugQF" resolve="allFriends" />
-              <node concept="2OqwBi" id="6cJttNuydAB" role="HflyE">
-                <node concept="2OqwBi" id="6cJttNuycYT" role="2Oq$k0">
-                  <node concept="13iPFW" id="6cJttNuycWj" role="2Oq$k0" />
-                  <node concept="I4A8Y" id="6cJttNuydsS" role="2OqNvi" />
-                </node>
-                <node concept="3lApI0" id="6cJttNuydMh" role="2OqNvi">
-                  <ref role="3lApI3" to="ipj7:6h3Ypck6RFW" resolve="School" />
-                </node>
+              <node concept="2OqwBi" id="6cJttNuycYT" role="HflyE">
+                <node concept="13iPFW" id="6cJttNuycWj" role="2Oq$k0" />
+                <node concept="I4A8Y" id="6cJttNuydsS" role="2OqNvi" />
               </node>
             </node>
             <node concept="VdqW6" id="6trdyn5o8Ol" role="1tU5fm">
