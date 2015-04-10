@@ -6225,18 +6225,22 @@
                 </node>
                 <node concept="liA8E" id="mbIjfCmfym" role="2OqNvi">
                   <ref role="37wK5l" to="ughf:~PBody.newConstantVariable(java.lang.Object):org.eclipse.incquery.runtime.matchers.psystem.PVariable" resolve="newConstantVariable" />
-                  <node concept="3cmrfG" id="mbIjfCmfzm" role="37wK5m">
-                    <property role="3cmrfH" value="10" />
-                    <node concept="17Uvod" id="mbIjfCmfGK" role="lGtFl">
-                      <property role="2qtEX9" value="value" />
-                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
-                      <node concept="3zFVjK" id="mbIjfCmfGL" role="3zH0cK">
-                        <node concept="3clFbS" id="mbIjfCmfGM" role="2VODD2">
-                          <node concept="3clFbF" id="mbIjfCmg6t" role="3cqZAp">
-                            <node concept="2OqwBi" id="mbIjfCmge7" role="3clFbG">
-                              <node concept="30H73N" id="mbIjfCmg6s" role="2Oq$k0" />
-                              <node concept="3TrcHB" id="mbIjfCmgSd" role="2OqNvi">
-                                <ref role="3TsBF5" to="auek:RjyNapPtyQ" resolve="value" />
+                  <node concept="2YIFZM" id="5Kgle5Pg5zo" role="37wK5m">
+                    <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
+                    <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                    <node concept="3cmrfG" id="mbIjfCmfzm" role="37wK5m">
+                      <property role="3cmrfH" value="10" />
+                      <node concept="17Uvod" id="mbIjfCmfGK" role="lGtFl">
+                        <property role="2qtEX9" value="value" />
+                        <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+                        <node concept="3zFVjK" id="mbIjfCmfGL" role="3zH0cK">
+                          <node concept="3clFbS" id="mbIjfCmfGM" role="2VODD2">
+                            <node concept="3clFbF" id="mbIjfCmg6t" role="3cqZAp">
+                              <node concept="2OqwBi" id="mbIjfCmge7" role="3clFbG">
+                                <node concept="30H73N" id="mbIjfCmg6s" role="2Oq$k0" />
+                                <node concept="3TrcHB" id="mbIjfCmgSd" role="2OqNvi">
+                                  <ref role="3TsBF5" to="auek:RjyNapPtyQ" resolve="value" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -6329,18 +6333,22 @@
                 </node>
                 <node concept="liA8E" id="mbIjfCoM86" role="2OqNvi">
                   <ref role="37wK5l" to="ughf:~PBody.newConstantVariable(java.lang.Object):org.eclipse.incquery.runtime.matchers.psystem.PVariable" resolve="newConstantVariable" />
-                  <node concept="3clFbT" id="mbIjfCoMs6" role="37wK5m">
-                    <property role="3clFbU" value="false" />
-                    <node concept="17Uvod" id="mbIjfCoMtW" role="lGtFl">
-                      <property role="2qtEX9" value="value" />
-                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
-                      <node concept="3zFVjK" id="mbIjfCoMtX" role="3zH0cK">
-                        <node concept="3clFbS" id="mbIjfCoMtY" role="2VODD2">
-                          <node concept="3clFbF" id="mbIjfCoME5" role="3cqZAp">
-                            <node concept="2OqwBi" id="mbIjfCoMJ3" role="3clFbG">
-                              <node concept="30H73N" id="mbIjfCoME4" role="2Oq$k0" />
-                              <node concept="3TrcHB" id="mbIjfCoNep" role="2OqNvi">
-                                <ref role="3TsBF5" to="auek:RjyNapPtG6" resolve="value" />
+                  <node concept="2YIFZM" id="5Kgle5Pg5M6" role="37wK5m">
+                    <ref role="37wK5l" to="e2lb:~Boolean.toString(boolean):java.lang.String" resolve="toString" />
+                    <ref role="1Pybhc" to="e2lb:~Boolean" resolve="Boolean" />
+                    <node concept="3clFbT" id="mbIjfCoMs6" role="37wK5m">
+                      <property role="3clFbU" value="false" />
+                      <node concept="17Uvod" id="mbIjfCoMtW" role="lGtFl">
+                        <property role="2qtEX9" value="value" />
+                        <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                        <node concept="3zFVjK" id="mbIjfCoMtX" role="3zH0cK">
+                          <node concept="3clFbS" id="mbIjfCoMtY" role="2VODD2">
+                            <node concept="3clFbF" id="mbIjfCoME5" role="3cqZAp">
+                              <node concept="2OqwBi" id="mbIjfCoMJ3" role="3clFbG">
+                                <node concept="30H73N" id="mbIjfCoME4" role="2Oq$k0" />
+                                <node concept="3TrcHB" id="mbIjfCoNep" role="2OqNvi">
+                                  <ref role="3TsBF5" to="auek:RjyNapPtG6" resolve="value" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -6381,23 +6389,18 @@
                 </node>
                 <node concept="liA8E" id="mbIjfCoN$t" role="2OqNvi">
                   <ref role="37wK5l" to="ughf:~PBody.newConstantVariable(java.lang.Object):org.eclipse.incquery.runtime.matchers.psystem.PVariable" resolve="newConstantVariable" />
-                  <node concept="2ShNRf" id="mbIjfCoUwA" role="37wK5m">
-                    <node concept="1pGfFk" id="mbIjfCoUN0" role="2ShVmc">
-                      <ref role="37wK5l" to="e2lb:~Double.&lt;init&gt;(java.lang.String)" resolve="Double" />
-                      <node concept="Xl_RD" id="mbIjfCoXxU" role="37wK5m">
-                        <property role="Xl_RC" value="value" />
-                        <node concept="17Uvod" id="mbIjfCoXYA" role="lGtFl">
-                          <property role="2qtEX9" value="value" />
-                          <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                          <node concept="3zFVjK" id="mbIjfCoXYB" role="3zH0cK">
-                            <node concept="3clFbS" id="mbIjfCoXYC" role="2VODD2">
-                              <node concept="3clFbF" id="mbIjfCoYdb" role="3cqZAp">
-                                <node concept="2OqwBi" id="mbIjfCoYhJ" role="3clFbG">
-                                  <node concept="30H73N" id="mbIjfCoYda" role="2Oq$k0" />
-                                  <node concept="3TrcHB" id="mbIjfCoYxK" role="2OqNvi">
-                                    <ref role="3TsBF5" to="auek:5HxP2lv63n5" resolve="value" />
-                                  </node>
-                                </node>
+                  <node concept="Xl_RD" id="mbIjfCoXxU" role="37wK5m">
+                    <property role="Xl_RC" value="value" />
+                    <node concept="17Uvod" id="mbIjfCoXYA" role="lGtFl">
+                      <property role="2qtEX9" value="value" />
+                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                      <node concept="3zFVjK" id="mbIjfCoXYB" role="3zH0cK">
+                        <node concept="3clFbS" id="mbIjfCoXYC" role="2VODD2">
+                          <node concept="3clFbF" id="mbIjfCoYdb" role="3cqZAp">
+                            <node concept="2OqwBi" id="mbIjfCoYhJ" role="3clFbG">
+                              <node concept="30H73N" id="mbIjfCoYda" role="2Oq$k0" />
+                              <node concept="3TrcHB" id="mbIjfCoYxK" role="2OqNvi">
+                                <ref role="3TsBF5" to="auek:5HxP2lv63n5" resolve="value" />
                               </node>
                             </node>
                           </node>
