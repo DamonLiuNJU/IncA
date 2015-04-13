@@ -14411,8 +14411,8 @@
       </node>
       <node concept="3clFbS" id="5GIDTvtpuHt" role="3clF47">
         <node concept="3cpWs6" id="5GIDTvtpCSn" role="3cqZAp">
-          <node concept="Rm8GO" id="2xaoN3pgvQj" role="3cqZAk">
-            <ref role="Rm8GQ" to="ozr7:~IPatternMatcherContext$GeneralizationQueryDirection.SUPERTYPE_ONLY_SMART_NOTIFICATIONS" resolve="SUPERTYPE_ONLY_SMART_NOTIFICATIONS" />
+          <node concept="Rm8GO" id="3$koAzDwE4c" role="3cqZAk">
+            <ref role="Rm8GQ" to="ozr7:~IPatternMatcherContext$GeneralizationQueryDirection.SUPERTYPE_ONLY" resolve="SUPERTYPE_ONLY" />
             <ref role="1Px2BO" to="ozr7:~IPatternMatcherContext$GeneralizationQueryDirection" resolve="IPatternMatcherContext.GeneralizationQueryDirection" />
           </node>
         </node>
@@ -14774,27 +14774,51 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="YS8fn" id="6xyHGN1so2z" role="3cqZAp">
-          <node concept="2ShNRf" id="6xyHGN1so2$" role="YScLw">
-            <node concept="1pGfFk" id="6xyHGN1so2_" role="2ShVmc">
-              <ref role="37wK5l" to="e2lb:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
-              <node concept="3cpWs3" id="6xyHGN1so2A" role="37wK5m">
-                <node concept="2OqwBi" id="6xyHGN1so2B" role="3uHU7w">
-                  <node concept="2OqwBi" id="6xyHGN1so2C" role="2Oq$k0">
-                    <node concept="37vLTw" id="6xyHGN1so2D" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5GIDTvtpuKH" resolve="typeObject" />
-                    </node>
-                    <node concept="liA8E" id="6xyHGN1so2E" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="6xyHGN1so2F" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~Class.getName():java.lang.String" resolve="getName" />
-                  </node>
+          <node concept="3eNFk2" id="14axdPNLFSS" role="3eNLev">
+            <node concept="2OqwBi" id="14axdPNLGB9" role="3eO9$A">
+              <node concept="37vLTw" id="14axdPNLG$M" role="2Oq$k0">
+                <ref role="3cqZAo" node="6xyHGN1so2a" resolve="typeNode" />
+              </node>
+              <node concept="1mIQ4w" id="14axdPNLGPZ" role="2OqNvi">
+                <node concept="chp4Y" id="14axdPNLGRs" role="cj9EA">
+                  <ref role="cht4Q" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration" />
                 </node>
-                <node concept="37vLTw" id="1pVBHwpoc8K" role="3uHU7B">
-                  <ref role="3cqZAo" node="5GIDTvtpJqp" resolve="INVALID_TYPE_ERROR" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="14axdPNLFSU" role="3eOfB_">
+              <node concept="3cpWs6" id="14axdPNLGTe" role="3cqZAp">
+                <node concept="2YIFZM" id="14axdPNLGTf" role="3cqZAk">
+                  <ref role="37wK5l" to="k7g3:~Collections.emptySet():java.util.Set" resolve="emptySet" />
+                  <ref role="1Pybhc" to="k7g3:~Collections" resolve="Collections" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="14axdPNLGVo" role="9aQIa">
+            <node concept="3clFbS" id="14axdPNLGVp" role="9aQI4">
+              <node concept="YS8fn" id="6xyHGN1so2z" role="3cqZAp">
+                <node concept="2ShNRf" id="6xyHGN1so2$" role="YScLw">
+                  <node concept="1pGfFk" id="6xyHGN1so2_" role="2ShVmc">
+                    <ref role="37wK5l" to="e2lb:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
+                    <node concept="3cpWs3" id="6xyHGN1so2A" role="37wK5m">
+                      <node concept="2OqwBi" id="6xyHGN1so2B" role="3uHU7w">
+                        <node concept="2OqwBi" id="6xyHGN1so2C" role="2Oq$k0">
+                          <node concept="37vLTw" id="6xyHGN1so2D" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5GIDTvtpuKH" resolve="typeObject" />
+                          </node>
+                          <node concept="liA8E" id="6xyHGN1so2E" role="2OqNvi">
+                            <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="6xyHGN1so2F" role="2OqNvi">
+                          <ref role="37wK5l" to="e2lb:~Class.getName():java.lang.String" resolve="getName" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="1pVBHwpoc8K" role="3uHU7B">
+                        <ref role="3cqZAo" node="5GIDTvtpJqp" resolve="INVALID_TYPE_ERROR" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -14883,27 +14907,51 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="YS8fn" id="6xyHGN1s9w6" role="3cqZAp">
-          <node concept="2ShNRf" id="6xyHGN1s9w7" role="YScLw">
-            <node concept="1pGfFk" id="6xyHGN1s9w8" role="2ShVmc">
-              <ref role="37wK5l" to="e2lb:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
-              <node concept="3cpWs3" id="6xyHGN1s9w9" role="37wK5m">
-                <node concept="2OqwBi" id="6xyHGN1s9wa" role="3uHU7w">
-                  <node concept="2OqwBi" id="6xyHGN1s9wb" role="2Oq$k0">
-                    <node concept="37vLTw" id="6xyHGN1s9wc" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5GIDTvtpuKS" resolve="typeObject" />
-                    </node>
-                    <node concept="liA8E" id="6xyHGN1s9wd" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="6xyHGN1s9we" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~Class.getName():java.lang.String" resolve="getName" />
-                  </node>
+          <node concept="3eNFk2" id="14axdPNLcmI" role="3eNLev">
+            <node concept="2OqwBi" id="14axdPNLtG6" role="3eO9$A">
+              <node concept="37vLTw" id="14axdPNLtib" role="2Oq$k0">
+                <ref role="3cqZAo" node="6xyHGN1rDJY" resolve="typeNode" />
+              </node>
+              <node concept="1mIQ4w" id="14axdPNLBKJ" role="2OqNvi">
+                <node concept="chp4Y" id="14axdPNLBPo" role="cj9EA">
+                  <ref role="cht4Q" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration" />
                 </node>
-                <node concept="37vLTw" id="1pVBHwpoc8N" role="3uHU7B">
-                  <ref role="3cqZAo" node="5GIDTvtpJqp" resolve="INVALID_TYPE_ERROR" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="14axdPNLcmK" role="3eOfB_">
+              <node concept="3cpWs6" id="14axdPNLBV0" role="3cqZAp">
+                <node concept="2YIFZM" id="14axdPNLCGK" role="3cqZAk">
+                  <ref role="37wK5l" to="k7g3:~Collections.emptySet():java.util.Set" resolve="emptySet" />
+                  <ref role="1Pybhc" to="k7g3:~Collections" resolve="Collections" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="14axdPNLItH" role="9aQIa">
+            <node concept="3clFbS" id="14axdPNLItI" role="9aQI4">
+              <node concept="YS8fn" id="6xyHGN1s9w6" role="3cqZAp">
+                <node concept="2ShNRf" id="6xyHGN1s9w7" role="YScLw">
+                  <node concept="1pGfFk" id="6xyHGN1s9w8" role="2ShVmc">
+                    <ref role="37wK5l" to="e2lb:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
+                    <node concept="3cpWs3" id="6xyHGN1s9w9" role="37wK5m">
+                      <node concept="2OqwBi" id="6xyHGN1s9wa" role="3uHU7w">
+                        <node concept="2OqwBi" id="6xyHGN1s9wb" role="2Oq$k0">
+                          <node concept="37vLTw" id="6xyHGN1s9wc" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5GIDTvtpuKS" resolve="typeObject" />
+                          </node>
+                          <node concept="liA8E" id="6xyHGN1s9wd" role="2OqNvi">
+                            <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="6xyHGN1s9we" role="2OqNvi">
+                          <ref role="37wK5l" to="e2lb:~Class.getName():java.lang.String" resolve="getName" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="1pVBHwpoc8N" role="3uHU7B">
+                        <ref role="3cqZAo" node="5GIDTvtpJqp" resolve="INVALID_TYPE_ERROR" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -14914,7 +14962,6 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="2tJIrI" id="1pVBHwpobeN" role="jymVt" />
     <node concept="2tJIrI" id="1pVBHwpobB$" role="jymVt" />
     <node concept="3clFb_" id="5GIDTvtpuLU" role="jymVt">
       <property role="1EzhhJ" value="false" />
