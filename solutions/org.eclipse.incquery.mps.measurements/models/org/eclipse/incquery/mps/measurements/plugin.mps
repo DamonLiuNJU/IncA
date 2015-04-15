@@ -291,19 +291,19 @@
         <ref role="tCJdB" node="4eWR0HOKxJJ" resolve="ExecuteMeasurementAction" />
       </node>
       <node concept="tCFHf" id="5w4aNPZxr2S" role="ftvYc">
-        <ref role="tCJdB" node="5w4aNPZx76K" resolve="WipeAllEnginesAction" />
+        <ref role="tCJdB" node="5w4aNPZx76K" resolve="DisposeAllEnginesAction" />
       </node>
     </node>
   </node>
   <node concept="2DaZZR" id="5iqOS8ylnpB" />
   <node concept="sE7Ow" id="5w4aNPZx76K">
-    <property role="TrG5h" value="WipeAllEnginesAction" />
-    <property role="2uzpH1" value="Wipe All IncQuery Engines" />
+    <property role="TrG5h" value="DisposeAllEnginesAction" />
+    <property role="2uzpH1" value="Dispose All IncQuery Engines" />
     <node concept="tnohg" id="5w4aNPZx76L" role="tncku">
       <node concept="3clFbS" id="5w4aNPZx76M" role="2VODD2">
         <node concept="3clFbF" id="5w4aNPZxqpJ" role="3cqZAp">
           <node concept="2YIFZM" id="5w4aNPZxr1X" role="3clFbG">
-            <ref role="37wK5l" to="f1uo:5w4aNPZwAvq" resolve="wipeAllEngines" />
+            <ref role="37wK5l" to="f1uo:5w4aNPZwAvq" resolve="disposeAllEngines" />
             <ref role="1Pybhc" to="f1uo:4h0s9CVLlTo" resolve="EnginePool" />
           </node>
         </node>
