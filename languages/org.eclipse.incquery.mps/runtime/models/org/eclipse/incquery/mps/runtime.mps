@@ -35,6 +35,7 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="u14l" ref="f:java_stub#d78ad636-1087-4a2a-8147-0f6b287011c2#org.eclipse.incquery.runtime.api.impl(org.eclipse.incquery.mps.runtime/org.eclipse.incquery.runtime.api.impl@java_stub)" />
     <import index="i4ec" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.ref(JDK/java.lang.ref@java_stub)" />
+    <import index="t3eg" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.language(MPS.OpenAPI/org.jetbrains.mps.openapi.language@java_stub)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -19596,6 +19597,82 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="55ydEAGwcYa" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="32aBubiJKDK">
+    <property role="3GE5qa" value="matcher" />
+    <property role="TrG5h" value="MPSQuerySpecificationHints" />
+    <property role="1sVAO0" value="true" />
+    <node concept="2tJIrI" id="32aBubiJONp" role="jymVt" />
+    <node concept="3clFb_" id="32aBubiJP5N" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getConcepts" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="32aBubiJP5Q" role="3clF47" />
+      <node concept="3Tm1VV" id="32aBubiJP5o" role="1B3o_S" />
+      <node concept="2hMVRd" id="32aBubiJP5B" role="3clF45">
+        <node concept="3uibUv" id="2cknNXbwQdi" role="2hN53Y">
+          <ref role="3uigEE" to="t3eg:~SAbstractConcept" resolve="SAbstractConcept" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="32aBubiJP6x" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getProperties" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="32aBubiJP6y" role="3clF47" />
+      <node concept="3Tm1VV" id="32aBubiJP6z" role="1B3o_S" />
+      <node concept="2hMVRd" id="32aBubiJP6$" role="3clF45">
+        <node concept="3uibUv" id="2cknNXbwcwg" role="2hN53Y">
+          <ref role="3uigEE" to="t3eg:~SProperty" resolve="SProperty" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="32aBubiJP7h" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getLinks" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="32aBubiJP7i" role="3clF47" />
+      <node concept="3Tm1VV" id="32aBubiJP7j" role="1B3o_S" />
+      <node concept="2hMVRd" id="32aBubiJP7k" role="3clF45">
+        <node concept="3uibUv" id="2cknNXbr2zg" role="2hN53Y">
+          <ref role="3uigEE" to="t3eg:~SAbstractLink" resolve="SAbstractLink" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="32aBubiJONx" role="jymVt" />
+    <node concept="3Tm1VV" id="32aBubiJKDL" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="2cknNXbyT0X">
+    <property role="3GE5qa" value="matcher" />
+    <property role="TrG5h" value="MPSQuerySpecification" />
+    <property role="1sVAO0" value="true" />
+    <node concept="2tJIrI" id="2cknNXbyUnr" role="jymVt" />
+    <node concept="3clFb_" id="2cknNXbyVes" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getHints" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="2cknNXbyVev" role="3clF47" />
+      <node concept="3Tm1VV" id="2cknNXbyVdN" role="1B3o_S" />
+      <node concept="3uibUv" id="2cknNXbyVen" role="3clF45">
+        <ref role="3uigEE" node="32aBubiJKDK" resolve="MPSQuerySpecificationHints" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2cknNXbyUnz" role="jymVt" />
+    <node concept="3Tm1VV" id="2cknNXbyT0Y" role="1B3o_S" />
+    <node concept="3uibUv" id="2cknNXbyUmL" role="1zkMxy">
+      <ref role="3uigEE" to="67jt:~GenericQuerySpecification" resolve="GenericQuerySpecification" />
+      <node concept="3uibUv" id="2cknNXbyVdl" role="11_B2D">
+        <ref role="3uigEE" to="67jt:~GenericPatternMatcher" resolve="GenericPatternMatcher" />
+      </node>
+    </node>
   </node>
 </model>
 

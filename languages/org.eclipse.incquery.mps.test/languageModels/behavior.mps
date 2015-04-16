@@ -119,7 +119,6 @@
         <child id="996292992024530408" name="constraints" index="2k1Grq" />
       </concept>
       <concept id="996292992024500587" name="org.eclipse.incquery.mps.structure.PatternModel" flags="ng" index="2k1P9p">
-        <property id="996292992024500590" name="package" index="2k1P9s" />
         <child id="996292992024500588" name="contents" index="2k1P9u" />
       </concept>
       <concept id="996292992024449103" name="org.eclipse.incquery.mps.structure.Pattern" flags="ng" index="2k1THX">
@@ -201,7 +200,7 @@
     </node>
   </node>
   <node concept="2k1P9p" id="6h3Ypck8Vjo">
-    <property role="2k1P9s" value="org.eclipse.incquery.mps.test" />
+    <property role="TrG5h" value="SchoolPatterns" />
     <node concept="1bXQqE" id="7R0r8wx3zc6" role="2k1P9u" />
     <node concept="2k1THX" id="6h3Ypckb5NZ" role="2k1P9u">
       <property role="TrG5h" value="students" />

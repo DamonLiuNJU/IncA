@@ -176,20 +176,6 @@
   </registry>
   <node concept="1M2fIO" id="7i4WCRXyjoo">
     <ref role="1M2myG" to="auek:RjyNapPd_F" resolve="PatternModel" />
-    <node concept="EnEH3" id="7i4WCRXyjpc" role="1MhHOB">
-      <ref role="EomxK" to="auek:RjyNapPd_I" resolve="package" />
-      <node concept="QB0g5" id="6L84cjtS4bQ" role="QCWH9">
-        <node concept="3clFbS" id="6L84cjtS4bR" role="2VODD2">
-          <node concept="3clFbF" id="6L84cjtS4$h" role="3cqZAp">
-            <node concept="2YIFZM" id="6L84cjtS51F" role="3clFbG">
-              <ref role="37wK5l" to="f1uo:6L84cjtRyZt" resolve="isQualifiedIdentifier" />
-              <ref role="1Pybhc" to="f1uo:RjyNapPd_R" resolve="QualifiedNameHelper" />
-              <node concept="1Wqviy" id="6L84cjtS5ck" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="1M2fIO" id="5HxP2lv63nv">
     <property role="3GE5qa" value="values" />

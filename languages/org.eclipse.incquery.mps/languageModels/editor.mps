@@ -352,10 +352,10 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="RjyNapP_D8" role="3EZMnx">
-          <property role="3F0ifm" value="package" />
+          <property role="3F0ifm" value="Pattern Model" />
         </node>
         <node concept="3F0A7n" id="RjyNapP_Dd" role="3EZMnx">
-          <ref role="1NtTu8" to="auek:RjyNapPd_I" resolve="package" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
       <node concept="3EZMnI" id="RjyNapP_Dt" role="3EZMnx">
