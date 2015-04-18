@@ -62,6 +62,9 @@
       <ref role="1Km8aG" node="6h3Ypck7QiL" resolve="Budapest University of Technology and Economics" />
       <ref role="1Km8bi" node="6h3Ypck80Rt" resolve="Varro Daniel" />
     </node>
+    <node concept="1Km8am" id="3WA5zqCIlqy" role="1Km7DV">
+      <property role="TrG5h" value="Design of algorithms" />
+    </node>
     <node concept="1Km8dn" id="6h3Ypck80R3" role="1Km7DS">
       <property role="TrG5h" value="Szabo Tamas" />
       <node concept="1Km8aO" id="1QJs$A9IPmq" role="1Km8aT">
