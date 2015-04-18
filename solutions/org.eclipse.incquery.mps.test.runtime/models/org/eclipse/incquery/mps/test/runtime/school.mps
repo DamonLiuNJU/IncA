@@ -64,6 +64,7 @@
     </node>
     <node concept="1Km8am" id="3WA5zqCIlqy" role="1Km7DV">
       <property role="TrG5h" value="Design of algorithms" />
+      <property role="1Km8aC" value="1000" />
       <ref role="1Km8aG" node="6h3Ypck7QiL" resolve="Budapest University of Technology and Economics" />
       <ref role="1Km8bi" node="7Bn5sDkiWU6" resolve="Rath Istvan" />
     </node>
