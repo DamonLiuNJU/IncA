@@ -120,6 +120,9 @@
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
+      <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
+        <child id="1196350785114" name="quotedNode" index="2c44tc" />
+      </concept>
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
       </concept>
@@ -578,6 +581,34 @@
                         <ref role="1YBMHb" node="6WpUQi6Rq99" resolve="parameter" />
                       </node>
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3eNFk2" id="11Qb5eXUtDV" role="3eNLev">
+              <node concept="3clFbS" id="11Qb5eXUtDX" role="3eOfB_">
+                <node concept="1Z5TYs" id="11Qb5eXUv84" role="3cqZAp">
+                  <node concept="mw_s8" id="11Qb5eXUv8m" role="1ZfhKB">
+                    <node concept="2c44tf" id="hEwI9yq" role="mwGJk">
+                      <node concept="17QB3L" id="hP3azYb" role="2c44tc" />
+                    </node>
+                  </node>
+                  <node concept="mw_s8" id="11Qb5eXUv87" role="1ZfhK$">
+                    <node concept="1Z2H0r" id="11Qb5eXUv5M" role="mwGJk">
+                      <node concept="1YBJjd" id="11Qb5eXUv6e" role="1Z2MuG">
+                        <ref role="1YBMHb" node="6WpUQi6Rq99" resolve="parameter" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="11Qb5eXUv1A" role="3eO9$A">
+                <node concept="37vLTw" id="11Qb5eXUv1B" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3MJHRxDIx4w" resolve="typeConcept" />
+                </node>
+                <node concept="2Zo12i" id="11Qb5eXUv1C" role="2OqNvi">
+                  <node concept="chp4Y" id="11Qb5eXUv2Y" role="2Zo12j">
+                    <ref role="cht4Q" to="tpee:hP7QB7G" resolve="StringType" />
                   </node>
                 </node>
               </node>
