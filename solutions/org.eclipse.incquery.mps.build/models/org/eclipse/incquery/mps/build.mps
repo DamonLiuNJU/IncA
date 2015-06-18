@@ -329,12 +329,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2Zh2tjQSBjc" role="3bR37C">
-          <node concept="3bR9La" id="2Zh2tjQSBjd" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8K" resolve="jetbrains.mps.lang.plugin" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="2Zh2tjQSBje" role="3bR37C">
           <node concept="3bR9La" id="2Zh2tjQSBjf" role="1SiIV1">
             <property role="3bR36h" value="true" />
@@ -377,12 +371,6 @@
           <node concept="3bR9La" id="2Zh2tjQSBnx" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="2Zh2tjQSyQg" resolve="org.eclipse.incquery.mps" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2Zh2tjQSBny" role="3bR37C">
-          <node concept="3bR9La" id="2Zh2tjQSBnz" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0C" resolve="collections.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="2Zh2tjQSBn$" role="3bR37C">
