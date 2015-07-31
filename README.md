@@ -23,7 +23,15 @@ Dependencies
 
 There are some dependencies (Eclipse plug-ins) that are included as JARs right now. It would be better to provide some automatic mechanism to obtain these JARS if they couldn't be found, but the easiest way to try the project out at the moment is to also ship these libraries. 
 The complete list of plug-ins:
-IncQuery related: org.eclipse.incquery.runtime.matchers, org.eclipse.incquery.runtime.rete, org.eclipse.incquery.runtime.rete.recipes, org.eclipse.incquery.runtime.base, org.eclipse.incquery.runtime.base.itc, org.eclipse.incquery.runtime, org.eclipse.incquery.runtime.evm, org.eclipse.incquery.databinding.runtime
+IncQuery related:
+* org.eclipse.incquery.runtime
+* org.eclipse.incquery.runtime.matchers
+* org.eclipse.incquery.runtime.rete
+* org.eclipse.incquery.runtime.rete.recipes
+* org.eclipse.incquery.runtime.base
+* org.eclipse.incquery.runtime.base.itc
+* org.eclipse.incquery.runtime.evm
+* org.eclipse.incquery.databinding.runtime
 
 Misc dependencies (introduced by the IncQuery plug-ins): org.eclipse.emf.ecore, org.eclipse.core.runtime, com.google.guava, org.apache.log4j, org.eclipse.osgi, org.eclipse.xtext.xbase.lib, org.eclipse.emf.ecore.xcore.lib, org.eclipse.emf.common, org.eclipse.emf.ecore.xmi, org.eclipse.incquery.databinding.runtime, org.eclipse.equinox.common
 
