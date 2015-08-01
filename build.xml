@@ -4,10 +4,6 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.eclipse.incquery.mps" />
   <property name="build.layout" location="${build.dir}/artifacts/org.eclipse.incquery.mps" />
   <property name="mps.home" location="" />
-  <property name="mbeddr.github.core.home" location="" />
-  <property name="smartmeter.code" location="" />
-  <property name="accent.home" location="" />
-  <property name="smartmeter.git.root" location="" />
   <property name="mps.incquery" location="${basedir}" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -69,7 +65,7 @@
     </echoxml>
     <jar destfile="${build.tmp}/default/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.jar">
       <fileset dir="${build.tmp}/java/out/org.eclipse.incquery.mps" />
-      <fileset dir="${basedir}/languages/org.eclipse.incquery.mps" includes="icons/**, resources/**" />
+      <fileset dir="${mps.incquery}/languages/org.eclipse.incquery.mps" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.eclipse.incquery.mps.jar" />
     </jar>
     <jar destfile="${build.tmp}/default/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps-generator.jar">
@@ -88,7 +84,7 @@
       <fileset dir="${mps.incquery}/languages/org.eclipse.incquery.mps/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
-      <zipfileset file="${basedir}/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" prefix="module" />
+      <zipfileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.eclipse.incquery.mps-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.eclipse.incquery.mps-languageModels" prefix="module/languageModels" />
     </jar>
@@ -114,7 +110,7 @@
     </echoxml>
     <jar destfile="${build.tmp}/default/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.pluginSolution.jar">
       <fileset dir="${build.tmp}/java/out/org.eclipse.incquery.mps.pluginSolution" />
-      <fileset dir="${basedir}/solutions/org.eclipse.incquery.mps.pluginSolution" includes="icons/**, resources/**" />
+      <fileset dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.pluginSolution" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.eclipse.incquery.mps.pluginSolution.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.eclipse.incquery.mps.pluginSolution-models">
@@ -124,7 +120,7 @@
       <fileset dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.pluginSolution/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
-      <zipfileset file="${basedir}/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" prefix="module" />
+      <zipfileset file="${mps.incquery}/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.eclipse.incquery.mps.pluginSolution-models" prefix="module/models" />
     </jar>
     <mkdir dir="${build.tmp}/default/org.eclipse.incquery.mps.runtime.jar" />
@@ -163,7 +159,7 @@
     </echoxml>
     <jar destfile="${build.tmp}/default/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.runtime.jar">
       <fileset dir="${build.tmp}/java/out/org.eclipse.incquery.mps.runtime" />
-      <fileset dir="${basedir}/languages/org.eclipse.incquery.mps/runtime" includes="icons/**, resources/**" />
+      <fileset dir="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.eclipse.incquery.mps.runtime.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.eclipse.incquery.mps-runtime-models">
@@ -173,7 +169,7 @@
       <fileset dir="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
-      <zipfileset file="${basedir}/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" prefix="module" />
+      <zipfileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.eclipse.incquery.mps-runtime-models" prefix="module/models" />
     </jar>
     <mkdir dir="${build.tmp}/default/org.eclipse.incquery.mps.build.jar" />
@@ -186,7 +182,7 @@
     </echoxml>
     <jar destfile="${build.tmp}/default/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.build.jar">
       <fileset dir="${build.tmp}/java/out/org.eclipse.incquery.mps.build" />
-      <fileset dir="${basedir}/solutions/org.eclipse.incquery.mps.build" includes="icons/**, resources/**" />
+      <fileset dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.eclipse.incquery.mps.build.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.eclipse.incquery.mps.build-models">
@@ -196,7 +192,7 @@
       <fileset dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
-      <zipfileset file="${basedir}/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" prefix="module" />
+      <zipfileset file="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.eclipse.incquery.mps.build-models" prefix="module/models" />
     </jar>
     <zip destfile="${build.layout}/org.eclipse.incquery.mps.zip">
@@ -299,24 +295,21 @@
       <library file="${artifacts.mps}/lib/mps-workbench.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.tests.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <chunk>
-        <module file="${basedir}/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" />
-        <module file="${basedir}/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" />
-        <module file="${basedir}/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" />
-        <module file="${basedir}/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" />
+        <module file="${mps.incquery}/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" />
+        <module file="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" />
+        <module file="${mps.incquery}/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" />
+        <module file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" />
       </chunk>
       <chunk />
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
       <macro name="mps.home" path="${mps.home}" />
-      <macro name="mbeddr.github.core.home" path="${mbeddr.github.core.home}" />
-      <macro name="smartmeter.code" path="${smartmeter.code}" />
-      <macro name="accent.home" path="${accent.home}" />
-      <macro name="smartmeter.git.root" path="${smartmeter.git.root}" />
       <macro name="mps.incquery" path="${mps.incquery}" />
     </generate>
   </target>

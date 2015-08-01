@@ -46,9 +46,14 @@
     <property role="34LRSv" value="student" />
     <property role="R4oN_" value="Student" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7IYto4uIwM5" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="schoolClass" />
+      <ref role="20lvS9" node="7IYto4uIsaW" resolve="SchoolClass" />
+    </node>
     <node concept="1TJgyj" id="6h3Ypck6RGE" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="directFriends" />
+      <property role="20kJfa" value="friendsWith" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6h3Ypck6RGB" resolve="StudentReference" />
     </node>
@@ -60,6 +65,12 @@
     <property role="TrG5h" value="School" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7IYto4uIv29" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="years" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7IYto4uIs9G" resolve="Year" />
+    </node>
     <node concept="1TJgyj" id="6h3Ypck6SfA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="teachers" />
@@ -71,12 +82,6 @@
       <property role="20kJfa" value="courses" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6h3Ypck6RG5" resolve="Course" />
-    </node>
-    <node concept="1TJgyj" id="6h3Ypck6SfF" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="students" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6h3Ypck6RF4" resolve="Student" />
     </node>
     <node concept="1TJgyi" id="6h3Ypck6RG3" role="1TKVEl">
       <property role="TrG5h" value="address" />
@@ -122,6 +127,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6h3Ypck6RFW" resolve="School" />
     </node>
+    <node concept="1TJgyj" id="7IYto4uIwI2" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="homeroomedClass" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="7IYto4uIsaW" resolve="SchoolClass" />
+    </node>
     <node concept="1TJgyj" id="6h3Ypck6RGm" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="courses" />
@@ -150,6 +161,50 @@
       <property role="20kJfa" value="student" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6h3Ypck6RF4" resolve="Student" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7IYto4uIs9G">
+    <property role="TrG5h" value="Year" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7IYto4uIw7L" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="classes" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7IYto4uIsaW" resolve="SchoolClass" />
+    </node>
+    <node concept="1TJgyi" id="7IYto4uIsav" role="1TKVEl">
+      <property role="TrG5h" value="startingDate" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="7IYto4uIs9H" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="school" />
+      <ref role="20lvS9" node="6h3Ypck6RFW" resolve="School" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7IYto4uIsaW">
+    <property role="TrG5h" value="SchoolClass" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7IYto4uIubp" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="students" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6h3Ypck6RF4" resolve="Student" />
+    </node>
+    <node concept="1TJgyj" id="7IYto4uIubt" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="courses" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6h3Ypck6RGj" resolve="CourseReference" />
+    </node>
+    <node concept="1TJgyi" id="7IYto4uIsaX" role="1TKVEl">
+      <property role="TrG5h" value="code" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="7IYto4uIur6" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="homeroomTeacher" />
+      <ref role="20lvS9" node="6h3Ypck6RG6" resolve="Teacher" />
     </node>
   </node>
 </model>

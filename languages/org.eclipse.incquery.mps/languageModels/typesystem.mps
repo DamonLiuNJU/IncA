@@ -334,21 +334,6 @@
     <property role="3GE5qa" value="constraints" />
     <node concept="3clFbS" id="1YBYCQ12C7W" role="18ibNy">
       <node concept="3clFbJ" id="1YBYCQ12DT9" role="3cqZAp">
-        <node concept="3clFbS" id="1YBYCQ12DTc" role="3clFbx">
-          <node concept="2MkqsV" id="1YBYCQ12F8y" role="3cqZAp">
-            <node concept="Xl_RD" id="1YBYCQ12F9q" role="2MkJ7o">
-              <property role="Xl_RC" value="The expression in the check constraint must evaluate to a boolean value!" />
-            </node>
-            <node concept="2OqwBi" id="1YBYCQ13pgs" role="2OEOjV">
-              <node concept="1YBJjd" id="1YBYCQ12F8O" role="2Oq$k0">
-                <ref role="1YBMHb" node="1YBYCQ12C7Y" resolve="constraint" />
-              </node>
-              <node concept="3TrEf2" id="1YBYCQ13pq5" role="2OqNvi">
-                <ref role="3Tt5mk" to="auek:RjyNapTHCw" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1Wc70l" id="1YBYCQ13prX" role="3clFbw">
           <node concept="3y3z36" id="1YBYCQ13pSC" role="3uHU7B">
             <node concept="10Nm6u" id="1YBYCQ13pW5" role="3uHU7w" />
@@ -356,7 +341,7 @@
               <node concept="1YBJjd" id="1YBYCQ13pxq" role="2Oq$k0">
                 <ref role="1YBMHb" node="1YBYCQ12C7Y" resolve="constraint" />
               </node>
-              <node concept="3TrEf2" id="1YBYCQ13pLW" role="2OqNvi">
+              <node concept="3TrEf2" id="6bgKmuE8v4J" role="2OqNvi">
                 <ref role="3Tt5mk" to="auek:RjyNapTHCw" />
               </node>
             </node>
@@ -368,7 +353,7 @@
                   <node concept="1YBJjd" id="1YBYCQ12F4m" role="2Oq$k0">
                     <ref role="1YBMHb" node="1YBYCQ12C7Y" resolve="constraint" />
                   </node>
-                  <node concept="3TrEf2" id="1YBYCQ12F4n" role="2OqNvi">
+                  <node concept="3TrEf2" id="6bgKmuE8vlF" role="2OqNvi">
                     <ref role="3Tt5mk" to="auek:RjyNapTHCw" />
                   </node>
                 </node>
@@ -378,6 +363,21 @@
                 <node concept="chp4Y" id="1YBYCQ12F4q" role="cj9EA">
                   <ref role="cht4Q" to="tpee:f_0P_4Y" resolve="BooleanType" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="1YBYCQ12DTc" role="3clFbx">
+          <node concept="2MkqsV" id="1YBYCQ12F8y" role="3cqZAp">
+            <node concept="Xl_RD" id="1YBYCQ12F9q" role="2MkJ7o">
+              <property role="Xl_RC" value="The expression in the check constraint must evaluate to a boolean value!" />
+            </node>
+            <node concept="2OqwBi" id="1YBYCQ13pgs" role="2OEOjV">
+              <node concept="1YBJjd" id="1YBYCQ12F8O" role="2Oq$k0">
+                <ref role="1YBMHb" node="1YBYCQ12C7Y" resolve="constraint" />
+              </node>
+              <node concept="3TrEf2" id="6bgKmuE8uNN" role="2OqNvi">
+                <ref role="3Tt5mk" to="auek:RjyNapTHCw" />
               </node>
             </node>
           </node>
