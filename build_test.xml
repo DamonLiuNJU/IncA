@@ -3,7 +3,9 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.eclipse.incquery.mps.test" />
   <property name="build.layout" location="${build.dir}/artifacts/org.eclipse.incquery.mps.test" />
-  <property name="mps.home" location="" />
+  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS_3.2.2.app/Contents" />
+  <property name="mbeddr.github.core.home" location="${basedir}/../../" />
+  <property name="mps.macro.mbeddr.github.core.home" location="${mbeddr.github.core.home}" />
   <property name="mps.incquery" location="${basedir}" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property name="artifacts.org.eclipse.incquery.mps" location="${build.dir}/artifacts/org.eclipse.incquery.mps" />
@@ -137,9 +139,6 @@
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
     <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" targetJavaVersion="1.6">
-      <plugin path="${artifacts.mps}/plugins/mps-build" />
-      <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
-      <plugin path="${build.tmp}/deps/org.eclipse.incquery.mps/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
@@ -219,6 +218,8 @@
         <arg value="-Xmx512m" />
       </jvmargs>
       <macro name="mps.home" path="${mps.home}" />
+      <macro name="mbeddr.github.core.home" path="${mbeddr.github.core.home}" />
+      <macro name="mps.macro.mbeddr.github.core.home" path="${mps.macro.mbeddr.github.core.home}" />
       <macro name="mps.incquery" path="${mps.incquery}" />
     </generate>
   </target>
@@ -239,7 +240,7 @@
   <target name="java.compile.org.eclipse.incquery.mps.test" depends="fetchDependencies">
     <mkdir dir="${mps.incquery}/languages/org.eclipse.incquery.mps.test/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.eclipse.incquery.mps.test" />
-    <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.test" fork="true" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.test" fork="true" memorymaximumsize="2048m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${mps.incquery}/languages/org.eclipse.incquery.mps.test/source_gen" />
@@ -304,7 +305,7 @@
   <target name="java.compile.org.eclipse.incquery.mps.test#7224892637325260695" depends="java.compile.org.eclipse.incquery.mps.test, java.compile.org.eclipse.incquery.mps.test.runtime, fetchDependencies">
     <mkdir dir="${mps.incquery}/languages/org.eclipse.incquery.mps.test/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.eclipse.incquery.mps.test#7224892637325260695" />
-    <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.test#7224892637325260695" fork="true" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.test#7224892637325260695" fork="true" memorymaximumsize="2048m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${mps.incquery}/languages/org.eclipse.incquery.mps.test/generator/source_gen" />
@@ -343,7 +344,7 @@
   <target name="java.compile.org.eclipse.incquery.mps.test.runtime" depends="java.compile.org.eclipse.incquery.mps.test, fetchDependencies">
     <mkdir dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.test.runtime/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.eclipse.incquery.mps.test.runtime" />
-    <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.test.runtime" fork="true" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.test.runtime" fork="true" memorymaximumsize="2048m" includeantruntime="false" debug="true" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${mps.incquery}/solutions/org.eclipse.incquery.mps.test.runtime/source_gen" />
@@ -525,6 +526,7 @@
       <sysproperty key="plugin.path" value="${mps.plugins.path.string}" />
       <sysproperty key="mps.libraries" value="${mps.libraries.path.string}" />
       <sysproperty key="mps.test.modules" value="${mps.tests.path.string}" />
+      <sysproperty key="mps.macro.mbeddr.github.core.home" value="${mbeddr.github.core.home}" />
       
       <test name="jetbrains.mps.testbench.junit.suites.AntModuleTestSuite" outfile="TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite-sample" />
       <formatter type="xml" />

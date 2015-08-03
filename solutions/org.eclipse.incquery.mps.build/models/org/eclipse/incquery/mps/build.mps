@@ -29,6 +29,8 @@
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
       <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
+        <property id="927724900262398947" name="heapSize" index="2_GNG2" />
+        <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
         <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
       </concept>
       <concept id="2750015747481074431" name="jetbrains.mps.build.structure.BuildLayout_Files" flags="ng" index="2HvfSZ">
@@ -144,6 +146,38 @@
     <node concept="3b7kt6" id="2Zh2tjQSyQ2" role="10PD9s" />
     <node concept="398rNT" id="2Zh2tjQSyQ3" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
+      <node concept="55IIr" id="1DxZyGUJaHE" role="398pKh">
+        <node concept="2Ry0Ak" id="1DxZyGUJaHF" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="1DxZyGUJaHG" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="1DxZyGUJaHH" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="1DxZyGUJaHI" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="1DxZyGUJaHJ" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="1DxZyGUJaHK" role="2Ry0An">
+                    <property role="2Ry0Am" value=".." />
+                    <node concept="2Ry0Ak" id="1DxZyGUJaHL" role="2Ry0An">
+                      <property role="2Ry0Am" value=".." />
+                      <node concept="2Ry0Ak" id="1DxZyGUJaHM" role="2Ry0An">
+                        <property role="2Ry0Am" value="Applications" />
+                        <node concept="2Ry0Ak" id="1DxZyGUJaHN" role="2Ry0An">
+                          <property role="2Ry0Am" value="MPS_3.2.2.app" />
+                          <node concept="2Ry0Ak" id="1DxZyGUJaHO" role="2Ry0An">
+                            <property role="2Ry0Am" value="Contents" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="398rNT" id="2Zh2tjQSyQa" role="1l3spd">
       <property role="TrG5h" value="mps.incquery" />
@@ -834,6 +868,58 @@
     <node concept="1gjT0q" id="4Ut1WRRt5MP" role="10PD9s" />
     <node concept="398rNT" id="4Ut1WRRt0sz" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
+      <node concept="55IIr" id="1DxZyGUIUzw" role="398pKh">
+        <node concept="2Ry0Ak" id="1DxZyGUIUQX" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="1DxZyGUIUR0" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="1DxZyGUIUR3" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="1DxZyGUIUR6" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="1DxZyGUIUR9" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="1DxZyGUIURc" role="2Ry0An">
+                    <property role="2Ry0Am" value=".." />
+                    <node concept="2Ry0Ak" id="1DxZyGUIURf" role="2Ry0An">
+                      <property role="2Ry0Am" value=".." />
+                      <node concept="2Ry0Ak" id="1DxZyGUIURk" role="2Ry0An">
+                        <property role="2Ry0Am" value="Applications" />
+                        <node concept="2Ry0Ak" id="1DxZyGUIURp" role="2Ry0An">
+                          <property role="2Ry0Am" value="MPS_3.2.2.app" />
+                          <node concept="2Ry0Ak" id="1DxZyGUIURu" role="2Ry0An">
+                            <property role="2Ry0Am" value="Contents" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="7eF9rfAuuuk" role="1l3spd">
+      <property role="TrG5h" value="mbeddr.github.core.home" />
+      <node concept="55IIr" id="7eF9rfAuuul" role="398pKh">
+        <node concept="2Ry0Ak" id="7eF9rfAuuum" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="7eF9rfAuuun" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="7eF9rfAuuuo" role="2Ry0An">
+              <property role="2Ry0Am" value="" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="7eF9rfAuuuN" role="1l3spd">
+      <property role="TrG5h" value="mps.macro.mbeddr.github.core.home" />
+      <node concept="398BVA" id="7eF9rfAuuuO" role="398pKh">
+        <ref role="398BVh" node="7eF9rfAuuuk" resolve="mbeddr.github.core.home" />
+      </node>
     </node>
     <node concept="398rNT" id="4Ut1WRRt0sC" role="1l3spd">
       <property role="TrG5h" value="mps.incquery" />
@@ -854,27 +940,6 @@
       </node>
       <node concept="L2wRC" id="4Ut1WRRt686" role="39821P">
         <ref role="L2wRA" node="4Ut1WRRt0tK" resolve="org.eclipse.incquery.mps.test.runtime" />
-      </node>
-    </node>
-    <node concept="m$_wf" id="7eF9rfAuutf" role="3989C9">
-      <property role="m$_wk" value="debugger.api.dummy" />
-      <node concept="3_J27D" id="7eF9rfAuutg" role="m$_yQ">
-        <node concept="3Mxwew" id="7eF9rfAuuth" role="3MwsjC">
-          <property role="3MwjfP" value="debugger.api.dummy" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="7eF9rfAuuti" role="m_cZH">
-        <node concept="3Mxwew" id="7eF9rfAuutj" role="3MwsjC">
-          <property role="3MwjfP" value="debugger.api.dummy" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="7eF9rfAuutk" role="m$_w8">
-        <node concept="3Mxwew" id="7eF9rfAuutl" role="3MwsjC">
-          <property role="3MwjfP" value="1.0" />
-        </node>
-      </node>
-      <node concept="m$_yC" id="7IYto4uIe$Z" role="m$_yJ">
-        <ref role="m$_y1" node="2Zh2tjQSyQv" resolve="org.eclipse.incquery.mps" />
       </node>
     </node>
     <node concept="2G$12M" id="4Ut1WRRt0t4" role="3989C9">
@@ -965,10 +1030,18 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1DxZyGUIV8e" role="3bR37C">
+          <node concept="3bR9La" id="1DxZyGUIV8f" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2_Ic$z" id="4Ut1WRRt0wj" role="3989C9">
       <property role="TZNOO" value="1.6" />
+      <property role="2_GNG2" value="2048" />
+      <property role="2_Ic$$" value="true" />
     </node>
   </node>
 </model>
