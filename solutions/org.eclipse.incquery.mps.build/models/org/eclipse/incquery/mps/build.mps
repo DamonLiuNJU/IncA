@@ -339,6 +339,12 @@
               <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
             </node>
           </node>
+          <node concept="1SiIV0" id="4am_FmzmJRr" role="3bR37C">
+            <node concept="3bR9La" id="4am_FmzmJRs" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L8Y" resolve="jetbrains.mps.lang.project" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1E1JtA" id="2Zh2tjQSyQm" role="2G$12L">
