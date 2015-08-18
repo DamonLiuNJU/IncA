@@ -310,6 +310,7 @@
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
+      <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
@@ -9139,7 +9140,9 @@
       </node>
       <node concept="37vLTG" id="3bXXt3NaVVV" role="3clF46">
         <property role="TrG5h" value="concept" />
-        <node concept="3Tqbb2" id="3bXXt3NdG_Y" role="1tU5fm" />
+        <node concept="3Tqbb2" id="3bXXt3NdG_Y" role="1tU5fm">
+          <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+        </node>
       </node>
       <node concept="37vLTG" id="3bXXt3NaVXx" role="3clF46">
         <property role="TrG5h" value="name" />
@@ -12375,6 +12378,17 @@
           <ref role="3uigEE" to="2t7v:~PQuery" resolve="PQuery" />
         </node>
       </node>
+    </node>
+    <node concept="2tJIrI" id="26S5csTpmBx" role="jymVt" />
+    <node concept="3clFbW" id="26S5csTpmD2" role="jymVt">
+      <node concept="3cqZAl" id="26S5csTpmD3" role="3clF45" />
+      <node concept="3clFbS" id="26S5csTpmD5" role="3clF47">
+        <node concept="1VxSAg" id="26S5csTpmFP" role="3cqZAp">
+          <ref role="37wK5l" node="26S5csTkx8v" resolve="MPSQuerySpecification" />
+          <node concept="10Nm6u" id="26S5csTpmH2" role="37wK5m" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="26S5csTpmCv" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="26S5csTkRbd" role="jymVt" />
     <node concept="3clFb_" id="2cknNXbyVes" role="jymVt">
