@@ -15,14 +15,14 @@
       <sourceRoot location="lib/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
       <sourceRoot location="lib/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" />
       <sourceRoot location="lib/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.databinding.runtime_0.9.0.201409291103.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.runtime.base.itc_0.9.0.201409291103.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.runtime.base_0.9.0.201409291103.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.runtime.evm_0.9.0.201409291103.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.runtime.matchers_0.9.0.201409291103.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201409291103.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete_0.9.0.201409291103.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.runtime_0.9.0.201409291103.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.databinding.runtime_1.1.0.201508121322.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.base.itc_1.1.0.201508121322.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.base_1.1.0.201508121322.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.evm_1.1.0.201508121322.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.matchers_1.1.0.201508121322.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201508121322.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete_1.1.0.201508121322.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime_1.1.0.201508121322.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -36,14 +36,14 @@
     <stubModelEntry path="${module}/lib/org.eclipse.xtext.xbase.lib_2.6.0.v201405210727.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.databinding.runtime_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.base.itc_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.base_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.evm_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.matchers_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete.recipes_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete_0.9.0.201409291103.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime_0.9.0.201409291103.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.databinding.runtime_1.1.0.201508121322.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.base.itc_1.1.0.201508121322.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.base_1.1.0.201508121322.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.evm_1.1.0.201508121322.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.matchers_1.1.0.201508121322.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201508121322.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete_1.1.0.201508121322.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime_1.1.0.201508121322.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
