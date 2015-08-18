@@ -194,6 +194,7 @@
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
         <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
       </concept>
+      <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
         <child id="1212687122400" name="typeParameter" index="1pMfVU" />
       </concept>
@@ -587,7 +588,7 @@
               <node concept="3clFbF" id="2iojaXSKwNt" role="3cqZAp">
                 <node concept="2ShNRf" id="2iojaXSKwNp" role="3clFbG">
                   <node concept="1pGfFk" id="yUyCiPbhMO" role="2ShVmc">
-                    <ref role="37wK5l" to="caqg:~TypeUnary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.psystem.PVariable,java.lang.Object,java.lang.String)" resolve="TypeUnary" />
+                    <ref role="37wK5l" to="caqg:~TypeUnary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.emf.ecore.EClassifier,java.lang.String)" resolve="TypeUnary" />
                     <node concept="37vLTw" id="yUyCiPbGV4" role="37wK5m">
                       <ref role="3cqZAo" node="yUyCiPbGTm" resolve="body" />
                     </node>
@@ -807,7 +808,7 @@
               <node concept="3clFbF" id="6TeNRL8ifU3" role="3cqZAp">
                 <node concept="2ShNRf" id="6TeNRL8ifTZ" role="3clFbG">
                   <node concept="1pGfFk" id="6TeNRL8ijvg" role="2ShVmc">
-                    <ref role="37wK5l" to="caqg:~TypeBinary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.context.IPatternMatcherContext,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.incquery.runtime.matchers.psystem.PVariable,java.lang.Object,java.lang.String)" resolve="TypeBinary" />
+                    <ref role="37wK5l" to="caqg:~TypeBinary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,java.lang.Object,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.emf.ecore.EStructuralFeature,java.lang.String)" resolve="TypeBinary" />
                     <node concept="37vLTw" id="6TeNRL8ijxZ" role="37wK5m">
                       <ref role="3cqZAo" node="6TeNRL8i2eC" resolve="body" />
                     </node>
@@ -1285,7 +1286,7 @@
               <node concept="3clFbF" id="oGUVnFixTv" role="3cqZAp">
                 <node concept="2ShNRf" id="oGUVnFixTw" role="3clFbG">
                   <node concept="1pGfFk" id="oGUVnFixTx" role="2ShVmc">
-                    <ref role="37wK5l" to="caqg:~TypeBinary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.context.IPatternMatcherContext,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.incquery.runtime.matchers.psystem.PVariable,java.lang.Object,java.lang.String)" resolve="TypeBinary" />
+                    <ref role="37wK5l" to="caqg:~TypeBinary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,java.lang.Object,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.emf.ecore.EStructuralFeature,java.lang.String)" resolve="TypeBinary" />
                     <node concept="37vLTw" id="oGUVnFixTy" role="37wK5m">
                       <ref role="3cqZAo" node="oGUVnFixSE" resolve="body" />
                     </node>
@@ -1524,7 +1525,7 @@
               <node concept="3clFbF" id="oGUVnFiIg1" role="3cqZAp">
                 <node concept="2ShNRf" id="oGUVnFiIg2" role="3clFbG">
                   <node concept="1pGfFk" id="oGUVnFiIg3" role="2ShVmc">
-                    <ref role="37wK5l" to="caqg:~TypeUnary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.psystem.PVariable,java.lang.Object,java.lang.String)" resolve="TypeUnary" />
+                    <ref role="37wK5l" to="caqg:~TypeUnary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.emf.ecore.EClassifier,java.lang.String)" resolve="TypeUnary" />
                     <node concept="37vLTw" id="oGUVnFiIg4" role="37wK5m">
                       <ref role="3cqZAo" node="oGUVnFixSE" resolve="body" />
                     </node>
@@ -1890,7 +1891,7 @@
               <node concept="3clFbF" id="LXEcpppKUV" role="3cqZAp">
                 <node concept="2ShNRf" id="LXEcpppKUW" role="3clFbG">
                   <node concept="1pGfFk" id="LXEcpppKUX" role="2ShVmc">
-                    <ref role="37wK5l" to="caqg:~TypeBinary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.context.IPatternMatcherContext,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.incquery.runtime.matchers.psystem.PVariable,java.lang.Object,java.lang.String)" resolve="TypeBinary" />
+                    <ref role="37wK5l" to="caqg:~TypeBinary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,java.lang.Object,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.emf.ecore.EStructuralFeature,java.lang.String)" resolve="TypeBinary" />
                     <node concept="37vLTw" id="LXEcpppKUY" role="37wK5m">
                       <ref role="3cqZAo" node="LXEcpppKUK" resolve="body" />
                     </node>
@@ -2356,7 +2357,7 @@
               <node concept="3clFbF" id="oGUVnFj1V2" role="3cqZAp">
                 <node concept="2ShNRf" id="oGUVnFj1V3" role="3clFbG">
                   <node concept="1pGfFk" id="oGUVnFj1V4" role="2ShVmc">
-                    <ref role="37wK5l" to="caqg:~TypeBinary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.context.IPatternMatcherContext,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.incquery.runtime.matchers.psystem.PVariable,java.lang.Object,java.lang.String)" resolve="TypeBinary" />
+                    <ref role="37wK5l" to="caqg:~TypeBinary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,java.lang.Object,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.emf.ecore.EStructuralFeature,java.lang.String)" resolve="TypeBinary" />
                     <node concept="37vLTw" id="oGUVnFj1V5" role="37wK5m">
                       <ref role="3cqZAo" node="oGUVnFj1Ue" resolve="body" />
                     </node>
@@ -2584,7 +2585,7 @@
               <node concept="3clFbF" id="oGUVnFj3hv" role="3cqZAp">
                 <node concept="2ShNRf" id="oGUVnFj3hw" role="3clFbG">
                   <node concept="1pGfFk" id="oGUVnFj3hx" role="2ShVmc">
-                    <ref role="37wK5l" to="caqg:~TypeUnary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.psystem.PVariable,java.lang.Object,java.lang.String)" resolve="TypeUnary" />
+                    <ref role="37wK5l" to="caqg:~TypeUnary.&lt;init&gt;(org.eclipse.incquery.runtime.matchers.psystem.PBody,org.eclipse.incquery.runtime.matchers.psystem.PVariable,org.eclipse.emf.ecore.EClassifier,java.lang.String)" resolve="TypeUnary" />
                     <node concept="37vLTw" id="oGUVnFj3hy" role="37wK5m">
                       <ref role="3cqZAo" node="oGUVnFj1Ue" resolve="body" />
                     </node>
@@ -6292,20 +6293,7 @@
     <property role="1EXbeo" value="true" />
     <property role="3GE5qa" value="content" />
     <node concept="2tJIrI" id="1GIWTDBiLNA" role="jymVt" />
-    <node concept="312cEg" id="1pVBHwps0TV" role="jymVt">
-      <property role="34CwA1" value="false" />
-      <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="CONTEXT" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3Tm6S6" id="1pVBHwprWXE" role="1B3o_S" />
-      <node concept="3uibUv" id="1pVBHwps0CD" role="1tU5fm">
-        <ref role="3uigEE" to="f1uo:1pVBHwpmuKg" resolve="MPSPatternMatcherContext" />
-      </node>
-      <node concept="10M0yZ" id="1pVBHwps4sU" role="33vP2m">
-        <ref role="1PxDUh" to="f1uo:1pVBHwpmuKg" resolve="MPSPatternMatcherContext" />
-        <ref role="3cqZAo" to="f1uo:1pVBHwpn9v4" resolve="INSTANCE" />
-      </node>
-    </node>
+    <node concept="2tJIrI" id="26S5csTk_dk" role="jymVt" />
     <node concept="2tJIrI" id="1pVBHwprToc" role="jymVt" />
     <node concept="3clFb_" id="1GIWTDB3CID" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -7836,6 +7824,26 @@
     </node>
     <node concept="3uibUv" id="2cknNXbyYGP" role="1zkMxy">
       <ref role="3uigEE" to="f1uo:2cknNXbyT0X" resolve="MPSQuerySpecification" />
+    </node>
+    <node concept="3clFb_" id="26S5csTkE70" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="newEmptyMatch" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="26S5csTkE71" role="1B3o_S" />
+      <node concept="3uibUv" id="26S5csTkE73" role="3clF45">
+        <ref role="3uigEE" to="67jt:~GenericPatternMatch" resolve="GenericPatternMatch" />
+      </node>
+      <node concept="3clFbS" id="26S5csTkE76" role="3clF47">
+        <node concept="3clFbF" id="26S5csTkE79" role="3cqZAp">
+          <node concept="3nyPlj" id="26S5csTkE78" role="3clFbG">
+            <ref role="37wK5l" to="67jt:~GenericQuerySpecification.newEmptyMatch():org.eclipse.incquery.runtime.api.GenericPatternMatch" resolve="newEmptyMatch" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="26S5csTkE77" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
     </node>
   </node>
   <node concept="jVnub" id="mbIjfClULc">
