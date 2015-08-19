@@ -8,9 +8,6 @@
   <imports>
     <import index="auek" ref="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="9a8" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" />
-    <import index="jsgz" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
-    <import index="srng" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
@@ -1546,7 +1543,7 @@
   </node>
   <node concept="24kQdi" id="6VTlRjrD5Uu">
     <property role="3GE5qa" value="content" />
-    <ref role="1XX52x" to="auek:6VTlRjrCuGI" resolve="PrimitiveTypeReference" />
+    <ref role="1XX52x" to="auek:6VTlRjrCuGI" resolve="DataTypeDeclarationReference" />
     <node concept="3EZMnI" id="6VTlRjrD5V2" role="2wV5jI">
       <node concept="1iCGBv" id="6VTlRjrD5V3" role="3EZMnx">
         <ref role="1NtTu8" to="auek:6VTlRjrCuOl" />
