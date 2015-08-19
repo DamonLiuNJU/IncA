@@ -5,7 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.test/org.eclipse.incquery.mps.test.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" folder="core" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" folder="core" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.runtime/org.eclipse.incquery.mps.test.runtime.msd" folder="tests" />
     </projectModules>

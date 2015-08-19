@@ -399,7 +399,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="RjyNapTFLl">
-    <property role="TrG5h" value="ConceptReferenceType" />
+    <property role="TrG5h" value="ConceptReference" />
     <property role="3GE5qa" value="content" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6hXIxNuN5nr" role="1TKVEi">
@@ -407,6 +407,9 @@
       <property role="20kJfa" value="concept" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="PrWs8" id="6VTlRjrCuQw" role="PzmwI">
+      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="IVariableType" />
     </node>
   </node>
   <node concept="1TIwiD" id="RjyNapTGrz">
@@ -429,7 +432,7 @@
     <node concept="1TJgyj" id="RjyNapTGvO" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
-      <ref role="20lvS9" node="RjyNapTFLl" resolve="ConceptReferenceType" />
+      <ref role="20lvS9" node="6VTlRjrCuQt" resolve="IVariableType" />
     </node>
     <node concept="PrWs8" id="3PSXutn0eCN" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -760,6 +763,24 @@
     <node concept="PrWs8" id="PYrpmkKaVk" role="PzmwI">
       <ref role="PrY4T" node="6FK1Pb8RsTS" resolve="Constraint" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6VTlRjrCuGI">
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="DataTypeDeclarationReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6VTlRjrCuOl" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
+    </node>
+    <node concept="PrWs8" id="6VTlRjrCuQu" role="PzmwI">
+      <ref role="PrY4T" node="6VTlRjrCuQt" resolve="IVariableType" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6VTlRjrCuQt">
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IVariableType" />
   </node>
 </model>
 
