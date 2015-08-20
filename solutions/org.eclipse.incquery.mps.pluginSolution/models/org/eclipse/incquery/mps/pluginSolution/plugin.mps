@@ -3869,7 +3869,7 @@
                     <ref role="3cqZAo" node="4dLFELwtGRg" resolve="specification" />
                   </node>
                   <node concept="liA8E" id="4dLFELwtJWF" role="2OqNvi">
-                    <ref role="37wK5l" to="2t7v:~PQuery.getFullyQualifiedName():java.lang.String" resolve="getFullyQualifiedName" />
+                    <ref role="37wK5l" to="u14l:~BaseQuerySpecification.getFullyQualifiedName():java.lang.String" resolve="getFullyQualifiedName" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="1QJs$A9HedH" role="3uHU7w">
