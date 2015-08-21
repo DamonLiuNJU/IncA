@@ -198,15 +198,15 @@
       <node concept="1_1VsX" id="3M$nrz38alI" role="1_17hK">
         <property role="1_1VsW" value="A" />
         <ref role="1_1Td7" node="3M$nrz38ame" resolve="Gabor Bergmann" />
+        <node concept="1Km8a0" id="3M$nrz38alO" role="1_1Tts">
+          <ref role="1Km8a7" node="3M$nrz38am4" resolve="Model-driven software development" />
+        </node>
         <node concept="1Km8dn" id="3M$nrz38alM" role="1_1Tto">
           <property role="TrG5h" value="Attila Jambor" />
           <ref role="1_17$4" node="3M$nrz38alI" />
           <node concept="1Km8aO" id="3M$nrz38alN" role="1Km8aT">
             <ref role="1Km8aV" node="3M$nrz38alJ" resolve="Tamas Szabo" />
           </node>
-        </node>
-        <node concept="1Km8a0" id="3M$nrz38alO" role="1_1Tts">
-          <ref role="1Km8a7" node="3M$nrz38am4" resolve="Model-driven software development" />
         </node>
         <node concept="1Km8dn" id="3M$nrz38alJ" role="1_1Tto">
           <property role="TrG5h" value="Tamas Szabo" />
@@ -218,10 +218,6 @@
             <ref role="1Km8aV" node="3M$nrz38alQ" resolve="Istvan David" />
           </node>
         </node>
-      </node>
-      <node concept="1_1VsX" id="3M$nrz38alP" role="1_17hK">
-        <property role="1_1VsW" value="B" />
-        <ref role="1_1Td7" node="3M$nrz38am8" resolve="Istvan Rath" />
         <node concept="1Km8dn" id="3M$nrz38alQ" role="1_1Tto">
           <property role="TrG5h" value="Istvan David" />
           <ref role="1_17$4" node="3M$nrz38alP" />
@@ -229,6 +225,24 @@
             <ref role="1Km8aV" node="3M$nrz38alW" resolve="Tamas Karai" />
           </node>
         </node>
+        <node concept="1Km8dn" id="3M$nrz38alW" role="1_1Tto">
+          <property role="TrG5h" value="Tamas Karai" />
+          <ref role="1_17$4" node="3M$nrz38alV" />
+          <node concept="1Km8aO" id="3M$nrz38alX" role="1Km8aT">
+            <ref role="1Km8aV" node="3M$nrz38alJ" resolve="Tamas Szabo" />
+          </node>
+        </node>
+        <node concept="1Km8dn" id="3M$nrz38am0" role="1_1Tto">
+          <property role="TrG5h" value="Daniel Darvas" />
+          <ref role="1_17$4" node="3M$nrz38alZ" />
+          <node concept="1Km8aO" id="3M$nrz38am1" role="1Km8aT">
+            <ref role="1Km8aV" node="3M$nrz38alM" resolve="Attila Jambor" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_1VsX" id="3M$nrz38alP" role="1_17hK">
+        <property role="1_1VsW" value="B" />
+        <ref role="1_1Td7" node="3M$nrz38am8" resolve="Istvan Rath" />
         <node concept="1Km8a0" id="3M$nrz38alS" role="1_1Tts">
           <ref role="1Km8a7" node="3M$nrz38am3" resolve="Formal methods" />
         </node>
@@ -243,13 +257,6 @@
       <node concept="1_1VsX" id="3M$nrz38alV" role="1_17hK">
         <property role="1_1VsW" value="C" />
         <ref role="1_1Td7" node="3M$nrz38am8" resolve="Istvan Rath" />
-        <node concept="1Km8dn" id="3M$nrz38alW" role="1_1Tto">
-          <property role="TrG5h" value="Tamas Karai" />
-          <ref role="1_17$4" node="3M$nrz38alV" />
-          <node concept="1Km8aO" id="3M$nrz38alX" role="1Km8aT">
-            <ref role="1Km8aV" node="3M$nrz38alJ" resolve="Tamas Szabo" />
-          </node>
-        </node>
         <node concept="1Km8a0" id="3M$nrz38alY" role="1_1Tts">
           <ref role="1Km8a7" node="3M$nrz38am5" resolve="Static analysis" />
         </node>
@@ -257,13 +264,6 @@
       <node concept="1_1VsX" id="3M$nrz38alZ" role="1_17hK">
         <property role="1_1VsW" value="D" />
         <ref role="1_1Td7" node="3M$nrz38amb" resolve="Istvan Majzik" />
-        <node concept="1Km8dn" id="3M$nrz38am0" role="1_1Tto">
-          <property role="TrG5h" value="Daniel Darvas" />
-          <ref role="1_17$4" node="3M$nrz38alZ" />
-          <node concept="1Km8aO" id="3M$nrz38am1" role="1Km8aT">
-            <ref role="1Km8aV" node="3M$nrz38alM" resolve="Attila Jambor" />
-          </node>
-        </node>
         <node concept="1Km8a0" id="3M$nrz38am2" role="1_1Tts">
           <ref role="1Km8a7" node="3M$nrz38am7" resolve="Fault-tolerant safety-critical computing" />
         </node>

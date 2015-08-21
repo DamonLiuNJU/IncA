@@ -210,6 +210,7 @@
       <library file="${build.tmp}/deps/org.eclipse.incquery.mps/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.jar" />
       <library file="${build.tmp}/deps/org.eclipse.incquery.mps/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.pluginSolution.jar" />
       <library file="${build.tmp}/deps/org.eclipse.incquery.mps/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.runtime.jar" />
+      <library file="${build.tmp}/deps/org.eclipse.incquery.mps/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.wb.jar" />
       <chunk>
         <module file="${mps.incquery}/languages/org.eclipse.incquery.mps.test/org.eclipse.incquery.mps.test.mpl" />
       </chunk>
@@ -490,6 +491,7 @@
       <pathelement location="${build.tmp}/deps/org.eclipse.incquery.mps/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.jar" />
       <pathelement location="${build.tmp}/deps/org.eclipse.incquery.mps/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.pluginSolution.jar" />
       <pathelement location="${build.tmp}/deps/org.eclipse.incquery.mps/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.runtime.jar" />
+      <pathelement location="${build.tmp}/deps/org.eclipse.incquery.mps/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.wb.jar" />
     </path>
     <pathconvert pathsep="${path.separator}" property="mps.libraries.path.string" refid="mps.libraries.path" />
     <path id="mps.plugins.path">

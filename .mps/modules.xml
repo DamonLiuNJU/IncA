@@ -8,6 +8,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" folder="core" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.runtime/org.eclipse.incquery.mps.test.runtime.msd" folder="tests" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.wb/org.eclipse.incquery.mps.wb.msd" folder="core" />
     </projectModules>
   </component>
 </project>
