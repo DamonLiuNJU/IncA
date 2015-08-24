@@ -2261,14 +2261,11 @@
                         <ref role="37wK5l" node="4BWlfm3pp44" resolve="PatternMatcherContent" />
                         <node concept="1eOMI4" id="4dLFELwtpHo" role="37wK5m">
                           <node concept="10QFUN" id="4dLFELwtpHl" role="1eOMHV">
-                            <node concept="3uibUv" id="4dLFELwtpXq" role="10QFUM">
-                              <ref role="3uigEE" to="67jt:~GenericQuerySpecification" resolve="GenericQuerySpecification" />
-                              <node concept="3uibUv" id="4dLFELwtqrM" role="11_B2D">
-                                <ref role="3uigEE" to="67jt:~GenericPatternMatcher" resolve="GenericPatternMatcher" />
-                              </node>
-                            </node>
                             <node concept="37vLTw" id="4dLFELwtqFy" role="10QFUP">
                               <ref role="3cqZAo" node="4dLFELwt39J" resolve="specification" />
+                            </node>
+                            <node concept="3uibUv" id="5zZZilAhToJ" role="10QFUM">
+                              <ref role="3uigEE" to="f1uo:2cknNXbyT0X" resolve="MPSQuerySpecification" />
                             </node>
                           </node>
                         </node>
@@ -3186,11 +3183,8 @@
       <property role="TrG5h" value="specification" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tm6S6" id="4dLFELwtGvr" role="1B3o_S" />
-      <node concept="3uibUv" id="4dLFELwtGDx" role="1tU5fm">
-        <ref role="3uigEE" to="67jt:~GenericQuerySpecification" resolve="GenericQuerySpecification" />
-        <node concept="3uibUv" id="4dLFELwtGQ6" role="11_B2D">
-          <ref role="3uigEE" to="67jt:~GenericPatternMatcher" resolve="GenericPatternMatcher" />
-        </node>
+      <node concept="3uibUv" id="5zZZilAhfAF" role="1tU5fm">
+        <ref role="3uigEE" to="f1uo:2cknNXbyT0X" resolve="MPSQuerySpecification" />
       </node>
     </node>
     <node concept="312cEg" id="501uy$oZd4v" role="jymVt">
@@ -3244,11 +3238,8 @@
       <node concept="37vLTG" id="4BWlfm3pp4c" role="3clF46">
         <property role="TrG5h" value="specification" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="4BWlfm3pp4d" role="1tU5fm">
-          <ref role="3uigEE" to="67jt:~GenericQuerySpecification" resolve="GenericQuerySpecification" />
-          <node concept="3uibUv" id="4RsLK_FEy7O" role="11_B2D">
-            <ref role="3uigEE" to="67jt:~GenericPatternMatcher" resolve="GenericPatternMatcher" />
-          </node>
+        <node concept="3uibUv" id="5zZZilAh0p0" role="1tU5fm">
+          <ref role="3uigEE" to="f1uo:2cknNXbyT0X" resolve="MPSQuerySpecification" />
         </node>
       </node>
       <node concept="37vLTG" id="4BWlfm3pp48" role="3clF46">
@@ -3319,7 +3310,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4SW1v$c065Y" role="3cqZAp" />
+        <node concept="3clFbH" id="5zZZilAgCyk" role="3cqZAp" />
         <node concept="3cpWs8" id="501uy$p1jfN" role="3cqZAp">
           <node concept="3cpWsn" id="501uy$p1jfO" role="3cpWs9">
             <property role="TrG5h" value="builder" />
@@ -3330,8 +3321,8 @@
               </node>
             </node>
             <node concept="2YIFZM" id="501uy$p1mB5" role="33vP2m">
-              <ref role="37wK5l" to="zbgy:~ObservablePatternMatchCollectionBuilder.create(org.eclipse.incquery.runtime.api.IQuerySpecification):org.eclipse.incquery.databinding.runtime.collection.ObservablePatternMatchCollectionBuilder" resolve="create" />
               <ref role="1Pybhc" to="zbgy:~ObservablePatternMatchCollectionBuilder" resolve="ObservablePatternMatchCollectionBuilder" />
+              <ref role="37wK5l" to="zbgy:~ObservablePatternMatchCollectionBuilder.create(org.eclipse.incquery.runtime.api.IQuerySpecification):org.eclipse.incquery.databinding.runtime.collection.ObservablePatternMatchCollectionBuilder" resolve="create" />
               <node concept="37vLTw" id="501uy$p1mFv" role="37wK5m">
                 <ref role="3cqZAo" node="4BWlfm3pp4c" resolve="specification" />
               </node>
