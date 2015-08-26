@@ -418,6 +418,12 @@
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
+        <node concept="1SiIV0" id="5sAkJduuuhS" role="3bR37C">
+          <node concept="3bR9La" id="5sAkJduuuhT" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2Zh2tjQSyQt" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -857,6 +863,12 @@
           <node concept="3bR9La" id="2tNwKiVHqER" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="5s2qsFwpov" resolve="org.eclipse.incquery.mps.wb" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5sAkJduuurZ" role="3bR37C">
+          <node concept="3bR9La" id="5sAkJduuus0" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8Y" resolve="jetbrains.mps.lang.project" />
           </node>
         </node>
       </node>
