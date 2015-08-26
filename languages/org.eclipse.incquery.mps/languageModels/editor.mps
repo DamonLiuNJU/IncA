@@ -316,7 +316,7 @@
   </node>
   <node concept="24kQdi" id="RjyNapPtPL">
     <property role="3GE5qa" value="values" />
-    <ref role="1XX52x" to="auek:RjyNapPtPn" resolve="FunctionEvaluationValue" />
+    <ref role="1XX52x" to="auek:RjyNapPtPn" resolve="ExpressionEvaluationValue" />
     <node concept="3EZMnI" id="RjyNapPtPN" role="2wV5jI">
       <node concept="3F0ifn" id="RjyNapPtPX" role="3EZMnx">
         <property role="3F0ifm" value="eval (" />
@@ -603,6 +603,9 @@
           <node concept="3F0A7n" id="6hXIxNuN5yI" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="VechU" id="5rUQZrcGcMH" role="3F10Kt">
+              <property role="Vb096" value="DARK_GREEN" />
+            </node>
           </node>
         </node>
       </node>
@@ -689,6 +692,9 @@
     <node concept="3EZMnI" id="RjyNapTGwg" role="2wV5jI">
       <node concept="3F0A7n" id="RjyNapTGwq" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="VechU" id="5rUQZrcFZxy" role="3F10Kt">
+          <property role="Vb096" value="DARK_BLUE" />
+        </node>
       </node>
       <node concept="3EZMnI" id="RjyNapTGwy" role="3EZMnx">
         <node concept="VPM3Z" id="RjyNapTGw$" role="3F10Kt">
@@ -1079,6 +1085,9 @@
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           <ref role="1ERwB7" node="3hiszdZxPZB" resolve="VariableReference_Delete" />
+          <node concept="VechU" id="5rUQZrcGq3K" role="3F10Kt">
+            <property role="Vb096" value="DARK_BLUE" />
+          </node>
         </node>
       </node>
     </node>
@@ -1095,6 +1104,9 @@
     <ref role="1XX52x" to="auek:6L84cjtSlH$" resolve="TemporaryVariable" />
     <node concept="3F0A7n" id="EE49sS3PAT" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      <node concept="VechU" id="5rUQZrcGq3$" role="3F10Kt">
+        <property role="Vb096" value="DARK_BLUE" />
+      </node>
     </node>
   </node>
   <node concept="1h_SRR" id="3hiszdZxPZB">
@@ -1551,6 +1563,9 @@
           <node concept="3F0A7n" id="6VTlRjrD5V5" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="VechU" id="5rUQZrcGcMP" role="3F10Kt">
+              <property role="Vb096" value="DARK_GREEN" />
+            </node>
           </node>
         </node>
       </node>
