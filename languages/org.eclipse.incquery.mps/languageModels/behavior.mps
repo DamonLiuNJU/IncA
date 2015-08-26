@@ -642,7 +642,7 @@
           <node concept="37vLTI" id="6hXIxNuN5Zx" role="3clFbG">
             <node concept="2OqwBi" id="6VTlRjrHnjd" role="37vLTx">
               <node concept="35c_gC" id="6VTlRjrHnd_" role="2Oq$k0">
-                <ref role="35c_gD" to="tp25:gzTqbfa" resolve="SNodeType" />
+                <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
               </node>
               <node concept="FGMqu" id="6VTlRjrHnxe" role="2OqNvi" />
             </node>
