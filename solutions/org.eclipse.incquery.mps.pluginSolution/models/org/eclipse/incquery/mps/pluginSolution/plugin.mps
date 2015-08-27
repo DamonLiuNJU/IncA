@@ -3603,6 +3603,25 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="1USmIcaMxGD" role="3cqZAp">
+              <node concept="2OqwBi" id="1USmIcaMxGE" role="3clFbG">
+                <node concept="2OqwBi" id="1USmIcaMxGF" role="2Oq$k0">
+                  <node concept="10M0yZ" id="1USmIcaMxGG" role="2Oq$k0">
+                    <ref role="1PxDUh" node="492h0wvb3Z" resolve="QueryExplorer" />
+                    <ref role="3cqZAo" node="4BWlfm3I62W" resolve="INSTANCE" />
+                  </node>
+                  <node concept="2OwXpG" id="1USmIcaMxGH" role="2OqNvi">
+                    <ref role="2Oxat5" node="3y8JQcLu$WG" resolve="treeModel" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1USmIcaMxGI" role="2OqNvi">
+                  <ref role="37wK5l" to="osf5:~DefaultTreeModel.nodeChanged(javax.swing.tree.TreeNode):void" resolve="nodeChanged" />
+                  <node concept="37vLTw" id="1USmIcaMzGi" role="37wK5m">
+                    <ref role="3cqZAo" node="2N0ZEIaAbDx" resolve="matchContent" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="3clFbC" id="2N0ZEIaAsdC" role="3clFbw">
             <node concept="10Nm6u" id="2N0ZEIaAsel" role="3uHU7w" />
