@@ -394,6 +394,12 @@
             <ref role="3bR37D" node="2Zh2tjQSyQt" resolve="org.eclipse.incquery.mps.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="X9$HgaasxD" role="3bR37C">
+          <node concept="3bR9La" id="X9$HgaasxE" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5s2qsFwpov" role="2G$12L">
         <property role="BnDLt" value="true" />
