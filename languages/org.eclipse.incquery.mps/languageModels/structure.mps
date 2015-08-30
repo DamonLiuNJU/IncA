@@ -102,6 +102,9 @@
     <node concept="PrWs8" id="7i4WCRXxitV" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="51PDsydne7h" role="PzmwI">
+      <ref role="PrY4T" node="1YBYCQ13COO" resolve="IGenNameProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="RjyNapPd_K">
     <property role="TrG5h" value="Parameter" />
