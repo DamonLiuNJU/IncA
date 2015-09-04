@@ -1,6 +1,7 @@
 *.class
 build/*
-.mps/workspace.xml
+.mps
+.mps/*
 **/classes_gen/*
 **/source_gen/*
 **/source_gen.caches/*
