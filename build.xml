@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.eclipse.incquery.mps" />
   <property name="build.layout" location="${build.dir}/artifacts/org.eclipse.incquery.mps" />
-  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS_3.2.2.app/Contents" />
+  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS_3.3.app/Contents" />
   <property name="mps.incquery" location="${basedir}" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -211,31 +211,6 @@
       <zipfileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.eclipse.incquery.mps-runtime-models" prefix="module/models" />
     </jar>
-    <mkdir dir="${build.tmp}/default/org.eclipse.incquery.mps.build.jar" />
-    <mkdir dir="${build.tmp}/default/org.eclipse.incquery.mps.build.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/org.eclipse.incquery.mps.build.jar/META-INF/module.xml">
-      <module namespace="org.eclipse.incquery.mps.build" type="solution" uuid="952631b6-abf7-4216-aaa0-43838b433fe2">
-        <dependencies />
-        <sources jar="org.eclipse.incquery.mps.build-src.jar" descriptor="org.eclipse.incquery.mps.build.msd" />
-      </module>
-    </echoxml>
-    <jar destfile="${build.tmp}/default/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.build.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/java/out/org.eclipse.incquery.mps.build" />
-      <fileset dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build" includes="icons/**, resources/**" />
-      <fileset dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/source_gen" includes="**/trace.info, **/exports" />
-      <fileset dir="${build.tmp}/default/org.eclipse.incquery.mps.build.jar" />
-    </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.eclipse.incquery.mps.build-models">
-      <fileset dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
-    <jar destfile="${build.tmp}/default/org.eclipse.incquery.mps.zip/org.eclipse.incquery.mps/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.build-src.jar" duplicate="preserve">
-      <fileset dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/source_gen">
-        <exclude name="**/trace.info" />
-        <exclude name="**/exports" />
-      </fileset>
-      <zipfileset file="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.eclipse.incquery.mps.build-models" prefix="module/models" />
-    </jar>
     <zip destfile="${build.layout}/org.eclipse.incquery.mps.zip">
       <zipfileset dir="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib" prefix="org.eclipse.incquery.mps/lib" />
       <fileset dir="${build.tmp}/default/org.eclipse.incquery.mps.zip" />
@@ -254,7 +229,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.org.eclipse.incquery.mps, java.compile.org.eclipse.incquery.mps#996292992024245337, java.compile.org.eclipse.incquery.mps.pluginSolution, java.compile.org.eclipse.incquery.mps.wb, java.compile.org.eclipse.incquery.mps.runtime, java.compile.org.eclipse.incquery.mps.build" />
+  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.org.eclipse.incquery.mps, java.compile.org.eclipse.incquery.mps#996292992024245337, java.compile.org.eclipse.incquery.mps.pluginSolution, java.compile.org.eclipse.incquery.mps.wb, java.compile.org.eclipse.incquery.mps.runtime" />
   
   <target name="processResources" />
   
@@ -337,15 +312,8 @@
       <library file="${artifacts.mps}/lib/mps-tool.jar" />
       <library file="${artifacts.mps}/lib/mps-tuples.jar" />
       <library file="${artifacts.mps}/lib/mps-workbench.jar" />
-      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
-      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
-      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.tests.jar" />
-      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
-      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
-      <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <chunk>
         <module file="${mps.incquery}/languages/org.eclipse.incquery.mps/org.eclipse.incquery.mps.mpl" />
-        <module file="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" />
         <module file="${mps.incquery}/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" />
         <module file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/org.eclipse.incquery.mps.runtime.msd" />
         <module file="${mps.incquery}/solutions/org.eclipse.incquery.mps.wb/org.eclipse.incquery.mps.wb.msd" />
@@ -734,24 +702,8 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.eclipse.incquery.mps.build">
-    <mkdir dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/org.eclipse.incquery.mps.build" />
-    <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.build" fork="false" includeantruntime="false" source="1.6" target="1.6">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/source_gen" />
-      </src>
-      <classpath />
-    </javac>
-    <copy todir="${build.tmp}/java/out/org.eclipse.incquery.mps.build">
-      <fileset dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/source_gen" excludes="**/*.java" />
-    </copy>
-  </target>
-  
   <target name="cleanSources">
     <delete dir="${mps.incquery}/languages/org.eclipse.incquery.mps/source_gen" />
-    <delete dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.build/source_gen" />
     <delete dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.pluginSolution/source_gen" />
     <delete dir="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/source_gen" />
     <delete dir="${mps.incquery}/solutions/org.eclipse.incquery.mps.wb/source_gen" />

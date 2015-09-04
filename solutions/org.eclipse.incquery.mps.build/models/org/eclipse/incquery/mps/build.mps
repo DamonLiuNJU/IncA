@@ -164,7 +164,7 @@
                       <node concept="2Ry0Ak" id="1DxZyGUJaHM" role="2Ry0An">
                         <property role="2Ry0Am" value="Applications" />
                         <node concept="2Ry0Ak" id="1DxZyGUJaHN" role="2Ry0An">
-                          <property role="2Ry0Am" value="MPS_3.2.2.app" />
+                          <property role="2Ry0Am" value="MPS_3.3.app" />
                           <node concept="2Ry0Ak" id="1DxZyGUJaHO" role="2Ry0An">
                             <property role="2Ry0Am" value="Contents" />
                           </node>
@@ -875,30 +875,6 @@
           <node concept="3bR9La" id="5sAkJduuus0" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L8Y" resolve="jetbrains.mps.lang.project" />
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtA" id="69NMDwEoT2y" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.eclipse.incquery.mps.build" />
-        <property role="3LESm3" value="952631b6-abf7-4216-aaa0-43838b433fe2" />
-        <property role="2GAjPV" value="false" />
-        <node concept="398BVA" id="7IYto4uHnVn" role="3LF7KH">
-          <ref role="398BVh" node="2Zh2tjQSyQa" resolve="mps.incquery" />
-          <node concept="2Ry0Ak" id="7IYto4uHnVs" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="7IYto4uHnVt" role="2Ry0An">
-              <property role="2Ry0Am" value="org.eclipse.incquery.mps.build" />
-              <node concept="2Ry0Ak" id="7IYto4uHnVu" role="2Ry0An">
-                <property role="2Ry0Am" value="org.eclipse.incquery.mps.build.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="69NMDwEoYBa" role="3bR37C">
-          <node concept="3bR9La" id="69NMDwEoYBb" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
           </node>
         </node>
       </node>
