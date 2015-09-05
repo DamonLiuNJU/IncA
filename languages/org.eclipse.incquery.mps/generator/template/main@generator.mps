@@ -315,6 +315,7 @@
         <child id="1167945861827" name="conditionFunction" index="3IZSJc" />
       </concept>
       <concept id="1118786554307" name="jetbrains.mps.lang.generator.structure.LoopMacro" flags="ln" index="1WS0z7">
+        <property id="7430509679011668804" name="counterVarName" index="1qytDF" />
         <child id="1167952069335" name="sourceNodesQuery" index="3Jn$fo" />
       </concept>
       <concept id="1088761943574" name="jetbrains.mps.lang.generator.structure.ReferenceMacro" flags="ln" index="1ZhdrF">
@@ -8783,8 +8784,8 @@
                     <property role="2qtEX8" value="conceptDeclaration" />
                     <node concept="3$xsQk" id="2cknNXbDEGU" role="3$ytzL">
                       <node concept="3clFbS" id="2cknNXbDEGV" role="2VODD2">
-                        <node concept="3clFbF" id="2cknNXbDEGW" role="3cqZAp">
-                          <node concept="30H73N" id="2cknNXbDEGX" role="3clFbG" />
+                        <node concept="3cpWs6" id="5O4bqrThqm1" role="3cqZAp">
+                          <node concept="30H73N" id="5O4bqrThqm2" role="3cqZAk" />
                         </node>
                       </node>
                     </node>
@@ -8795,13 +8796,14 @@
             </node>
           </node>
           <node concept="1WS0z7" id="2cknNXbDEGY" role="lGtFl">
+            <property role="1qytDF" value="iter" />
             <node concept="3JmXsc" id="2cknNXbDEGZ" role="3Jn$fo">
               <node concept="3clFbS" id="2cknNXbDEH0" role="2VODD2">
                 <node concept="3cpWs6" id="2ATu8MxLnk7" role="3cqZAp">
-                  <node concept="2YIFZM" id="2Iiqklp5ueY" role="3cqZAk">
-                    <ref role="37wK5l" to="f1uo:3sUe9pq51AO" resolve="getConceptUsages_Simple" />
+                  <node concept="2YIFZM" id="5O4bqrTgvzi" role="3cqZAk">
+                    <ref role="37wK5l" to="f1uo:3sUe9pq6SfQ" resolve="getConceptUsages_Opt" />
                     <ref role="1Pybhc" to="f1uo:3sUe9pq4Jeh" resolve="Hints" />
-                    <node concept="30H73N" id="2Iiqklp5ueZ" role="37wK5m" />
+                    <node concept="30H73N" id="5O4bqrTgvzj" role="37wK5m" />
                   </node>
                 </node>
               </node>
