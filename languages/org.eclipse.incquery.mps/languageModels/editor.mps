@@ -10,7 +10,7 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -222,6 +222,24 @@
     <ref role="1XX52x" to="auek:RjyNapP11f" resolve="Pattern" />
     <node concept="3EZMnI" id="RjyNapW$v1" role="2wV5jI">
       <node concept="3EZMnI" id="RjyNapPkO9" role="3EZMnx">
+        <node concept="3F0ifn" id="23tFywwdZVs" role="3EZMnx">
+          <property role="3F0ifm" value="private" />
+          <node concept="pkWqt" id="23tFywwdZVQ" role="pqm2j">
+            <node concept="3clFbS" id="23tFywwdZVR" role="2VODD2">
+              <node concept="3cpWs6" id="23tFywwdZYq" role="3cqZAp">
+                <node concept="2OqwBi" id="23tFywwe08C" role="3cqZAk">
+                  <node concept="pncrf" id="23tFywwe017" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="23tFywwe0x4" role="2OqNvi">
+                    <ref role="3TsBF5" to="auek:23tFywwdZSk" resolve="isPrivate" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="VPxyj" id="23tFywwhJNf" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
         <node concept="3F0ifn" id="RjyNapPkOg" role="3EZMnx">
           <property role="3F0ifm" value="pattern" />
         </node>
@@ -260,7 +278,7 @@
       </node>
       <node concept="3F0ifn" id="RjyNaq0y4U" role="3EZMnx">
         <property role="3F0ifm" value="}" />
-        <ref role="1ERwB7" node="8FTmV8o6Da" resolve="Pattern_RemovePatternBody" />
+        <ref role="1ERwB7" node="8FTmV8o6Da" resolve="Pattern_ActionMap" />
       </node>
       <node concept="2iRkQZ" id="RjyNapW$v2" role="2iSdaV" />
     </node>
@@ -534,7 +552,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="RjyNapTEjC" role="2OqNvi">
-                              <ref role="37wK5l" to="e2lb:~Object.toString():java.lang.String" resolve="toString" />
+                              <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
                             </node>
                           </node>
                         </node>
@@ -1187,7 +1205,7 @@
     </node>
   </node>
   <node concept="1h_SRR" id="8FTmV8o6Da">
-    <property role="TrG5h" value="Pattern_RemovePatternBody" />
+    <property role="TrG5h" value="Pattern_ActionMap" />
     <ref role="1h_SK9" to="auek:RjyNapP11f" resolve="Pattern" />
     <node concept="1hA7zw" id="8FTmV8o6KF" role="1h_SK8">
       <property role="1hAc7j" value="backspace_action_id" />

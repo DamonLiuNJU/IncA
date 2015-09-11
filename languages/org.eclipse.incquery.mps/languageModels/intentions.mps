@@ -181,7 +181,8 @@
     </node>
   </node>
   <node concept="2S6QgY" id="RjyNaq4$Y9">
-    <property role="TrG5h" value="MakePatternCallNonTransitive" />
+    <property role="TrG5h" value="PatternCall_MakeNonTransitive" />
+    <property role="3GE5qa" value="constraints" />
     <ref role="2ZfgGC" to="auek:RjyNapPtMC" resolve="PatternCall" />
     <node concept="2S6ZIM" id="RjyNaq4$Ya" role="2ZfVej">
       <node concept="3clFbS" id="RjyNaq4$Yb" role="2VODD2">
@@ -288,7 +289,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="6L84cjtS70M">
-    <property role="TrG5h" value="AddVariableTypeSpecifier" />
+    <property role="TrG5h" value="Variable_AddTypeSpecifier" />
     <property role="3GE5qa" value="content" />
     <ref role="2ZfgGC" to="auek:RjyNapTGvK" resolve="Variable" />
     <node concept="2S6ZIM" id="6L84cjtS70N" role="2ZfVej">
@@ -307,7 +308,7 @@
             <node concept="2ShNRf" id="6L84cjtS849" role="37vLTx">
               <node concept="3zrR0B" id="6L84cjtS7Uk" role="2ShVmc">
                 <node concept="3Tqbb2" id="6L84cjtS7Ul" role="3zrR0E">
-                  <ref role="ehGHo" to="auek:RjyNapTFLl" resolve="ConceptReferenceType" />
+                  <ref role="ehGHo" to="auek:RjyNapTFLl" resolve="ConceptReference" />
                 </node>
               </node>
             </node>
@@ -348,7 +349,8 @@
     </node>
   </node>
   <node concept="2S6QgY" id="6L84cjtSa8M">
-    <property role="TrG5h" value="RemoveVariableTypeSpecifier" />
+    <property role="TrG5h" value="Variable_RemoveTypeSpecifier" />
+    <property role="3GE5qa" value="content" />
     <ref role="2ZfgGC" to="auek:RjyNapTGvK" resolve="Variable" />
     <node concept="2S6ZIM" id="6L84cjtSa8N" role="2ZfVej">
       <node concept="3clFbS" id="6L84cjtSa8O" role="2VODD2">
@@ -576,7 +578,7 @@
   </node>
   <node concept="2S6QgY" id="6L84cjtVh0x">
     <property role="3GE5qa" value="content" />
-    <property role="TrG5h" value="RefType_SpecifyIndexForReference" />
+    <property role="TrG5h" value="LinkDeclarationType_SpecifyIndex" />
     <ref role="2ZfgGC" to="auek:RjyNapTGrz" resolve="LinkDeclarationType" />
     <node concept="2S6ZIM" id="6L84cjtVh0y" role="2ZfVej">
       <node concept="3clFbS" id="6L84cjtVh0z" role="2VODD2">
@@ -851,6 +853,42 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="23tFywwhJZ3">
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="Pattern_MakePrivate" />
+    <ref role="2ZfgGC" to="auek:RjyNapP11f" resolve="Pattern" />
+    <node concept="2Sbjvc" id="23tFywwhJZ4" role="2ZfgGD">
+      <node concept="3clFbS" id="23tFywwhJZ5" role="2VODD2">
+        <node concept="3clFbF" id="23tFywwhLwf" role="3cqZAp">
+          <node concept="37vLTI" id="23tFywwhM94" role="3clFbG">
+            <node concept="3fqX7Q" id="23tFywwhNlJ" role="37vLTx">
+              <node concept="2OqwBi" id="23tFywwhNlL" role="3fr31v">
+                <node concept="2Sf5sV" id="23tFywwhNlM" role="2Oq$k0" />
+                <node concept="3TrcHB" id="23tFywwhNlN" role="2OqNvi">
+                  <ref role="3TsBF5" to="auek:23tFywwdZSk" resolve="isPrivate" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="23tFywwhLys" role="37vLTJ">
+              <node concept="2Sf5sV" id="23tFywwhLwd" role="2Oq$k0" />
+              <node concept="3TrcHB" id="23tFywwhLRz" role="2OqNvi">
+                <ref role="3TsBF5" to="auek:23tFywwdZSk" resolve="isPrivate" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2S6ZIM" id="23tFywwhJZ6" role="2ZfVej">
+      <node concept="3clFbS" id="23tFywwhJZ7" role="2VODD2">
+        <node concept="3clFbF" id="23tFywwhKe0" role="3cqZAp">
+          <node concept="Xl_RD" id="23tFywwhKdZ" role="3clFbG">
+            <property role="Xl_RC" value="Toogle private" />
           </node>
         </node>
       </node>
