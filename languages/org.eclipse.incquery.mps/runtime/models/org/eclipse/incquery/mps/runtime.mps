@@ -22995,6 +22995,27 @@
           </node>
         </node>
         <node concept="3clFbH" id="5VeZH95_4IO" role="3cqZAp" />
+        <node concept="3clFbJ" id="6BkldQUSYOh" role="3cqZAp">
+          <node concept="3clFbS" id="6BkldQUSYOj" role="3clFbx">
+            <node concept="3cpWs6" id="6BkldQUT6$c" role="3cqZAp">
+              <node concept="3clFbT" id="6BkldQUT6Bf" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6BkldQUT5aU" role="3clFbw">
+            <node concept="37vLTw" id="6BkldQUT4LB" role="2Oq$k0">
+              <ref role="3cqZAo" node="5VeZH95_bdt" resolve="allObservedConcepts" />
+            </node>
+            <node concept="liA8E" id="6BkldQUT6q0" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Set.contains(java.lang.Object):boolean" resolve="contains" />
+              <node concept="37vLTw" id="6BkldQUT6uk" role="37wK5m">
+                <ref role="3cqZAo" node="5VeZH95$kah" resolve="concept" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BkldQUSSRE" role="3cqZAp" />
         <node concept="3cpWs8" id="5VeZH95B6mf" role="3cqZAp">
           <node concept="3cpWsn" id="5VeZH95B6mg" role="3cpWs9">
             <property role="TrG5h" value="isDisjoint" />
@@ -30390,18 +30411,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1gVbGN" id="6x$PY51Ma$b" role="3cqZAp">
-                      <node concept="3fqX7Q" id="6x$PY51Mey5" role="1gVkn0">
-                        <node concept="2OqwBi" id="6x$PY51Mey7" role="3fr31v">
-                          <node concept="37vLTw" id="6x$PY51Mey8" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5lmC1XhpOD9" resolve="body_cs" />
-                          </node>
-                          <node concept="liA8E" id="6x$PY51Mey9" role="2OqNvi">
-                            <ref role="37wK5l" to="33ny:~Set.isEmpty():boolean" resolve="isEmpty" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
+                    <node concept="3clFbH" id="6BkldQURkyj" role="3cqZAp" />
                     <node concept="3cpWs8" id="5lmC1XhqtMq" role="3cqZAp">
                       <node concept="3cpWsn" id="5lmC1XhqtMw" role="3cpWs9">
                         <property role="TrG5h" value="constrained_body_cs" />
@@ -30508,18 +30518,6 @@
                       </node>
                     </node>
                     <node concept="3clFbH" id="6x$PY51MeBx" role="3cqZAp" />
-                    <node concept="1gVbGN" id="6x$PY51MfZZ" role="3cqZAp">
-                      <node concept="3fqX7Q" id="6x$PY51MgPc" role="1gVkn0">
-                        <node concept="2OqwBi" id="6x$PY51Mhoy" role="3fr31v">
-                          <node concept="37vLTw" id="6x$PY51MgZP" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5lmC1XhqtMw" resolve="constrained_body_cs" />
-                          </node>
-                          <node concept="liA8E" id="6x$PY51MiAN" role="2OqNvi">
-                            <ref role="37wK5l" to="33ny:~Set.isEmpty():boolean" resolve="isEmpty" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
                     <node concept="3clFbF" id="6x$PY51SAOd" role="3cqZAp">
                       <node concept="2OqwBi" id="6x$PY51SBKw" role="3clFbG">
                         <node concept="37vLTw" id="6x$PY51SAOb" role="2Oq$k0">
@@ -30627,18 +30625,6 @@
                       </node>
                       <node concept="37vLTw" id="23tFywwsuBK" role="37wK5m">
                         <ref role="3cqZAo" node="23tFywwsj_2" resolve="seenPatterns" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="1gVbGN" id="6x$PY51MiPB" role="3cqZAp">
-                  <node concept="3fqX7Q" id="6x$PY51MmX5" role="1gVkn0">
-                    <node concept="2OqwBi" id="6x$PY51MmX7" role="3fr31v">
-                      <node concept="37vLTw" id="6x$PY51MmX8" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5lmC1XhrL9B" resolve="body_cs" />
-                      </node>
-                      <node concept="liA8E" id="6x$PY51MmX9" role="2OqNvi">
-                        <ref role="37wK5l" to="33ny:~Set.isEmpty():boolean" resolve="isEmpty" />
                       </node>
                     </node>
                   </node>
@@ -31276,8 +31262,25 @@
         </node>
         <node concept="3clFbH" id="2ATu8MxK279" role="3cqZAp" />
         <node concept="3cpWs6" id="2ATu8MxKeMM" role="3cqZAp">
-          <node concept="37vLTw" id="5lmC1XhpNBg" role="3cqZAk">
-            <ref role="3cqZAo" node="5lmC1XhpayZ" resolve="concepts" />
+          <node concept="1eOMI4" id="6BkldQURlvl" role="3cqZAk">
+            <node concept="3K4zz7" id="6BkldQURlVI" role="1eOMHV">
+              <node concept="37vLTw" id="6BkldQURogg" role="3K4GZi">
+                <ref role="3cqZAo" node="5lmC1XhpayZ" resolve="concepts" />
+              </node>
+              <node concept="3clFbC" id="6BkldQURn3B" role="3K4Cdx">
+                <node concept="10Nm6u" id="6BkldQURnrn" role="3uHU7w" />
+                <node concept="37vLTw" id="6BkldQURmo8" role="3uHU7B">
+                  <ref role="3cqZAo" node="5lmC1XhpayZ" resolve="concepts" />
+                </node>
+              </node>
+              <node concept="2YIFZM" id="6BkldQURnRW" role="3K4E3e">
+                <ref role="37wK5l" to="33ny:~Collections.emptySet():java.util.Set" resolve="emptySet" />
+                <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                <node concept="3Tqbb2" id="6BkldQURZwZ" role="3PaCim">
+                  <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
