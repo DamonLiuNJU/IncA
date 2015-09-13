@@ -2309,22 +2309,33 @@
       <node concept="3clFbS" id="47VZ_g5dNRH" role="3clF47">
         <node concept="SfApY" id="47VZ_g5dR_h" role="3cqZAp">
           <node concept="3clFbS" id="47VZ_g5dR_i" role="SfCbr">
-            <node concept="3cpWs6" id="47VZ_g5edDP" role="3cqZAp">
-              <node concept="2YIFZM" id="47VZ_g5dWpv" role="3cqZAk">
-                <ref role="37wK5l" to="4k41:~AdvancedIncQueryEngine.createUnmanagedEngine(org.eclipse.incquery.runtime.api.scope.IncQueryScope):org.eclipse.incquery.runtime.api.AdvancedIncQueryEngine" resolve="createUnmanagedEngine" />
-                <ref role="1Pybhc" to="4k41:~AdvancedIncQueryEngine" resolve="AdvancedIncQueryEngine" />
-                <node concept="2YIFZM" id="6cJttNuqtiC" role="37wK5m">
-                  <ref role="1Pybhc" to="f1uo:3KgejumhMXD" resolve="MPSScope" />
-                  <ref role="37wK5l" to="f1uo:6cJttNupUNl" resolve="from" />
-                  <node concept="2OqwBi" id="47VZ_g5ebpe" role="37wK5m">
-                    <node concept="37vLTw" id="47VZ_g5ebns" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4BWlfm3wFtO" resolve="key" />
-                    </node>
-                    <node concept="liA8E" id="47VZ_g5ebJT" role="2OqNvi">
-                      <ref role="37wK5l" node="4BWlfm3poEi" resolve="getModel" />
+            <node concept="3cpWs8" id="526VibMIjYq" role="3cqZAp">
+              <node concept="3cpWsn" id="526VibMIjYr" role="3cpWs9">
+                <property role="TrG5h" value="engine" />
+                <node concept="3uibUv" id="526VibMIjYp" role="1tU5fm">
+                  <ref role="3uigEE" to="4k41:~AdvancedIncQueryEngine" resolve="AdvancedIncQueryEngine" />
+                </node>
+                <node concept="2YIFZM" id="526VibMIjYs" role="33vP2m">
+                  <ref role="37wK5l" to="4k41:~AdvancedIncQueryEngine.createUnmanagedEngine(org.eclipse.incquery.runtime.api.scope.IncQueryScope):org.eclipse.incquery.runtime.api.AdvancedIncQueryEngine" resolve="createUnmanagedEngine" />
+                  <ref role="1Pybhc" to="4k41:~AdvancedIncQueryEngine" resolve="AdvancedIncQueryEngine" />
+                  <node concept="2YIFZM" id="526VibMIjYt" role="37wK5m">
+                    <ref role="1Pybhc" to="f1uo:3KgejumhMXD" resolve="MPSScope" />
+                    <ref role="37wK5l" to="f1uo:6cJttNupUNl" resolve="from" />
+                    <node concept="2OqwBi" id="526VibMIjYu" role="37wK5m">
+                      <node concept="37vLTw" id="526VibMIjYv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4BWlfm3wFtO" resolve="key" />
+                      </node>
+                      <node concept="liA8E" id="526VibMIjYw" role="2OqNvi">
+                        <ref role="37wK5l" node="4BWlfm3poEi" resolve="getModel" />
+                      </node>
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="47VZ_g5edDP" role="3cqZAp">
+              <node concept="37vLTw" id="526VibMIjYx" role="3cqZAk">
+                <ref role="3cqZAo" node="526VibMIjYr" resolve="engine" />
               </node>
             </node>
           </node>
