@@ -188,9 +188,9 @@
         <library jar="../../lib/org.eclipse.incquery.runtime.evm_1.1.0.201509121550.jar" />
         <library jar="../../lib/org.eclipse.incquery.runtime.matchers_1.1.0.201509121550.jar" />
         <library jar="../../lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201509121550.jar" />
-        <library jar="../../lib/org.eclipse.incquery.runtime.rete_1.1.0.201509121550.jar" />
         <library jar="../../lib/org.eclipse.incquery.runtime_1.1.0.201509121550.jar" />
         <library jar="../../lib/org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" />
+        <library jar="../../lib/org.eclipse.incquery.runtime.rete_1.1.0.201509131207.jar" />
         <sources jar="org.eclipse.incquery.mps.runtime-src.jar" descriptor="org.eclipse.incquery.mps.runtime.msd" />
       </module>
     </echoxml>
@@ -391,9 +391,9 @@
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.evm_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.matchers_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201509121550.jar" />
-        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" />
+        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509131207.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -456,9 +456,9 @@
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.evm_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.matchers_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201509121550.jar" />
-        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" />
+        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509131207.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -527,9 +527,9 @@
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.evm_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.matchers_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201509121550.jar" />
-        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" />
+        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509131207.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -596,9 +596,9 @@
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.evm_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.matchers_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201509121550.jar" />
-        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" />
+        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509131207.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -692,9 +692,9 @@
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.evm_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.matchers_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201509121550.jar" />
-        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime_1.1.0.201509121550.jar" />
         <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" />
+        <fileset file="${mps.incquery}/languages/org.eclipse.incquery.mps/runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509131207.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />

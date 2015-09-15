@@ -862,28 +862,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="_lyupII2t6" role="3bR37C">
-          <node concept="1BurEX" id="_lyupII2t7" role="1SiIV1">
-            <node concept="398BVA" id="_lyupII2sU" role="1BurEY">
-              <ref role="398BVh" node="2Zh2tjQSyQa" resolve="mps.incquery" />
-              <node concept="2Ry0Ak" id="_lyupII2sV" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="_lyupII2sW" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
-                  <node concept="2Ry0Ak" id="_lyupII2sX" role="2Ry0An">
-                    <property role="2Ry0Am" value="runtime" />
-                    <node concept="2Ry0Ak" id="_lyupII2sY" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="_lyupII2sZ" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.incquery.runtime.rete_1.1.0.201509121550.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="_lyupII2tk" role="3bR37C">
           <node concept="1BurEX" id="_lyupII2tl" role="1SiIV1">
             <node concept="398BVA" id="_lyupII2t8" role="1BurEY">
@@ -920,6 +898,28 @@
                       <property role="2Ry0Am" value="lib" />
                       <node concept="2Ry0Ak" id="_lyupII2tr" role="2Ry0An">
                         <property role="2Ry0Am" value="org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7dAcCrB9iNu" role="3bR37C">
+          <node concept="1BurEX" id="7dAcCrB9iNv" role="1SiIV1">
+            <node concept="398BVA" id="7dAcCrB9iNi" role="1BurEY">
+              <ref role="398BVh" node="2Zh2tjQSyQa" resolve="mps.incquery" />
+              <node concept="2Ry0Ak" id="7dAcCrB9iNj" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7dAcCrB9iNk" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
+                  <node concept="2Ry0Ak" id="7dAcCrB9iNl" role="2Ry0An">
+                    <property role="2Ry0Am" value="runtime" />
+                    <node concept="2Ry0Ak" id="7dAcCrB9iNm" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="7dAcCrB9iNn" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.incquery.runtime.rete_1.1.0.201509131207.jar" />
                       </node>
                     </node>
                   </node>
