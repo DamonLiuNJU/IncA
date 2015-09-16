@@ -9,8 +9,9 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="2" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
   </languages>
   <imports>
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
@@ -340,9 +341,6 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
-      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
-        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
-      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
@@ -407,6 +405,13 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -2347,26 +2352,26 @@
               </node>
             </node>
             <node concept="3clFbS" id="47VZ_g5dR_m" role="TDEfX">
-              <node concept="3SKdUt" id="1KcOE3NjhjL" role="3cqZAp">
-                <node concept="3SKWN0" id="1KcOE3NjhjU" role="3SKWNk">
-                  <node concept="3clFbF" id="47VZ_g5eelX" role="3SKWNf">
-                    <node concept="2OqwBi" id="47VZ_g5eeoQ" role="3clFbG">
-                      <node concept="37vLTw" id="47VZ_g5eelW" role="2Oq$k0">
-                        <ref role="3cqZAo" node="47VZ_g5dOZN" resolve="logger" />
+              <node concept="1X3_iC" id="27zZ9atB$lu" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="47VZ_g5eelX" role="8Wnug">
+                  <node concept="2OqwBi" id="47VZ_g5eeoQ" role="3clFbG">
+                    <node concept="37vLTw" id="47VZ_g5eelW" role="2Oq$k0">
+                      <ref role="3cqZAo" node="47VZ_g5dOZN" resolve="logger" />
+                    </node>
+                    <node concept="liA8E" id="47VZ_g5eePk" role="2OqNvi">
+                      <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable):void" resolve="error" />
+                      <node concept="3cpWs3" id="47VZ_g5egye" role="37wK5m">
+                        <node concept="Xl_RD" id="47VZ_g5eeVi" role="3uHU7B">
+                          <property role="Xl_RC" value="Could not retrieve IncQueryEngine for " />
+                        </node>
+                        <node concept="37vLTw" id="47VZ_g5ehuc" role="3uHU7w">
+                          <ref role="3cqZAo" node="4BWlfm3wFtO" resolve="key" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="47VZ_g5eePk" role="2OqNvi">
-                        <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable):void" resolve="error" />
-                        <node concept="3cpWs3" id="47VZ_g5egye" role="37wK5m">
-                          <node concept="Xl_RD" id="47VZ_g5eeVi" role="3uHU7B">
-                            <property role="Xl_RC" value="Could not retrieve IncQueryEngine for " />
-                          </node>
-                          <node concept="37vLTw" id="47VZ_g5ehuc" role="3uHU7w">
-                            <ref role="3cqZAo" node="4BWlfm3wFtO" resolve="key" />
-                          </node>
-                        </node>
-                        <node concept="37vLTw" id="47VZ_g5eprs" role="37wK5m">
-                          <ref role="3cqZAo" node="47VZ_g5dR_k" resolve="e" />
-                        </node>
+                      <node concept="37vLTw" id="47VZ_g5eprs" role="37wK5m">
+                        <ref role="3cqZAo" node="47VZ_g5dR_k" resolve="e" />
                       </node>
                     </node>
                   </node>
