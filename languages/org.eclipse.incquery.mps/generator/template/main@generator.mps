@@ -8800,10 +8800,10 @@
             <node concept="3JmXsc" id="2cknNXbDEGZ" role="3Jn$fo">
               <node concept="3clFbS" id="2cknNXbDEH0" role="2VODD2">
                 <node concept="3cpWs6" id="2ATu8MxLnk7" role="3cqZAp">
-                  <node concept="2YIFZM" id="6NBjx7$8p8e" role="3cqZAk">
-                    <ref role="37wK5l" to="f1uo:3sUe9pq51AO" resolve="getConceptUsages_Simple" />
+                  <node concept="2YIFZM" id="6RAVMJImw6z" role="3cqZAk">
+                    <ref role="37wK5l" to="f1uo:3sUe9pq6SfQ" resolve="getConceptUsages_Opt" />
                     <ref role="1Pybhc" to="f1uo:3sUe9pq4Jeh" resolve="Hints" />
-                    <node concept="30H73N" id="6NBjx7$8p8f" role="37wK5m" />
+                    <node concept="30H73N" id="6RAVMJImw6$" role="37wK5m" />
                   </node>
                 </node>
               </node>
