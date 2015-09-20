@@ -1081,5 +1081,39 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="5xy6TexwvNB">
+    <property role="3GE5qa" value="constraints" />
+    <ref role="1XX52x" to="hqsm:4QgsNmKLL_q" resolve="ConceptConstraint" />
+    <node concept="3EZMnI" id="14BIdL0j3sk" role="2wV5jI">
+      <node concept="l2Vlx" id="14BIdL0j3sl" role="2iSdaV" />
+      <node concept="1iCGBv" id="14BIdL0j3s8" role="3EZMnx">
+        <ref role="1NtTu8" to="hqsm:4QgsNmKLLBx" />
+        <node concept="1sVBvm" id="14BIdL0j3sa" role="1sWHZn">
+          <node concept="3F0A7n" id="14BIdL0j3sh" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="14BIdL0j3sz" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="4$7kDlU1du8" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="4$7kDlU1dv1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="14BIdL0j3sJ" role="3EZMnx">
+        <ref role="1NtTu8" to="hqsm:4QgsNmKLLEm" />
+      </node>
+      <node concept="3F0ifn" id="14BIdL0j3sX" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="4$7kDlU1dwH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

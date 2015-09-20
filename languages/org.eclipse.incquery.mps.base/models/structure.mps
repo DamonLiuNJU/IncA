@@ -151,7 +151,7 @@
   <node concept="1TIwiD" id="3VwoHXNAdvE">
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="Comment" />
-    <property role="R5$K7" value="true" />
+    <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3VwoHXNAdvO" role="1TKVEl">

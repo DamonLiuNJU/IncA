@@ -3681,10 +3681,10 @@
                 <ref role="3uigEE" to="4k41:~GenericPatternMatch" resolve="GenericPatternMatch" />
               </node>
             </node>
-            <node concept="2YIFZM" id="501uy$p1mB5" role="33vP2m">
+            <node concept="2YIFZM" id="5xy6TexB$xb" role="33vP2m">
+              <ref role="37wK5l" to="z9h6:~ObservablePatternMatchCollectionBuilder.create(org.eclipse.incquery.runtime.api.IQuerySpecification):org.eclipse.incquery.databinding.runtime.collection.ObservablePatternMatchCollectionBuilder" resolve="create" />
               <ref role="1Pybhc" to="z9h6:~ObservablePatternMatchCollectionBuilder" resolve="ObservablePatternMatchCollectionBuilder" />
-              <ref role="37wK5l" to="z9h6:~ObservablePatternMatchCollectionBuilder.create(org.eclipse.incquery.runtime.api.IncQueryMatcher):org.eclipse.incquery.databinding.runtime.collection.ObservablePatternMatchCollectionBuilder" resolve="create" />
-              <node concept="37vLTw" id="501uy$p1mFv" role="37wK5m">
+              <node concept="37vLTw" id="5xy6TexB$xc" role="37wK5m">
                 <ref role="3cqZAo" node="4BWlfm3pp4c" resolve="specification" />
               </node>
             </node>
