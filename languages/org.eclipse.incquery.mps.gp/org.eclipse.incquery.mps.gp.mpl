@@ -37,6 +37,7 @@
         <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" fqName="jetbrains.mps.lang.sharedConcepts" version="0" />
         <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="2" />
         <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
+        <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" fqName="org.eclipse.incquery.mps.base" version="0" />
         <language id="cd2909da-ecb4-49dc-b176-33e5c619e516" fqName="org.eclipse.incquery.mps.gp" version="-1" />
       </languageVersions>
       <mapping-priorities />
@@ -45,8 +46,8 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)</dependency>
-    <dependency reexport="false">cd2909da-ecb4-49dc-b176-33e5c619e516(org.eclipse.incquery.mps.gp)</dependency>
     <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
+    <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
@@ -73,8 +74,10 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="0" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" fqName="jetbrains.mps.lang.typesystem" version="0" />
-    <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" fqName="org.eclipse.incquery.mps.base" version="0" />
   </languageVersions>
+  <runtime>
+    <dependency reexport="false">670160fe-66be-49fe-956f-aaa840493c4b(org.eclipse.incquery.mps.gp.runtime)</dependency>
+  </runtime>
   <extendedLanguages>
     <extendedLanguage>b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)</extendedLanguage>
   </extendedLanguages>

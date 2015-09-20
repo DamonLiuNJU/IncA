@@ -13,9 +13,9 @@
     <import index="ipj7" ref="r:72b2626f-5a0a-40af-a2b4-fbc2ae1b60c1(org.eclipse.incquery.mps.test.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="auek" ref="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" />
-    <import index="jw44" ref="r:a3d630af-33bd-4299-b50a-447cfdd7361e(org.eclipse.incquery.mps.behavior)" />
-    <import index="f1uo" ref="r:326fd4ed-5369-4cc8-8788-92145c4d8911(org.eclipse.incquery.mps.runtime)" />
+    <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" />
+    <import index="pzen" ref="r:25bfb30f-3676-4451-9448-27a17343be80(org.eclipse.incquery.mps.core.plugin)" />
+    <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -412,7 +412,7 @@
           <node concept="3cpWsn" id="3hG5wgiskUx" role="3cpWs9">
             <property role="TrG5h" value="model" />
             <node concept="3Tqbb2" id="3hG5wgiskUs" role="1tU5fm">
-              <ref role="ehGHo" to="auek:RjyNapPd_F" resolve="PatternModel" />
+              <ref role="ehGHo" to="hqsm:3VwoHXNAdmj" resolve="IPatternModel" />
             </node>
           </node>
         </node>
@@ -431,7 +431,7 @@
                       <property role="BaGAP" value="tests" />
                     </node>
                     <node concept="2RRcyG" id="3hG5wgismay" role="2OqNvi">
-                      <ref role="2RRcyH" to="auek:RjyNapPd_F" resolve="PatternModel" />
+                      <ref role="2RRcyH" to="hqsm:3VwoHXNAdmj" resolve="IPatternModel" />
                     </node>
                   </node>
                   <node concept="1uHKPH" id="3hG5wgisoj0" role="2OqNvi" />
@@ -471,7 +471,7 @@
                         <property role="BaGAP" value="tests" />
                       </node>
                       <node concept="2RRcyG" id="3hG5wgisoxP" role="2OqNvi">
-                        <ref role="2RRcyH" to="auek:RjyNapPd_F" resolve="PatternModel" />
+                        <ref role="2RRcyH" to="hqsm:3VwoHXNAdmj" resolve="IPatternModel" />
                       </node>
                     </node>
                     <node concept="1uHKPH" id="3hG5wgisoxQ" role="2OqNvi" />
@@ -498,14 +498,14 @@
         <node concept="3clFbH" id="3hG5wgiskKc" role="3cqZAp" />
         <node concept="3clFbF" id="3M$nrz38aqi" role="3cqZAp">
           <node concept="2YIFZM" id="3M$nrz38aqj" role="3clFbG">
-            <ref role="1Pybhc" to="f1uo:4h0s9CVLlTo" resolve="EnginePool" />
-            <ref role="37wK5l" to="f1uo:5YH9iFAHxg8" resolve="disposeAffectedEngines" />
+            <ref role="1Pybhc" to="pzen:4h0s9CVLlTo" resolve="EnginePool" />
+            <ref role="37wK5l" to="pzen:5YH9iFAHxg8" resolve="disposeAffectedEngines" />
             <node concept="2OqwBi" id="3M$nrz38aqk" role="37wK5m">
               <node concept="37vLTw" id="3hG5wgisp3C" role="2Oq$k0">
                 <ref role="3cqZAo" node="3hG5wgiskUx" resolve="model" />
               </node>
-              <node concept="2qgKlT" id="3M$nrz38aqm" role="2OqNvi">
-                <ref role="37wK5l" to="jw44:3hiszdZFPFH" resolve="getPatterns" />
+              <node concept="2qgKlT" id="6JEY8lSiHB5" role="2OqNvi">
+                <ref role="37wK5l" to="gcg1:3VwoHXNBzsE" resolve="getPatterns" />
               </node>
             </node>
           </node>

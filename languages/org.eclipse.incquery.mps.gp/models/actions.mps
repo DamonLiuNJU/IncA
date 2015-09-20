@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="55iy" ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(org.eclipse.incquery.mps.gp.structure)" implicit="true" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" implicit="true" />
   </imports>
@@ -112,9 +113,9 @@
     <property role="3GE5qa" value="constraints" />
     <property role="TrG5h" value="PathElement_AddNext" />
     <node concept="3UNGvq" id="RjyNaq2V13" role="3UOs0v">
-      <ref role="3UNGvu" to="hqsm:RjyNapTDhZ" resolve="PathElement" />
+      <ref role="3UNGvu" to="55iy:5Dmozv0wha_" resolve="GPathElement" />
       <node concept="tYCnQ" id="RjyNaq2VlF" role="_1QTJ">
-        <ref role="uz4UX" to="hqsm:RjyNapTDhZ" resolve="PathElement" />
+        <ref role="uz4UX" to="55iy:5Dmozv0wha_" resolve="GPathElement" />
         <node concept="Cmt7Y" id="RjyNaq2VEf" role="uz6Si">
           <node concept="Cnhdc" id="RjyNaq2VEg" role="Cncma">
             <node concept="3clFbS" id="RjyNaq2VEh" role="2VODD2">
@@ -122,12 +123,12 @@
                 <node concept="3cpWsn" id="1ERTnBTe_Xe" role="3cpWs9">
                   <property role="TrG5h" value="next" />
                   <node concept="3Tqbb2" id="1ERTnBTe_X9" role="1tU5fm">
-                    <ref role="ehGHo" to="hqsm:RjyNapTDhZ" resolve="PathElement" />
+                    <ref role="ehGHo" to="55iy:5Dmozv0wha_" resolve="GPathElement" />
                   </node>
                   <node concept="2ShNRf" id="1ERTnBTeAc1" role="33vP2m">
                     <node concept="3zrR0B" id="1ERTnBTeAb5" role="2ShVmc">
                       <node concept="3Tqbb2" id="1ERTnBTeAb6" role="3zrR0E">
-                        <ref role="ehGHo" to="hqsm:RjyNapTDhZ" resolve="PathElement" />
+                        <ref role="ehGHo" to="55iy:5Dmozv0wha_" resolve="GPathElement" />
                       </node>
                     </node>
                   </node>
@@ -140,8 +141,8 @@
                   </node>
                   <node concept="2OqwBi" id="1ERTnBTeAne" role="37vLTJ">
                     <node concept="Cj7Ep" id="1ERTnBTeAic" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="1ERTnBTeAxG" role="2OqNvi">
-                      <ref role="3Tt5mk" to="hqsm:1ERTnBTdulZ" />
+                    <node concept="3TrEf2" id="14BIdL0rsIL" role="2OqNvi">
+                      <ref role="3Tt5mk" to="hqsm:1ERTnBTmuSJ" />
                     </node>
                   </node>
                 </node>
@@ -155,8 +156,8 @@
                       <node concept="37vLTw" id="1ERTnBTeB5s" role="2Oq$k0">
                         <ref role="3cqZAo" node="1ERTnBTe_Xe" resolve="next" />
                       </node>
-                      <node concept="3TrEf2" id="1ERTnBTeBjT" role="2OqNvi">
-                        <ref role="3Tt5mk" to="hqsm:1ERTnBTenIC" />
+                      <node concept="3TrEf2" id="14BIdL0rsXx" role="2OqNvi">
+                        <ref role="3Tt5mk" to="hqsm:1ERTnBTmuSL" />
                       </node>
                     </node>
                   </node>
@@ -167,8 +168,8 @@
                   <node concept="37vLTw" id="1ERTnBTeBuV" role="2Oq$k0">
                     <ref role="3cqZAo" node="1ERTnBTe_Xe" resolve="next" />
                   </node>
-                  <node concept="3TrEf2" id="1ERTnBTeBWt" role="2OqNvi">
-                    <ref role="3Tt5mk" to="hqsm:1ERTnBTenIC" />
+                  <node concept="3TrEf2" id="14BIdL0rthu" role="2OqNvi">
+                    <ref role="3Tt5mk" to="hqsm:1ERTnBTmuSL" />
                   </node>
                 </node>
               </node>
@@ -186,8 +187,8 @@
               <node concept="10Nm6u" id="1ERTnBTe_Gj" role="3uHU7w" />
               <node concept="2OqwBi" id="1ERTnBTe_dG" role="3uHU7B">
                 <node concept="Cj7Ep" id="1ERTnBTe_95" role="2Oq$k0" />
-                <node concept="3TrEf2" id="1ERTnBTe_qs" role="2OqNvi">
-                  <ref role="3Tt5mk" to="hqsm:1ERTnBTdulZ" />
+                <node concept="3TrEf2" id="14BIdL0rslo" role="2OqNvi">
+                  <ref role="3Tt5mk" to="hqsm:1ERTnBTmuSJ" />
                 </node>
               </node>
             </node>

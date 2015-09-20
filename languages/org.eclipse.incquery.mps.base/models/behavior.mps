@@ -2716,6 +2716,29 @@
     <node concept="13hLZK" id="2pbQ6LkKru6" role="13h7CW">
       <node concept="3clFbS" id="2pbQ6LkKru7" role="2VODD2" />
     </node>
+    <node concept="13i0hz" id="4$7kDlU15jJ" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getTypeConstraintsFor" />
+      <ref role="13i0hy" node="3VwoHXNBClG" resolve="getTypeConstraintsFor" />
+      <node concept="3Tm1VV" id="4$7kDlU15jM" role="1B3o_S" />
+      <node concept="3clFbS" id="4$7kDlU15jQ" role="3clF47">
+        <node concept="3cpWs6" id="4$7kDlU15ot" role="3cqZAp">
+          <node concept="10Nm6u" id="4$7kDlU15oD" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4$7kDlU15jR" role="3clF46">
+        <property role="TrG5h" value="variable" />
+        <node concept="3Tqbb2" id="4$7kDlU15jS" role="1tU5fm">
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
+        </node>
+      </node>
+      <node concept="3vKaQO" id="4$7kDlU15jT" role="3clF45">
+        <node concept="3Tqbb2" id="4$7kDlU15jU" role="3O5elw">
+          <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="2pbQ6LkKIM9">
     <property role="3GE5qa" value="constraints" />
@@ -3121,6 +3144,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getTarget" />
+      <property role="2Ki8OM" value="true" />
       <node concept="3Tm1VV" id="5Dmozv0zmn1" role="1B3o_S" />
       <node concept="3Tqbb2" id="5Dmozv0zm$U" role="3clF45">
         <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />

@@ -21,25 +21,15 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
-    <import index="4k41" ref="d78ad636-1087-4a2a-8147-0f6b287011c2/java:org.eclipse.incquery.runtime.api(org.eclipse.incquery.mps.runtime/)" />
-    <import index="bpvq" ref="d78ad636-1087-4a2a-8147-0f6b287011c2/java:org.eclipse.incquery.runtime.exception(org.eclipse.incquery.mps.runtime/)" />
     <import index="rgfa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.tree(JDK/)" />
     <import index="gsia" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.event(JDK/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="2kyo" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui.tabs.impl(MPS.IDEA/)" />
     <import index="ohny" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui.tabs(MPS.IDEA/)" />
-    <import index="auek" ref="r:8c420ee7-5605-40f1-8ffd-968aa96940f0(org.eclipse.incquery.mps.structure)" />
     <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
-    <import index="f1uo" ref="r:326fd4ed-5369-4cc8-8788-92145c4d8911(org.eclipse.incquery.mps.runtime)" />
-    <import index="wenz" ref="d78ad636-1087-4a2a-8147-0f6b287011c2/java:org.eclipse.incquery.runtime.evm.api(org.eclipse.incquery.mps.runtime/)" />
-    <import index="w8d" ref="d78ad636-1087-4a2a-8147-0f6b287011c2/java:org.eclipse.incquery.runtime.evm.specific(org.eclipse.incquery.mps.runtime/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="3qmy" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.classloading(MPS.Core/)" />
-    <import index="z9h6" ref="d78ad636-1087-4a2a-8147-0f6b287011c2/java:org.eclipse.incquery.databinding.runtime.collection(org.eclipse.incquery.mps.runtime/)" />
-    <import index="3gm0" ref="d78ad636-1087-4a2a-8147-0f6b287011c2/java:org.eclipse.core.databinding.observable.list(org.eclipse.incquery.mps.runtime/)" />
-    <import index="q35g" ref="d78ad636-1087-4a2a-8147-0f6b287011c2/java:org.eclipse.core.databinding.observable(org.eclipse.incquery.mps.runtime/)" />
-    <import index="ahz2" ref="d78ad636-1087-4a2a-8147-0f6b287011c2/java:org.eclipse.incquery.databinding.runtime.api(org.eclipse.incquery.mps.runtime/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
     <import index="b8lf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.selection(MPS.Editor/)" />
@@ -51,9 +41,19 @@
     <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
     <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
+    <import index="q35g" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.core.databinding.observable(org.eclipse.incquery.mps.base.runtime/)" />
+    <import index="ahz2" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.databinding.runtime.api(org.eclipse.incquery.mps.base.runtime/)" />
+    <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" />
+    <import index="4k41" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.api(org.eclipse.incquery.mps.base.runtime/)" />
+    <import index="wenz" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.evm.api(org.eclipse.incquery.mps.base.runtime/)" />
+    <import index="z9h6" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.databinding.runtime.collection(org.eclipse.incquery.mps.base.runtime/)" />
+    <import index="pzen" ref="r:25bfb30f-3676-4451-9448-27a17343be80(org.eclipse.incquery.mps.core.plugin)" />
+    <import index="3gm0" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.core.databinding.observable.list(org.eclipse.incquery.mps.base.runtime/)" />
+    <import index="w8d" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.evm.specific(org.eclipse.incquery.mps.base.runtime/)" />
+    <import index="bpvq" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.exception(org.eclipse.incquery.mps.base.runtime/)" />
+    <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
-    <import index="jw44" ref="r:a3d630af-33bd-4299-b50a-447cfdd7361e(org.eclipse.incquery.mps.behavior)" implicit="true" />
-    <import index="nfh9" ref="d78ad636-1087-4a2a-8147-0f6b287011c2/java:org.eclipse.incquery.runtime.api.impl(org.eclipse.incquery.mps.runtime/)" implicit="true" />
+    <import index="nfh9" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.api.impl(org.eclipse.incquery.mps.base.runtime/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -720,7 +720,7 @@
       <property role="TrG5h" value="defaultRealm" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="4SW1v$c1316" role="1B3o_S" />
-      <node concept="3uibUv" id="4SW1v$c2rFe" role="1tU5fm">
+      <node concept="3uibUv" id="7sEY90uXqPF" role="1tU5fm">
         <ref role="3uigEE" to="q35g:~Realm" resolve="Realm" />
       </node>
     </node>
@@ -1782,7 +1782,7 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="match" />
       <property role="3TUv4t" value="false" />
-      <node concept="3uibUv" id="1jHKcpbEinO" role="1tU5fm">
+      <node concept="3uibUv" id="7sEY90uY7E7" role="1tU5fm">
         <ref role="3uigEE" to="4k41:~GenericPatternMatch" resolve="GenericPatternMatch" />
       </node>
       <node concept="3Tm6S6" id="4BWlfm3poIS" role="1B3o_S" />
@@ -2253,14 +2253,14 @@
                   <ref role="3uigEE" to="wenz:~RuleEngine" resolve="RuleEngine" />
                 </node>
                 <node concept="2YIFZM" id="1KcOE3NcACO" role="33vP2m">
-                  <ref role="37wK5l" to="w8d:~ExecutionSchemas.createIncQueryExecutionSchema(org.eclipse.incquery.runtime.api.IncQueryEngine,org.eclipse.incquery.runtime.evm.api.Scheduler$ISchedulerFactory):org.eclipse.incquery.runtime.evm.api.ExecutionSchema" resolve="createIncQueryExecutionSchema" />
                   <ref role="1Pybhc" to="w8d:~ExecutionSchemas" resolve="ExecutionSchemas" />
+                  <ref role="37wK5l" to="w8d:~ExecutionSchemas.createIncQueryExecutionSchema(org.eclipse.incquery.runtime.api.IncQueryEngine,org.eclipse.incquery.runtime.evm.api.Scheduler$ISchedulerFactory):org.eclipse.incquery.runtime.evm.api.ExecutionSchema" resolve="createIncQueryExecutionSchema" />
                   <node concept="37vLTw" id="1KcOE3NcAHm" role="37wK5m">
                     <ref role="3cqZAo" node="47VZ_g5dMnb" resolve="engine" />
                   </node>
                   <node concept="2YIFZM" id="1KcOE3NcAUH" role="37wK5m">
-                    <ref role="37wK5l" to="w8d:~Schedulers.getIQEngineSchedulerFactory(org.eclipse.incquery.runtime.api.IncQueryEngine):org.eclipse.incquery.runtime.evm.specific.scheduler.UpdateCompleteBasedScheduler$UpdateCompleteBasedSchedulerFactory" resolve="getIQEngineSchedulerFactory" />
                     <ref role="1Pybhc" to="w8d:~Schedulers" resolve="Schedulers" />
+                    <ref role="37wK5l" to="w8d:~Schedulers.getIQEngineSchedulerFactory(org.eclipse.incquery.runtime.api.IncQueryEngine):org.eclipse.incquery.runtime.evm.specific.scheduler.UpdateCompleteBasedScheduler$UpdateCompleteBasedSchedulerFactory" resolve="getIQEngineSchedulerFactory" />
                     <node concept="37vLTw" id="1KcOE3NcB4h" role="37wK5m">
                       <ref role="3cqZAo" node="47VZ_g5dMnb" resolve="engine" />
                     </node>
@@ -2321,11 +2321,11 @@
                   <ref role="3uigEE" to="4k41:~AdvancedIncQueryEngine" resolve="AdvancedIncQueryEngine" />
                 </node>
                 <node concept="2YIFZM" id="526VibMIjYs" role="33vP2m">
-                  <ref role="37wK5l" to="4k41:~AdvancedIncQueryEngine.createUnmanagedEngine(org.eclipse.incquery.runtime.api.scope.IncQueryScope):org.eclipse.incquery.runtime.api.AdvancedIncQueryEngine" resolve="createUnmanagedEngine" />
                   <ref role="1Pybhc" to="4k41:~AdvancedIncQueryEngine" resolve="AdvancedIncQueryEngine" />
+                  <ref role="37wK5l" to="4k41:~AdvancedIncQueryEngine.createUnmanagedEngine(org.eclipse.incquery.runtime.api.scope.IncQueryScope):org.eclipse.incquery.runtime.api.AdvancedIncQueryEngine" resolve="createUnmanagedEngine" />
                   <node concept="2YIFZM" id="526VibMIjYt" role="37wK5m">
-                    <ref role="1Pybhc" to="f1uo:3KgejumhMXD" resolve="MPSScope" />
-                    <ref role="37wK5l" to="f1uo:6cJttNupUNl" resolve="from" />
+                    <ref role="1Pybhc" to="pzen:3KgejumhMXD" resolve="MPSScope" />
+                    <ref role="37wK5l" to="pzen:6cJttNupUNl" resolve="from" />
                     <node concept="2OqwBi" id="526VibMIjYu" role="37wK5m">
                       <node concept="37vLTw" id="526VibMIjYv" role="2Oq$k0">
                         <ref role="3cqZAo" node="4BWlfm3wFtO" resolve="key" />
@@ -2347,7 +2347,7 @@
           <node concept="TDmWw" id="47VZ_g5dR_j" role="TEbGg">
             <node concept="3cpWsn" id="47VZ_g5dR_k" role="TDEfY">
               <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="47VZ_g5dRGc" role="1tU5fm">
+              <node concept="3uibUv" id="7sEY90uYD3y" role="1tU5fm">
                 <ref role="3uigEE" to="bpvq:~IncQueryException" resolve="IncQueryException" />
               </node>
             </node>
@@ -2571,7 +2571,7 @@
                                     <ref role="3cqZAo" node="4dLFELwt39J" resolve="specification" />
                                   </node>
                                   <node concept="3uibUv" id="5zZZilAhToJ" role="10QFUM">
-                                    <ref role="3uigEE" to="f1uo:2cknNXbyT0X" resolve="MPSQuerySpecification" />
+                                    <ref role="3uigEE" to="pzen:2cknNXbyT0X" resolve="MPSQuerySpecification" />
                                   </node>
                                 </node>
                               </node>
@@ -2713,7 +2713,7 @@
       <node concept="37vLTG" id="4RsLK_FEtv$" role="3clF46">
         <property role="TrG5h" value="pattern" />
         <node concept="3Tqbb2" id="4RsLK_FEtvz" role="1tU5fm">
-          <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
         </node>
       </node>
     </node>
@@ -2802,7 +2802,7 @@
       <node concept="37vLTG" id="4RsLK_FEx6P" role="3clF46">
         <property role="TrG5h" value="pattern" />
         <node concept="3Tqbb2" id="4RsLK_FEx6O" role="1tU5fm">
-          <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
         </node>
       </node>
     </node>
@@ -3533,7 +3533,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tm6S6" id="4dLFELwtGvr" role="1B3o_S" />
       <node concept="3uibUv" id="5zZZilAhfAF" role="1tU5fm">
-        <ref role="3uigEE" to="f1uo:2cknNXbyT0X" resolve="MPSQuerySpecification" />
+        <ref role="3uigEE" to="pzen:2cknNXbyT0X" resolve="MPSQuerySpecification" />
       </node>
     </node>
     <node concept="312cEg" id="501uy$oZd4v" role="jymVt">
@@ -3552,7 +3552,7 @@
       <property role="TrG5h" value="ruleEngine" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tm6S6" id="501uy$p1uho" role="1B3o_S" />
-      <node concept="3uibUv" id="501uy$p1uNv" role="1tU5fm">
+      <node concept="3uibUv" id="7sEY90uYgaW" role="1tU5fm">
         <ref role="3uigEE" to="wenz:~RuleEngine" resolve="RuleEngine" />
       </node>
     </node>
@@ -3593,8 +3593,8 @@
       <node concept="37vLTG" id="4BWlfm3pp4c" role="3clF46">
         <property role="TrG5h" value="specification" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="5zZZilAh0p0" role="1tU5fm">
-          <ref role="3uigEE" to="f1uo:2cknNXbyT0X" resolve="MPSQuerySpecification" />
+        <node concept="3uibUv" id="7sEY90uYlon" role="1tU5fm">
+          <ref role="3uigEE" to="pzen:2cknNXbyT0X" resolve="MPSQuerySpecification" />
         </node>
       </node>
       <node concept="37vLTG" id="4BWlfm3pp48" role="3clF46">
@@ -3683,7 +3683,7 @@
             </node>
             <node concept="2YIFZM" id="501uy$p1mB5" role="33vP2m">
               <ref role="1Pybhc" to="z9h6:~ObservablePatternMatchCollectionBuilder" resolve="ObservablePatternMatchCollectionBuilder" />
-              <ref role="37wK5l" to="z9h6:~ObservablePatternMatchCollectionBuilder.create(org.eclipse.incquery.runtime.api.IQuerySpecification):org.eclipse.incquery.databinding.runtime.collection.ObservablePatternMatchCollectionBuilder" resolve="create" />
+              <ref role="37wK5l" to="z9h6:~ObservablePatternMatchCollectionBuilder.create(org.eclipse.incquery.runtime.api.IncQueryMatcher):org.eclipse.incquery.databinding.runtime.collection.ObservablePatternMatchCollectionBuilder" resolve="create" />
               <node concept="37vLTw" id="501uy$p1mFv" role="37wK5m">
                 <ref role="3cqZAo" node="4BWlfm3pp4c" resolve="specification" />
               </node>
@@ -4210,7 +4210,7 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="5poffaz59qY" role="1B3o_S" />
-      <node concept="3uibUv" id="5poffaz6$nS" role="EKbjA">
+      <node concept="3uibUv" id="7sEY90uYrZb" role="EKbjA">
         <ref role="3uigEE" to="3gm0:~IListChangeListener" resolve="IListChangeListener" />
       </node>
     </node>
@@ -4845,7 +4845,7 @@
                           <property role="TrG5h" value="newPatterns" />
                           <node concept="_YKpA" id="7VT_7g2uEVW" role="1tU5fm">
                             <node concept="3Tqbb2" id="7VT_7g2uEVX" role="_ZDj9">
-                              <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+                              <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
                             </node>
                           </node>
                           <node concept="2OqwBi" id="7VT_7g2uEVY" role="33vP2m">
@@ -4860,7 +4860,7 @@
                             <node concept="liA8E" id="7VT_7g2uEW2" role="2OqNvi">
                               <ref role="37wK5l" node="7aUOHOT7vWh" resolve="registerPatternModel" />
                               <node concept="1PxgMI" id="7VT_7g2uEW3" role="37wK5m">
-                                <ref role="1PxNhF" to="auek:RjyNapPd_F" resolve="PatternModel" />
+                                <ref role="1PxNhF" to="hqsm:3VwoHXNAdmj" resolve="IPatternModel" />
                                 <node concept="37vLTw" id="7VT_7g2uFXG" role="1PxMeX">
                                   <ref role="3cqZAo" node="4dLFELwoxWv" resolve="activeRoot" />
                                 </node>
@@ -4932,8 +4932,8 @@
                         <ref role="3cqZAo" node="4dLFELwoxWv" resolve="activeRoot" />
                       </node>
                       <node concept="1mIQ4w" id="7VT_7g2uAjI" role="2OqNvi">
-                        <node concept="chp4Y" id="7VT_7g2uAy5" role="cj9EA">
-                          <ref role="cht4Q" to="auek:RjyNapPd_F" resolve="PatternModel" />
+                        <node concept="chp4Y" id="7sEY90uXCRn" role="cj9EA">
+                          <ref role="cht4Q" to="hqsm:3VwoHXNAdmj" resolve="IPatternModel" />
                         </node>
                       </node>
                     </node>
@@ -5298,7 +5298,7 @@
       <node concept="3rvAFt" id="7aUOHOT7WxI" role="1tU5fm">
         <node concept="17QB3L" id="7aUOHOT7WBP" role="3rvQeY" />
         <node concept="3Tqbb2" id="7aUOHOT7WHR" role="3rvSg0">
-          <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
         </node>
       </node>
     </node>
@@ -5310,7 +5310,7 @@
       <node concept="3Tmbuc" id="X9$Hg9ROlt" role="1B3o_S" />
       <node concept="_YKpA" id="7aUOHOT9afU" role="1tU5fm">
         <node concept="3Tqbb2" id="7aUOHOT9aCX" role="_ZDj9">
-          <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
         </node>
       </node>
     </node>
@@ -5366,7 +5366,7 @@
               <node concept="3rGOSV" id="4k1r0DouoaX" role="2ShVmc">
                 <node concept="17QB3L" id="4k1r0DouoaY" role="3rHrn6" />
                 <node concept="3Tqbb2" id="4k1r0DouoaZ" role="3rHtpV">
-                  <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+                  <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
                 </node>
               </node>
             </node>
@@ -5383,7 +5383,7 @@
             <node concept="2ShNRf" id="4k1r0Douvtg" role="37vLTx">
               <node concept="Tc6Ow" id="4k1r0Douvtc" role="2ShVmc">
                 <node concept="3Tqbb2" id="4k1r0Douvtd" role="HW$YZ">
-                  <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+                  <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
                 </node>
               </node>
             </node>
@@ -5428,7 +5428,7 @@
       <node concept="3Tm1VV" id="7aUOHOT9Yyx" role="1B3o_S" />
       <node concept="_YKpA" id="7aUOHOTa1wB" role="3clF45">
         <node concept="3Tqbb2" id="7aUOHOTa1AF" role="_ZDj9">
-          <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
         </node>
       </node>
     </node>
@@ -5444,13 +5444,13 @@
             <property role="TrG5h" value="newPatterns" />
             <node concept="_YKpA" id="7aUOHOT9d3$" role="1tU5fm">
               <node concept="3Tqbb2" id="7aUOHOT9deN" role="_ZDj9">
-                <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+                <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
               </node>
             </node>
             <node concept="2ShNRf" id="7aUOHOT9dLC" role="33vP2m">
               <node concept="Tc6Ow" id="7aUOHOT9dL$" role="2ShVmc">
                 <node concept="3Tqbb2" id="7aUOHOT9dL_" role="HW$YZ">
-                  <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+                  <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
                 </node>
               </node>
             </node>
@@ -5465,8 +5465,8 @@
             <node concept="37vLTw" id="7aUOHOT9tlh" role="2Oq$k0">
               <ref role="3cqZAo" node="7aUOHOT7xRm" resolve="model" />
             </node>
-            <node concept="2qgKlT" id="7aUOHOT9u9i" role="2OqNvi">
-              <ref role="37wK5l" to="jw44:3hiszdZFPFH" resolve="getPatterns" />
+            <node concept="2qgKlT" id="7sEY90uXJj$" role="2OqNvi">
+              <ref role="37wK5l" to="gcg1:3VwoHXNBzsE" resolve="getPatterns" />
             </node>
           </node>
           <node concept="3clFbS" id="7aUOHOT9rf9" role="2LFqv$">
@@ -5482,8 +5482,8 @@
                         <node concept="2GrUjf" id="7aUOHOTalUq" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="7aUOHOT9rf5" resolve="pattern" />
                         </node>
-                        <node concept="2qgKlT" id="7aUOHOTanwX" role="2OqNvi">
-                          <ref role="37wK5l" to="jw44:7aUOHOT7_Qo" resolve="getSymbolicFqName" />
+                        <node concept="2qgKlT" id="7sEY90uXNUy" role="2OqNvi">
+                          <ref role="37wK5l" to="gcg1:7aUOHOT7_Qo" resolve="getSymbolicFullyQualifiedName" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="7aUOHOTaf66" role="3ElQJh">
@@ -5509,8 +5509,8 @@
                         <node concept="2GrUjf" id="7aUOHOT9AFu" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="7aUOHOT9rf5" resolve="pattern" />
                         </node>
-                        <node concept="2qgKlT" id="7aUOHOT7PJD" role="2OqNvi">
-                          <ref role="37wK5l" to="jw44:7aUOHOT7_Qo" resolve="getSymbolicFqName" />
+                        <node concept="2qgKlT" id="7sEY90uXOhW" role="2OqNvi">
+                          <ref role="37wK5l" to="gcg1:7aUOHOT7_Qo" resolve="getSymbolicFullyQualifiedName" />
                         </node>
                       </node>
                     </node>
@@ -5548,8 +5548,8 @@
                     <node concept="2GrUjf" id="7aUOHOT9xkd" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="7aUOHOT9rf5" resolve="pattern" />
                     </node>
-                    <node concept="2qgKlT" id="7aUOHOT9yIf" role="2OqNvi">
-                      <ref role="37wK5l" to="jw44:7aUOHOT7_Qo" resolve="getSymbolicFqName" />
+                    <node concept="2qgKlT" id="7sEY90uXJwK" role="2OqNvi">
+                      <ref role="37wK5l" to="gcg1:7aUOHOT7_Qo" resolve="getSymbolicFullyQualifiedName" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="7aUOHOT9kya" role="3ElQJh">
@@ -5570,13 +5570,13 @@
       <node concept="3Tm1VV" id="7aUOHOT7tyx" role="1B3o_S" />
       <node concept="_YKpA" id="7aUOHOT9dPF" role="3clF45">
         <node concept="3Tqbb2" id="7aUOHOT9g2A" role="_ZDj9">
-          <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
         </node>
       </node>
       <node concept="37vLTG" id="7aUOHOT7xRm" role="3clF46">
         <property role="TrG5h" value="model" />
         <node concept="3Tqbb2" id="7aUOHOT7xRl" role="1tU5fm">
-          <ref role="ehGHo" to="auek:RjyNapPd_F" resolve="PatternModel" />
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmj" resolve="IPatternModel" />
         </node>
       </node>
     </node>
@@ -5607,7 +5607,7 @@
               <node concept="3cpWsn" id="4k1r0DoM1_n" role="3cpWs9">
                 <property role="TrG5h" value="pattern" />
                 <node concept="3Tqbb2" id="4k1r0DoM1_j" role="1tU5fm">
-                  <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+                  <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
                 </node>
                 <node concept="1rXfSq" id="4k1r0DoM1Aw" role="33vP2m">
                   <ref role="37wK5l" node="4k1r0DoKVPb" resolve="getPattern" />
@@ -5808,7 +5808,7 @@
       </node>
       <node concept="3Tm1VV" id="4k1r0DoKRhi" role="1B3o_S" />
       <node concept="3Tqbb2" id="4k1r0DoKVP9" role="3clF45">
-        <ref role="ehGHo" to="auek:RjyNapP11f" resolve="Pattern" />
+        <ref role="ehGHo" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
       </node>
       <node concept="37vLTG" id="4k1r0DoKZrt" role="3clF46">
         <property role="TrG5h" value="qualifiedName" />

@@ -582,8 +582,10 @@
   <node concept="1TIwiD" id="RjyNapPkRU">
     <property role="TrG5h" value="CheckConstraint" />
     <property role="3GE5qa" value="constraints" />
-    <property role="R5$K7" value="true" />
+    <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
+    <property role="34LRSv" value="check" />
+    <property role="R4oN_" value="Check Constraint" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="RjyNapTHCw" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
