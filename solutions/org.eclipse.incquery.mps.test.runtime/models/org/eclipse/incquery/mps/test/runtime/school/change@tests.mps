@@ -10,6 +10,7 @@
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="2" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base" version="0" />
   </languages>
   <imports>
     <import index="ipj7" ref="r:72b2626f-5a0a-40af-a2b4-fbc2ae1b60c1(org.eclipse.incquery.mps.test.structure)" />
@@ -90,6 +91,35 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base">
+      <concept id="996292992024566673" name="org.eclipse.incquery.mps.base.structure.VariableValue" flags="ng" index="2k1_2z">
+        <child id="996292992024566793" name="value" index="2k1_sV" />
+      </concept>
+      <concept id="996292992024566952" name="org.eclipse.incquery.mps.base.structure.PatternCall" flags="ng" index="2k1_uq">
+        <property id="996292992028507456" name="transitive" index="2nKBpM" />
+        <reference id="996292992028507459" name="patternRef" index="2nKBpL" />
+        <child id="996292992028507462" name="parameters" index="2nKBpO" />
+      </concept>
+      <concept id="996292992024530443" name="" flags="ng" index="2k1GkT">
+        <property id="8396102296983865703" name="" index="2957JE" />
+      </concept>
+      <concept id="996292992025662591" name="" flags="ng" index="2kdhXd">
+        <property id="996292992025662611" name="" index="2kdhYx" />
+        <property id="996292992025662616" name="" index="2kdhYE" />
+        <child id="996292992028124127" name="" index="2nRUzH" />
+      </concept>
+      <concept id="996292992025675491" name="" flags="ng" index="2kdkRh">
+        <reference id="6888142545404296242" name="" index="Mx6kk" />
+      </concept>
+      <concept id="7241148409043933760" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatcherInstantiation" flags="ng" index="2UzQ1s">
+        <reference id="7241148409043933812" name="pattern" index="2UzQ1C" />
+        <child id="8066520122896896506" name="model" index="HflyE" />
+      </concept>
+      <concept id="8650544432873189951" name="org.eclipse.incquery.mps.base.structure.GetAllMatchesOperation" flags="ng" index="VbPDF" />
+      <concept id="8650544432874604370" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatcher" flags="ig" index="VdqW6">
+        <reference id="8650544432874609807" name="pattern" index="Vdrjr" />
+      </concept>
+    </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
       <concept id="1216130694486" name="jetbrains.mps.baseLanguage.unitTest.structure.ITestCase" flags="ng" index="B2rLd">
         <property id="6427619394892729757" name="canNotRunInProcess" index="26Nn1l" />
@@ -136,24 +166,14 @@
       </concept>
     </language>
     <language id="ef5ea086-f248-4019-bdc4-4a594cfbdd2e" name="org.eclipse.incquery.mps">
-      <concept id="996292992024566673" name="org.eclipse.incquery.mps.structure.VariableValue" flags="ng" index="2k1_2z">
-        <child id="996292992024566793" name="value" index="2k1_sV" />
-      </concept>
-      <concept id="996292992024566952" name="org.eclipse.incquery.mps.structure.PatternCall" flags="ng" index="2k1_uq">
-        <property id="996292992028507456" name="transitive" index="2nKBpM" />
-        <reference id="996292992028507459" name="patternRef" index="2nKBpL" />
-        <child id="996292992028507462" name="parameters" index="2nKBpO" />
-      </concept>
       <concept id="996292992024530493" name="org.eclipse.incquery.mps.structure.PathExpressionConstraint" flags="ng" index="2k1Gkf">
         <child id="996292992027769733" name="head" index="2nPj2R" />
       </concept>
       <concept id="996292992024530460" name="org.eclipse.incquery.mps.structure.PatternCompositionConstraint" flags="ng" index="2k1GkI">
         <child id="996292992028393460" name="call" index="2nKVj6" />
       </concept>
-      <concept id="996292992024530443" name="org.eclipse.incquery.mps.structure.CompareConstraint" flags="ng" index="2k1GkT">
-        <property id="8396102296983865703" name="feature" index="2957JE" />
+      <concept id="996292992024530443" name="org.eclipse.incquery.mps.structure.CompareConstraint" flags="ng" index="2k1GkU">
         <child id="8396102296983865629" name="rightOperand" index="2957Ig" />
-        <child id="8396102296983865626" name="leftOperand" index="2957In" />
       </concept>
       <concept id="996292992024500592" name="org.eclipse.incquery.mps.structure.Parameter" flags="ng" index="2k1P92" />
       <concept id="996292992024500593" name="org.eclipse.incquery.mps.structure.PatternBody" flags="ng" index="2k1P93">
@@ -171,33 +191,17 @@
         <child id="996292992025662592" name="src" index="2kdhYM" />
         <child id="996292992025662599" name="trg" index="2kdhYP" />
       </concept>
-      <concept id="996292992025662591" name="org.eclipse.incquery.mps.structure.PathExpressionTail" flags="ng" index="2kdhXd">
-        <property id="996292992025662611" name="index" index="2kdhYx" />
-        <property id="996292992025662616" name="closure" index="2kdhYE" />
-        <child id="996292992028124127" name="type" index="2nRUzH" />
-      </concept>
       <concept id="996292992025672789" name="org.eclipse.incquery.mps.structure.ConceptReference" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
       </concept>
       <concept id="996292992025675760" name="org.eclipse.incquery.mps.structure.Variable" flags="ng" index="2kdkN2">
         <child id="996292992025675764" name="type" index="2kdkN6" />
       </concept>
-      <concept id="996292992025675491" name="org.eclipse.incquery.mps.structure.LinkDeclarationType" flags="ng" index="2kdkRh">
-        <reference id="6888142545404296242" name="value" index="Mx6kk" />
-      </concept>
       <concept id="2281067221947980594" name="org.eclipse.incquery.mps.structure.VariableReference" flags="ng" index="2vme6Z">
         <reference id="768444928085405086" name="variable" index="XkjO9" />
       </concept>
       <concept id="7996518772785670958" name="org.eclipse.incquery.mps.structure.DataTypeDeclarationReference" flags="ng" index="2PmbLq">
         <reference id="7996518772785671445" name="type" index="2PmbDx" />
-      </concept>
-      <concept id="7241148409043933760" name="org.eclipse.incquery.mps.structure.MPSIncQueryMatcherInstantiation" flags="ng" index="2UzQ1s">
-        <reference id="7241148409043933812" name="pattern" index="2UzQ1C" />
-        <child id="8066520122896896506" name="model" index="HflyE" />
-      </concept>
-      <concept id="8650544432873189951" name="org.eclipse.incquery.mps.structure.GetAllMatchesOperation" flags="ng" index="VbPDF" />
-      <concept id="8650544432874604370" name="org.eclipse.incquery.mps.structure.MPSIncQueryMatcher" flags="ig" index="VdqW6">
-        <reference id="8650544432874609807" name="pattern" index="Vdrjr" />
       </concept>
       <concept id="3770201403572950169" name="org.eclipse.incquery.mps.structure.EmptyPatternModelContent" flags="ng" index="1bXQqE" />
       <concept id="5589093812001602540" name="org.eclipse.incquery.mps.structure.PathExpressionElement" flags="ng" index="3X80zp">
@@ -287,15 +291,15 @@
             <node concept="2kdhXd" id="3M$nrz38an1" role="3X80zo">
               <property role="2kdhYx" value="-1" />
               <property role="2kdhYE" value="false" />
-              <node concept="2kdkRh" id="3M$nrz38an2" role="2nRUzH">
-                <ref role="Mx6kk" to="ipj7:6h3Ypck6RGE" />
-              </node>
               <node concept="2kdhXd" id="3M$nrz38an3" role="3X80zo">
                 <property role="2kdhYx" value="-1" />
                 <property role="2kdhYE" value="false" />
                 <node concept="2kdkRh" id="3M$nrz38an4" role="2nRUzH">
                   <ref role="Mx6kk" to="ipj7:6h3Ypck6RGC" />
                 </node>
+              </node>
+              <node concept="2kdkRh" id="3M$nrz38an2" role="2nRUzH">
+                <ref role="Mx6kk" to="ipj7:6h3Ypck6RGE" />
               </node>
             </node>
             <node concept="2vme6Z" id="3M$nrz38an5" role="2kdhYM">
@@ -316,15 +320,15 @@
             <node concept="2kdhXd" id="3M$nrz38anb" role="3X80zo">
               <property role="2kdhYx" value="-1" />
               <property role="2kdhYE" value="false" />
-              <node concept="2kdkRh" id="3M$nrz38anc" role="2nRUzH">
-                <ref role="Mx6kk" to="ipj7:6h3Ypck6RGE" />
-              </node>
               <node concept="2kdhXd" id="3M$nrz38and" role="3X80zo">
                 <property role="2kdhYx" value="-1" />
                 <property role="2kdhYE" value="false" />
                 <node concept="2kdkRh" id="3M$nrz38ane" role="2nRUzH">
                   <ref role="Mx6kk" to="ipj7:6h3Ypck6RGC" />
                 </node>
+              </node>
+              <node concept="2kdkRh" id="3M$nrz38anc" role="2nRUzH">
+                <ref role="Mx6kk" to="ipj7:6h3Ypck6RGE" />
               </node>
             </node>
             <node concept="2vme6Z" id="3M$nrz38anf" role="2kdhYM">
@@ -371,13 +375,8 @@
             </node>
           </node>
         </node>
-        <node concept="2k1GkT" id="3M$nrz38anv" role="2k1Grq">
+        <node concept="2k1GkU" id="3M$nrz38anv" role="2k1Grq">
           <property role="2957JE" value="inequality" />
-          <node concept="2k1_2z" id="3M$nrz38anw" role="2957In">
-            <node concept="2vme6Z" id="3M$nrz38anx" role="2k1_sV">
-              <ref role="XkjO9" node="3M$nrz38ank" resolve="s1" />
-            </node>
-          </node>
           <node concept="2k1_2z" id="3M$nrz38any" role="2957Ig">
             <node concept="2vme6Z" id="3M$nrz38anz" role="2k1_sV">
               <ref role="XkjO9" node="3M$nrz38anm" resolve="s2" />
