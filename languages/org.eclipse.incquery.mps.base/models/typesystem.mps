@@ -805,12 +805,27 @@
             </node>
           </node>
         </node>
-        <node concept="2OqwBi" id="3VwoHXO8pmO" role="3clFbw">
-          <node concept="37vLTw" id="3VwoHXO8p5n" role="2Oq$k0">
-            <ref role="3cqZAo" node="3VwoHXO8o7A" resolve="mostSpecificTypes" />
+        <node concept="22lmx$" id="5xy6TexusxE" role="3clFbw">
+          <node concept="3eOSWO" id="5xy6Texuuqe" role="3uHU7w">
+            <node concept="3cmrfG" id="5xy6Texuuqh" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="5xy6TexusYR" role="3uHU7B">
+              <node concept="37vLTw" id="5xy6Texus$q" role="2Oq$k0">
+                <ref role="3cqZAo" node="3VwoHXO8o7A" resolve="mostSpecificTypes" />
+              </node>
+              <node concept="liA8E" id="5xy6TexutZ8" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Set.size():int" resolve="size" />
+              </node>
+            </node>
           </node>
-          <node concept="liA8E" id="3VwoHXO8qmq" role="2OqNvi">
-            <ref role="37wK5l" to="33ny:~Set.isEmpty():boolean" resolve="isEmpty" />
+          <node concept="2OqwBi" id="3VwoHXO8pmO" role="3uHU7B">
+            <node concept="37vLTw" id="3VwoHXO8p5n" role="2Oq$k0">
+              <ref role="3cqZAo" node="3VwoHXO8o7A" resolve="mostSpecificTypes" />
+            </node>
+            <node concept="liA8E" id="3VwoHXO8qmq" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Set.isEmpty():boolean" resolve="isEmpty" />
+            </node>
           </node>
         </node>
         <node concept="9aQIb" id="2tNwKiVACqI" role="9aQIa">

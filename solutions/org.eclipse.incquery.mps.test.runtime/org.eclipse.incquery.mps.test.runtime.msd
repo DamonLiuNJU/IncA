@@ -27,6 +27,7 @@
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="ef5ea086-f248-4019-bdc4-4a594cfbdd2e" fqName="org.eclipse.incquery.mps" version="0" />
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" fqName="org.eclipse.incquery.mps.base" version="0" />
+    <language id="cd2909da-ecb4-49dc-b176-33e5c619e516" fqName="org.eclipse.incquery.mps.gp" version="0" />
     <language id="76f64958-d3c3-440b-9b5e-58dc117e6c00" fqName="org.eclipse.incquery.mps.test" version="0" />
   </languageVersions>
 </solution>
