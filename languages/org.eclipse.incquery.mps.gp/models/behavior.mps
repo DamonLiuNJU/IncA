@@ -27,6 +27,7 @@
       </concept>
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
+        <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -1035,6 +1036,26 @@
   <node concept="13h7C7" id="5Dmozv0zgZl">
     <property role="3GE5qa" value="constraints" />
     <ref role="13h7C2" to="55iy:5Dmozv0wha_" resolve="GPathElement" />
+    <node concept="13i0hz" id="5luHlsCxSQh" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3clFbS" id="5luHlsCxSQk" role="3clF47">
+        <node concept="3cpWs6" id="5luHlsCxTqy" role="3cqZAp">
+          <node concept="2OqwBi" id="5luHlsCxTrY" role="3cqZAk">
+            <node concept="35c_gC" id="5luHlsCxTqI" role="2Oq$k0">
+              <ref role="35c_gD" to="hqsm:1ERTnBTmuSC" resolve="IPathElement" />
+            </node>
+            <node concept="2qgKlT" id="5luHlsCxT_x" role="2OqNvi">
+              <ref role="37wK5l" to="gcg1:4uV7JyqSmEU" resolve="asString" />
+              <node concept="13iPFW" id="5luHlsCxT_O" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="5luHlsCxT0E" role="3clF45" />
+      <node concept="3Tm1VV" id="5luHlsCxT0F" role="1B3o_S" />
+    </node>
     <node concept="13hLZK" id="5Dmozv0zgZm" role="13h7CW">
       <node concept="3clFbS" id="5Dmozv0zgZn" role="2VODD2" />
     </node>

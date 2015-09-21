@@ -71,12 +71,14 @@
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
       <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
       <concept id="1192794782375" name="jetbrains.mps.lang.intentions.structure.DescriptionBlock" flags="in" index="2S6ZIM" />
+      <concept id="1192795771125" name="jetbrains.mps.lang.intentions.structure.IsApplicableBlock" flags="in" index="2SaL7w" />
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
       <concept id="2522969319638091381" name="jetbrains.mps.lang.intentions.structure.BaseIntentionDeclaration" flags="ig" index="2ZfUlf">
         <property id="2522969319638091386" name="isAvailableInChildNodes" index="2ZfUl0" />
         <reference id="2522969319638198290" name="forConcept" index="2ZfgGC" />
         <child id="2522969319638198291" name="executeFunction" index="2ZfgGD" />
+        <child id="2522969319638093995" name="isApplicableFunction" index="2ZfVeh" />
         <child id="2522969319638093993" name="descriptionFunction" index="2ZfVej" />
       </concept>
     </language>
@@ -285,6 +287,61 @@
         <node concept="3cpWs6" id="7O543ZBamSL" role="3cqZAp">
           <node concept="Xl_RD" id="7O543ZBamSM" role="3cqZAk">
             <property role="Xl_RC" value="Toogle Undefined" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="5luHlsCwNGm">
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="SBinary_ToogleNeg" />
+    <ref role="2ZfgGC" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+    <node concept="2Sbjvc" id="5luHlsCwNGn" role="2ZfgGD">
+      <node concept="3clFbS" id="5luHlsCwNGo" role="2VODD2">
+        <node concept="3clFbF" id="5luHlsCwPvV" role="3cqZAp">
+          <node concept="37vLTI" id="5luHlsCwQ5f" role="3clFbG">
+            <node concept="3fqX7Q" id="5luHlsCwQ5$" role="37vLTx">
+              <node concept="2OqwBi" id="5luHlsCwQec" role="3fr31v">
+                <node concept="2Sf5sV" id="5luHlsCwQ9y" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5luHlsCwQqF" role="2OqNvi">
+                  <ref role="3TsBF5" to="ebqt:5luHlsCwGIt" resolve="neg" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5luHlsCwPyE" role="37vLTJ">
+              <node concept="2Sf5sV" id="5luHlsCwPvU" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5luHlsCwPIY" role="2OqNvi">
+                <ref role="3TsBF5" to="ebqt:5luHlsCwGIt" resolve="neg" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2S6ZIM" id="5luHlsCwNGp" role="2ZfVej">
+      <node concept="3clFbS" id="5luHlsCwNGq" role="2VODD2">
+        <node concept="3clFbF" id="5luHlsCwP13" role="3cqZAp">
+          <node concept="Xl_RD" id="5luHlsCwP12" role="3clFbG">
+            <property role="Xl_RC" value="Toogle Neg" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="5luHlsCwNNV" role="2ZfVeh">
+      <node concept="3clFbS" id="5luHlsCwNNW" role="2VODD2">
+        <node concept="3cpWs6" id="5luHlsCwNVi" role="3cqZAp">
+          <node concept="2OqwBi" id="5luHlsCwOyi" role="3cqZAk">
+            <node concept="2OqwBi" id="5luHlsCwO1m" role="2Oq$k0">
+              <node concept="2Sf5sV" id="5luHlsCwNVu" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5luHlsCwOim" role="2OqNvi">
+                <ref role="3Tt5mk" to="ebqt:1i65yRAQ7jO" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="5luHlsCwONu" role="2OqNvi">
+              <node concept="chp4Y" id="5luHlsCwOU6" role="cj9EA">
+                <ref role="cht4Q" to="ebqt:RjyNapPkSs" resolve="SPatternCall" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

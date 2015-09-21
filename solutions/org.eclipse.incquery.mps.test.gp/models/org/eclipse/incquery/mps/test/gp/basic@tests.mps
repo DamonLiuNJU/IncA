@@ -1109,7 +1109,7 @@
     </node>
   </node>
   <node concept="3zyO9k" id="4$7kDlU0dBJ">
-    <property role="TrG5h" value="SimplePatterns" />
+    <property role="TrG5h" value="GPPatterns" />
     <node concept="1XdyHe" id="5luHlsCrbdX" role="1dubk0" />
     <node concept="3zyOaA" id="5xy6TexuOXt" role="1dubk0">
       <property role="1aKoCf" value="false" />
@@ -1151,7 +1151,6 @@
             <ref role="XkjO9" node="5xy6TexuP$S" resolve="student" />
           </node>
         </node>
-        <node concept="1XdyHe" id="5luHlsCrbIB" role="1dgzf0" />
       </node>
     </node>
     <node concept="1XdyHe" id="5luHlsCrbnp" role="1dubk0" />
@@ -1259,8 +1258,8 @@
           <node concept="2vme6Z" id="5xy6TexsKwO" role="2kdhYM">
             <ref role="XkjO9" node="5xy6TexsJuj" resolve="s2" />
           </node>
-          <node concept="2vme6Z" id="29GvF4adU0r" role="2kdhYP">
-            <ref role="XkjO9" node="5xy6TexsJuj" resolve="s2" />
+          <node concept="2vme6Z" id="5luHlsC_hOL" role="2kdhYP">
+            <ref role="XkjO9" node="5xy6TexsJu2" resolve="s1" />
           </node>
         </node>
       </node>

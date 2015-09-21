@@ -57,7 +57,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Pattern Model" />
     <property role="R4oN_" value="Pattern Model with Functional Style" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" to="55iy:1ERTnBTfasH" resolve="GPatternModel" />
     <node concept="1TJgyi" id="5xy6TexCYF4" role="1TKVEl">
       <property role="TrG5h" value="showHop" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
@@ -108,10 +108,7 @@
   <node concept="1TIwiD" id="5Dmozv0wha_">
     <property role="3GE5qa" value="constraints" />
     <property role="TrG5h" value="SPathElement" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5Dmozv0whaA" role="PzmwI">
-      <ref role="PrY4T" to="hqsm:1ERTnBTmuSC" resolve="IPathElement" />
-    </node>
+    <ref role="1TJDcQ" to="55iy:5Dmozv0wha_" resolve="GPathElement" />
   </node>
   <node concept="1TIwiD" id="RjyNapTDgY">
     <property role="3GE5qa" value="constraints" />
@@ -187,10 +184,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="hqsm:RjyNapPtMC" resolve="PatternCall" />
     </node>
-    <node concept="1TJgyi" id="RjyNaq43ZL" role="1TKVEl">
-      <property role="TrG5h" value="neg" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="PrWs8" id="1i65yRAQ7kN" role="PzmwI">
       <ref role="PrY4T" node="1i65yRAQ7jk" resolve="IActsAsLeftExpression" />
     </node>
@@ -223,10 +216,14 @@
       <property role="TrG5h" value="comparator" />
       <ref role="AX2Wp" to="hqsm:RjyNapTFJQ" resolve="CompareFeature" />
     </node>
+    <node concept="1TJgyi" id="5luHlsCwGIt" role="1TKVEl">
+      <property role="TrG5h" value="neg" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="1i65yRAQ7jJ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="left" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="1i65yRAQ7jk" resolve="IActsAsLeftExpression" />
     </node>
     <node concept="1TJgyj" id="1i65yRAQ7jO" role="1TKVEi">
