@@ -111,7 +111,7 @@
   </registry>
   <node concept="3UOs0u" id="RjyNaq2V12">
     <property role="3GE5qa" value="constraints" />
-    <property role="TrG5h" value="PathElement_AddNext" />
+    <property role="TrG5h" value="GPathElement_AddNext" />
     <node concept="3UNGvq" id="RjyNaq2V13" role="3UOs0v">
       <ref role="3UNGvu" to="55iy:5Dmozv0wha_" resolve="GPathElement" />
       <node concept="tYCnQ" id="RjyNaq2VlF" role="_1QTJ">

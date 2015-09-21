@@ -51,10 +51,11 @@
     <import index="3gm0" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.core.databinding.observable.list(org.eclipse.incquery.mps.base.runtime/)" />
     <import index="w8d" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.evm.specific(org.eclipse.incquery.mps.base.runtime/)" />
     <import index="bpvq" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.exception(org.eclipse.incquery.mps.base.runtime/)" />
-    <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" implicit="true" />
+    <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" />
+    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="nfh9" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.api.impl(org.eclipse.incquery.mps.base.runtime/)" implicit="true" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -2430,6 +2431,43 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <node concept="3clFbS" id="4RsLK_FEsyM" role="3clF47">
+        <node concept="3cpWs8" id="5J57cTDTbeK" role="3cqZAp">
+          <node concept="3cpWsn" id="5J57cTDTbeL" role="3cpWs9">
+            <property role="TrG5h" value="className" />
+            <node concept="17QB3L" id="5J57cTDTbeJ" role="1tU5fm" />
+            <node concept="2OqwBi" id="5J57cTDTbeM" role="33vP2m">
+              <node concept="37vLTw" id="5J57cTDTbeN" role="2Oq$k0">
+                <ref role="3cqZAo" node="4RsLK_FEtv$" resolve="pattern" />
+              </node>
+              <node concept="2qgKlT" id="5J57cTDT_HT" role="2OqNvi">
+                <ref role="37wK5l" to="gcg1:5J57cTDTw4c" resolve="getFullyQualifiedName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5J57cTDTbIU" role="3cqZAp">
+          <node concept="3cpWsn" id="5J57cTDTbIV" role="3cpWs9">
+            <property role="TrG5h" value="module" />
+            <node concept="3uibUv" id="5J57cTDTbIO" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+            </node>
+            <node concept="2OqwBi" id="5J57cTDTbIW" role="33vP2m">
+              <node concept="2OqwBi" id="5J57cTDTbIX" role="2Oq$k0">
+                <node concept="2JrnkZ" id="5J57cTDTbIY" role="2Oq$k0">
+                  <node concept="37vLTw" id="5J57cTDTbIZ" role="2JrQYb">
+                    <ref role="3cqZAo" node="4RsLK_FEtv$" resolve="pattern" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5J57cTDTbJ0" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5J57cTDTbJ1" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="4RsLK_FPgP_" role="3cqZAp">
           <node concept="3cpWsn" id="4RsLK_FPgPA" role="3cpWs9">
             <property role="TrG5h" value="specificationClass" />
@@ -2443,28 +2481,11 @@
               </node>
               <node concept="liA8E" id="4RsLK_FPgPD" role="2OqNvi">
                 <ref role="37wK5l" to="3qmy:~ClassLoaderManager.getOwnClass(org.jetbrains.mps.openapi.module.SModule,java.lang.String):java.lang.Class" resolve="getOwnClass" />
-                <node concept="2OqwBi" id="4RsLK_FPgPE" role="37wK5m">
-                  <node concept="2OqwBi" id="4RsLK_FPgPF" role="2Oq$k0">
-                    <node concept="2JrnkZ" id="4RsLK_FPgPG" role="2Oq$k0">
-                      <node concept="37vLTw" id="4RsLK_FPgPH" role="2JrQYb">
-                        <ref role="3cqZAo" node="4RsLK_FEtv$" resolve="pattern" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="4RsLK_FPgPI" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~SNode.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="4RsLK_FPgPJ" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
-                  </node>
+                <node concept="37vLTw" id="5J57cTDTbJ2" role="37wK5m">
+                  <ref role="3cqZAo" node="5J57cTDTbIV" resolve="module" />
                 </node>
-                <node concept="2OqwBi" id="4RsLK_FT30c" role="37wK5m">
-                  <node concept="37vLTw" id="4RsLK_FT2QE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4RsLK_FEtv$" resolve="pattern" />
-                  </node>
-                  <node concept="2qgKlT" id="4RsLK_FT3EI" role="2OqNvi">
-                    <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
-                  </node>
+                <node concept="37vLTw" id="5J57cTDTbeP" role="37wK5m">
+                  <ref role="3cqZAo" node="5J57cTDTbeL" resolve="className" />
                 </node>
               </node>
             </node>
@@ -2486,13 +2507,8 @@
                       <node concept="Xl_RD" id="5SFFWx83C4z" role="3uHU7B">
                         <property role="Xl_RC" value="The QuerySpecification class of " />
                       </node>
-                      <node concept="2OqwBi" id="5SFFWx83CnP" role="3uHU7w">
-                        <node concept="37vLTw" id="5SFFWx83Cho" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4RsLK_FEtv$" resolve="pattern" />
-                        </node>
-                        <node concept="2qgKlT" id="5SFFWx83CVz" role="2OqNvi">
-                          <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
-                        </node>
+                      <node concept="37vLTw" id="5J57cTDTbeQ" role="3uHU7w">
+                        <ref role="3cqZAo" node="5J57cTDTbeL" resolve="className" />
                       </node>
                     </node>
                   </node>

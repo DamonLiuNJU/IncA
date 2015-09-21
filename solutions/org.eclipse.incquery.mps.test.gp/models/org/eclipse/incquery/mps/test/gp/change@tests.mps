@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3132b02c-3a6d-407b-b005-075ce2c09f30(org.eclipse.incquery.mps.test.runtime.school.change@tests)">
+<model ref="r:ddfa0599-571a-4ff2-928c-86354c560d5f(org.eclipse.incquery.mps.test.gp.change@tests)">
   <persistence version="9" />
   <languages>
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
-    <use id="ef5ea086-f248-4019-bdc4-4a594cfbdd2e" name="org.eclipse.incquery.mps" version="-1" />
-    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="2" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.eclipse.incquery.mps.gp" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base" version="0" />
-    <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.eclipse.incquery.mps.gp" version="0" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="1" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
   </languages>
   <imports>
     <import index="ipj7" ref="r:72b2626f-5a0a-40af-a2b4-fbc2ae1b60c1(org.eclipse.incquery.mps.test.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="wtfo" ref="r:0ab4412f-b091-4b00-9b1f-7a8317facfa8(org.eclipse.incquery.mps.test.runtime.util)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -93,10 +91,8 @@
       </concept>
     </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base">
-      <concept id="996292992024566673" name="org.eclipse.incquery.mps.base.structure.VariableValue" flags="ng" index="2k1_2z">
-        <child id="996292992024566793" name="value" index="2k1_sV" />
-      </concept>
       <concept id="996292992024566952" name="org.eclipse.incquery.mps.base.structure.PatternCall" flags="ng" index="2k1_uq">
+        <property id="996292992028507456" name="transitive" index="2nKBpM" />
         <reference id="996292992028507459" name="patternRef" index="2nKBpL" />
         <child id="996292992028507462" name="parameters" index="2nKBpO" />
       </concept>
@@ -122,7 +118,6 @@
       <concept id="8650544432874604370" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatcher" flags="ig" index="VdqW6">
         <reference id="8650544432874609807" name="pattern" index="Vdrjr" />
       </concept>
-      <concept id="3770201403572950169" name="org.eclipse.incquery.mps.base.structure.EmptyContent" flags="ng" index="1bXQqE" />
       <concept id="4530729936991344605" name="org.eclipse.incquery.mps.base.structure.IPatternBody" flags="ng" index="1dubk2">
         <child id="4530729936991965471" name="contents" index="1dgzf0" />
       </concept>
@@ -169,6 +164,8 @@
       <concept id="1925259677759481645" name="org.eclipse.incquery.mps.gp.structure.GPatternModel" flags="ng" index="3zyO9k" />
       <concept id="1925259677759481823" name="org.eclipse.incquery.mps.gp.structure.GPattern" flags="ng" index="3zyOaA" />
       <concept id="1925259677761386650" name="org.eclipse.incquery.mps.gp.structure.GPatternBody" flags="ng" index="3zV_Rz" />
+      <concept id="1478893914040456148" name="org.eclipse.incquery.mps.gp.structure.GCompareConstraint" flags="ng" index="3Mm4nT" />
+      <concept id="6151553526979403289" name="org.eclipse.incquery.mps.gp.structure.GEmptyContent" flags="ng" index="1XdyHe" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -226,6 +223,141 @@
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
     </language>
   </registry>
+  <node concept="3zyO9k" id="5xy6TexA2K5">
+    <property role="TrG5h" value="ChangePatterns" />
+    <node concept="1XdyHe" id="5luHlsCrL2c" role="1dubk0" />
+    <node concept="3zyOaA" id="29GvF4adXtz" role="1dubk0">
+      <property role="1aKoCf" value="false" />
+      <property role="TrG5h" value="studentNames" />
+      <node concept="3zV_Rz" id="29GvF4adXt$" role="3zVECR">
+        <node concept="2kdhWc" id="29GvF4adXt_" role="1dgzf0">
+          <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+          <node concept="2vme6Z" id="29GvF4adXtA" role="2kdhYM">
+            <ref role="XkjO9" node="29GvF4adXtC" resolve="s" />
+          </node>
+          <node concept="2qPR2i" id="29GvF4adXtB" role="3zVzRQ">
+            <property role="3zVwHg" value="-1" />
+            <property role="3zVwHj" value="false" />
+            <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+          <node concept="2vme6Z" id="29GvF4adTZE" role="2kdhYP">
+            <ref role="XkjO9" node="29GvF4adXtE" resolve="n" />
+          </node>
+        </node>
+      </node>
+      <node concept="1dv5OH" id="29GvF4adXtC" role="1dv5OJ">
+        <property role="TrG5h" value="s" />
+        <node concept="2kdjtB" id="29GvF4adXtD" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+      <node concept="1dv5OH" id="29GvF4adXtE" role="1dv5OJ">
+        <property role="TrG5h" value="n" />
+        <node concept="2PmbLq" id="29GvF4adXtF" role="1dukDx">
+          <ref role="2PmbDx" to="tpck:fKAOsGN" resolve="string" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="5luHlsCrL0Q" role="1dubk0" />
+    <node concept="3zyOaA" id="29GvF4adXtH" role="1dubk0">
+      <property role="1aKoCf" value="false" />
+      <property role="TrG5h" value="directFriends" />
+      <node concept="1dv5OH" id="29GvF4adXtI" role="1dv5OJ">
+        <property role="TrG5h" value="s1" />
+        <node concept="2kdjtB" id="29GvF4adXtJ" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+      <node concept="1dv5OH" id="29GvF4adXtK" role="1dv5OJ">
+        <property role="TrG5h" value="s2" />
+        <node concept="2kdjtB" id="29GvF4adXtL" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="29GvF4adXtM" role="3zVECR">
+        <node concept="2kdhWc" id="29GvF4adXtN" role="1dgzf0">
+          <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+          <node concept="2qPR2i" id="29GvF4adXtO" role="3zVzRQ">
+            <property role="3zVwHg" value="-1" />
+            <property role="3zVwHj" value="false" />
+            <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
+            <node concept="2qPR2i" id="29GvF4adXtP" role="3zVwHm">
+              <property role="3zVwHg" value="-1" />
+              <property role="3zVwHj" value="false" />
+              <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
+            </node>
+          </node>
+          <node concept="2vme6Z" id="29GvF4adXtQ" role="2kdhYM">
+            <ref role="XkjO9" node="29GvF4adXtI" resolve="s1" />
+          </node>
+          <node concept="2vme6Z" id="29GvF4adU0a" role="2kdhYP">
+            <ref role="XkjO9" node="29GvF4adXtK" resolve="s2" />
+          </node>
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="29GvF4adXtR" role="3zVECR">
+        <node concept="2kdhWc" id="29GvF4adXtS" role="1dgzf0">
+          <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+          <node concept="2qPR2i" id="29GvF4adXtT" role="3zVzRQ">
+            <property role="3zVwHg" value="-1" />
+            <property role="3zVwHj" value="false" />
+            <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
+            <node concept="2qPR2i" id="29GvF4adXtU" role="3zVwHm">
+              <property role="3zVwHg" value="-1" />
+              <property role="3zVwHj" value="false" />
+              <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
+            </node>
+          </node>
+          <node concept="2vme6Z" id="29GvF4adXtV" role="2kdhYM">
+            <ref role="XkjO9" node="29GvF4adXtK" resolve="s2" />
+          </node>
+          <node concept="2vme6Z" id="29GvF4adU0r" role="2kdhYP">
+            <ref role="XkjO9" node="29GvF4adXtK" resolve="s2" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="5luHlsCrKXy" role="1dubk0" />
+    <node concept="3zyOaA" id="29GvF4adXtX" role="1dubk0">
+      <property role="1aKoCf" value="false" />
+      <property role="TrG5h" value="allFriends" />
+      <node concept="3zV_Rz" id="29GvF4adXtY" role="3zVECR">
+        <node concept="2k1GkI" id="29GvF4adXtZ" role="1dgzf0">
+          <node concept="2k1_uq" id="29GvF4adXu0" role="2nKVj6">
+            <property role="2nKBpM" value="true" />
+            <ref role="2nKBpL" node="29GvF4adXtH" resolve="directFriends" />
+            <node concept="2vme6Z" id="29GvF4adU7r" role="2nKBpO">
+              <ref role="XkjO9" node="29GvF4adXu1" resolve="s1" />
+            </node>
+            <node concept="2vme6Z" id="29GvF4adUen" role="2nKBpO">
+              <ref role="XkjO9" node="29GvF4adXu3" resolve="s2" />
+            </node>
+          </node>
+        </node>
+        <node concept="3Mm4nT" id="29GvF4adUlX" role="1dgzf0">
+          <property role="2957JE" value="inequality" />
+          <node concept="2vme6Z" id="29GvF4adUmR" role="2957Ig">
+            <ref role="XkjO9" node="29GvF4adXu3" resolve="s2" />
+          </node>
+          <node concept="2vme6Z" id="29GvF4adUmk" role="2957In">
+            <ref role="XkjO9" node="29GvF4adXu1" resolve="s1" />
+          </node>
+        </node>
+      </node>
+      <node concept="1dv5OH" id="29GvF4adXu1" role="1dv5OJ">
+        <property role="TrG5h" value="s1" />
+        <node concept="2kdjtB" id="29GvF4adXu2" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+      <node concept="1dv5OH" id="29GvF4adXu3" role="1dv5OJ">
+        <property role="TrG5h" value="s2" />
+        <node concept="2kdjtB" id="29GvF4adXu4" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="1lH9Xt" id="7f_LHgkHu8G">
     <property role="TrG5h" value="Change_Test" />
     <property role="26Nn1l" value="false" />
@@ -240,8 +372,8 @@
               <ref role="ehGHo" to="ipj7:6h3Ypck6RFW" resolve="School" />
             </node>
             <node concept="2YIFZM" id="7f_LHgkHu8N" role="33vP2m">
-              <ref role="1Pybhc" to="wtfo:3M$nrz38apV" resolve="TestHelper" />
               <ref role="37wK5l" to="wtfo:3M$nrz38apX" resolve="getModel" />
+              <ref role="1Pybhc" to="wtfo:3M$nrz38apV" resolve="TestHelper" />
             </node>
           </node>
         </node>
@@ -331,10 +463,10 @@
               <node concept="3cpWsn" id="7f_LHgkHuab" role="3cpWs9">
                 <property role="TrG5h" value="studentNamesMatchers" />
                 <node concept="VdqW6" id="7f_LHgkHuac" role="1tU5fm">
-                  <ref role="Vdrjr" node="5xy6TexrpVr" resolve="studentNames" />
+                  <ref role="Vdrjr" node="29GvF4adXtz" resolve="studentNames" />
                 </node>
                 <node concept="2UzQ1s" id="7f_LHgkHuad" role="33vP2m">
-                  <ref role="2UzQ1C" node="5xy6TexrpVr" resolve="studentNames" />
+                  <ref role="2UzQ1C" node="29GvF4adXtz" resolve="studentNames" />
                   <node concept="37vLTw" id="7f_LHgkHuae" role="HflyE">
                     <ref role="3cqZAo" node="7f_LHgkHu8L" resolve="root" />
                   </node>
@@ -437,11 +569,11 @@
           <node concept="3clFbS" id="rPCVTEi5QQ" role="2GVbov">
             <node concept="3clFbF" id="7f_LHgkHubt" role="3cqZAp">
               <node concept="2YIFZM" id="7f_LHgkHubu" role="3clFbG">
-                <ref role="37wK5l" to="wtfo:3M$nrz38aq8" resolve="cleanup" />
                 <ref role="1Pybhc" to="wtfo:3M$nrz38apV" resolve="TestHelper" />
+                <ref role="37wK5l" to="wtfo:3M$nrz38aq8" resolve="cleanup" />
                 <node concept="Rm8GO" id="3hG5wgispng" role="37wK5m">
-                  <ref role="Rm8GQ" to="wtfo:3hG5wgiskgh" resolve="CHANGE" />
                   <ref role="1Px2BO" to="wtfo:3hG5wgiskdN" resolve="TestHelper.TestKind" />
+                  <ref role="Rm8GQ" to="wtfo:3hG5wgiskgh" resolve="CHANGE" />
                 </node>
                 <node concept="37vLTw" id="1WzgKwVhEMD" role="37wK5m">
                   <ref role="3cqZAo" node="7f_LHgkHu8L" resolve="root" />
@@ -455,155 +587,6 @@
   </node>
   <node concept="2XOHcx" id="7IYto4uHO8w">
     <property role="2XOHcw" value="${mbeddr.github.core.home}/code/plugins/mps-incquery" />
-  </node>
-  <node concept="3zyO9k" id="5xy6TexA2K5">
-    <property role="TrG5h" value="ChangePatterns" />
-    <node concept="1bXQqE" id="5xy6TexA2K6" role="1dubk0" />
-    <node concept="3zyOaA" id="5xy6TexrpVr" role="1dubk0">
-      <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="studentNames" />
-      <node concept="3zV_Rz" id="5xy6TexrpWO" role="3zVECR">
-        <node concept="2kdhWc" id="5xy6Texsqrh" role="1dgzf0">
-          <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-          <node concept="2k1_2z" id="5xy6TexsI4_" role="2kdhYP">
-            <node concept="2vme6Z" id="5xy6TexsI4R" role="2k1_sV">
-              <ref role="XkjO9" node="5xy6TexrpVX" resolve="n" />
-            </node>
-          </node>
-          <node concept="2vme6Z" id="5xy6TexsI4r" role="2kdhYM">
-            <ref role="XkjO9" node="5xy6TexrpVD" resolve="s" />
-          </node>
-          <node concept="2qPR2i" id="5xy6TexsI4i" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
-            <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="1dv5OH" id="5xy6TexrpVD" role="1dv5OJ">
-        <property role="TrG5h" value="s" />
-        <node concept="2kdjtB" id="5xy6TexrpVR" role="1dukDx">
-          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-        </node>
-      </node>
-      <node concept="1dv5OH" id="5xy6TexrpVX" role="1dv5OJ">
-        <property role="TrG5h" value="n" />
-        <node concept="2PmbLq" id="5xy6TexrpWd" role="1dukDx">
-          <ref role="2PmbDx" to="tpck:fKAOsGN" resolve="string" />
-        </node>
-      </node>
-    </node>
-    <node concept="1bXQqE" id="5xy6TexrpV6" role="1dubk0" />
-    <node concept="3zyOaA" id="5xy6TexsIsV" role="1dubk0">
-      <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="directFriends" />
-      <node concept="1dv5OH" id="5xy6TexsJu2" role="1dv5OJ">
-        <property role="TrG5h" value="s1" />
-        <node concept="2kdjtB" id="5xy6TexsJud" role="1dukDx">
-          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-        </node>
-      </node>
-      <node concept="1dv5OH" id="5xy6TexsJuj" role="1dv5OJ">
-        <property role="TrG5h" value="s2" />
-        <node concept="2kdjtB" id="5xy6TexsJuw" role="1dukDx">
-          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="5xy6TexsJu0" role="3zVECR">
-        <node concept="2kdhWc" id="5xy6TexsKvl" role="1dgzf0">
-          <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-          <node concept="2qPR2i" id="5xy6TexsKvD" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
-            <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
-            <node concept="2qPR2i" id="5xy6TexsZQH" role="3zVwHm">
-              <property role="3zVwHg" value="-1" />
-              <property role="3zVwHj" value="false" />
-              <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
-            </node>
-          </node>
-          <node concept="2k1_2z" id="5xy6TexsKvW" role="2kdhYP">
-            <node concept="2vme6Z" id="5xy6TexsKwe" role="2k1_sV">
-              <ref role="XkjO9" node="5xy6TexsJuj" resolve="s2" />
-            </node>
-          </node>
-          <node concept="2vme6Z" id="5xy6TexsKvM" role="2kdhYM">
-            <ref role="XkjO9" node="5xy6TexsJu2" resolve="s1" />
-          </node>
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="5xy6TexsKwm" role="3zVECR">
-        <node concept="2kdhWc" id="5xy6TexsKwu" role="1dgzf0">
-          <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-          <node concept="2qPR2i" id="5xy6TexsKwv" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
-            <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
-            <node concept="2qPR2i" id="5xy6TexsZWO" role="3zVwHm">
-              <property role="3zVwHg" value="-1" />
-              <property role="3zVwHj" value="false" />
-              <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
-            </node>
-          </node>
-          <node concept="2k1_2z" id="5xy6TexsKww" role="2kdhYP">
-            <node concept="2vme6Z" id="5xy6TexsKx4" role="2k1_sV">
-              <ref role="XkjO9" node="5xy6TexsJu2" resolve="s1" />
-            </node>
-          </node>
-          <node concept="2vme6Z" id="5xy6TexsKwO" role="2kdhYM">
-            <ref role="XkjO9" node="5xy6TexsJuj" resolve="s2" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1bXQqE" id="5xy6TexsKxc" role="1dubk0" />
-    <node concept="3zyOaA" id="5xy6TexsKyx" role="1dubk0">
-      <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="allFriends" />
-      <node concept="3zV_Rz" id="5xy6TexsQap" role="3zVECR">
-        <node concept="2k1GkI" id="5xy6TexsQat" role="1dgzf0">
-          <node concept="2k1_uq" id="5xy6TexsQav" role="2nKVj6">
-            <ref role="2nKBpL" node="5xy6TexsIsV" resolve="directFriends" />
-            <node concept="2k1_2z" id="5xy6TexsQaE" role="2nKBpO">
-              <node concept="2vme6Z" id="5xy6TexsQbe" role="2k1_sV">
-                <ref role="XkjO9" node="5xy6TexsKzk" resolve="s1" />
-              </node>
-            </node>
-            <node concept="2k1_2z" id="5xy6TexsQc1" role="2nKBpO">
-              <node concept="2vme6Z" id="5xy6TexsQcQ" role="2k1_sV">
-                <ref role="XkjO9" node="5xy6TexsKzm" resolve="s2" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2k1GkT" id="5xy6TexsQdx" role="1dgzf0">
-          <property role="2957JE" value="equality" />
-          <node concept="2k1_2z" id="5xy6TexsQej" role="2957Ig">
-            <node concept="2vme6Z" id="5xy6TexsQez" role="2k1_sV">
-              <ref role="XkjO9" node="5xy6TexsKzm" resolve="s2" />
-            </node>
-          </node>
-          <node concept="2k1_2z" id="5xy6TexsQe0" role="2957In">
-            <node concept="2vme6Z" id="5xy6TexsQeb" role="2k1_sV">
-              <ref role="XkjO9" node="5xy6TexsKzk" resolve="s1" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1dv5OH" id="5xy6TexsKzk" role="1dv5OJ">
-        <property role="TrG5h" value="s1" />
-        <node concept="2kdjtB" id="5xy6TexsKzl" role="1dukDx">
-          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-        </node>
-      </node>
-      <node concept="1dv5OH" id="5xy6TexsKzm" role="1dv5OJ">
-        <property role="TrG5h" value="s2" />
-        <node concept="2kdjtB" id="5xy6TexsKzn" role="1dukDx">
-          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-        </node>
-      </node>
-    </node>
-    <node concept="1bXQqE" id="5xy6TexA2K8" role="1dubk0" />
   </node>
 </model>
 

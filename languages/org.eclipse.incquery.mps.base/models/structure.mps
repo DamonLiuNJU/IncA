@@ -151,8 +151,10 @@
   <node concept="1TIwiD" id="3VwoHXNAdvE">
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="Comment" />
-    <property role="R5$K7" value="false" />
+    <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="34LRSv" value="//" />
+    <property role="R4oN_" value="Comment" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3VwoHXNAdvO" role="1TKVEl">
       <property role="TrG5h" value="text" />
@@ -179,6 +181,12 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3VwoHXNBAI5" role="PzmwI">
       <ref role="PrY4T" node="3VwoHXNAdmi" resolve="IVariable" />
+    </node>
+    <node concept="PrWs8" id="1i65yRAWZ2t" role="PzmwI">
+      <ref role="PrY4T" node="1i65yRAWiCQ" resolve="IValue" />
+    </node>
+    <node concept="PrWs8" id="2J6v22V3oi0" role="PzmwI">
+      <ref role="PrY4T" node="2J6v22V3ohT" resolve="IVariableValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="RjyNapTFLl">
@@ -213,15 +221,14 @@
     <property role="TrG5h" value="EmptyContent" />
     <property role="R4oN_" value="Empty Content" />
     <property role="3GE5qa" value="content" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3VwoHXNC1YA" role="PzmwI">
       <ref role="PrY4T" node="3VwoHXNAdvu" resolve="IPatternModelContent" />
     </node>
     <node concept="PrWs8" id="1ERTnBTdjey" role="PzmwI">
       <ref role="PrY4T" node="3VwoHXNAdvs" resolve="IPatternBodyContent" />
-    </node>
-    <node concept="PrWs8" id="5xy6TexsJuG" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
   </node>
   <node concept="1TIwiD" id="1YBYCQ0ZLGM">
@@ -238,6 +245,12 @@
     </node>
     <node concept="PrWs8" id="3VwoHXNC1YP" role="PzmwI">
       <ref role="PrY4T" node="1YBYCQ13COO" resolve="IGenNameProvider" />
+    </node>
+    <node concept="PrWs8" id="1i65yRAWZ95" role="PzmwI">
+      <ref role="PrY4T" node="1i65yRAWiCQ" resolve="IValue" />
+    </node>
+    <node concept="PrWs8" id="2J6v22V3oi9" role="PzmwI">
+      <ref role="PrY4T" node="2J6v22V3ohT" resolve="IVariableValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="6trdyn5sMcA">
@@ -418,7 +431,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="parameters" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="RjyNapPtyj" resolve="ValueReference" />
+      <ref role="20lvS9" node="1i65yRAWiCQ" resolve="IValue" />
     </node>
     <node concept="1TJgyj" id="RjyNaq4vP3" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -473,7 +486,10 @@
     <property role="34LRSv" value="Computation Value" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="RjyNapPtyj" resolve="ValueReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1i65yRAWiKG" role="PzmwI">
+      <ref role="PrY4T" node="1i65yRAWiCQ" resolve="IValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="RjyNapPtNI">
     <property role="3GE5qa" value="values" />
@@ -532,7 +548,10 @@
     <property role="34LRSv" value="Literal Value Reference" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="RjyNapPtyj" resolve="ValueReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1i65yRAWiKI" role="PzmwI">
+      <ref role="PrY4T" node="1i65yRAWiCQ" resolve="IValue" />
+    </node>
   </node>
   <node concept="1TIwiD" id="RjyNapPt$A">
     <property role="TrG5h" value="StringValue" />
@@ -544,45 +563,10 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="EE49sS1D0i">
-    <property role="3GE5qa" value="values" />
-    <property role="TrG5h" value="TemporaryVariableValue" />
-    <property role="34LRSv" value="Temporary Variable Value" />
-    <ref role="1TJDcQ" node="RjyNapPtyj" resolve="ValueReference" />
-    <node concept="1TJgyj" id="EE49sS1D0j" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="variable" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6L84cjtSlH$" resolve="TemporaryVariable" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="RjyNapPtyj">
-    <property role="TrG5h" value="ValueReference" />
-    <property role="3GE5qa" value="values" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <property role="34LRSv" value="Value Reference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1ERTnBTaW4M" role="PzmwI">
-      <ref role="PrY4T" node="1YBYCQ13COO" resolve="IGenNameProvider" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="RjyNapPtIh">
-    <property role="3GE5qa" value="values" />
-    <property role="TrG5h" value="VariableValue" />
-    <property role="34LRSv" value="Variable Value" />
-    <ref role="1TJDcQ" node="RjyNapPtyj" resolve="ValueReference" />
-    <node concept="1TJgyj" id="RjyNapPtK9" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="value" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1YBYCQ0ZLGM" resolve="VariableReference" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="RjyNapPkRU">
     <property role="TrG5h" value="CheckConstraint" />
     <property role="3GE5qa" value="constraints" />
-    <property role="R5$K7" value="false" />
+    <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="34LRSv" value="check" />
     <property role="R4oN_" value="Check Constraint" />
@@ -593,14 +577,7 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="1ERTnBTdjoq" role="PzmwI">
-      <ref role="PrY4T" node="1ERTnBTdjop" resolve="IConstraint" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="1ERTnBTdjop">
-    <property role="3GE5qa" value="constraints" />
-    <property role="TrG5h" value="IConstraint" />
-    <node concept="PrWs8" id="1ERTnBTmtrh" role="PrDN$">
+    <node concept="PrWs8" id="1i65yRAU8yV" role="PzmwI">
       <ref role="PrY4T" node="3VwoHXNAdvs" resolve="IPatternBodyContent" />
     </node>
   </node>
@@ -614,7 +591,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="var" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1YBYCQ0ZLGM" resolve="VariableReference" />
+      <ref role="20lvS9" node="2J6v22V3ohT" resolve="IVariableValue" />
     </node>
     <node concept="1TJgyj" id="4QgsNmKLLBx" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -622,8 +599,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
-    <node concept="PrWs8" id="1ERTnBTdjAw" role="PzmwI">
-      <ref role="PrY4T" node="1ERTnBTdjop" resolve="IConstraint" />
+    <node concept="PrWs8" id="1i65yRAUpWB" role="PzmwI">
+      <ref role="PrY4T" node="3VwoHXNAdvs" resolve="IPatternBodyContent" />
+    </node>
+    <node concept="PrWs8" id="1i65yRAUpWH" role="PzmwI">
+      <ref role="PrY4T" node="1i65yRATv5I" resolve="ITypeConstraintProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="RjyNapPkSb">
@@ -631,6 +611,8 @@
     <property role="3GE5qa" value="constraints" />
     <property role="34LRSv" value="compare" />
     <property role="R4oN_" value="Compare Constraint" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7i4WCRX$8_B" role="1TKVEl">
       <property role="TrG5h" value="feature" />
@@ -640,16 +622,16 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="left" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="RjyNapPtyj" resolve="ValueReference" />
+      <ref role="20lvS9" node="1i65yRAWiCQ" resolve="IValue" />
     </node>
     <node concept="1TJgyj" id="7i4WCRX$8$t" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="right" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="RjyNapPtyj" resolve="ValueReference" />
+      <ref role="20lvS9" node="1i65yRAWiCQ" resolve="IValue" />
     </node>
-    <node concept="PrWs8" id="5Dmozv0vIjI" role="PzmwI">
-      <ref role="PrY4T" node="1ERTnBTdjop" resolve="IConstraint" />
+    <node concept="PrWs8" id="1i65yRAUpKZ" role="PzmwI">
+      <ref role="PrY4T" node="3VwoHXNAdvs" resolve="IPatternBodyContent" />
     </node>
   </node>
   <node concept="AxPO7" id="RjyNapTFJQ">
@@ -689,6 +671,23 @@
     <node concept="1TJgyi" id="1ERTnBTmuSE" role="1TKVEl">
       <property role="TrG5h" value="closure" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1i65yRATv5I">
+    <property role="TrG5h" value="ITypeConstraintProvider" />
+  </node>
+  <node concept="PlHQZ" id="1i65yRAWiCQ">
+    <property role="3GE5qa" value="values" />
+    <property role="TrG5h" value="IValue" />
+    <node concept="PrWs8" id="1i65yRAWiCR" role="PrDN$">
+      <ref role="PrY4T" node="1YBYCQ13COO" resolve="IGenNameProvider" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2J6v22V3ohT">
+    <property role="3GE5qa" value="values" />
+    <property role="TrG5h" value="IVariableValue" />
+    <node concept="PrWs8" id="2J6v22V3ohU" role="PrDN$">
+      <ref role="PrY4T" node="1YBYCQ13COO" resolve="IGenNameProvider" />
     </node>
   </node>
 </model>

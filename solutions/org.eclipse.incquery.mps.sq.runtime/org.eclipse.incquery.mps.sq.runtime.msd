@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.eclipse.incquery.mps.sq.runtime" uuid="22355160-0462-42a7-b4f6-c5057d6e9d54" compileInMPS="true">
+<solution name="org.eclipse.incquery.mps.sq.runtime" uuid="22355160-0462-42a7-b4f6-c5057d6e9d54" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

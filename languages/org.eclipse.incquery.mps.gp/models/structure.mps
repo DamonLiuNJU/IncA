@@ -18,6 +18,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -64,6 +67,9 @@
     <node concept="PrWs8" id="1ERTnBTfay6" role="PzmwI">
       <ref role="PrY4T" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
     </node>
+    <node concept="PrWs8" id="5luHlsCrwOP" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCrwig" resolve="IGPatternModelContent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1ERTnBTmryq">
     <property role="TrG5h" value="GPatternBody" />
@@ -89,7 +95,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="trg" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="hqsm:RjyNapPtyj" resolve="ValueReference" />
+      <ref role="20lvS9" to="hqsm:1i65yRAWiCQ" resolve="IValue" />
     </node>
     <node concept="1TJgyj" id="1ERTnBTmtyf" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -103,8 +109,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
-    <node concept="PrWs8" id="1ERTnBTmtyd" role="PzmwI">
-      <ref role="PrY4T" to="hqsm:1ERTnBTdjop" resolve="IConstraint" />
+    <node concept="PrWs8" id="1i65yRAVowI" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:1i65yRATv5I" resolve="ITypeConstraintProvider" />
+    </node>
+    <node concept="PrWs8" id="5luHlsCpmwL" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="RjyNapPkSs">
@@ -123,8 +132,11 @@
       <property role="TrG5h" value="neg" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="PrWs8" id="1ERTnBTmtOO" role="PzmwI">
-      <ref role="PrY4T" to="hqsm:1ERTnBTdjop" resolve="IConstraint" />
+    <node concept="PrWs8" id="5luHlsCpmwS" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
+    </node>
+    <node concept="PrWs8" id="1i65yRAVs5u" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:1i65yRATv5I" resolve="ITypeConstraintProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="5Dmozv0wha_">
@@ -141,6 +153,70 @@
     <property role="34LRSv" value="concept" />
     <property role="R4oN_" value="Concept Constraint" />
     <ref role="1TJDcQ" to="hqsm:4QgsNmKLL_q" resolve="ConceptConstraint" />
+    <node concept="PrWs8" id="5luHlsCpmwF" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1i65yRAR_fk">
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="GCompareConstraint" />
+    <property role="34LRSv" value="compare" />
+    <property role="R4oN_" value="Compare Constraint" />
+    <ref role="1TJDcQ" to="hqsm:RjyNapPkSb" resolve="CompareConstraint" />
+    <node concept="PrWs8" id="5luHlsCpmwD" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5luHlsCpmwA">
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IGPatternBodyContent" />
+    <node concept="PrWs8" id="5luHlsCpmwB" role="PrDN$">
+      <ref role="PrY4T" to="hqsm:3VwoHXNAdvs" resolve="IPatternBodyContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5luHlsCpmwW">
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="GCheckConstraint" />
+    <property role="34LRSv" value="check" />
+    <property role="R4oN_" value="Check Constraint" />
+    <ref role="1TJDcQ" to="hqsm:RjyNapPkRU" resolve="CheckConstraint" />
+    <node concept="PrWs8" id="5luHlsCpmwX" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5luHlsCq9Sp">
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="GEmptyContent" />
+    <ref role="1TJDcQ" to="hqsm:3hiszdZDhip" resolve="EmptyContent" />
+    <node concept="PrWs8" id="5luHlsCq9Sq" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
+    </node>
+    <node concept="PrWs8" id="5luHlsCrwOB" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCrwig" resolve="IGPatternModelContent" />
+    </node>
+    <node concept="PrWs8" id="5luHlsCrxf3" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5luHlsCq9Ss">
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="GComment" />
+    <property role="34LRSv" value="//" />
+    <property role="R4oN_" value="Comment" />
+    <ref role="1TJDcQ" to="hqsm:3VwoHXNAdvE" resolve="Comment" />
+    <node concept="PrWs8" id="5luHlsCq9St" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
+    </node>
+    <node concept="PrWs8" id="5luHlsCrwOI" role="PzmwI">
+      <ref role="PrY4T" node="5luHlsCrwig" resolve="IGPatternModelContent" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5luHlsCrwig">
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IGPatternModelContent" />
+    <node concept="PrWs8" id="5luHlsCrwih" role="PrDN$">
+      <ref role="PrY4T" to="hqsm:3VwoHXNAdvu" resolve="IPatternModelContent" />
+    </node>
   </node>
 </model>
 
