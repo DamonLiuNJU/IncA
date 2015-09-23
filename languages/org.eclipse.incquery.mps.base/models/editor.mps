@@ -29,12 +29,18 @@
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
+      </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1186414999511" name="jetbrains.mps.lang.editor.structure.UnderlinedStyleClassItem" flags="ln" index="VQ3r3">
+        <property id="1214316229833" name="underlined" index="2USNnj" />
+      </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
@@ -181,6 +187,9 @@
       <node concept="VechU" id="5rUQZrcGq3$" role="3F10Kt">
         <property role="Vb096" value="DARK_BLUE" />
       </node>
+      <node concept="VQ3r3" id="Tz5AFeDmcI" role="3F10Kt">
+        <property role="2USNnj" value="2" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3VwoHXNBE5N">
@@ -191,6 +200,9 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <node concept="VechU" id="5rUQZrcFZxy" role="3F10Kt">
           <property role="Vb096" value="DARK_BLUE" />
+        </node>
+        <node concept="VQ3r3" id="qFLZ2DZoUF" role="3F10Kt">
+          <property role="2USNnj" value="2" />
         </node>
       </node>
       <node concept="3EZMnI" id="RjyNapTGwy" role="3EZMnx">
@@ -274,6 +286,9 @@
           <ref role="1ERwB7" node="3hiszdZxPZB" resolve="VariableReference_Delete" />
           <node concept="VechU" id="5rUQZrcGq3K" role="3F10Kt">
             <property role="Vb096" value="DARK_BLUE" />
+          </node>
+          <node concept="Vb9p2" id="1lNEqJZYvII" role="3F10Kt">
+            <property role="Vbekb" value="ITALIC" />
           </node>
         </node>
       </node>

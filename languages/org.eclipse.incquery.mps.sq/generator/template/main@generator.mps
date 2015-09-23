@@ -9,7 +9,6 @@
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="0" />
     <use id="cd2909da-ecb4-49dc-b176-33e5c619e516" name="org.eclipse.incquery.mps.gp" version="0" />
-    <use id="64d34fcd-ad02-4e73-aff8-a581124c2e30" name="jetbrains.mps.lang.findUsages" version="0" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -17,9 +16,6 @@
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" />
     <import index="55iy" ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(org.eclipse.incquery.mps.gp.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="tpci" ref="r:00000000-0000-4000-0000-011c8959028e(jetbrains.mps.lang.structure.findUsages)" />
-    <import index="g4jo" ref="r:d98d04fb-4a60-4106-81cf-6cb40b67de4d(jetbrains.mps.ide.findusages.model)" />
-    <import index="9erk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.ide.findusages.model(MPS.Core/)" />
     <import index="ebqt" ref="r:17207093-9cf4-4f01-9c48-e6e0146d6087(org.eclipse.incquery.mps.sq.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -731,12 +727,12 @@
                           <node concept="3cpWsn" id="5luHlsCvOv9" role="3cpWs9">
                             <property role="TrG5h" value="replacement" />
                             <node concept="3Tqbb2" id="5luHlsCvOv4" role="1tU5fm">
-                              <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+                              <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinaryConstraint" />
                             </node>
                             <node concept="2ShNRf" id="5luHlsCvOv$" role="33vP2m">
                               <node concept="3zrR0B" id="5luHlsCvOvy" role="2ShVmc">
                                 <node concept="3Tqbb2" id="5luHlsCvOvz" role="3zrR0E">
-                                  <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+                                  <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinaryConstraint" />
                                 </node>
                               </node>
                             </node>
@@ -963,12 +959,12 @@
                           <node concept="3cpWsn" id="5luHlsCvWKj" role="3cpWs9">
                             <property role="TrG5h" value="replacement" />
                             <node concept="3Tqbb2" id="5luHlsCvWKk" role="1tU5fm">
-                              <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+                              <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinaryConstraint" />
                             </node>
                             <node concept="2ShNRf" id="5luHlsCvWKl" role="33vP2m">
                               <node concept="3zrR0B" id="5luHlsCvWKm" role="2ShVmc">
                                 <node concept="3Tqbb2" id="5luHlsCvWKn" role="3zrR0E">
-                                  <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+                                  <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinaryConstraint" />
                                 </node>
                               </node>
                             </node>
@@ -1181,10 +1177,10 @@
                           <node concept="3cpWsn" id="5luHlsCwEdN" role="3cpWs9">
                             <property role="TrG5h" value="binary" />
                             <node concept="3Tqbb2" id="5luHlsCwEcz" role="1tU5fm">
-                              <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+                              <ref role="ehGHo" to="ebqt:1i65yRAQ7j_" resolve="SBinaryConstraint" />
                             </node>
                             <node concept="1PxgMI" id="5luHlsCwEdO" role="33vP2m">
-                              <ref role="1PxNhF" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+                              <ref role="1PxNhF" to="ebqt:1i65yRAQ7j_" resolve="SBinaryConstraint" />
                               <node concept="2GrUjf" id="5luHlsCwEdP" role="1PxMeX">
                                 <ref role="2Gs0qQ" node="5luHlsCwC74" resolve="content" />
                               </node>
@@ -1262,26 +1258,6 @@
                                 <node concept="1P9Npp" id="5luHlsCwGlw" role="2OqNvi">
                                   <node concept="37vLTw" id="5luHlsCwGm5" role="1P9ThW">
                                     <ref role="3cqZAo" node="5luHlsCwFU4" resolve="replacement" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3clFbF" id="5luHlsCwGn9" role="3cqZAp">
-                              <node concept="37vLTI" id="5luHlsCwR0k" role="3clFbG">
-                                <node concept="2OqwBi" id="5luHlsCwR4T" role="37vLTx">
-                                  <node concept="37vLTw" id="5luHlsCwR1v" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="5luHlsCwEdN" resolve="binary" />
-                                  </node>
-                                  <node concept="3TrcHB" id="5luHlsCwRh8" role="2OqNvi">
-                                    <ref role="3TsBF5" to="ebqt:5luHlsCwGIt" resolve="neg" />
-                                  </node>
-                                </node>
-                                <node concept="2OqwBi" id="5luHlsCwGpB" role="37vLTJ">
-                                  <node concept="37vLTw" id="5luHlsCwGn7" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="5luHlsCwFU4" resolve="replacement" />
-                                  </node>
-                                  <node concept="3TrcHB" id="5luHlsCwQCY" role="2OqNvi">
-                                    <ref role="3TsBF5" to="55iy:RjyNaq43ZL" resolve="neg" />
                                   </node>
                                 </node>
                               </node>
@@ -1523,7 +1499,7 @@
                         </node>
                         <node concept="1mIQ4w" id="5luHlsCwDF$" role="2OqNvi">
                           <node concept="chp4Y" id="5luHlsCwDGc" role="cj9EA">
-                            <ref role="cht4Q" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+                            <ref role="cht4Q" to="ebqt:1i65yRAQ7j_" resolve="SBinaryConstraint" />
                           </node>
                         </node>
                       </node>
@@ -1859,7 +1835,7 @@
                               <ref role="1PxNhF" to="ebqt:RjyNapPtyj" resolve="STuple" />
                               <node concept="2OqwBi" id="5luHlsCyUUj" role="1PxMeX">
                                 <node concept="1PxgMI" id="5luHlsCyUUk" role="2Oq$k0">
-                                  <ref role="1PxNhF" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+                                  <ref role="1PxNhF" to="ebqt:1i65yRAQ7j_" resolve="SBinaryConstraint" />
                                   <node concept="37vLTw" id="5luHlsCyUUl" role="1PxMeX">
                                     <ref role="3cqZAo" node="5luHlsCy9wu" resolve="lastContent" />
                                   </node>
@@ -1883,7 +1859,7 @@
                     </node>
                     <node concept="1mIQ4w" id="5luHlsCyI17" role="2OqNvi">
                       <node concept="chp4Y" id="5luHlsCyI1J" role="cj9EA">
-                        <ref role="cht4Q" to="ebqt:1i65yRAQ7j_" resolve="SBinary" />
+                        <ref role="cht4Q" to="ebqt:1i65yRAQ7j_" resolve="SBinaryConstraint" />
                       </node>
                     </node>
                   </node>

@@ -178,6 +178,8 @@
   <node concept="1TIwiD" id="6L84cjtSlH$">
     <property role="TrG5h" value="TemporaryVariable" />
     <property role="3GE5qa" value="content" />
+    <property role="34LRSv" value="_" />
+    <property role="R4oN_" value="Temporary Variable" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3VwoHXNBAI5" role="PzmwI">
       <ref role="PrY4T" node="3VwoHXNAdmi" resolve="IVariable" />
@@ -556,7 +558,8 @@
   <node concept="1TIwiD" id="RjyNapPt$A">
     <property role="TrG5h" value="StringValue" />
     <property role="3GE5qa" value="values" />
-    <property role="34LRSv" value="String Value" />
+    <property role="34LRSv" value="&quot;" />
+    <property role="R4oN_" value="String Value" />
     <ref role="1TJDcQ" node="RjyNapPty$" resolve="LiteralValueReference" />
     <node concept="1TJgyi" id="RjyNapPt$B" role="1TKVEl">
       <property role="TrG5h" value="value" />

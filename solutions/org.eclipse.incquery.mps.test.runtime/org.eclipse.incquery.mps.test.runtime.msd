@@ -8,12 +8,8 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">76f64958-d3c3-440b-9b5e-58dc117e6c00(org.eclipse.incquery.mps.test)</dependency>
-    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
     <dependency reexport="false">b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)</dependency>
     <dependency reexport="false">7766a138-716a-422a-9c88-131459fb8d6a(org.eclipse.incquery.mps.core)</dependency>
-    <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
-    <dependency reexport="false">85d9f97b-1654-4692-b61c-fcc40db03653(Eclipse.Debugger)</dependency>
   </dependencies>
   <languageVersions>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="2" />
@@ -23,7 +19,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="2" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
-    <language id="ef5ea086-f248-4019-bdc4-4a594cfbdd2e" fqName="org.eclipse.incquery.mps" version="0" />
     <language id="76f64958-d3c3-440b-9b5e-58dc117e6c00" fqName="org.eclipse.incquery.mps.test" version="0" />
   </languageVersions>
 </solution>

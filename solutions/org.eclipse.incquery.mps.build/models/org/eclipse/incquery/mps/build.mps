@@ -483,9 +483,82 @@
           <property role="TrG5h" value="org.eclipse.incquery.mps.sq#4530729936991344015" />
           <property role="3LESm3" value="8f5e7b65-fd75-4aa6-b49e-44ecf418fcb5" />
           <property role="2GAjPV" value="false" />
+          <node concept="1SiIV0" id="6fymoI4P4FV" role="3bR37C">
+            <node concept="3bR9La" id="6fymoI4P4FW" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="6fymoI4P4FX" role="3bR37C">
+            <node concept="3bR9La" id="6fymoI4P4FY" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="5xy6TexCUFV" role="1E1XAP">
           <ref role="1E0d5P" node="5xy6TexCQnu" resolve="org.eclipse.incquery.mps.gp.runtime" />
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4Fu" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4Fv" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="5xy6TexCVsY" resolve="org.eclipse.incquery.mps.sq.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4Fw" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4Fx" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="2Zh2tjQSyQt" resolve="org.eclipse.incquery.mps.base.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4Fy" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4Fz" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4F$" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4F_" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4FC" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4FD" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4FE" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4FF" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4FK" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4FL" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4FM" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4FN" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="2Zh2tjQSyQg" resolve="org.eclipse.incquery.mps.base" />
+          </node>
+        </node>
+        <node concept="1E0d5M" id="6fymoI4P4FO" role="1E1XAP">
+          <ref role="1E0d5P" node="5xy6TexCVsY" resolve="org.eclipse.incquery.mps.sq.runtime" />
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4FP" role="3bR37C">
+          <node concept="1Busua" id="6fymoI4P4FQ" role="1SiIV1">
+            <ref role="1Busuk" node="2Zh2tjQSyQg" resolve="org.eclipse.incquery.mps.base" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4FR" role="3bR37C">
+          <node concept="1Busua" id="6fymoI4P4FS" role="1SiIV1">
+            <ref role="1Busuk" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
+          </node>
         </node>
       </node>
       <node concept="1E1JtA" id="2Zh2tjQSyQm" role="2G$12L">
@@ -1149,6 +1222,24 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6fymoI4P4KT" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4KU" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4KV" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4KW" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P4KX" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P4KY" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="5xy6TexCUFB" resolve="org.eclipse.incquery.mps.sq" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5xy6TexCQWj" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1309,6 +1400,12 @@
       <node concept="L2wRC" id="4Ut1WRRt686" role="39821P">
         <ref role="L2wRA" node="4Ut1WRRt0tK" resolve="org.eclipse.incquery.mps.test.runtime" />
       </node>
+      <node concept="L2wRC" id="6fymoI4PWmv" role="39821P">
+        <ref role="L2wRA" node="6fymoI4P501" resolve="org.eclipse.incquery.mps.test.gp" />
+      </node>
+      <node concept="L2wRC" id="6fymoI4PWq7" role="39821P">
+        <ref role="L2wRA" node="6fymoI4P53p" resolve="org.eclipse.incquery.mps.test.sq" />
+      </node>
     </node>
     <node concept="2G$12M" id="4Ut1WRRt0t4" role="3989C9">
       <property role="TrG5h" value="org.eclipse.incquery.mps.test" />
@@ -1329,12 +1426,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="4Ut1WRRt0tk" role="3bR37C">
-          <node concept="3bR9La" id="4Ut1WRRt0tl" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
         <node concept="1E0d5M" id="4Ut1WRRt0tm" role="1E1XAP">
           <ref role="1E0d5P" node="4Ut1WRRt0tK" resolve="org.eclipse.incquery.mps.test.runtime" />
         </node>
@@ -1343,23 +1434,8 @@
           <property role="3LESm3" value="d645efad-7ba2-43a6-a2a6-4855067488e1" />
           <property role="2GAjPV" value="false" />
         </node>
-        <node concept="1SiIV0" id="4Ut1WRRt36E" role="3bR37C">
-          <node concept="3bR9La" id="4Ut1WRRt36F" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="2Zh2tjQSyQg" resolve="org.eclipse.incquery.mps.base" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4Ut1WRRt3zI" role="3bR37C">
-          <node concept="3bR9La" id="4Ut1WRRt3zJ" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="2Zh2tjQSyQt" resolve="org.eclipse.incquery.mps.base.runtime" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4Ut1WRRt3zK" role="3bR37C">
-          <node concept="3bR9La" id="4Ut1WRRt3zL" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
-          </node>
+        <node concept="1E0d5M" id="6fymoI4P5cs" role="1E1XAP">
+          <ref role="1E0d5P" node="6fymoI4P53p" resolve="org.eclipse.incquery.mps.test.sq" />
         </node>
       </node>
       <node concept="1E1JtA" id="4Ut1WRRt0tK" role="2G$12L">
@@ -1408,6 +1484,92 @@
           <node concept="3bR9La" id="5xy6TexCSa4" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="5xy6TexCQWj" resolve="org.eclipse.incquery.mps.core" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="6fymoI4P501" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.eclipse.incquery.mps.test.gp" />
+        <property role="3LESm3" value="37f6b399-be01-45b3-8d37-8455c85541d5" />
+        <property role="2GAjPV" value="false" />
+        <property role="aoJFB" value="sources and tests" />
+        <node concept="398BVA" id="6fymoI4P502" role="3LF7KH">
+          <ref role="398BVh" node="4Ut1WRRt0sC" resolve="mps.incquery" />
+          <node concept="2Ry0Ak" id="6fymoI4P503" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="6fymoI4P504" role="2Ry0An">
+              <property role="2Ry0Am" value="org.eclipse.incquery.mps.test.gp" />
+              <node concept="2Ry0Ak" id="6fymoI4P590" role="2Ry0An">
+                <property role="2Ry0Am" value="org.eclipse.incquery.mps.test.gp.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P506" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P507" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="4Ut1WRRt0t5" resolve="org.eclipse.incquery.mps.test" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P50a" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P50b" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P50c" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P50d" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P5iD" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P5iE" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="4Ut1WRRt0tK" resolve="org.eclipse.incquery.mps.test.runtime" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="6fymoI4P53p" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.eclipse.incquery.mps.test.sq" />
+        <property role="3LESm3" value="c39c2632-97c9-4d12-bcb0-4e5c33b4117f" />
+        <property role="2GAjPV" value="false" />
+        <property role="aoJFB" value="sources and tests" />
+        <node concept="398BVA" id="6fymoI4P53q" role="3LF7KH">
+          <ref role="398BVh" node="4Ut1WRRt0sC" resolve="mps.incquery" />
+          <node concept="2Ry0Ak" id="6fymoI4P53r" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="6fymoI4P53s" role="2Ry0An">
+              <property role="2Ry0Am" value="org.eclipse.incquery.mps.test.sq" />
+              <node concept="2Ry0Ak" id="6fymoI4P5bo" role="2Ry0An">
+                <property role="2Ry0Am" value="org.eclipse.incquery.mps.test.sq.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P53u" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P53v" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="4Ut1WRRt0t5" resolve="org.eclipse.incquery.mps.test" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P53y" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P53z" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P53$" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P53_" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fymoI4P5gj" role="3bR37C">
+          <node concept="3bR9La" id="6fymoI4P5gk" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="4Ut1WRRt0tK" resolve="org.eclipse.incquery.mps.test.runtime" />
           </node>
         </node>
       </node>
