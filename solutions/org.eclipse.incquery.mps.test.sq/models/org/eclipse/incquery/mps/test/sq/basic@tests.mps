@@ -43,7 +43,7 @@
       </concept>
       <concept id="1925259677761386650" name="org.eclipse.incquery.mps.sq.structure.SPatternBody" flags="ng" index="3zV_Rz" />
       <concept id="1478893914040071397" name="org.eclipse.incquery.mps.sq.structure.SBinaryConstraint" flags="ng" index="3MnAb8">
-        <property id="7197413610255060755" name="neq" index="3BcHqo" />
+        <property id="7197413610255060755" name="neg" index="3BcHqo" />
         <child id="1478893914040071407" name="left" index="3MnAb2" />
         <child id="1478893914040071412" name="right" index="3MnAbp" />
       </concept>
@@ -187,22 +187,8 @@
       <concept id="2281067221947980594" name="org.eclipse.incquery.mps.base.structure.VariableReference" flags="ng" index="2vme6Z">
         <reference id="768444928085405086" name="variable" index="XkjO9" />
       </concept>
-      <concept id="7447605944641594150" name="org.eclipse.incquery.mps.base.structure.GetParameterOperation" flags="ng" index="2ya1k3">
-        <reference id="7447605944641598694" name="parameter" index="2ya0b3" />
-      </concept>
-      <concept id="7447605944636584242" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatch" flags="ig" index="2yvosn">
-        <reference id="7447605944636589388" name="pattern" index="2yvvdD" />
-      </concept>
       <concept id="7996518772785670958" name="org.eclipse.incquery.mps.base.structure.DataTypeReference" flags="ng" index="2PmbLq">
         <reference id="7996518772785671445" name="type" index="2PmbDx" />
-      </concept>
-      <concept id="7241148409043933760" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatcherInstantiation" flags="ng" index="2UzQ1s">
-        <reference id="7241148409043933812" name="pattern" index="2UzQ1C" />
-        <child id="8066520122896896506" name="model" index="HflyE" />
-      </concept>
-      <concept id="8650544432873189951" name="org.eclipse.incquery.mps.base.structure.GetAllMatchesOperation" flags="ng" index="VbPDF" />
-      <concept id="8650544432874604370" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatcher" flags="ig" index="VdqW6">
-        <reference id="8650544432874609807" name="pattern" index="Vdrjr" />
       </concept>
       <concept id="4530729936991344605" name="org.eclipse.incquery.mps.base.structure.IPatternBody" flags="ng" index="1dubk2">
         <child id="4530729936991965471" name="contents" index="1dgzf0" />
@@ -259,12 +245,7 @@
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
-      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
-      <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
-      <concept id="5686963296372573083" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerType" flags="in" index="3O5elB">
-        <child id="5686963296372573084" name="elementType" index="3O5elw" />
-      </concept>
     </language>
   </registry>
   <node concept="3TKv5i" id="5xy6TexD3Qj">
@@ -450,8 +431,8 @@
         </node>
         <node concept="30Nfyg" id="KHoiwD2LiN" role="1dgzf0">
           <property role="30RX_7" value="false" />
-          <node concept="30NkWi" id="KHoiwD2Ltp" role="30Nf_D">
-            <ref role="XkjO9" node="2J6v22V96Xa" resolve="student" />
+          <node concept="30NkWi" id="4syJQfXJgsl" role="30Nf_D">
+            <ref role="XkjO9" node="KHoiwD24IX" resolve="friend" />
           </node>
         </node>
       </node>
@@ -1145,63 +1126,6 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="7f_LHgkHua9" role="3cqZAp" />
-                  <node concept="3clFbH" id="Tz5AFeFJUB" role="3cqZAp" />
-                  <node concept="3cpWs8" id="Tz5AFeFLik" role="3cqZAp">
-                    <node concept="3cpWsn" id="Tz5AFeFLil" role="3cpWs9">
-                      <property role="TrG5h" value="matcher" />
-                      <node concept="VdqW6" id="Tz5AFeFLii" role="1tU5fm">
-                        <ref role="Vdrjr" node="5xy6TexDde3" resolve="students" />
-                      </node>
-                      <node concept="2UzQ1s" id="Tz5AFeFLim" role="33vP2m">
-                        <ref role="2UzQ1C" node="5xy6TexDde3" resolve="students" />
-                        <node concept="37vLTw" id="Tz5AFeFLin" role="HflyE">
-                          <ref role="3cqZAo" node="7O543ZBfcT6" resolve="root" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbH" id="Tz5AFeFKad" role="3cqZAp" />
-                  <node concept="3cpWs8" id="Tz5AFeFN4u" role="3cqZAp">
-                    <node concept="3cpWsn" id="Tz5AFeFN4v" role="3cpWs9">
-                      <property role="TrG5h" value="collection" />
-                      <node concept="3vKaQO" id="Tz5AFeFN4l" role="1tU5fm">
-                        <node concept="2yvosn" id="Tz5AFeFN4o" role="3O5elw">
-                          <ref role="2yvvdD" node="5xy6TexDde3" resolve="students" />
-                        </node>
-                      </node>
-                      <node concept="2OqwBi" id="Tz5AFeFN4w" role="33vP2m">
-                        <node concept="37vLTw" id="Tz5AFeFN4x" role="2Oq$k0">
-                          <ref role="3cqZAo" node="Tz5AFeFLil" resolve="matcher" />
-                        </node>
-                        <node concept="VbPDF" id="Tz5AFeFN4y" role="2OqNvi" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbH" id="Tz5AFeFM7d" role="3cqZAp" />
-                  <node concept="3cpWs8" id="Tz5AFeFQkL" role="3cqZAp">
-                    <node concept="3cpWsn" id="Tz5AFeFQkM" role="3cpWs9">
-                      <property role="TrG5h" value="node" />
-                      <node concept="3Tqbb2" id="Tz5AFeFQkl" role="1tU5fm">
-                        <ref role="ehGHo" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-                      </node>
-                      <node concept="2OqwBi" id="Tz5AFeFQkN" role="33vP2m">
-                        <node concept="2OqwBi" id="Tz5AFeFQkO" role="2Oq$k0">
-                          <node concept="37vLTw" id="Tz5AFeFQkP" role="2Oq$k0">
-                            <ref role="3cqZAo" node="Tz5AFeFN4v" resolve="collection" />
-                          </node>
-                          <node concept="1uHKPH" id="Tz5AFeFQkQ" role="2OqNvi" />
-                        </node>
-                        <node concept="2ya1k3" id="Tz5AFeFQkR" role="2OqNvi">
-                          <ref role="2ya0b3" node="5xy6TexDik8" resolve="students_out_0" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="Tz5AFeFNYS" role="3cqZAp">
-                    <node concept="37vLTw" id="Tz5AFeFQkS" role="3clFbG">
-                      <ref role="3cqZAo" node="Tz5AFeFQkM" resolve="node" />
-                    </node>
-                  </node>
                   <node concept="3clFbH" id="Tz5AFeFNIF" role="3cqZAp" />
                 </node>
                 <node concept="3clFbS" id="rPCVTEi5QQ" role="2GVbov">

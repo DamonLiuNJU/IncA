@@ -10,6 +10,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="coho" ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)" implicit="true" />
+    <import index="55iy" ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(org.eclipse.incquery.mps.gp.structure)" implicit="true" />
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" implicit="true" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" implicit="true" />
@@ -359,6 +360,36 @@
               </node>
               <node concept="2qgKlT" id="5xy6TexrqJY" role="2OqNvi">
                 <ref role="37wK5l" to="gcg1:1ERTnBTmyem" resolve="getScope" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Um2eU" id="6fymoI5fzhT" role="1kkKnR">
+      <node concept="3clFbS" id="6fymoI5fzhU" role="2VODD2">
+        <node concept="3clFbJ" id="6fymoI5fzxV" role="3cqZAp">
+          <node concept="3clFbS" id="6fymoI5fzxW" role="3clFbx">
+            <node concept="3cpWs6" id="6fymoI5f$5N" role="3cqZAp">
+              <node concept="3clFbT" id="6fymoI5f$8C" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6fymoI5fzGp" role="3clFbw">
+            <node concept="otxO1" id="6fymoI5fzB1" role="2Oq$k0" />
+            <node concept="3O6GUB" id="6fymoI5fzTQ" role="2OqNvi">
+              <node concept="chp4Y" id="6fymoI5fzZL" role="3QVz_e">
+                <ref role="cht4Q" to="55iy:5Dmozv0wha_" resolve="GPathElement" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="6fymoI5f$eC" role="9aQIa">
+            <node concept="3clFbS" id="6fymoI5f$eD" role="9aQI4">
+              <node concept="3cpWs6" id="6fymoI5f$k_" role="3cqZAp">
+                <node concept="3clFbT" id="6fymoI5f$kN" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
+                </node>
               </node>
             </node>
           </node>

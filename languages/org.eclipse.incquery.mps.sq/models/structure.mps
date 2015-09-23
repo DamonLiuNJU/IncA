@@ -204,7 +204,7 @@
     <property role="TrG5h" value="SBinaryConstraint" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6fymoI4O8Wj" role="1TKVEl">
-      <property role="TrG5h" value="neq" />
+      <property role="TrG5h" value="neg" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyj" id="1i65yRAQ7jJ" role="1TKVEi">
