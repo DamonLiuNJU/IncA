@@ -208,14 +208,11 @@
               <node concept="398BVA" id="69NMDwEeQxU" role="2HvfZ0">
                 <ref role="398BVh" node="2Zh2tjQSyQa" resolve="mps.incquery" />
                 <node concept="2Ry0Ak" id="69NMDwEeRo0" role="iGT6I">
-                  <property role="2Ry0Am" value="languages" />
+                  <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="69NMDwEeRs4" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.eclipse.incquery.mps" />
+                    <property role="2Ry0Am" value="org.eclipse.incquery.mps.base.runtime" />
                     <node concept="2Ry0Ak" id="69NMDwEeRsc" role="2Ry0An">
-                      <property role="2Ry0Am" value="runtime" />
-                      <node concept="2Ry0Ak" id="69NMDwEeRsk" role="2Ry0An">
-                        <property role="2Ry0Am" value="lib" />
-                      </node>
+                      <property role="2Ry0Am" value="lib" />
                     </node>
                   </node>
                 </node>
@@ -495,6 +492,18 @@
               <ref role="3bR37D" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
             </node>
           </node>
+          <node concept="1SiIV0" id="35E98EpSWDD" role="3bR37C">
+            <node concept="3bR9La" id="35E98EpSWDE" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="5xy6TexCPW4" resolve="org.eclipse.incquery.mps.gp#4530729936991344011" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="35E98EpSWDF" role="3bR37C">
+            <node concept="3bR9La" id="35E98EpSWDG" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="5xy6TexCUFV" role="1E1XAP">
           <ref role="1E0d5P" node="5xy6TexCQnu" resolve="org.eclipse.incquery.mps.gp.runtime" />
@@ -558,6 +567,12 @@
         <node concept="1SiIV0" id="6fymoI4P4FR" role="3bR37C">
           <node concept="1Busua" id="6fymoI4P4FS" role="1SiIV1">
             <ref role="1Busuk" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="35E98EpSWDB" role="3bR37C">
+          <node concept="3bR9La" id="35E98EpSWDC" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L6o" resolve="jetbrains.mps.lang.generator.generationContext" />
           </node>
         </node>
       </node>
