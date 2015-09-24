@@ -27584,7 +27584,7 @@
                   <ref role="3cqZAo" node="2cknNXbLq3P" resolve="engine" />
                 </node>
                 <node concept="liA8E" id="5YH9iFAGv4C" role="2OqNvi">
-                  <ref role="37wK5l" to="4k41:~IncQueryEngine.getMatcher(java.lang.String):org.eclipse.incquery.runtime.api.IncQueryMatcher" resolve="getMatcher" />
+                  <ref role="37wK5l" to="4k41:~IncQueryEngine.getMatcher(org.eclipse.incquery.runtime.api.IQuerySpecification):org.eclipse.incquery.runtime.api.IncQueryMatcher" resolve="getMatcher" />
                   <node concept="37vLTw" id="5YH9iFAGv_l" role="37wK5m">
                     <ref role="3cqZAo" node="4h0s9CVLrmi" resolve="specification" />
                   </node>

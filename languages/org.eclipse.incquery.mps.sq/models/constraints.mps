@@ -869,5 +869,37 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="35E98Eq2BFm">
+    <property role="3GE5qa" value="constraints" />
+    <ref role="1M2myG" to="ebqt:5luHlsCq70s" resolve="SCheckConstraint" />
+    <node concept="Um2eU" id="35E98Eq2BFn" role="1kkKnR">
+      <node concept="3clFbS" id="35E98Eq2BFo" role="2VODD2">
+        <node concept="3cpWs6" id="35E98Eq2BHZ" role="3cqZAp">
+          <node concept="3fqX7Q" id="35E98Eq2BI0" role="3cqZAk">
+            <node concept="1eOMI4" id="35E98Eq2BI1" role="3fr31v">
+              <node concept="22lmx$" id="35E98Eq2BI2" role="1eOMHV">
+                <node concept="2OqwBi" id="35E98Eq2BI3" role="3uHU7w">
+                  <node concept="otxO1" id="35E98Eq2BI4" role="2Oq$k0" />
+                  <node concept="3O6GUB" id="35E98Eq2BI5" role="2OqNvi">
+                    <node concept="chp4Y" id="35E98Eq2BI6" role="3QVz_e">
+                      <ref role="cht4Q" to="hqsm:1YBYCQ0ZLGM" resolve="VariableReference" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="35E98Eq2BI7" role="3uHU7B">
+                  <node concept="otxO1" id="35E98Eq2BI8" role="2Oq$k0" />
+                  <node concept="3O6GUB" id="35E98Eq2BI9" role="2OqNvi">
+                    <node concept="chp4Y" id="35E98Eq2BIa" role="3QVz_e">
+                      <ref role="cht4Q" to="hqsm:6L84cjtSlH$" resolve="TemporaryVariable" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
