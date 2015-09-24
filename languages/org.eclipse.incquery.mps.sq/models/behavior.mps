@@ -2376,15 +2376,9 @@
             <ref role="37wK5l" to="3o3z:~Sets.newHashSet(java.lang.Object...):java.util.HashSet" resolve="newHashSet" />
             <node concept="2OqwBi" id="Tz5AFeFr6_" role="37wK5m">
               <node concept="35c_gC" id="Tz5AFeF1Nr" role="2Oq$k0">
-                <ref role="35c_gD" to="ebqt:RjyNapPtyj" resolve="STuple" />
+                <ref role="35c_gD" to="ebqt:Tz5AFeF_aW" resolve="ITupleLike" />
               </node>
               <node concept="FGMqu" id="Tz5AFeFruI" role="2OqNvi" />
-            </node>
-            <node concept="2OqwBi" id="Tz5AFeFrAl" role="37wK5m">
-              <node concept="35c_gC" id="Tz5AFeF1Ns" role="2Oq$k0">
-                <ref role="35c_gD" to="ebqt:Tz5AFeCUC5" resolve="STemporaryVariable" />
-              </node>
-              <node concept="FGMqu" id="Tz5AFeFsdK" role="2OqNvi" />
             </node>
             <node concept="3Tqbb2" id="Tz5AFeFr1c" role="3PaCim">
               <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
@@ -3083,8 +3077,8 @@
                                   <node concept="37vLTw" id="1lNEqJZYcB4" role="2Oq$k0">
                                     <ref role="3cqZAo" node="1lNEqJZY8sB" resolve="pattern" />
                                   </node>
-                                  <node concept="3Tsc0h" id="1lNEqJZYddI" role="2OqNvi">
-                                    <ref role="3TtcxE" to="hqsm:3VwoHXNB3ZK" />
+                                  <node concept="3Tsc0h" id="2GrU8tMwEcU" role="2OqNvi">
+                                    <ref role="3TtcxE" to="ebqt:5xy6TexD6_X" />
                                   </node>
                                 </node>
                                 <node concept="34jXtK" id="1lNEqJZYhIi" role="2OqNvi">
@@ -3106,8 +3100,8 @@
                         <node concept="37vLTw" id="1lNEqJZY8_m" role="2Oq$k0">
                           <ref role="3cqZAo" node="1lNEqJZY8sB" resolve="pattern" />
                         </node>
-                        <node concept="3Tsc0h" id="1lNEqJZY8ZF" role="2OqNvi">
-                          <ref role="3TtcxE" to="hqsm:3VwoHXNB3ZK" />
+                        <node concept="3Tsc0h" id="2GrU8tMwDHE" role="2OqNvi">
+                          <ref role="3TtcxE" to="ebqt:5xy6TexD6_X" />
                         </node>
                       </node>
                       <node concept="34oBXx" id="1lNEqJZYcav" role="2OqNvi" />

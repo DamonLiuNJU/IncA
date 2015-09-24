@@ -14,6 +14,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -80,6 +81,9 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -557,14 +561,14 @@
               <node concept="2OqwBi" id="6fymoI4OyVW" role="3fr31v">
                 <node concept="2Sf5sV" id="6fymoI4OySk" role="2Oq$k0" />
                 <node concept="3TrcHB" id="6fymoI4Oz8_" role="2OqNvi">
-                  <ref role="3TsBF5" to="ebqt:6fymoI4O8Wj" resolve="neq" />
+                  <ref role="3TsBF5" to="ebqt:6fymoI4O8Wj" resolve="neg" />
                 </node>
               </node>
             </node>
             <node concept="2OqwBi" id="6fymoI4Oyha" role="37vLTJ">
               <node concept="2Sf5sV" id="6fymoI4Oyeq" role="2Oq$k0" />
               <node concept="3TrcHB" id="6fymoI4OytK" role="2OqNvi">
-                <ref role="3TsBF5" to="ebqt:6fymoI4O8Wj" resolve="neq" />
+                <ref role="3TsBF5" to="ebqt:6fymoI4O8Wj" resolve="neg" />
               </node>
             </node>
           </node>
@@ -582,16 +586,38 @@
     </node>
     <node concept="2SaL7w" id="6fymoI4OATV" role="2ZfVeh">
       <node concept="3clFbS" id="6fymoI4OATW" role="2VODD2">
-        <node concept="3cpWs6" id="6fymoI4OB0f" role="3cqZAp">
-          <node concept="3clFbC" id="6fymoI4OEBe" role="3cqZAk">
-            <node concept="Rm8GO" id="6fymoI4OEMM" role="3uHU7w">
-              <ref role="Rm8GQ" to="t4sj:6fymoI4NFSY" resolve="COMPARE" />
-              <ref role="1Px2BO" to="t4sj:6fymoI4NFRb" resolve="BinaryConstraintKind" />
+        <node concept="3cpWs8" id="2GrU8tMwPdE" role="3cqZAp">
+          <node concept="3cpWsn" id="2GrU8tMwPdF" role="3cpWs9">
+            <property role="TrG5h" value="kind" />
+            <node concept="3uibUv" id="2GrU8tMwPdD" role="1tU5fm">
+              <ref role="3uigEE" to="t4sj:6fymoI4NFRb" resolve="BinaryConstraintKind" />
             </node>
-            <node concept="2YIFZM" id="6fymoI4OEf$" role="3uHU7B">
+            <node concept="2YIFZM" id="2GrU8tMwPdG" role="33vP2m">
               <ref role="37wK5l" to="t4sj:6fymoI4NFU8" resolve="getKind" />
               <ref role="1Pybhc" to="t4sj:5lmC1XhmXON" resolve="BinaryConstraintHelper" />
-              <node concept="2Sf5sV" id="6fymoI4OEnd" role="37wK5m" />
+              <node concept="2Sf5sV" id="2GrU8tMwPdH" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="6fymoI4OB0f" role="3cqZAp">
+          <node concept="22lmx$" id="2GrU8tMwP7q" role="3cqZAk">
+            <node concept="3clFbC" id="2GrU8tMwPxT" role="3uHU7w">
+              <node concept="Rm8GO" id="2GrU8tMwPI0" role="3uHU7w">
+                <ref role="Rm8GQ" to="t4sj:6fymoI4NFSo" resolve="CALL" />
+                <ref role="1Px2BO" to="t4sj:6fymoI4NFRb" resolve="BinaryConstraintKind" />
+              </node>
+              <node concept="37vLTw" id="2GrU8tMwPjW" role="3uHU7B">
+                <ref role="3cqZAo" node="2GrU8tMwPdF" resolve="kind" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="6fymoI4OEBe" role="3uHU7B">
+              <node concept="37vLTw" id="2GrU8tMwPdI" role="3uHU7B">
+                <ref role="3cqZAo" node="2GrU8tMwPdF" resolve="kind" />
+              </node>
+              <node concept="Rm8GO" id="6fymoI4OEMM" role="3uHU7w">
+                <ref role="Rm8GQ" to="t4sj:6fymoI4NFSY" resolve="COMPARE" />
+                <ref role="1Px2BO" to="t4sj:6fymoI4NFRb" resolve="BinaryConstraintKind" />
+              </node>
             </node>
           </node>
         </node>
