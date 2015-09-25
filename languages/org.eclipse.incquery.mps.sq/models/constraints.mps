@@ -161,11 +161,7 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
-        <child id="1144104376918" name="parameter" index="1xVPHs" />
-      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
       </concept>
@@ -173,9 +169,6 @@
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
       <concept id="334628810661441841" name="jetbrains.mps.lang.smodel.structure.AsSConcept" flags="nn" index="1rGIog" />
-      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
-        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
-      </concept>
       <concept id="1172326502327" name="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" flags="nn" index="3O6GUB">
         <child id="1206733650006" name="conceptArgument" index="3QVz_e" />
       </concept>
@@ -185,9 +178,6 @@
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
-      </concept>
-      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
-        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
@@ -226,25 +216,8 @@
                 <node concept="EsrRn" id="5xy6TexD67G" role="2Oq$k0" />
                 <node concept="2bSWHS" id="5xy6TexD6ub" role="2OqNvi" />
               </node>
-              <node concept="3cpWs3" id="5luHlsCyan0" role="3uHU7B">
-                <node concept="2OqwBi" id="5luHlsCybjS" role="3uHU7B">
-                  <node concept="2OqwBi" id="5luHlsCya_z" role="2Oq$k0">
-                    <node concept="EsrRn" id="5luHlsCyass" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="5luHlsCyb2L" role="2OqNvi">
-                      <node concept="1xMEDy" id="5luHlsCyb2N" role="1xVPHs">
-                        <node concept="chp4Y" id="5luHlsCyb8r" role="ri$Ld">
-                          <ref role="cht4Q" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="5luHlsCybxq" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="5xy6TexD5ss" role="3uHU7w">
-                  <property role="Xl_RC" value="_out_" />
-                </node>
+              <node concept="Xl_RD" id="5xy6TexD5ss" role="3uHU7B">
+                <property role="Xl_RC" value="out_" />
               </node>
             </node>
           </node>

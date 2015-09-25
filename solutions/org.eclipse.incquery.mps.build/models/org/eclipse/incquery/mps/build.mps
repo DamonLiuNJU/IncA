@@ -492,18 +492,6 @@
               <ref role="3bR37D" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
             </node>
           </node>
-          <node concept="1SiIV0" id="35E98EpSWDD" role="3bR37C">
-            <node concept="3bR9La" id="35E98EpSWDE" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="5xy6TexCPW4" resolve="org.eclipse.incquery.mps.gp#4530729936991344011" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="35E98EpSWDF" role="3bR37C">
-            <node concept="3bR9La" id="35E98EpSWDG" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-            </node>
-          </node>
         </node>
         <node concept="1E0d5M" id="5xy6TexCUFV" role="1E1XAP">
           <ref role="1E0d5P" node="5xy6TexCQnu" resolve="org.eclipse.incquery.mps.gp.runtime" />
@@ -567,12 +555,6 @@
         <node concept="1SiIV0" id="6fymoI4P4FR" role="3bR37C">
           <node concept="1Busua" id="6fymoI4P4FS" role="1SiIV1">
             <ref role="1Busuk" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="35E98EpSWDB" role="3bR37C">
-          <node concept="3bR9La" id="35E98EpSWDC" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L6o" resolve="jetbrains.mps.lang.generator.generationContext" />
           </node>
         </node>
       </node>
@@ -1481,18 +1463,6 @@
           <node concept="3bR9La" id="4Ut1WRRt3xt" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="2Zh2tjQSyQg" resolve="org.eclipse.incquery.mps.base" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1DxZyGUIV8e" role="3bR37C">
-          <node concept="3bR9La" id="1DxZyGUIV8f" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2ts7skhrOMP" role="3bR37C">
-          <node concept="3bR9La" id="2ts7skhrOMQ" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="5xy6TexCSa3" role="3bR37C">
