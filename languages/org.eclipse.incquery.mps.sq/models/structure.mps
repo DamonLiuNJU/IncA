@@ -63,8 +63,8 @@
   <node concept="1TIwiD" id="5xy6TexCYF1">
     <property role="TrG5h" value="SPatternModel" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Pattern Model" />
-    <property role="R4oN_" value="Pattern Model with Functional Style" />
+    <property role="34LRSv" value="Query Model" />
+    <property role="R4oN_" value="Query Model" />
     <ref role="1TJDcQ" to="55iy:1ERTnBTfasH" resolve="GPatternModel" />
     <node concept="1TJgyi" id="5xy6TexCYF4" role="1TKVEl">
       <property role="TrG5h" value="showHop" />

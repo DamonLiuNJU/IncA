@@ -50,6 +50,10 @@
         <property id="1136923970224" name="keycode" index="2PWKIS" />
       </concept>
       <concept id="1136917288805" name="jetbrains.mps.lang.editor.structure.CellKeyMap_ExecuteFunction" flags="in" index="2PzhpH" />
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+      </concept>
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -253,7 +257,7 @@
       <node concept="3EZMnI" id="1ERTnBTfavG" role="3EZMnx">
         <node concept="l2Vlx" id="1ERTnBTfavH" role="2iSdaV" />
         <node concept="3F0ifn" id="1ERTnBTfavD" role="3EZMnx">
-          <property role="3F0ifm" value="Pattern Model" />
+          <property role="3F0ifm" value="Query Model" />
         </node>
         <node concept="3F0A7n" id="1ERTnBTfawc" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -1051,6 +1055,9 @@
           <node concept="3F0A7n" id="Tz5AFeK9AF" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="VechU" id="5rUQZrcGcMH" role="3F10Kt">
+              <property role="Vb096" value="DARK_GREEN" />
+            </node>
           </node>
         </node>
       </node>

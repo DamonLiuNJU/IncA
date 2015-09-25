@@ -55,6 +55,20 @@
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="44851301-9e9d-4b21-9608-3740a9f299a4(org.eclipse.incquery.mps.gp#4530729936991344011)" />
+            <external-mapping>
+              <mapping-node modelUID="r:d7788ae3-4afe-431e-a7ca-f1369bead1e8(org.eclipse.incquery.mps.gp.generator.template.main@generator)" nodeID="1896108650033167803" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="44851301-9e9d-4b21-9608-3740a9f299a4(org.eclipse.incquery.mps.gp#4530729936991344011)" />
+            <external-mapping>
+              <mapping-node modelUID="r:d7788ae3-4afe-431e-a7ca-f1369bead1e8(org.eclipse.incquery.mps.gp.generator.template.main@generator)" nodeID="4530729936991344012" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
       </mapping-priorities>
     </generator>
   </generators>

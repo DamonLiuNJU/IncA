@@ -47,7 +47,9 @@
         <child id="1478893914040071407" name="left" index="3MnAb2" />
         <child id="1478893914040071412" name="right" index="3MnAbp" />
       </concept>
-      <concept id="6368683143941319361" name="org.eclipse.incquery.mps.sq.structure.SPatternModel" flags="ng" index="3TKv5i" />
+      <concept id="6368683143941319361" name="org.eclipse.incquery.mps.sq.structure.SPatternModel" flags="ng" index="3TKv5i">
+        <property id="6368683143941319364" name="showHop" index="3TKv5n" />
+      </concept>
       <concept id="6368683143941346282" name="org.eclipse.incquery.mps.sq.structure.SAnonymousParameter" flags="ng" index="3TL$xT" />
       <concept id="6151553526979403289" name="org.eclipse.incquery.mps.sq.structure.SEmptyContent" flags="ng" index="1XdyHe" />
       <concept id="6151553526979391516" name="org.eclipse.incquery.mps.sq.structure.SCheckConstraint" flags="ng" index="1XdGlb" />
@@ -250,6 +252,7 @@
   </registry>
   <node concept="3TKv5i" id="5xy6TexD3Qj">
     <property role="TrG5h" value="SQPatterns" />
+    <property role="3TKv5n" value="true" />
     <node concept="3zyOaA" id="5xy6TexDde3" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="students" />
@@ -304,7 +307,7 @@
               <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
             </node>
             <node concept="30NkWi" id="Tz5AFeKMY7" role="2kdhYM">
-              <ref role="XkjO9" node="1i65yRAPYNB" resolve="s" />
+              <ref role="XkjO9" node="1i65yRAPYNB" resolve="student" />
             </node>
           </node>
         </node>
@@ -315,7 +318,7 @@
         </node>
       </node>
       <node concept="1dv5OH" id="1i65yRAPYNB" role="1dv5OJ">
-        <property role="TrG5h" value="s" />
+        <property role="TrG5h" value="student" />
         <node concept="2kdjtB" id="1i65yRAPYNP" role="1dukDx">
           <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
         </node>
@@ -324,7 +327,7 @@
     <node concept="1XdyHe" id="5luHlsCqRHh" role="1dubk0" />
     <node concept="3zyOaA" id="1i65yRAWdxJ" role="1dubk0">
       <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="years1" />
+      <property role="TrG5h" value="years_opt1" />
       <node concept="3zV_Rz" id="1i65yRAWdxK" role="3zVECR">
         <node concept="30Nfyg" id="KHoiwD1qAz" role="1dgzf0">
           <property role="30RX_7" value="true" />
@@ -342,7 +345,7 @@
     <node concept="1XdyHe" id="Tz5AFeLfGc" role="1dubk0" />
     <node concept="3zyOaA" id="KHoiwD1$$Y" role="1dubk0">
       <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="years2" />
+      <property role="TrG5h" value="years_opt2" />
       <node concept="3zV_Rz" id="KHoiwD1$$Z" role="3zVECR">
         <node concept="3MnAb8" id="KHoiwD1_5C" role="1dgzf0">
           <node concept="30KbLJ" id="KHoiwD1_2O" role="3MnAb2">
@@ -449,6 +452,7 @@
       </node>
       <node concept="3zV_Rz" id="7O543ZB9A7u" role="3zVECR">
         <node concept="3MnAb8" id="KHoiwD2PeC" role="1dgzf0">
+          <property role="3BcHqo" value="false" />
           <node concept="30KbLJ" id="KHoiwD2Pe5" role="3MnAb2">
             <property role="TrG5h" value="friend" />
           </node>
@@ -489,6 +493,19 @@
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="alphabeticallyAfterFriend" />
       <node concept="3zV_Rz" id="KHoiwD2VNO" role="3zVECR">
+        <node concept="3MnAb8" id="35E98Eq6eLA" role="1dgzf0">
+          <node concept="30KbLJ" id="35E98Eq6e_V" role="3MnAb2">
+            <property role="TrG5h" value="_" />
+          </node>
+          <node concept="2k1GkI" id="35E98Eq6eSh" role="3MnAbp">
+            <node concept="2k1_uq" id="35E98Eq6eSj" role="2nKVj6">
+              <ref role="2nKBpL" node="2J6v22V96UP" resolve="directFriends" />
+              <node concept="30NkWi" id="35E98Eq6f39" role="2nKBpO">
+                <ref role="XkjO9" node="7O543ZBbLbp" resolve="before" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3MnAb8" id="KHoiwD2XdQ" role="1dgzf0">
           <node concept="30KbLJ" id="KHoiwD2W5G" role="3MnAb2">
             <property role="TrG5h" value="after" />
@@ -572,7 +589,7 @@
     <node concept="1XdyHe" id="5luHlsCqQV_" role="1dubk0" />
     <node concept="3zyOaA" id="7O543ZBc1cR" role="1dubk0">
       <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="alphabeticallyBeforeFriendChain_TC" />
+      <property role="TrG5h" value="alphabeticallyAfterFriendChain_TC" />
       <node concept="3zV_Rz" id="KHoiwD3lgz" role="3zVECR">
         <node concept="30Nfyg" id="qFLZ2DYxiR" role="1dgzf0">
           <property role="30RX_7" value="true" />
@@ -602,7 +619,7 @@
     <node concept="1XdyHe" id="5luHlsCqQLD" role="1dubk0" />
     <node concept="3zyOaA" id="7O543ZBc1Cg" role="1dubk0">
       <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="alphabeticallyBeforeFriendChain_Rec" />
+      <property role="TrG5h" value="alphabeticallyAfterFriendChain_Rec" />
       <node concept="1dv5OH" id="7O543ZBc1Ch" role="1dv5OJ">
         <property role="TrG5h" value="before" />
         <node concept="2kdjtB" id="7O543ZBc1Ci" role="1dukDx">
@@ -645,7 +662,7 @@
           <property role="30RX_7" value="true" />
           <node concept="2k1GkI" id="7O543ZBc2EX" role="30Nf_D">
             <node concept="2k1_uq" id="7O543ZBc2EZ" role="2nKVj6">
-              <ref role="2nKBpL" node="7O543ZBc1Cg" resolve="alphabeticallyBeforeFriendChain_Rec" />
+              <ref role="2nKBpL" node="7O543ZBc1Cg" resolve="alphabeticallyAfterFriendChain_Rec" />
               <node concept="30NkWi" id="6fymoI4P4gI" role="2nKBpO">
                 <ref role="XkjO9" node="6fymoI4P0Yd" resolve="after" />
               </node>
@@ -1125,8 +1142,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="7f_LHgkHua9" role="3cqZAp" />
-                  <node concept="3clFbH" id="Tz5AFeFNIF" role="3cqZAp" />
+                  <node concept="3clFbH" id="35E98Eq4WnS" role="3cqZAp" />
                 </node>
                 <node concept="3clFbS" id="rPCVTEi5QQ" role="2GVbov">
                   <node concept="3clFbF" id="7O543ZBfgpC" role="3cqZAp">
