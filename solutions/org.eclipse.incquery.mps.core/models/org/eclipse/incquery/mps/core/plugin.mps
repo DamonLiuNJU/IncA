@@ -5465,11 +5465,39 @@
         </node>
       </node>
       <node concept="3clFbS" id="1D4dCkVofoC" role="3clF47">
-        <node concept="1gVbGN" id="7yBuW_G5YMX" role="3cqZAp">
-          <node concept="1rXfSq" id="7yBuW_G5YRV" role="1gVkn0">
-            <ref role="37wK5l" node="1D4dCkVp2tQ" resolve="isIndexed" />
-            <node concept="37vLTw" id="7yBuW_G5Z1a" role="37wK5m">
-              <ref role="3cqZAo" node="1D4dCkVofoA" resolve="key" />
+        <node concept="3SKdUt" id="6_H1v0B1mTW" role="3cqZAp">
+          <node concept="3SKdUq" id="6_H1v0B1mU0" role="3SKWNk">
+            <property role="3SKdUp" value="known by the hints" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5a8aBn43diG" role="3cqZAp">
+          <node concept="3clFbS" id="5a8aBn43diI" role="3clFbx">
+            <node concept="3clFbF" id="5a8aBn43d$C" role="3cqZAp">
+              <node concept="2OqwBi" id="5a8aBn43d$_" role="3clFbG">
+                <node concept="10M0yZ" id="5a8aBn43d$A" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                </node>
+                <node concept="liA8E" id="5a8aBn43d$B" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="5a8aBn43dLs" role="37wK5m">
+                    <node concept="37vLTw" id="5a8aBn43dNo" role="3uHU7w">
+                      <ref role="3cqZAo" node="1D4dCkVofoA" resolve="key" />
+                    </node>
+                    <node concept="Xl_RD" id="5a8aBn43d_J" role="3uHU7B">
+                      <property role="Xl_RC" value="Not indexed key " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="5a8aBn43dsl" role="3clFbw">
+            <node concept="1rXfSq" id="5a8aBn43dsn" role="3fr31v">
+              <ref role="37wK5l" node="1D4dCkVp2tQ" resolve="isIndexed" />
+              <node concept="37vLTw" id="5a8aBn43dso" role="37wK5m">
+                <ref role="3cqZAo" node="1D4dCkVofoA" resolve="key" />
+              </node>
             </node>
           </node>
         </node>
