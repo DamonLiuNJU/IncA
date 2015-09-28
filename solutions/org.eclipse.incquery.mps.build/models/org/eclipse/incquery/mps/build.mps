@@ -1303,6 +1303,12 @@
             <ref role="3bR37D" node="2Zh2tjQSyQt" resolve="org.eclipse.incquery.mps.base.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="Lf$knBTINH" role="3bR37C">
+          <node concept="3bR9La" id="Lf$knBTINI" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2_Ic$z" id="CNbGNMmt6b" role="3989C9">
