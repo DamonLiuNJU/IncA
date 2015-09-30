@@ -73,6 +73,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -123,8 +126,10 @@
       <concept id="4656991770397278600" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_position" flags="nn" index="$OBjv" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
+        <child id="1147468630220" name="propertyGetter" index="EtsB7" />
         <child id="1212097481299" name="propertyValidator" index="QCWH9" />
       </concept>
+      <concept id="1147467790433" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyGetter" flags="in" index="Eqf_E" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
       <concept id="5676632058862809931" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="in" index="13QW63" />
       <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
@@ -1321,6 +1326,38 @@
   <node concept="1M2fIO" id="5xy6TexrpXc">
     <property role="3GE5qa" value="constraints" />
     <ref role="1M2myG" to="hqsm:1ERTnBTmuSC" resolve="IPathElement" />
+  </node>
+  <node concept="1M2fIO" id="4oNjwzxnONG">
+    <property role="3GE5qa" value="values" />
+    <ref role="1M2myG" to="hqsm:4oNjwzxnONz" resolve="TrueLiteral" />
+    <node concept="EnEH3" id="4oNjwzxnONP" role="1MhHOB">
+      <ref role="EomxK" to="hqsm:RjyNapPtG6" resolve="value" />
+      <node concept="Eqf_E" id="4oNjwzxnONT" role="EtsB7">
+        <node concept="3clFbS" id="4oNjwzxnONU" role="2VODD2">
+          <node concept="3cpWs6" id="4oNjwzxnOSS" role="3cqZAp">
+            <node concept="3clFbT" id="4oNjwzxnP0x" role="3cqZAk">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4oNjwzxnPcS">
+    <property role="3GE5qa" value="values" />
+    <ref role="1M2myG" to="hqsm:4oNjwzxnPcJ" resolve="FalseLiteral" />
+    <node concept="EnEH3" id="4oNjwzxnPd1" role="1MhHOB">
+      <ref role="EomxK" to="hqsm:RjyNapPtG6" resolve="value" />
+      <node concept="Eqf_E" id="4oNjwzxnPd5" role="EtsB7">
+        <node concept="3clFbS" id="4oNjwzxnPd6" role="2VODD2">
+          <node concept="3cpWs6" id="4oNjwzxnPi4" role="3cqZAp">
+            <node concept="3clFbT" id="4oNjwzxnPni" role="3cqZAk">
+              <property role="3clFbU" value="false" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

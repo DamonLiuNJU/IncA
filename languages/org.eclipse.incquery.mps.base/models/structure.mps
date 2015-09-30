@@ -475,7 +475,8 @@
   <node concept="1TIwiD" id="RjyNapPtG5">
     <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="BoolValue" />
-    <property role="34LRSv" value="Bool Value" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="RjyNapPty$" resolve="LiteralValueReference" />
     <node concept="1TJgyi" id="RjyNapPtG6" role="1TKVEl">
       <property role="TrG5h" value="value" />
@@ -636,6 +637,9 @@
     <node concept="PrWs8" id="1i65yRAUpKZ" role="PzmwI">
       <ref role="PrY4T" node="3VwoHXNAdvs" resolve="IPatternBodyContent" />
     </node>
+    <node concept="PrWs8" id="3oMuSXRb2g0" role="PzmwI">
+      <ref role="PrY4T" node="1i65yRATv5I" resolve="ITypeConstraintProvider" />
+    </node>
   </node>
   <node concept="AxPO7" id="RjyNapTFJQ">
     <property role="TrG5h" value="CompareFeature" />
@@ -667,14 +671,6 @@
       <property role="20kJfa" value="next" />
       <ref role="20lvS9" node="1ERTnBTmuSC" resolve="IPathElement" />
     </node>
-    <node concept="1TJgyi" id="1ERTnBTmuSD" role="1TKVEl">
-      <property role="TrG5h" value="index" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="1ERTnBTmuSE" role="1TKVEl">
-      <property role="TrG5h" value="closure" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
   </node>
   <node concept="PlHQZ" id="1i65yRATv5I">
     <property role="TrG5h" value="ITypeConstraintProvider" />
@@ -692,6 +688,20 @@
     <node concept="PrWs8" id="2J6v22V3ohU" role="PrDN$">
       <ref role="PrY4T" node="1YBYCQ13COO" resolve="IGenNameProvider" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="4oNjwzxnONz">
+    <property role="3GE5qa" value="values" />
+    <property role="TrG5h" value="TrueLiteral" />
+    <property role="34LRSv" value="true" />
+    <property role="R4oN_" value="true" />
+    <ref role="1TJDcQ" node="RjyNapPtG5" resolve="BoolValue" />
+  </node>
+  <node concept="1TIwiD" id="4oNjwzxnPcJ">
+    <property role="3GE5qa" value="values" />
+    <property role="TrG5h" value="FalseLiteral" />
+    <property role="34LRSv" value="false" />
+    <property role="R4oN_" value="false" />
+    <ref role="1TJDcQ" node="RjyNapPtG5" resolve="BoolValue" />
   </node>
 </model>
 

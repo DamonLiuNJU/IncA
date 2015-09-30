@@ -1098,7 +1098,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.eclipse.incquery.mps.sq#4530729936991344015" depends="java.compile.org.eclipse.incquery.mps.base, java.compile.org.eclipse.incquery.mps.base.runtime, java.compile.org.eclipse.incquery.mps.core, java.compile.org.eclipse.incquery.mps.gp, java.compile.org.eclipse.incquery.mps.gp.runtime, java.compile.org.eclipse.incquery.mps.pluginSolution, java.compile.org.eclipse.incquery.mps.sq, java.compile.org.eclipse.incquery.mps.sq.runtime, fetchDependencies">
+  <target name="java.compile.org.eclipse.incquery.mps.sq#4530729936991344015" depends="java.compile.org.eclipse.incquery.mps.base, java.compile.org.eclipse.incquery.mps.base.runtime, java.compile.org.eclipse.incquery.mps.core, java.compile.org.eclipse.incquery.mps.gp, java.compile.org.eclipse.incquery.mps.gp#4530729936991344011, java.compile.org.eclipse.incquery.mps.gp.runtime, java.compile.org.eclipse.incquery.mps.pluginSolution, java.compile.org.eclipse.incquery.mps.sq, java.compile.org.eclipse.incquery.mps.sq.runtime, fetchDependencies">
     <mkdir dir="${mps.incquery}/languages/org.eclipse.incquery.mps.sq/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.eclipse.incquery.mps.sq#4530729936991344015" />
     <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.sq#4530729936991344015" fork="false" includeantruntime="false" source="1.6" target="1.6">
@@ -1123,6 +1123,7 @@
         <pathelement path="${build.tmp}/java/out/org.eclipse.incquery.mps.base.runtime" />
         <pathelement path="${build.tmp}/java/out/org.eclipse.incquery.mps.core" />
         <pathelement path="${build.tmp}/java/out/org.eclipse.incquery.mps.gp" />
+        <pathelement path="${build.tmp}/java/out/org.eclipse.incquery.mps.gp#4530729936991344011" />
         <pathelement path="${build.tmp}/java/out/org.eclipse.incquery.mps.gp.runtime" />
         <pathelement path="${build.tmp}/java/out/org.eclipse.incquery.mps.pluginSolution" />
         <pathelement path="${build.tmp}/java/out/org.eclipse.incquery.mps.sq" />

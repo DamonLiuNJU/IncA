@@ -2355,5 +2355,36 @@
       <ref role="1YaFvo" to="hqsm:4QgsNmKLL_q" resolve="ConceptConstraint" />
     </node>
   </node>
+  <node concept="1YbPZF" id="3oMuSXR8_Ib">
+    <property role="TrG5h" value="typeof_ExpressionEvaluationValue" />
+    <property role="3GE5qa" value="values" />
+    <node concept="3clFbS" id="3oMuSXR8_Ic" role="18ibNy">
+      <node concept="1Z5TYs" id="3oMuSXR8_Kw" role="3cqZAp">
+        <node concept="mw_s8" id="3oMuSXR8_KO" role="1ZfhKB">
+          <node concept="1Z2H0r" id="3oMuSXR8_KK" role="mwGJk">
+            <node concept="2OqwBi" id="3oMuSXR8_ND" role="1Z2MuG">
+              <node concept="1YBJjd" id="3oMuSXR8_L5" role="2Oq$k0">
+                <ref role="1YBMHb" node="3oMuSXR8_Ie" resolve="eval" />
+              </node>
+              <node concept="3TrEf2" id="3oMuSXR8A90" role="2OqNvi">
+                <ref role="3Tt5mk" to="hqsm:RjyNapPtPo" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3oMuSXR8_Kz" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3oMuSXR8_Ir" role="mwGJk">
+            <node concept="1YBJjd" id="3oMuSXR8_IF" role="1Z2MuG">
+              <ref role="1YBMHb" node="3oMuSXR8_Ie" resolve="eval" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3oMuSXR8_Ie" role="1YuTPh">
+      <property role="TrG5h" value="eval" />
+      <ref role="1YaFvo" to="hqsm:RjyNapPtPn" resolve="ExpressionEvaluationValue" />
+    </node>
+  </node>
 </model>
 

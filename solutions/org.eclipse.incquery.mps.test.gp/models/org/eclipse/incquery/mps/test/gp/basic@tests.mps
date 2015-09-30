@@ -208,8 +208,6 @@
       </concept>
       <concept id="4530729936991567858" name="org.eclipse.incquery.mps.base.structure.Parameter" flags="ng" index="1dv5OH" />
       <concept id="1925259677761400360" name="org.eclipse.incquery.mps.base.structure.IPathElement" flags="ng" index="3zVwHh">
-        <property id="1925259677761400361" name="index" index="3zVwHg" />
-        <property id="1925259677761400362" name="closure" index="3zVwHj" />
         <reference id="1925259677761400369" name="interfacePart" index="3zVwH8" />
         <child id="1925259677761400367" name="next" index="3zVwHm" />
       </concept>
@@ -1130,16 +1128,10 @@
         <node concept="2kdhWc" id="5xy6TexuP_h" role="1dgzf0">
           <ref role="2kdhXl" to="ipj7:6h3Ypck6RFW" resolve="School" />
           <node concept="2qPR2i" id="5xy6TexuPA6" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="ipj7:7IYto4uIv29" />
             <node concept="2qPR2i" id="5xy6TexuPAu" role="3zVwHm">
-              <property role="3zVwHg" value="-1" />
-              <property role="3zVwHj" value="false" />
               <ref role="3zVwH8" to="ipj7:7IYto4uIw7L" />
               <node concept="2qPR2i" id="5xy6TexuPB4" role="3zVwHm">
-                <property role="3zVwHg" value="-1" />
-                <property role="3zVwHj" value="false" />
                 <ref role="3zVwH8" to="ipj7:7IYto4uIubp" />
               </node>
             </node>
@@ -1164,8 +1156,6 @@
             <ref role="XkjO9" node="5xy6TexrpVD" resolve="s" />
           </node>
           <node concept="2qPR2i" id="5xy6TexsI4i" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
           </node>
           <node concept="2vme6Z" id="29GvF4aeJL6" role="2kdhYP">
@@ -1225,12 +1215,8 @@
         <node concept="2kdhWc" id="5xy6TexsKvl" role="1dgzf0">
           <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
           <node concept="2qPR2i" id="5xy6TexsKvD" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
             <node concept="2qPR2i" id="5xy6TexsZQH" role="3zVwHm">
-              <property role="3zVwHg" value="-1" />
-              <property role="3zVwHj" value="false" />
               <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
             </node>
           </node>
@@ -1246,12 +1232,8 @@
         <node concept="2kdhWc" id="5xy6TexsKwu" role="1dgzf0">
           <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
           <node concept="2qPR2i" id="5xy6TexsKwv" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
             <node concept="2qPR2i" id="5xy6TexsZWO" role="3zVwHm">
-              <property role="3zVwHg" value="-1" />
-              <property role="3zVwHj" value="false" />
               <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
             </node>
           </node>
@@ -1323,8 +1305,6 @@
         <node concept="2kdhWc" id="5xy6TexsVG6" role="1dgzf0">
           <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
           <node concept="2qPR2i" id="5xy6TexsVH2" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
           </node>
           <node concept="2vme6Z" id="5xy6TexsVHc" role="2kdhYM">
@@ -1337,8 +1317,6 @@
         <node concept="2kdhWc" id="5xy6Text0ko" role="1dgzf0">
           <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
           <node concept="2qPR2i" id="5xy6Text0kp" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
           </node>
           <node concept="2vme6Z" id="5xy6Text0ty" role="2kdhYM">
@@ -1479,8 +1457,6 @@
         <node concept="2kdhWc" id="5xy6Textssp" role="1dgzf0">
           <ref role="2kdhXl" to="ipj7:6h3Ypck6RG5" resolve="Course" />
           <node concept="2qPR2i" id="5xy6TextssH" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="ipj7:6h3Ypck6RGV" resolve="weight" />
           </node>
           <node concept="2vme6Z" id="5xy6Textsyf" role="2kdhYM">

@@ -353,6 +353,12 @@
               <ref role="3bR37D" node="5xy6TexCQWj" resolve="org.eclipse.incquery.mps.core" />
             </node>
           </node>
+          <node concept="1SiIV0" id="3oMuSXRcaob" role="3bR37C">
+            <node concept="3bR9La" id="3oMuSXRcaoc" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="5xy6TexCRsH" role="3bR37C">
           <node concept="3bR9La" id="5xy6TexCRsI" role="1SiIV1">
@@ -492,6 +498,12 @@
               <ref role="3bR37D" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
             </node>
           </node>
+          <node concept="1SiIV0" id="3oMuSXRcaoN" role="3bR37C">
+            <node concept="3bR9La" id="3oMuSXRcaoO" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="5xy6TexCPW4" resolve="org.eclipse.incquery.mps.gp#4530729936991344011" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="5xy6TexCUFV" role="1E1XAP">
           <ref role="1E0d5P" node="5xy6TexCQnu" resolve="org.eclipse.incquery.mps.gp.runtime" />
@@ -555,6 +567,12 @@
         <node concept="1SiIV0" id="6fymoI4P4FR" role="3bR37C">
           <node concept="1Busua" id="6fymoI4P4FS" role="1SiIV1">
             <ref role="1Busuk" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3oMuSXRcaoL" role="3bR37C">
+          <node concept="3bR9La" id="3oMuSXRcaoM" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>

@@ -134,8 +134,6 @@
       </concept>
       <concept id="4530729936991567858" name="org.eclipse.incquery.mps.base.structure.Parameter" flags="ng" index="1dv5OH" />
       <concept id="1925259677761400360" name="org.eclipse.incquery.mps.base.structure.IPathElement" flags="ng" index="3zVwHh">
-        <property id="1925259677761400361" name="index" index="3zVwHg" />
-        <property id="1925259677761400362" name="closure" index="3zVwHj" />
         <reference id="1925259677761400369" name="interfacePart" index="3zVwH8" />
         <child id="1925259677761400367" name="next" index="3zVwHm" />
       </concept>
@@ -236,8 +234,6 @@
             <ref role="XkjO9" node="29GvF4adXtC" resolve="s" />
           </node>
           <node concept="2qPR2i" id="29GvF4adXtB" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
           </node>
           <node concept="2vme6Z" id="29GvF4adTZE" role="2kdhYP">
@@ -278,12 +274,8 @@
         <node concept="2kdhWc" id="29GvF4adXtN" role="1dgzf0">
           <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
           <node concept="2qPR2i" id="29GvF4adXtO" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
             <node concept="2qPR2i" id="29GvF4adXtP" role="3zVwHm">
-              <property role="3zVwHg" value="-1" />
-              <property role="3zVwHj" value="false" />
               <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
             </node>
           </node>
@@ -299,12 +291,8 @@
         <node concept="2kdhWc" id="29GvF4adXtS" role="1dgzf0">
           <ref role="2kdhXl" to="ipj7:6h3Ypck6RF4" resolve="Student" />
           <node concept="2qPR2i" id="29GvF4adXtT" role="3zVzRQ">
-            <property role="3zVwHg" value="-1" />
-            <property role="3zVwHj" value="false" />
             <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
             <node concept="2qPR2i" id="29GvF4adXtU" role="3zVwHm">
-              <property role="3zVwHg" value="-1" />
-              <property role="3zVwHj" value="false" />
               <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
             </node>
           </node>
