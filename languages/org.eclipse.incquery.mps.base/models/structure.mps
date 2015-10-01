@@ -238,7 +238,7 @@
     <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="reference" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="EE49sRYMQu" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="variable" />
@@ -432,7 +432,7 @@
     <node concept="1TJgyj" id="RjyNaq4vP6" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="parameters" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1i65yRAWiCQ" resolve="IValue" />
     </node>
     <node concept="1TJgyj" id="RjyNaq4vP3" role="1TKVEi">
@@ -702,6 +702,39 @@
     <property role="34LRSv" value="false" />
     <property role="R4oN_" value="false" />
     <ref role="1TJDcQ" node="RjyNapPtG5" resolve="BoolValue" />
+  </node>
+  <node concept="1TIwiD" id="39KhnTI89Ip">
+    <property role="TrG5h" value="RelationType" />
+    <property role="34LRSv" value="relation type" />
+    <property role="R4oN_" value="relation type" />
+    <property role="3GE5qa" value="type" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="PrWs8" id="39KhnTI9AT1" role="PzmwI">
+      <ref role="PrY4T" node="39KhnTI9ASS" resolve="ITypeSequence" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="39KhnTI9ASS">
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="ITypeSequence" />
+    <node concept="1TJgyj" id="39KhnTI9ASX" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+    <node concept="PrWs8" id="39KhnTI9AST" role="PrDN$">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39KhnTI9ELb">
+    <property role="3GE5qa" value="type" />
+    <property role="TrG5h" value="TupleType" />
+    <property role="34LRSv" value="tuple type" />
+    <property role="R4oN_" value="tuple type" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="PrWs8" id="39KhnTI9ELc" role="PzmwI">
+      <ref role="PrY4T" node="39KhnTI9ASS" resolve="ITypeSequence" />
+    </node>
   </node>
 </model>
 

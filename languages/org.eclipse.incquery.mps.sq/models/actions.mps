@@ -568,9 +568,6 @@
                   <node concept="Xl_RD" id="KHoiwD2T12" role="37wK5m">
                     <property role="Xl_RC" value="=" />
                   </node>
-                  <node concept="Xl_RD" id="KHoiwD2TG0" role="37wK5m">
-                    <property role="Xl_RC" value="!=" />
-                  </node>
                 </node>
               </node>
             </node>

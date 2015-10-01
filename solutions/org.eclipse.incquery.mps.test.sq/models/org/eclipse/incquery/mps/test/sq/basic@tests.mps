@@ -38,6 +38,9 @@
         <child id="1036696987215326979" name="expression" index="30Nf_D" />
       </concept>
       <concept id="1036696987215223160" name="org.eclipse.incquery.mps.sq.structure.SVariableReference" flags="ng" index="30NkWi" />
+      <concept id="3634481308605751419" name="org.eclipse.incquery.mps.sq.structure.BaseVariableReference" flags="ng" index="1sjAk5">
+        <reference id="3634481308605751420" name="variable" index="1sjAk2" />
+      </concept>
       <concept id="1925259677759481823" name="org.eclipse.incquery.mps.sq.structure.SPattern" flags="ng" index="3zyOaA">
         <child id="6368683143941351805" name="outParameters" index="3TLBbI" />
       </concept>
@@ -272,7 +275,7 @@
                 </node>
               </node>
             </node>
-            <node concept="2vme6Z" id="1i65yRAWdrO" role="2kdhYM">
+            <node concept="30NkWi" id="39KhnTIhNuo" role="2kdhYM">
               <ref role="XkjO9" node="5xy6TexDder" resolve="school" />
             </node>
           </node>
@@ -378,7 +381,7 @@
                 <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
               </node>
             </node>
-            <node concept="2vme6Z" id="2J6v22V96YJ" role="2kdhYM">
+            <node concept="30NkWi" id="39KhnTIhNv7" role="2kdhYM">
               <ref role="XkjO9" node="2J6v22V96Xa" resolve="student" />
             </node>
           </node>
@@ -533,13 +536,13 @@
               <property role="3cmrfH" value="0" />
             </node>
             <node concept="2OqwBi" id="KHoiwD33DQ" role="3uHU7B">
-              <node concept="30NkWi" id="35E98Eq2Epb" role="2Oq$k0">
-                <ref role="XkjO9" node="KHoiwD2XF9" resolve="beforeName" />
+              <node concept="1sjAk5" id="39KhnTIhNAM" role="2Oq$k0">
+                <ref role="1sjAk2" node="KHoiwD2XF9" resolve="beforeName" />
               </node>
               <node concept="liA8E" id="KHoiwD3hm0" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String):int" resolve="compareTo" />
-                <node concept="30NkWi" id="KHoiwD3hmr" role="37wK5m">
-                  <ref role="XkjO9" node="KHoiwD31b_" resolve="afterName" />
+                <node concept="1sjAk5" id="39KhnTIhNSS" role="37wK5m">
+                  <ref role="1sjAk2" node="KHoiwD31b_" resolve="afterName" />
                 </node>
               </node>
             </node>
@@ -684,8 +687,8 @@
                     <property role="3TUv4t" value="false" />
                     <property role="TrG5h" value="value" />
                     <node concept="10Oyi0" id="5luHlsCrHF_" role="1tU5fm" />
-                    <node concept="30NkWi" id="35E98Eq2E9N" role="33vP2m">
-                      <ref role="XkjO9" node="6fymoI4Nb3x" resolve="weight" />
+                    <node concept="1sjAk5" id="39KhnTIhO2k" role="33vP2m">
+                      <ref role="1sjAk2" node="6fymoI4Nb3x" resolve="weight" />
                     </node>
                   </node>
                 </node>

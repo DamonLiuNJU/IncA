@@ -1086,5 +1086,53 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="39KhnTI89Iz">
+    <property role="3GE5qa" value="type" />
+    <ref role="1XX52x" to="hqsm:39KhnTI89Ip" resolve="RelationType" />
+    <node concept="3EZMnI" id="39KhnTI89IC" role="2wV5jI">
+      <node concept="l2Vlx" id="39KhnTI89ID" role="2iSdaV" />
+      <node concept="3F0ifn" id="39KhnTI89I_" role="3EZMnx">
+        <property role="3F0ifm" value="Relation&lt;" />
+        <node concept="11LMrY" id="39KhnTI89KI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="39KhnTI89IP" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="hqsm:39KhnTI9ASX" />
+        <node concept="l2Vlx" id="39KhnTI89IR" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="39KhnTI89J0" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;" />
+        <node concept="11L4FC" id="39KhnTI89Mp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="39KhnTI9ELl">
+    <property role="3GE5qa" value="type" />
+    <ref role="1XX52x" to="hqsm:39KhnTI9ELb" resolve="TupleType" />
+    <node concept="3EZMnI" id="39KhnTI9ELn" role="2wV5jI">
+      <node concept="l2Vlx" id="39KhnTI9ELo" role="2iSdaV" />
+      <node concept="3F0ifn" id="39KhnTI9ELp" role="3EZMnx">
+        <property role="3F0ifm" value="Tuple&lt;" />
+        <node concept="11LMrY" id="39KhnTI9ELq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="39KhnTI9ELr" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="hqsm:39KhnTI9ASX" />
+        <node concept="l2Vlx" id="39KhnTI9ELs" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="39KhnTI9ELt" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;" />
+        <node concept="11L4FC" id="39KhnTI9ELu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
