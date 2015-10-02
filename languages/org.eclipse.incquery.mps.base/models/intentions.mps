@@ -44,6 +44,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -62,6 +65,7 @@
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
       <concept id="2522969319638091381" name="jetbrains.mps.lang.intentions.structure.BaseIntentionDeclaration" flags="ig" index="2ZfUlf">
+        <property id="2522969319638091386" name="isAvailableInChildNodes" index="2ZfUl0" />
         <reference id="2522969319638198290" name="forConcept" index="2ZfgGC" />
         <child id="2522969319638198291" name="executeFunction" index="2ZfgGD" />
         <child id="2522969319638093995" name="isApplicableFunction" index="2ZfVeh" />
@@ -235,6 +239,7 @@
   <node concept="2S6QgY" id="23tFywwhJZ3">
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="IPattern_TooglePrivate" />
+    <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
     <node concept="2Sbjvc" id="23tFywwhJZ4" role="2ZfgGD">
       <node concept="3clFbS" id="23tFywwhJZ5" role="2VODD2">
@@ -262,7 +267,16 @@
       <node concept="3clFbS" id="23tFywwhJZ7" role="2VODD2">
         <node concept="3clFbF" id="23tFywwhKe0" role="3cqZAp">
           <node concept="Xl_RD" id="23tFywwhKdZ" role="3clFbG">
-            <property role="Xl_RC" value="Toogle private" />
+            <property role="Xl_RC" value="Toogle Private" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="4A9UIHT7tMK" role="2ZfVeh">
+      <node concept="3clFbS" id="4A9UIHT7tML" role="2VODD2">
+        <node concept="3cpWs6" id="4A9UIHT7uSh" role="3cqZAp">
+          <node concept="3clFbT" id="4A9UIHT7uSi" role="3cqZAk">
+            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>

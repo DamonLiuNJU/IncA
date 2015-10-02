@@ -196,6 +196,9 @@
     <node concept="PrWs8" id="1lNEqJZXkg6" role="PzmwI">
       <ref role="PrY4T" to="hqsm:1i65yRATv5I" resolve="ITypeConstraintProvider" />
     </node>
+    <node concept="PrWs8" id="1fSpEsnIU77" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
   </node>
   <node concept="PlHQZ" id="1i65yRAQ7jk">
     <property role="3GE5qa" value="content" />

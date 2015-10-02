@@ -17,6 +17,7 @@
     <import index="4k41" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.api(org.eclipse.incquery.mps.base.runtime/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
+    <import index="tpd5" ref="r:00000000-0000-4000-0000-011c895902b5(jetbrains.mps.lang.typesystem.dependencies)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
@@ -605,6 +606,32 @@
                   <ref role="3cqZAo" node="1nEF0xFvc_v" resolve="constraints" />
                 </node>
                 <node concept="10Nm6u" id="4uV7JyqROQ7" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="9aQIb" id="39KhnTImvBS" role="9aQIa">
+              <node concept="3clFbS" id="39KhnTImvBT" role="9aQI4">
+                <node concept="1Z5TYs" id="39KhnTImvJI" role="3cqZAp">
+                  <node concept="mw_s8" id="39KhnTImvKi" role="1ZfhKB">
+                    <node concept="2pJPEk" id="39KhnTImvKe" role="mwGJk">
+                      <node concept="2pJPED" id="39KhnTImvKD" role="2pJPEn">
+                        <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+                        <node concept="2pIpSj" id="39KhnTImvL9" role="2pJxcM">
+                          <ref role="2pIpSl" to="tp25:g$ehGDh" />
+                          <node concept="36bGnv" id="39KhnTImvMb" role="2pJxcZ">
+                            <ref role="36bGnp" to="tpck:gw2VY9q" resolve="BaseConcept" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="mw_s8" id="39KhnTImvJL" role="1ZfhK$">
+                    <node concept="1Z2H0r" id="39KhnTImvD8" role="mwGJk">
+                      <node concept="1YBJjd" id="39KhnTImvEk" role="1Z2MuG">
+                        <ref role="1YBMHb" node="3VwoHXNBCs$" resolve="var" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

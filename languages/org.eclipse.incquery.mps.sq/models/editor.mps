@@ -1012,11 +1012,20 @@
         </node>
       </node>
       <node concept="3F0ifn" id="Tz5AFeK9AX" role="3EZMnx">
-        <property role="3F0ifm" value=".instances" />
+        <property role="3F0ifm" value="." />
         <node concept="VPM3Z" id="22KhLO57EgX" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
         <node concept="11L4FC" id="4oNjwzxlvs2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="58plafYjUEH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="58plafYjUCR" role="3EZMnx">
+        <property role="3F0ifm" value="instances" />
+        <node concept="VPM3Z" id="58plafYjUGq" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>

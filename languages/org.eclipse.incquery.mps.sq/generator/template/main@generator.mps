@@ -1707,6 +1707,9 @@
   <node concept="bUwia" id="6fymoI5gQcc">
     <property role="TrG5h" value="phase1" />
     <property role="3GE5qa" value="phase1" />
+    <node concept="1puMqW" id="58plafYm2l7" role="1puA0r">
+      <ref role="1puQsG" node="39KhnTIh5tK" resolve="SPattern_ReplaceBaseVariableReferences" />
+    </node>
     <node concept="1puMqW" id="6fymoI5gQcd" role="1puA0r">
       <ref role="1puQsG" node="5luHlsCxuCu" resolve="SPattern_SetSPathExpressionType" />
     </node>
@@ -1741,9 +1744,6 @@
   </node>
   <node concept="bUwia" id="3oMuSXR7IsQ">
     <property role="TrG5h" value="reductions" />
-    <node concept="1puMqW" id="39KhnTIhjqD" role="1puA0r">
-      <ref role="1puQsG" node="39KhnTIh5tK" resolve="misc" />
-    </node>
     <node concept="3aamgX" id="3oMuSXR7IsR" role="3acgRq">
       <ref role="30HIoZ" to="ebqt:3oMuSXR7kAP" resolve="SEvalValue" />
       <node concept="gft3U" id="3oMuSXR7IsV" role="1lVwrX">
@@ -1793,9 +1793,10 @@
     </node>
   </node>
   <node concept="1pmfR0" id="39KhnTIh5tK">
-    <property role="TrG5h" value="misc" />
+    <property role="TrG5h" value="SPattern_ReplaceBaseVariableReferences" />
     <property role="1v3f2W" value="pre_processing" />
     <property role="1v3jST" value="true" />
+    <property role="3GE5qa" value="phase1" />
     <node concept="1pplIY" id="39KhnTIh5tL" role="1pqMTA">
       <node concept="3clFbS" id="39KhnTIh5tM" role="2VODD2">
         <node concept="2Gpval" id="39KhnTIh5tN" role="3cqZAp">
