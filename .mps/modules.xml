@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.mpl" folder="core.languages" />
+      <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.findbugs/org.eclipse.incquery.mps.findbugs.mpl" folder="tests" />
       <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.gp/org.eclipse.incquery.mps.gp.mpl" folder="core.languages" />
       <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.mpl" folder="core.languages" />
       <modulePath path="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.test/org.eclipse.incquery.mps.test.mpl" folder="tests" />
