@@ -385,6 +385,12 @@
             <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2rR0hgSvtdU" role="3bR37C">
+          <node concept="3bR9La" id="2rR0hgSvtdV" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lh7" resolve="jetbrains.mps.typesystemEngine" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5xy6TexCPVH" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -573,6 +579,24 @@
           <node concept="3bR9La" id="3oMuSXRcaoM" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2rR0hgSvt6K" role="3bR37C">
+          <node concept="3bR9La" id="2rR0hgSvt6L" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lh7" resolve="jetbrains.mps.typesystemEngine" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2rR0hgSvt6M" role="3bR37C">
+          <node concept="3bR9La" id="2rR0hgSvt6N" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2rR0hgSvt6O" role="3bR37C">
+          <node concept="3bR9La" id="2rR0hgSvt6P" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>
@@ -1181,6 +1205,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2rR0hgSvtf2" role="3bR37C">
+          <node concept="3bR9La" id="2rR0hgSvtf3" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lh7" resolve="jetbrains.mps.typesystemEngine" />
           </node>
         </node>
       </node>
