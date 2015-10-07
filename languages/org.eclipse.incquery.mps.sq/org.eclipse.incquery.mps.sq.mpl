@@ -142,6 +142,20 @@
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="8f5e7b65-fd75-4aa6-b49e-44ecf418fcb5(org.eclipse.incquery.mps.sq#4530729936991344015)" />
+            <external-mapping>
+              <mapping-node modelUID="r:1b93ee56-a19c-40b4-ae7b-489c132cd837(org.eclipse.incquery.mps.sq.generator.template.main@generator)" nodeID="8496839723716896227" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="8f5e7b65-fd75-4aa6-b49e-44ecf418fcb5(org.eclipse.incquery.mps.sq#4530729936991344015)" />
+            <external-mapping>
+              <mapping-node modelUID="r:1b93ee56-a19c-40b4-ae7b-489c132cd837(org.eclipse.incquery.mps.sq.generator.template.main@generator)" nodeID="7197413610262586124" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
       </mapping-priorities>
     </generator>
   </generators>
