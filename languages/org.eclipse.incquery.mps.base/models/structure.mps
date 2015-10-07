@@ -736,5 +736,21 @@
       <ref role="PrY4T" node="39KhnTI9ASS" resolve="ITypeSequence" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7tfd0TDd67r">
+    <property role="TrG5h" value="IntermediateType" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7tfd0TDd67J" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="context" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="PrWs8" id="7tfd0TDd67s" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+    <node concept="PrWs8" id="7tfd0TDd67B" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
 </model>
 
