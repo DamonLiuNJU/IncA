@@ -260,7 +260,6 @@
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
-      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -904,19 +903,16 @@
                   <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="7tfd0TDdnvP" role="33vP2m">
-                <node concept="2OqwBi" id="2J6v22V9mZl" role="2Oq$k0">
-                  <node concept="37vLTw" id="2J6v22V9mZm" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3VwoHXNDnmJ" resolve="content" />
-                  </node>
-                  <node concept="2qgKlT" id="2J6v22V9mZn" role="2OqNvi">
-                    <ref role="37wK5l" to="gcg1:3VwoHXNCDmy" resolve="getAllTypeConstraintsFor" />
-                    <node concept="1YBJjd" id="2J6v22V9mZo" role="37wK5m">
-                      <ref role="1YBMHb" node="3VwoHXND2wU" resolve="reference" />
-                    </node>
+              <node concept="2OqwBi" id="2J6v22V9mZl" role="33vP2m">
+                <node concept="37vLTw" id="2J6v22V9mZm" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3VwoHXNDnmJ" resolve="content" />
+                </node>
+                <node concept="2qgKlT" id="2J6v22V9mZn" role="2OqNvi">
+                  <ref role="37wK5l" to="gcg1:3VwoHXNCDmy" resolve="getAllTypeConstraintsFor" />
+                  <node concept="1YBJjd" id="2J6v22V9mZo" role="37wK5m">
+                    <ref role="1YBMHb" node="3VwoHXND2wU" resolve="reference" />
                   </node>
                 </node>
-                <node concept="ANE8D" id="7tfd0TDdo01" role="2OqNvi" />
               </node>
             </node>
           </node>
