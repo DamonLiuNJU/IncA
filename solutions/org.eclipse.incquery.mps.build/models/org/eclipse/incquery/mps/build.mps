@@ -599,6 +599,12 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
+        <node concept="1SiIV0" id="XLRplLun_3" role="3bR37C">
+          <node concept="3bR9La" id="XLRplLun_4" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="5xy6TexCUFB" resolve="org.eclipse.incquery.mps.sq" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2Zh2tjQSyQm" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1211,6 +1217,18 @@
           <node concept="3bR9La" id="2rR0hgSvtf3" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lh7" resolve="jetbrains.mps.typesystemEngine" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="XLRplLun_B" role="3bR37C">
+          <node concept="3bR9La" id="XLRplLun_C" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="XLRplLun_D" role="3bR37C">
+          <node concept="3bR9La" id="XLRplLun_E" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
           </node>
         </node>
       </node>

@@ -2,7 +2,7 @@
 <model ref="r:72b2626f-5a0a-40af-a2b4-fbc2ae1b60c1(org.eclipse.incquery.mps.test.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -13,6 +13,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -44,6 +45,7 @@
     <property role="TrG5h" value="Student" />
     <property role="34LRSv" value="student" />
     <property role="R4oN_" value="Student" />
+    <property role="1pbfSe" value="2019521623" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7IYto4uIwM5" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -63,6 +65,7 @@
   <node concept="1TIwiD" id="6h3Ypck6RFW">
     <property role="TrG5h" value="School" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="2019521679" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7IYto4uIv29" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -94,6 +97,7 @@
     <property role="TrG5h" value="Course" />
     <property role="34LRSv" value="course" />
     <property role="R4oN_" value="Course" />
+    <property role="1pbfSe" value="2019521688" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6h3Ypck6RGZ" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -119,6 +123,7 @@
     <property role="TrG5h" value="Teacher" />
     <property role="34LRSv" value="teacher" />
     <property role="R4oN_" value="Teacher" />
+    <property role="1pbfSe" value="2019521689" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6h3Ypck6RGo" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -144,6 +149,7 @@
   </node>
   <node concept="1TIwiD" id="6h3Ypck6RGj">
     <property role="TrG5h" value="CourseReference" />
+    <property role="1pbfSe" value="2019521702" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6h3Ypck6RGk" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -154,6 +160,7 @@
   </node>
   <node concept="1TIwiD" id="6h3Ypck6RGB">
     <property role="TrG5h" value="StudentReference" />
+    <property role="1pbfSe" value="2019521722" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6h3Ypck6RGC" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -164,6 +171,7 @@
   </node>
   <node concept="1TIwiD" id="7IYto4uIs9G">
     <property role="TrG5h" value="Year" />
+    <property role="1pbfSe" value="1703397395" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7IYto4uIw7L" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -183,6 +191,7 @@
   </node>
   <node concept="1TIwiD" id="7IYto4uIsaW">
     <property role="TrG5h" value="SchoolClass" />
+    <property role="1pbfSe" value="1703397315" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7IYto4uIubp" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

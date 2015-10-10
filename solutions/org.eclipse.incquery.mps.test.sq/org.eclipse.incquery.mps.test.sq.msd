@@ -13,7 +13,7 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="2" />
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="3" />
     <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" fqName="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language id="fd392034-7849-419d-9071-12563d152375" fqName="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -27,6 +27,7 @@
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" fqName="org.eclipse.incquery.mps.base" version="0" />
     <language id="cd2909da-ecb4-49dc-b176-33e5c619e516" fqName="org.eclipse.incquery.mps.gp" version="0" />
     <language id="8c9a2720-9d21-4370-a226-819eb3e76e1e" fqName="org.eclipse.incquery.mps.sq" version="0" />
+    <language id="76f64958-d3c3-440b-9b5e-58dc117e6c00" fqName="org.eclipse.incquery.mps.test" version="0" />
   </languageVersions>
 </solution>
 

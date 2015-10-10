@@ -2,19 +2,20 @@
 <model ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(org.eclipse.incquery.mps.gp.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="0" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -53,6 +54,7 @@
     <property role="34LRSv" value="Pattern Model" />
     <property role="R4oN_" value="Pattern Model with Graph Patterns" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="334793894" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1ERTnBTfasI" role="PzmwI">
       <ref role="PrY4T" to="hqsm:3VwoHXNAdmj" resolve="IPatternModel" />
@@ -63,6 +65,7 @@
     <property role="R4oN_" value="Graph Pattern" />
     <property role="34LRSv" value="pattern" />
     <property role="3GE5qa" value="content" />
+    <property role="1pbfSe" value="334794072" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1ERTnBTfay6" role="PzmwI">
       <ref role="PrY4T" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
@@ -74,6 +77,7 @@
   <node concept="1TIwiD" id="1ERTnBTmryq">
     <property role="TrG5h" value="GPatternBody" />
     <property role="3GE5qa" value="content" />
+    <property role="1pbfSe" value="336698899" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1ERTnBTmryr" role="PzmwI">
       <ref role="PrY4T" to="hqsm:3VwoHXNAdvt" resolve="IPatternBody" />
@@ -84,6 +88,7 @@
     <property role="TrG5h" value="GPathExpressionConstraint" />
     <property role="34LRSv" value="path" />
     <property role="R4oN_" value="Path Expression Constraint" />
+    <property role="1pbfSe" value="1480974480" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="RjyNapTDi0" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -121,6 +126,7 @@
     <property role="3GE5qa" value="constraints" />
     <property role="R4oN_" value="Pattern Composition Constraint" />
     <property role="34LRSv" value="find" />
+    <property role="1pbfSe" value="1482106546" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="RjyNaq43ZO" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -142,6 +148,7 @@
   <node concept="1TIwiD" id="5Dmozv0wha_">
     <property role="3GE5qa" value="constraints" />
     <property role="TrG5h" value="GPathElement" />
+    <property role="1pbfSe" value="450327772" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5Dmozv0whaA" role="PzmwI">
       <ref role="PrY4T" to="hqsm:1ERTnBTmuSC" resolve="IPathElement" />
@@ -152,6 +159,7 @@
     <property role="TrG5h" value="GConceptConstraint" />
     <property role="34LRSv" value="concept" />
     <property role="R4oN_" value="Concept Constraint" />
+    <property role="1pbfSe" value="451085972" />
     <ref role="1TJDcQ" to="hqsm:4QgsNmKLL_q" resolve="ConceptConstraint" />
     <node concept="PrWs8" id="5luHlsCpmwF" role="PzmwI">
       <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
@@ -162,6 +170,7 @@
     <property role="TrG5h" value="GCompareConstraint" />
     <property role="34LRSv" value="compare" />
     <property role="R4oN_" value="Compare Constraint" />
+    <property role="1pbfSe" value="77305343" />
     <ref role="1TJDcQ" to="hqsm:RjyNapPkSb" resolve="CompareConstraint" />
     <node concept="PrWs8" id="5luHlsCpmwD" role="PzmwI">
       <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
@@ -170,6 +179,7 @@
   <node concept="PlHQZ" id="5luHlsCpmwA">
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="IGPatternBodyContent" />
+    <property role="1pbfSe" value="2110004605" />
     <node concept="PrWs8" id="5luHlsCpmwB" role="PrDN$">
       <ref role="PrY4T" to="hqsm:3VwoHXNAdvs" resolve="IPatternBodyContent" />
     </node>
@@ -179,6 +189,7 @@
     <property role="TrG5h" value="GCheckConstraint" />
     <property role="34LRSv" value="check" />
     <property role="R4oN_" value="Check Constraint" />
+    <property role="1pbfSe" value="2110004627" />
     <ref role="1TJDcQ" to="hqsm:RjyNapPkRU" resolve="CheckConstraint" />
     <node concept="PrWs8" id="5luHlsCpmwX" role="PzmwI">
       <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
@@ -187,6 +198,7 @@
   <node concept="1TIwiD" id="5luHlsCq9Sp">
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="GEmptyContent" />
+    <property role="1pbfSe" value="2110215024" />
     <ref role="1TJDcQ" to="hqsm:3hiszdZDhip" resolve="EmptyContent" />
     <node concept="PrWs8" id="5luHlsCq9Sq" role="PzmwI">
       <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
@@ -203,6 +215,7 @@
     <property role="TrG5h" value="GComment" />
     <property role="34LRSv" value="//" />
     <property role="R4oN_" value="Comment" />
+    <property role="1pbfSe" value="2110215027" />
     <ref role="1TJDcQ" to="hqsm:3VwoHXNAdvE" resolve="Comment" />
     <node concept="PrWs8" id="5luHlsCq9St" role="PzmwI">
       <ref role="PrY4T" node="5luHlsCpmwA" resolve="IGPatternBodyContent" />
@@ -214,6 +227,7 @@
   <node concept="PlHQZ" id="5luHlsCrwig">
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="IGPatternModelContent" />
+    <property role="1pbfSe" value="2110568935" />
     <node concept="PrWs8" id="5luHlsCrwih" role="PrDN$">
       <ref role="PrY4T" to="hqsm:3VwoHXNAdvu" resolve="IPatternModelContent" />
     </node>
