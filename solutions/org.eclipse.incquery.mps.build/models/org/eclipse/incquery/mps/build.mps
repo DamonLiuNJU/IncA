@@ -1498,11 +1498,6 @@
         <node concept="1E0d5M" id="4Ut1WRRt0tm" role="1E1XAP">
           <ref role="1E0d5P" node="4Ut1WRRt0tK" resolve="org.eclipse.incquery.mps.test.runtime" />
         </node>
-        <node concept="1yeLz9" id="4Ut1WRRt0ts" role="1TViLv">
-          <property role="TrG5h" value="org.eclipse.incquery.mps.test#7224892637325260695" />
-          <property role="3LESm3" value="d645efad-7ba2-43a6-a2a6-4855067488e1" />
-          <property role="2GAjPV" value="false" />
-        </node>
         <node concept="1E0d5M" id="6fymoI4P5cs" role="1E1XAP">
           <ref role="1E0d5P" node="6fymoI4P53p" resolve="org.eclipse.incquery.mps.test.sq" />
         </node>
