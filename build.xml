@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.eclipse.incquery.mps" />
   <property name="build.layout" location="${build.dir}/artifacts/org.eclipse.incquery.mps" />
-  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS_3.3.app/Contents" />
+  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS_3.3.141.2591.app/Contents" />
   <property name="mps.incquery" location="${basedir}" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
