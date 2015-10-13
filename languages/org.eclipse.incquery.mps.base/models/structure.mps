@@ -761,14 +761,15 @@
     <property role="3GE5qa" value="type" />
     <property role="1pbfSe" value="1601117929" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="1TJgyi" id="1ThF9Cw1_HT" role="1TKVEl">
+      <property role="TrG5h" value="singleton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="307hy13xlic" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="element" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpck:hYa1RjM" resolve="IType" />
-    </node>
-    <node concept="PrWs8" id="FElv_ygQtQ" role="PzmwI">
-      <ref role="PrY4T" node="FElv_ygQtg" resolve="ITransformable" />
     </node>
   </node>
   <node concept="PlHQZ" id="39KhnTI9ASS">
@@ -813,35 +814,6 @@
     <node concept="PrWs8" id="7tfd0TDd67B" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="FElv_yggIK">
-    <property role="1pbfSe" value="1831559593" />
-    <property role="3GE5qa" value="type" />
-    <property role="TrG5h" value="TransformingType" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="FElv_yggJ2" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="replacement" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpck:hYa1RjM" resolve="IType" />
-    </node>
-    <node concept="1TJgyj" id="FElv_yggIZ" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="context" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    </node>
-    <node concept="PrWs8" id="FElv_yggIL" role="PzmwI">
-      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
-    </node>
-    <node concept="PrWs8" id="FElv_yggIT" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="FElv_ygQtg">
-    <property role="1pbfSe" value="1831714121" />
-    <property role="3GE5qa" value="type" />
-    <property role="TrG5h" value="ITransformable" />
   </node>
 </model>
 

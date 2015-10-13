@@ -204,6 +204,7 @@
   </languageVersions>
   <runtime>
     <dependency reexport="false">22355160-0462-42a7-b4f6-c5057d6e9d54(org.eclipse.incquery.mps.sq.runtime)</dependency>
+    <dependency reexport="false">bc791f96-4749-4311-a6e4-241e47ca97f9(org.eclipse.incquery.mps.base.runtime)</dependency>
   </runtime>
   <extendedLanguages>
     <extendedLanguage>b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)</extendedLanguage>
