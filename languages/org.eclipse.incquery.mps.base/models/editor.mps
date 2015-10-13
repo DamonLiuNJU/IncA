@@ -6,12 +6,12 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-    <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
-    <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -1088,19 +1088,17 @@
   </node>
   <node concept="24kQdi" id="39KhnTI89Iz">
     <property role="3GE5qa" value="type" />
-    <ref role="1XX52x" to="hqsm:39KhnTI89Ip" resolve="RelationType" />
+    <ref role="1XX52x" to="hqsm:39KhnTI89Ip" resolve="SetType" />
     <node concept="3EZMnI" id="39KhnTI89IC" role="2wV5jI">
       <node concept="l2Vlx" id="39KhnTI89ID" role="2iSdaV" />
       <node concept="3F0ifn" id="39KhnTI89I_" role="3EZMnx">
-        <property role="3F0ifm" value="Relation&lt;" />
+        <property role="3F0ifm" value="set&lt;" />
         <node concept="11LMrY" id="39KhnTI89KI" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F2HdR" id="39KhnTI89IP" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="hqsm:39KhnTI9ASX" />
-        <node concept="l2Vlx" id="39KhnTI89IR" role="2czzBx" />
+      <node concept="3F1sOY" id="307hy13xliA" role="3EZMnx">
+        <ref role="1NtTu8" to="hqsm:307hy13xlic" />
       </node>
       <node concept="3F0ifn" id="39KhnTI89J0" role="3EZMnx">
         <property role="3F0ifm" value="&gt;" />

@@ -34,7 +34,6 @@
       </concept>
       <concept id="1036696987214522885" name="org.eclipse.incquery.mps.sq.structure.STemporaryVariable" flags="ng" index="30KbLJ" />
       <concept id="1036696987215326970" name="org.eclipse.incquery.mps.sq.structure.SReturnConstraint" flags="ng" index="30Nfyg">
-        <property id="1036696987216170797" name="all" index="30RX_7" />
         <child id="1036696987215326979" name="expression" index="30Nf_D" />
       </concept>
       <concept id="1036696987215223160" name="org.eclipse.incquery.mps.sq.structure.SVariableReference" flags="ng" index="30NkWi" />
@@ -258,13 +257,12 @@
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="students" />
       <node concept="3TL$xT" id="5xy6TexDik8" role="3TLBbI">
-        <node concept="2kdjtB" id="1i65yRAPNro" role="1dukDx">
+        <node concept="2kdjtB" id="FElv_yhetI" role="1dukDx">
           <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
         </node>
       </node>
       <node concept="3zV_Rz" id="5xy6TexDgYU" role="3zVECR">
         <node concept="30Nfyg" id="Tz5AFeJcWf" role="1dgzf0">
-          <property role="30RX_7" value="true" />
           <node concept="2kdhWc" id="1i65yRAWdrc" role="30Nf_D">
             <node concept="2qPR2i" id="1i65yRAWdsp" role="3zVzRQ">
               <ref role="3zVwH8" to="ipj7:7IYto4uIv29" />
@@ -294,7 +292,6 @@
       <property role="TrG5h" value="studentNames" />
       <node concept="3zV_Rz" id="Tz5AFeJKha" role="3zVECR">
         <node concept="30Nfyg" id="KHoiwD1yoC" role="1dgzf0">
-          <property role="30RX_7" value="true" />
           <node concept="2kdhWc" id="Tz5AFeKO0l" role="30Nf_D">
             <node concept="2qPR2i" id="Tz5AFeKO0O" role="3zVzRQ">
               <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
@@ -323,7 +320,6 @@
       <property role="TrG5h" value="years_opt1" />
       <node concept="3zV_Rz" id="1i65yRAWdxK" role="3zVECR">
         <node concept="30Nfyg" id="KHoiwD1qAz" role="1dgzf0">
-          <property role="30RX_7" value="true" />
           <node concept="30CSZA" id="Tz5AFeL$1D" role="30Nf_D">
             <ref role="30CSZW" to="ipj7:7IYto4uIs9G" resolve="Year" />
           </node>
@@ -349,7 +345,6 @@
           </node>
         </node>
         <node concept="30Nfyg" id="KHoiwD1_bB" role="1dgzf0">
-          <property role="30RX_7" value="false" />
           <node concept="30NkWi" id="KHoiwD1_a8" role="30Nf_D">
             <ref role="XkjO9" node="KHoiwD1_2O" resolve="year" />
           </node>
@@ -373,7 +368,6 @@
       </node>
       <node concept="3zV_Rz" id="2J6v22V96UQ" role="3zVECR">
         <node concept="30Nfyg" id="6fymoI4No_z" role="1dgzf0">
-          <property role="30RX_7" value="true" />
           <node concept="2kdhWc" id="2J6v22V96Yr" role="30Nf_D">
             <node concept="2qPR2i" id="2J6v22V96Z8" role="3zVzRQ">
               <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
@@ -418,7 +412,6 @@
           </node>
         </node>
         <node concept="30Nfyg" id="KHoiwD2LiN" role="1dgzf0">
-          <property role="30RX_7" value="false" />
           <node concept="30NkWi" id="4syJQfXJgsl" role="30Nf_D">
             <ref role="XkjO9" node="KHoiwD24IX" resolve="friend" />
           </node>
@@ -461,7 +454,6 @@
           </node>
         </node>
         <node concept="30Nfyg" id="KHoiwD2VMQ" role="1dgzf0">
-          <property role="30RX_7" value="false" />
           <node concept="30NkWi" id="KHoiwD2VLN" role="30Nf_D">
             <ref role="XkjO9" node="KHoiwD2Pe5" resolve="friend" />
           </node>
@@ -549,7 +541,6 @@
           </node>
         </node>
         <node concept="30Nfyg" id="KHoiwD3iwP" role="1dgzf0">
-          <property role="30RX_7" value="false" />
           <node concept="30NkWi" id="KHoiwD3irQ" role="30Nf_D">
             <ref role="XkjO9" node="KHoiwD2W5G" resolve="after" />
           </node>
@@ -573,7 +564,6 @@
       <property role="TrG5h" value="alphabeticallyAfterFriendChain_TC" />
       <node concept="3zV_Rz" id="KHoiwD3lgz" role="3zVECR">
         <node concept="30Nfyg" id="qFLZ2DYxiR" role="1dgzf0">
-          <property role="30RX_7" value="true" />
           <node concept="2k1GkI" id="qFLZ2DYxug" role="30Nf_D">
             <node concept="2k1_uq" id="qFLZ2DYxui" role="2nKVj6">
               <property role="2nKBpM" value="true" />
@@ -609,7 +599,6 @@
       </node>
       <node concept="3zV_Rz" id="7O543ZBc1Cj" role="3zVECR">
         <node concept="30Nfyg" id="qFLZ2DZjx$" role="1dgzf0">
-          <property role="30RX_7" value="true" />
           <node concept="2k1GkI" id="7O543ZBc24B" role="30Nf_D">
             <node concept="2k1_uq" id="7O543ZBc24D" role="2nKVj6">
               <ref role="2nKBpL" node="7O543ZBbL7Z" resolve="alphabeticallyAfterFriend" />
@@ -640,7 +629,6 @@
           </node>
         </node>
         <node concept="30Nfyg" id="qFLZ2DZjIQ" role="1dgzf0">
-          <property role="30RX_7" value="true" />
           <node concept="2k1GkI" id="7O543ZBc2EX" role="30Nf_D">
             <node concept="2k1_uq" id="7O543ZBc2EZ" role="2nKVj6">
               <ref role="2nKBpL" node="7O543ZBc1Cg" resolve="alphabeticallyAfterFriendChain_Rec" />
@@ -830,7 +818,6 @@
           </node>
         </node>
         <node concept="30Nfyg" id="qFLZ2DZoru" role="1dgzf0">
-          <property role="30RX_7" value="false" />
           <node concept="30NkWi" id="qFLZ2DZoFH" role="30Nf_D">
             <ref role="XkjO9" node="qFLZ2DZn5S" resolve="course" />
           </node>
@@ -1144,6 +1131,118 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3TKv5i" id="FElv_yhezM">
+    <property role="TrG5h" value="test" />
+    <node concept="3zyOaA" id="FElv_yifMo" role="1dubk0">
+      <property role="1aKoCf" value="false" />
+      <property role="TrG5h" value="directFriends" />
+      <node concept="1dv5OH" id="FElv_yifMp" role="1dv5OJ">
+        <property role="TrG5h" value="student" />
+        <node concept="2kdjtB" id="FElv_yifMq" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="FElv_yifMr" role="3zVECR">
+        <node concept="30Nfyg" id="FElv_yifMs" role="1dgzf0">
+          <node concept="2kdhWc" id="FElv_yifMt" role="30Nf_D">
+            <node concept="2qPR2i" id="FElv_yifMu" role="3zVzRQ">
+              <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
+              <node concept="2qPR2i" id="FElv_yifMv" role="3zVwHm">
+                <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
+              </node>
+            </node>
+            <node concept="30NkWi" id="FElv_yifMw" role="2kdhYM">
+              <ref role="XkjO9" node="FElv_yifMp" resolve="student" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3TL$xT" id="FElv_yifMx" role="3TLBbI">
+        <node concept="2kdjtB" id="FElv_yifMy" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="FElv_yifMz" role="3zVECR">
+        <node concept="3MnAb8" id="FElv_yifM$" role="1dgzf0">
+          <node concept="30KbLJ" id="FElv_yifM_" role="3MnAb2">
+            <property role="TrG5h" value="friend" />
+          </node>
+          <node concept="30CSZA" id="FElv_yifMA" role="3MnAbp">
+            <ref role="30CSZW" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+          </node>
+        </node>
+        <node concept="3MnAb8" id="FElv_yifMB" role="1dgzf0">
+          <node concept="30NkWi" id="FElv_yifMC" role="3MnAb2">
+            <ref role="XkjO9" node="FElv_yifMp" resolve="student" />
+          </node>
+          <node concept="2kdhWc" id="FElv_yifMD" role="3MnAbp">
+            <node concept="2qPR2i" id="FElv_yifME" role="3zVzRQ">
+              <ref role="3zVwH8" to="ipj7:6h3Ypck6RGE" />
+              <node concept="2qPR2i" id="FElv_yifMF" role="3zVwHm">
+                <ref role="3zVwH8" to="ipj7:6h3Ypck6RGC" />
+              </node>
+            </node>
+            <node concept="30NkWi" id="FElv_yifMG" role="2kdhYM">
+              <ref role="XkjO9" node="FElv_yifM_" resolve="friend" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="FElv_yifMH" role="1dgzf0">
+          <node concept="30NkWi" id="FElv_yifMI" role="30Nf_D">
+            <ref role="XkjO9" node="FElv_yifM_" resolve="friend" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="FElv_yifMJ" role="1dubk0" />
+    <node concept="3zyOaA" id="FElv_yifMK" role="1dubk0">
+      <property role="1aKoCf" value="false" />
+      <property role="TrG5h" value="allFriends" />
+      <node concept="1dv5OH" id="FElv_yifML" role="1dv5OJ">
+        <property role="TrG5h" value="student" />
+        <node concept="2kdjtB" id="FElv_yifMM" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="FElv_yifMN" role="3zVECR">
+        <node concept="3MnAb8" id="FElv_yifMO" role="1dgzf0">
+          <property role="3BcHqo" value="false" />
+          <node concept="30KbLJ" id="FElv_yifMP" role="3MnAb2">
+            <property role="TrG5h" value="friend" />
+          </node>
+          <node concept="2k1GkI" id="FElv_yifMQ" role="3MnAbp">
+            <node concept="2k1_uq" id="FElv_yifMR" role="2nKVj6">
+              <property role="2nKBpM" value="true" />
+              <ref role="2nKBpL" node="FElv_yifMo" resolve="directFriends" />
+              <node concept="30NkWi" id="FElv_yifMS" role="2nKBpO">
+                <ref role="XkjO9" node="FElv_yifML" resolve="student" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MnAb8" id="FElv_yifMT" role="1dgzf0">
+          <property role="3BcHqo" value="true" />
+          <node concept="30NkWi" id="FElv_yifMU" role="3MnAb2">
+            <ref role="XkjO9" node="FElv_yifMP" resolve="friend" />
+          </node>
+          <node concept="30NkWi" id="FElv_yifMV" role="3MnAbp">
+            <ref role="XkjO9" node="FElv_yifML" resolve="student" />
+          </node>
+        </node>
+        <node concept="30Nfyg" id="FElv_yifMW" role="1dgzf0">
+          <node concept="30NkWi" id="FElv_yifMX" role="30Nf_D">
+            <ref role="XkjO9" node="FElv_yifMP" resolve="friend" />
+          </node>
+        </node>
+      </node>
+      <node concept="3TL$xT" id="FElv_yifMY" role="3TLBbI">
+        <node concept="2kdjtB" id="FElv_yifMZ" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="FElv_yhezN" role="1dubk0" />
   </node>
 </model>
 

@@ -368,10 +368,6 @@
     <property role="R4oN_" value="return expression" />
     <property role="1pbfSe" value="585955996" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="Tz5AFeJcWH" role="1TKVEl">
-      <property role="TrG5h" value="all" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyj" id="Tz5AFeFYW3" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expression" />

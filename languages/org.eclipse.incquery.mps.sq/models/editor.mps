@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="0" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -10,10 +11,10 @@
     <import index="ebqt" ref="r:17207093-9cf4-4f01-9c48-e6e0146d6087(org.eclipse.incquery.mps.sq.structure)" />
     <import index="t4sj" ref="r:fc920dcd-3130-40cb-9a1b-95b7ec234932(org.eclipse.incquery.mps.sq.runtime.plugin)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="coho" ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)" implicit="true" />
-    <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" implicit="true" />
+    <import index="coho" ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -349,6 +350,24 @@
           <node concept="3F0ifn" id="5xy6TexD6MF" role="3EZMnx">
             <property role="3F0ifm" value=":" />
           </node>
+          <node concept="3F0ifn" id="307hy13wMXk" role="3EZMnx">
+            <property role="3F0ifm" value="set&lt;" />
+            <node concept="11LMrY" id="307hy13wNpJ" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="pkWqt" id="307hy13wPPi" role="pqm2j">
+              <node concept="3clFbS" id="307hy13wPPj" role="2VODD2">
+                <node concept="3cpWs6" id="307hy13wPQp" role="3cqZAp">
+                  <node concept="2OqwBi" id="307hy13wPVE" role="3cqZAk">
+                    <node concept="pncrf" id="307hy13wPRb" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="307hy13wQ5e" role="2OqNvi">
+                      <ref role="37wK5l" to="coho:307hy13wNxZ" resolve="hasSetType" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3F0ifn" id="5xy6TexDj0c" role="3EZMnx">
             <property role="3F0ifm" value="(" />
             <node concept="11LMrY" id="5xy6TexDqkL" role="3F10Kt">
@@ -400,6 +419,24 @@
                         </node>
                       </node>
                       <node concept="34oBXx" id="1i65yRAPVDW" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3F0ifn" id="307hy13wNgt" role="3EZMnx">
+            <property role="3F0ifm" value="&gt;" />
+            <node concept="11L4FC" id="307hy13wNo4" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="pkWqt" id="307hy13wQ85" role="pqm2j">
+              <node concept="3clFbS" id="307hy13wQ86" role="2VODD2">
+                <node concept="3cpWs6" id="307hy13wQfS" role="3cqZAp">
+                  <node concept="2OqwBi" id="307hy13wQfT" role="3cqZAk">
+                    <node concept="pncrf" id="307hy13wQfU" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="307hy13wQfV" role="2OqNvi">
+                      <ref role="37wK5l" to="coho:307hy13wNxZ" resolve="hasSetType" />
                     </node>
                   </node>
                 </node>
@@ -973,21 +1010,6 @@
       <node concept="l2Vlx" id="Tz5AFeFYWg" role="2iSdaV" />
       <node concept="3F0ifn" id="Tz5AFeFYWc" role="3EZMnx">
         <property role="3F0ifm" value="return" />
-      </node>
-      <node concept="3F0ifn" id="Tz5AFeJcWN" role="3EZMnx">
-        <property role="3F0ifm" value="all" />
-        <node concept="pkWqt" id="Tz5AFeJcWS" role="pqm2j">
-          <node concept="3clFbS" id="Tz5AFeJcWT" role="2VODD2">
-            <node concept="3cpWs6" id="Tz5AFeJdEo" role="3cqZAp">
-              <node concept="2OqwBi" id="Tz5AFeJdEp" role="3cqZAk">
-                <node concept="pncrf" id="Tz5AFeJdEq" role="2Oq$k0" />
-                <node concept="3TrcHB" id="Tz5AFeJdEr" role="2OqNvi">
-                  <ref role="3TsBF5" to="ebqt:Tz5AFeJcWH" resolve="all" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="3F1sOY" id="Tz5AFeFYWo" role="3EZMnx">
         <ref role="1NtTu8" to="ebqt:Tz5AFeFYW3" />
