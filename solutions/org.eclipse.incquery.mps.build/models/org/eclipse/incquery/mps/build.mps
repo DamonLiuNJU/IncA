@@ -449,6 +449,12 @@
               <ref role="3bR37D" node="2Zh2tjQSBex" resolve="org.eclipse.incquery.mps.base#4530729936991344007" />
             </node>
           </node>
+          <node concept="1SiIV0" id="4aBQHOLxsFz" role="3bR37C">
+            <node concept="3bR9La" id="4aBQHOLxsF$" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="5xy6TexCQ1N" role="3bR37C">
           <node concept="3bR9La" id="5xy6TexCQ1O" role="1SiIV1">
