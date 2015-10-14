@@ -232,5 +232,14 @@
       <ref role="PrY4T" to="hqsm:3VwoHXNAdvu" resolve="IPatternModelContent" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4IZiQsKumsO">
+    <property role="1pbfSe" value="2084090523" />
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="GParameter" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4IZiQsKumsP" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
+    </node>
+  </node>
 </model>
 

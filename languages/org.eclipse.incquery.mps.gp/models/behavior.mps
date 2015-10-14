@@ -1410,7 +1410,7 @@
       </node>
       <node concept="A3Dl8" id="14BIdL0mZxK" role="3clF45">
         <node concept="3Tqbb2" id="14BIdL0mZxL" role="A3Ik2">
-          <ref role="ehGHo" to="hqsm:3VwoHXNB3ZM" resolve="Parameter" />
+          <ref role="ehGHo" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
         </node>
       </node>
     </node>
@@ -1432,7 +1432,7 @@
       </node>
       <node concept="A3Dl8" id="14BIdL0mZxX" role="3clF45">
         <node concept="3Tqbb2" id="14BIdL0mZxY" role="A3Ik2">
-          <ref role="ehGHo" to="hqsm:3VwoHXNB3ZM" resolve="Parameter" />
+          <ref role="ehGHo" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
         </node>
       </node>
     </node>

@@ -7,10 +7,10 @@
   </languages>
   <imports>
     <import index="xokz" ref="r:6ff18591-3edc-4f8c-b3b1-e47cd5e8edd2(org.eclipse.incquery.mps.base.editor)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="55iy" ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(org.eclipse.incquery.mps.gp.structure)" implicit="true" />
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -229,6 +229,19 @@
           <ref role="1NtTu8" to="hqsm:3VwoHXNB3ZK" />
           <node concept="2iRfu4" id="RjyNapPkPd" role="2czzBx" />
           <node concept="3F0ifn" id="RjyNapTtTo" role="2czzBI" />
+          <node concept="4$FPG" id="6w1fNJZv0ii" role="4_6I_">
+            <node concept="3clFbS" id="6w1fNJZv0ij" role="2VODD2">
+              <node concept="3cpWs6" id="6w1fNJZv0iX" role="3cqZAp">
+                <node concept="2ShNRf" id="6w1fNJZv0jR" role="3cqZAk">
+                  <node concept="3zrR0B" id="6w1fNJZv0j_" role="2ShVmc">
+                    <node concept="3Tqbb2" id="6w1fNJZv0jA" role="3zrR0E">
+                      <ref role="ehGHo" to="55iy:4IZiQsKumsO" resolve="GParameter" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="2iRfu4" id="RjyNapPkOc" role="2iSdaV" />
         <node concept="3F0ifn" id="RjyNapPkOH" role="3EZMnx">

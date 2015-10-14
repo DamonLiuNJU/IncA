@@ -10,7 +10,6 @@
     <import index="55iy" ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(org.eclipse.incquery.mps.gp.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -110,7 +109,7 @@
     <property role="3GE5qa" value="content" />
     <property role="TrG5h" value="SAnonymousParameter" />
     <property role="1pbfSe" value="100241539" />
-    <ref role="1TJDcQ" to="hqsm:3VwoHXNB3ZM" resolve="Parameter" />
+    <ref role="1TJDcQ" node="4IZiQsKumNF" resolve="SParameter" />
   </node>
   <node concept="1TIwiD" id="5Dmozv0wha_">
     <property role="3GE5qa" value="constraints" />
@@ -444,19 +443,13 @@
       <ref role="PrY4T" node="5luHlsCq70i" resolve="ISPatternBodyContent" />
     </node>
   </node>
-  <node concept="1TIwiD" id="39KhnTIfy1V">
-    <property role="3GE5qa" value="values" />
-    <property role="TrG5h" value="BaseVariableReference" />
-    <property role="1pbfSe" value="1599183367" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="39KhnTIfy1W" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="variable" />
-      <ref role="20lvS9" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
-    </node>
-    <node concept="PrWs8" id="39KhnTIfy4D" role="PzmwI">
-      <ref role="PrY4T" to="hqsm:1YBYCQ13COO" resolve="IGenNameProvider" />
+  <node concept="1TIwiD" id="4IZiQsKumNF">
+    <property role="1pbfSe" value="2084091986" />
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="SParameter" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4IZiQsKumNG" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
     </node>
   </node>
 </model>

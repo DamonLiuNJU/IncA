@@ -73,7 +73,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="parameters" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3VwoHXNB3ZM" resolve="Parameter" />
+      <ref role="20lvS9" node="4IZiQsKumaj" resolve="IParameter" />
     </node>
     <node concept="1TJgyj" id="1ERTnBTmkXe" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -177,15 +177,6 @@
       <ref role="PrY4T" node="3VwoHXNAdvu" resolve="IPatternModelContent" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3VwoHXNB3ZM">
-    <property role="3GE5qa" value="content" />
-    <property role="TrG5h" value="Parameter" />
-    <property role="1pbfSe" value="1300454703" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3VwoHXNB3ZN" role="PzmwI">
-      <ref role="PrY4T" node="3VwoHXNAdmi" resolve="IVariable" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6L84cjtSlH$">
     <property role="TrG5h" value="TemporaryVariable" />
     <property role="3GE5qa" value="content" />
@@ -282,7 +273,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="parameter" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3VwoHXNB3ZM" resolve="Parameter" />
+      <ref role="20lvS9" node="4IZiQsKumaj" resolve="IParameter" />
     </node>
   </node>
   <node concept="1TIwiD" id="6trdyn59F4M">
@@ -346,7 +337,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="parameter" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3VwoHXNB3ZM" resolve="Parameter" />
+      <ref role="20lvS9" node="4IZiQsKumaj" resolve="IParameter" />
     </node>
     <node concept="1TJgyj" id="7wcU5h3e9m_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -378,7 +369,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="parameter" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3VwoHXNB3ZM" resolve="Parameter" />
+      <ref role="20lvS9" node="4IZiQsKumaj" resolve="IParameter" />
     </node>
   </node>
   <node concept="1TIwiD" id="7wcU5h3ekti">
@@ -446,7 +437,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="parameter" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3VwoHXNB3ZM" resolve="Parameter" />
+      <ref role="20lvS9" node="4IZiQsKumaj" resolve="IParameter" />
     </node>
     <node concept="1TJgyj" id="6trdyn511AC" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -813,6 +804,29 @@
     </node>
     <node concept="PrWs8" id="7tfd0TDd67B" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39KhnTIfy1V">
+    <property role="3GE5qa" value="reference" />
+    <property role="TrG5h" value="BaseVariableReference" />
+    <property role="1pbfSe" value="1599183367" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="39KhnTIfy1W" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="variable" />
+      <ref role="20lvS9" node="3VwoHXNAdmi" resolve="IVariable" />
+    </node>
+    <node concept="PrWs8" id="39KhnTIfy4D" role="PzmwI">
+      <ref role="PrY4T" node="1YBYCQ13COO" resolve="IGenNameProvider" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4IZiQsKumaj">
+    <property role="1pbfSe" value="2084089338" />
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IParameter" />
+    <node concept="PrWs8" id="4IZiQsKumak" role="PrDN$">
+      <ref role="PrY4T" node="3VwoHXNAdmi" resolve="IVariable" />
     </node>
   </node>
 </model>
