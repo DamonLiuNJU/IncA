@@ -25,12 +25,12 @@
       <sourceRoot location="lib/org.eclipse.incquery.runtime.matchers_1.1.0.201509121550.jar" />
       <sourceRoot location="lib/org.eclipse.incquery.runtime.rete.recipes.source_1.1.0.201509121550.jar" />
       <sourceRoot location="lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201509121550.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete.source_1.1.0.201509131207.jar" />
-      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete_1.1.0.201509131207.jar" />
       <sourceRoot location="lib/org.eclipse.incquery.runtime.source_1.1.0.201509121550.jar" />
       <sourceRoot location="lib/org.eclipse.incquery.runtime_1.1.0.201509121550.jar" />
       <sourceRoot location="lib/org.eclipse.osgi_3.10.0.v20140528-2014.jar" />
       <sourceRoot location="lib/org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete.source_1.1.0.201510220900.jar" />
+      <sourceRoot location="lib/org.eclipse.incquery.runtime.rete_1.1.0.201510220900.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -54,12 +54,12 @@
     <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.matchers_1.1.0.201509121550.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete.recipes.source_1.1.0.201509121550.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201509121550.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete.source_1.1.0.201509131207.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete_1.1.0.201509131207.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.source_1.1.0.201509121550.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime_1.1.0.201509121550.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.osgi_3.10.0.v20140528-2014.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete_1.1.0.201510220900.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.incquery.runtime.rete.source_1.1.0.201510220900.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
@@ -84,6 +84,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" fqName="jetbrains.mps.lang.plugin" version="0" />
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" fqName="jetbrains.mps.lang.plugin.standalone" version="0" />
+    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" fqName="jetbrains.mps.lang.quotation" version="0" />
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="2" />
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
