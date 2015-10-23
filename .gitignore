@@ -8,3 +8,5 @@ hs_err_pid*
 **/test_gen/*
 **/test_gen.caches/*
 **/_spreferences/*
+build-test.xml
+build.xml

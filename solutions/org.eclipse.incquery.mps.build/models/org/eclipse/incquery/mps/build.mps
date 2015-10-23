@@ -191,6 +191,9 @@
     </node>
     <node concept="1l3spV" id="2Zh2tjQSyQC" role="1l3spN">
       <node concept="3981dG" id="2Zh2tjQSyQD" role="39821P">
+        <node concept="m$_wl" id="3uP4IkDl3CK" role="39821P">
+          <ref role="m_rDy" node="3uP4IkDkXID" resolve="org.eclipse.incquery.mps.build" />
+        </node>
         <node concept="3_J27D" id="2Zh2tjQSyQE" role="Nbhlr">
           <node concept="3Mxwew" id="2Zh2tjQSyQF" role="3MwsjC">
             <property role="3MwjfP" value="org.eclipse.incquery.mps.zip" />
@@ -246,6 +249,57 @@
       <node concept="3_J27D" id="2Zh2tjQSyQA" role="m_cZH">
         <node concept="3Mxwew" id="2Zh2tjQSyQB" role="3MwsjC">
           <property role="3MwjfP" value="org.eclipse.incquery.mps" />
+        </node>
+      </node>
+    </node>
+    <node concept="m$_wf" id="3uP4IkDkXID" role="3989C9">
+      <property role="m$_wk" value="org.eclipse.incquery.mps.build" />
+      <node concept="3_J27D" id="3uP4IkDkXIF" role="m_cZH">
+        <node concept="3Mxwew" id="3uP4IkDl0Wl" role="3MwsjC">
+          <property role="3MwjfP" value="org.eclipse.incquery.mps.build" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="3uP4IkDkXIH" role="m$_w8">
+        <node concept="3Mxwew" id="3uP4IkDl0Wo" role="3MwsjC">
+          <property role="3MwjfP" value="1.0" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="3uP4IkDkXIJ" role="m$_yQ">
+        <node concept="3Mxwew" id="3uP4IkDkZJ0" role="3MwsjC">
+          <property role="3MwjfP" value="org.eclipse.incquery.mps.build" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="3uP4IkDl1Oq" role="m$_yh">
+        <ref role="m$f5T" node="3uP4IkDkyd8" resolve="mps-incquery-build" />
+      </node>
+      <node concept="m$_yC" id="3uP4IkDl2r6" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="3uP4IkDkyd8" role="3989C9">
+      <property role="TrG5h" value="mps-incquery-build" />
+      <node concept="1E1JtA" id="3uP4IkDkAAP" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.eclipse.incquery.mps.build" />
+        <property role="3LESm3" value="952631b6-abf7-4216-aaa0-43838b433fe2" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="3uP4IkDkBdu" role="3LF7KH">
+          <ref role="398BVh" node="2Zh2tjQSyQa" resolve="mps.incquery" />
+          <node concept="2Ry0Ak" id="3uP4IkDkBZu" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="3uP4IkDkBZ_" role="2Ry0An">
+              <property role="2Ry0Am" value="org.eclipse.incquery.mps.build" />
+              <node concept="2Ry0Ak" id="3uP4IkDkBZG" role="2Ry0An">
+                <property role="2Ry0Am" value="org.eclipse.incquery.mps.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3uP4IkDkBZJ" role="3bR37C">
+          <node concept="3bR9La" id="3uP4IkDkBZK" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+          </node>
         </node>
       </node>
     </node>
