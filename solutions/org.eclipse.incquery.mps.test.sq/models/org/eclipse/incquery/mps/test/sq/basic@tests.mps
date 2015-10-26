@@ -732,6 +732,29 @@
   <node concept="3TKv5i" id="5xy6TexD3Qj">
     <property role="TrG5h" value="SQPatterns" />
     <property role="3TKv5n" value="true" />
+    <node concept="3zyOaA" id="4QOgZJSQzvi" role="1dubk0">
+      <property role="1aKoCf" value="false" />
+      <property role="TrG5h" value="student" />
+      <node concept="1VLyuc" id="4QOgZJSQzUF" role="1dv5OJ">
+        <property role="TrG5h" value="student" />
+        <node concept="2kdjtB" id="4QOgZJSQzVx" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="4QOgZJSQzvj" role="3zVECR">
+        <node concept="30Nfyg" id="4QOgZJSQzWq" role="1dgzf0">
+          <node concept="30NkWi" id="4QOgZJSQzYx" role="30Nf_D">
+            <ref role="XkjO9" node="4QOgZJSQzUF" resolve="student" />
+          </node>
+        </node>
+      </node>
+      <node concept="3TL$xT" id="4QOgZJSQzvl" role="3TLBbI">
+        <node concept="2kdjtB" id="4QOgZJSQzVG" role="1dukDx">
+          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="4QOgZJSQyG8" role="1dubk0" />
     <node concept="3zyOaA" id="5xy6TexDde3" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="students" />
