@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.eclipse.incquery.mps.meta" />
   <property name="build.layout" location="${build.dir}/artifacts/org.eclipse.incquery.mps.meta" />
   <property name="mps.incquery" location="${basedir}/solutions" />
-  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS_3.3.141.2591_miq.app/Contents" />
+  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS_3.3.142.230_miq.app/Contents" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -86,6 +86,7 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.script.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
+      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.query.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />

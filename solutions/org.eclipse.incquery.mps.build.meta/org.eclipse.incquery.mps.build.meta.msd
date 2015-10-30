@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.eclipse.incquery.mps.build.meta" uuid="1585389d-4072-418b-818d-f3612f87a7bc" compileInMPS="true">
+<solution name="org.eclipse.incquery.mps.build.meta" uuid="1585389d-4072-418b-818d-f3612f87a7bc" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -18,5 +18,9 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
+  <dependencyVersions>
+    <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
+    <module reference="1585389d-4072-418b-818d-f3612f87a7bc(org.eclipse.incquery.mps.build.meta)" version="0" />
+  </dependencyVersions>
 </solution>
 
