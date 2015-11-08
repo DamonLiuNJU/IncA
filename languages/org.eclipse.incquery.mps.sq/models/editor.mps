@@ -524,7 +524,7 @@
           <ref role="34QXea" node="3hiszdZGiGQ" resolve="SPatternBody_AddPatternBody" />
         </node>
         <node concept="3F0ifn" id="RjyNaq0wD3" role="3EZMnx">
-          <property role="3F0ifm" value="union" />
+          <property role="3F0ifm" value="alt" />
           <ref role="34QXea" node="3hiszdZGiGQ" resolve="SPatternBody_AddPatternBody" />
         </node>
         <node concept="3F0ifn" id="RjyNaq0wDi" role="3EZMnx">
