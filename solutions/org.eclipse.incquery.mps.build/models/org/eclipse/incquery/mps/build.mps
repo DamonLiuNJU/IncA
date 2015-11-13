@@ -7,6 +7,7 @@
     <use id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests" version="0" />
   </languages>
   <imports>
+    <import index="arit" ref="r:0d66e868-9778-4307-b6f9-4795c00f662f(jetbrains.mps.build.workflow.preset.general)" />
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
   </imports>
   <registry>
@@ -240,10 +241,10 @@
       <node concept="m$f5U" id="2Zh2tjQSyQ$" role="m$_yh">
         <ref role="m$f5T" node="2Zh2tjQSyQu" resolve="org.eclipse.incquery.mps" />
       </node>
-      <node concept="m$_yC" id="2Zh2tjQSyQ_" role="m$_yJ">
+      <node concept="m$_yC" id="2CaJY_ysew$" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="69NMDwEp2VI" role="m$_yJ">
+      <node concept="m$_yC" id="2CaJY_ysewE" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
       <node concept="3_J27D" id="2Zh2tjQSyQA" role="m_cZH">
@@ -272,7 +273,7 @@
       <node concept="m$f5U" id="3uP4IkDl1Oq" role="m$_yh">
         <ref role="m$f5T" node="3uP4IkDkyd8" resolve="mps-incquery-build" />
       </node>
-      <node concept="m$_yC" id="3uP4IkDl2r6" role="m$_yJ">
+      <node concept="m$_yC" id="2CaJY_ysews" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
     </node>
@@ -1246,6 +1247,12 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="2CaJY_ys916" role="3bR37C">
+          <node concept="3bR9La" id="2CaJY_ys917" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1WGJoq9Wd0d" resolve="jetbrains.mps.build.workflow.preset" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5xy6TexCQnu" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1280,6 +1287,12 @@
           <node concept="3bR9La" id="5xy6TexCVif" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2CaJY_yrZ5M" role="3bR37C">
+          <node concept="3bR9La" id="2CaJY_yrZ5N" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>

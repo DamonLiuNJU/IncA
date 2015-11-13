@@ -1587,7 +1587,9 @@
           <node concept="3cpWsn" id="3vpfMDO5427" role="3cpWs9">
             <property role="TrG5h" value="measureMemory" />
             <node concept="10P_77" id="3vpfMDO5422" role="1tU5fm" />
-            <node concept="3clFbT" id="5rAEUzfROtC" role="33vP2m" />
+            <node concept="3clFbT" id="5rAEUzfROtC" role="33vP2m">
+              <property role="3clFbU" value="true" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="3vpfMDO53IB" role="3cqZAp" />
@@ -1667,7 +1669,7 @@
                   </node>
                   <node concept="3eOVzh" id="3vpfMDO50nM" role="1Dwp0S">
                     <node concept="3cmrfG" id="3vpfMDO50nX" role="3uHU7w">
-                      <property role="3cmrfH" value="5" />
+                      <property role="3cmrfH" value="2" />
                     </node>
                     <node concept="37vLTw" id="3vpfMDO503_" role="3uHU7B">
                       <ref role="3cqZAo" node="3vpfMDO4ZM8" resolve="j" />
@@ -1686,7 +1688,7 @@
                         <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
                         <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
                         <node concept="3cmrfG" id="3vpfMDO52Dx" role="37wK5m">
-                          <property role="3cmrfH" value="2000" />
+                          <property role="3cmrfH" value="1000" />
                         </node>
                       </node>
                     </node>
@@ -1871,7 +1873,7 @@
           </node>
           <node concept="3eOVzh" id="nuBkmMueVU" role="1Dwp0S">
             <node concept="3cmrfG" id="nuBkmMueW5" role="3uHU7w">
-              <property role="3cmrfH" value="300" />
+              <property role="3cmrfH" value="100" />
             </node>
             <node concept="37vLTw" id="nuBkmMuejm" role="3uHU7B">
               <ref role="3cqZAo" node="nuBkmMueeq" resolve="i" />

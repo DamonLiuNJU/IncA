@@ -10,6 +10,7 @@
     <dependency reexport="false">b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
     <dependency reexport="false">cd2909da-ecb4-49dc-b176-33e5c619e516(org.eclipse.incquery.mps.gp)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="3" />
