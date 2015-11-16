@@ -531,7 +531,7 @@
   <node concept="1TIwiD" id="5HxP2lv3qME">
     <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="DoubleValue" />
-    <property role="34LRSv" value="Double Value" />
+    <property role="34LRSv" value="double" />
     <property role="1pbfSe" value="1167097649" />
     <ref role="1TJDcQ" node="RjyNapPty$" resolve="LiteralValueReference" />
     <node concept="1TJgyi" id="5HxP2lv63n5" role="1TKVEl">
@@ -542,7 +542,7 @@
   <node concept="1TIwiD" id="4QgsNmKMGGS">
     <property role="3GE5qa" value="values" />
     <property role="TrG5h" value="EnumValue" />
-    <property role="34LRSv" value="Enum Value" />
+    <property role="34LRSv" value="enum" />
     <property role="1pbfSe" value="27574675" />
     <ref role="1TJDcQ" node="RjyNapPty$" resolve="LiteralValueReference" />
     <node concept="1TJgyj" id="4QgsNmKMGIf" role="1TKVEi">
@@ -568,7 +568,7 @@
   <node concept="1TIwiD" id="RjyNapPtyP">
     <property role="TrG5h" value="IntValue" />
     <property role="3GE5qa" value="values" />
-    <property role="34LRSv" value="Int Value" />
+    <property role="34LRSv" value="int" />
     <property role="1pbfSe" value="1482071065" />
     <ref role="1TJDcQ" node="RjyNapPty$" resolve="LiteralValueReference" />
     <node concept="1TJgyi" id="RjyNapPtyQ" role="1TKVEl">
