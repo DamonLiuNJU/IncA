@@ -16,7 +16,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.measurements/org.eclipse.incquery.mps.measurements.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" folder="core.solutions" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.sq.runtime/org.eclipse.incquery.mps.sq.runtime.msd" folder="core.solutions" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.findbugs/org.eclipse.incquery.mps.test.findbugs.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.gp/org.eclipse.incquery.mps.test.gp.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.inca/org.eclipse.incquery.mps.test.inca.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.runtime/org.eclipse.incquery.mps.test.runtime.msd" folder="tests" />

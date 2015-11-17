@@ -121,6 +121,9 @@
     <node concept="PrWs8" id="2T9PnLzc3D2" role="PrDN$">
       <ref role="PrY4T" to="hqsm:1i65yRATv5I" resolve="ITypeConstraintProvider" />
     </node>
+    <node concept="PrWs8" id="2aI$NQeALVa" role="PrDN$">
+      <ref role="PrY4T" node="2aI$NQe_$hJ" resolve="ITransformable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2RR5eLkmLTl">
     <property role="1pbfSe" value="2108542143" />
@@ -156,7 +159,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="hqsm:6VTlRjrCuQt" resolve="IVariableType" />
+      <ref role="20lvS9" to="hqsm:RjyNapTFLl" resolve="ConceptReference" />
     </node>
     <node concept="PrWs8" id="2RR5eLkmLUz" role="PzmwI">
       <ref role="PrY4T" node="2RR5eLkmLOT" resolve="ICondition" />
@@ -182,7 +185,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="hqsm:6VTlRjrCuQt" resolve="IVariableType" />
+      <ref role="20lvS9" to="hqsm:RjyNapTFLl" resolve="ConceptReference" />
     </node>
     <node concept="PrWs8" id="2RR5eLkmLWy" role="PzmwI">
       <ref role="PrY4T" node="2RR5eLkmLOT" resolve="ICondition" />
@@ -287,6 +290,12 @@
     </node>
     <node concept="PrWs8" id="2T9PnLzc6K1" role="PrDN$">
       <ref role="PrY4T" to="hqsm:1i65yRATv5I" resolve="ITypeConstraintProvider" />
+    </node>
+    <node concept="PrWs8" id="2aI$NQe_$iI" role="PrDN$">
+      <ref role="PrY4T" node="2aI$NQe_$hJ" resolve="ITransformable" />
+    </node>
+    <node concept="PrWs8" id="2aI$NQeA4Vm" role="PrDN$">
+      <ref role="PrY4T" to="hqsm:1YBYCQ13COO" resolve="IGenNameProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="2RR5eLkmNQY">
@@ -405,6 +414,9 @@
     <node concept="PrWs8" id="2RR5eLkmXYG" role="PzmwI">
       <ref role="PrY4T" node="2RR5eLkmLRV" resolve="IBinary" />
     </node>
+    <node concept="PrWs8" id="2aI$NQe$$X3" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:1i65yRATv5I" resolve="ITypeConstraintProvider" />
+    </node>
   </node>
   <node concept="PlHQZ" id="2RR5eLkmLOq">
     <property role="1pbfSe" value="2108542458" />
@@ -495,6 +507,34 @@
     <node concept="PrWs8" id="6ZTMKmFv4bb" role="PzmwI">
       <ref role="PrY4T" to="hqsm:1ERTnBTmuSC" resolve="IPathElement" />
     </node>
+    <node concept="PrWs8" id="2aI$NQeA0yu" role="PzmwI">
+      <ref role="PrY4T" node="2aI$NQe_$hJ" resolve="ITransformable" />
+    </node>
+    <node concept="PrWs8" id="2aI$NQeA72g" role="PzmwI">
+      <ref role="PrY4T" to="hqsm:1YBYCQ13COO" resolve="IGenNameProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2aI$NQe$FAD">
+    <property role="1pbfSe" value="1321120538" />
+    <property role="3GE5qa" value="expressions" />
+    <property role="TrG5h" value="Eval" />
+    <property role="34LRSv" value="eval" />
+    <property role="R4oN_" value="eval" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2aI$NQe$FAH" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="hqsm:RjyNapPtPn" resolve="ExpressionEvaluationValue" />
+    </node>
+    <node concept="PrWs8" id="2aI$NQe$FER" role="PzmwI">
+      <ref role="PrY4T" node="2RR5eLkmLOU" resolve="IExpression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2aI$NQe_$hJ">
+    <property role="1pbfSe" value="1320888404" />
+    <property role="3GE5qa" value="misc" />
+    <property role="TrG5h" value="ITransformable" />
   </node>
 </model>
 
