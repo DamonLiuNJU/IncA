@@ -310,8 +310,8 @@
         <child id="996292992024567128" name="expression" index="2k1_pE" />
       </concept>
       <concept id="996292992024566952" name="org.eclipse.incquery.mps.base.structure.PatternCall" flags="ng" index="2k1_uq">
-        <reference id="996292992028507459" name="patternRef" index="2nKBpL" />
-        <child id="996292992028507462" name="parameters" index="2nKBpO" />
+        <reference id="996292992028507459" name="pattern" index="2nKBpL" />
+        <child id="996292992028507462" name="arguments" index="2nKBpO" />
       </concept>
       <concept id="996292992025672789" name="org.eclipse.incquery.mps.base.structure.ConceptReference" flags="ng" index="2kdjtB">
         <reference id="7241148409041409499" name="concept" index="2UGuZ7" />
@@ -2502,11 +2502,11 @@
         <node concept="34ocy7" id="4Z0VXz28xSZ" role="1dgzf0">
           <node concept="11bN8U" id="4Z0VXz28xZh" role="34ocs8">
             <node concept="2k1_p_" id="4Z0VXz28xZi" role="11bN8K">
-              <node concept="2OqwBi" id="4Z0VXz28DJU" role="2k1_pE">
+              <node concept="2OqwBi" id="W0eiDpmjZm" role="2k1_pE">
                 <node concept="1sjAk5" id="4Z0VXz28DAL" role="2Oq$k0">
                   <ref role="1sjAk2" node="4Z0VXz28xGz" resolve="class" />
                 </node>
-                <node concept="3TrcHB" id="4Z0VXz28E8v" role="2OqNvi">
+                <node concept="3TrcHB" id="W0eiDpmkoc" role="2OqNvi">
                   <ref role="3TsBF5" to="tpee:hLEXba4" resolve="isFinal" />
                 </node>
               </node>

@@ -318,7 +318,7 @@
       </node>
     </node>
     <node concept="3UNGvq" id="Tz5AFeKxR$" role="3UOs0v">
-      <ref role="3UNGvu" to="hqsm:2J6v22V3ohT" resolve="IVariableValue" />
+      <ref role="3UNGvu" to="ebqt:1i65yRAQ7jk" resolve="IExpression" />
       <node concept="tYCnQ" id="Tz5AFeKxR_" role="_1QTJ">
         <ref role="uz4UX" to="ebqt:RjyNapTDgY" resolve="SPathExpression" />
         <node concept="Cmt7Y" id="Tz5AFeKxRA" role="uz6Si">

@@ -10,6 +10,7 @@
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
     <dependency reexport="false">8c9a2720-9d21-4370-a226-819eb3e76e1e(org.eclipse.incquery.mps.sq)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
+    <dependency reexport="true">bc791f96-4749-4311-a6e4-241e47ca97f9(org.eclipse.incquery.mps.base.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="3" />
@@ -40,6 +41,7 @@
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)" version="0" />
+    <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.eclipse.incquery.mps.base.runtime)" version="0" />
     <module reference="cd2909da-ecb4-49dc-b176-33e5c619e516(org.eclipse.incquery.mps.gp)" version="0" />
     <module reference="8c9a2720-9d21-4370-a226-819eb3e76e1e(org.eclipse.incquery.mps.sq)" version="0" />
     <module reference="22355160-0462-42a7-b4f6-c5057d6e9d54(org.eclipse.incquery.mps.sq.runtime)" version="0" />

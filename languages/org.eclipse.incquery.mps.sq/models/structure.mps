@@ -130,7 +130,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="src" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="hqsm:2J6v22V3ohT" resolve="IVariableValue" />
+      <ref role="20lvS9" node="1i65yRAQ7jk" resolve="IExpression" />
     </node>
     <node concept="1TJgyj" id="1ERTnBTmtyf" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
