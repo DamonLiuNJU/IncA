@@ -1654,6 +1654,12 @@
             <ref role="3bR37D" node="4Ut1WRRt0tK" resolve="org.eclipse.incquery.mps.test.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="3d69XTNdMcj" role="3bR37C">
+          <node concept="3bR9La" id="3d69XTNdMck" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2_Ic$z" id="4Ut1WRRt0wj" role="3989C9">

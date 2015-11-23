@@ -148,7 +148,7 @@
       <concept id="996292992024566952" name="org.eclipse.incquery.mps.base.structure.PatternCall" flags="ng" index="2k1_uq">
         <property id="996292992028507456" name="transitive" index="2nKBpM" />
         <reference id="996292992028507459" name="patternRef" index="2nKBpL" />
-        <child id="996292992028507462" name="parameters" index="2nKBpO" />
+        <child id="996292992028507462" name="arguments" index="2nKBpO" />
       </concept>
       <concept id="996292992024530443" name="org.eclipse.incquery.mps.base.structure.CompareConstraint" flags="ng" index="2k1GkT">
         <property id="8396102296983865703" name="feature" index="2957JE" />

@@ -213,7 +213,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="5xy6TexD5fP">
-    <property role="3GE5qa" value="content" />
+    <property role="3GE5qa" value="misc" />
     <ref role="1M2myG" to="ebqt:5xy6TexD5fE" resolve="SAnonymousParameter" />
     <node concept="EnEH3" id="5xy6TexD5fQ" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
@@ -248,7 +248,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="5J57cTDSCr5">
-    <property role="3GE5qa" value="constraints" />
+    <property role="3GE5qa" value="expression" />
     <ref role="1M2myG" to="ebqt:5Dmozv0wha_" resolve="SPathElement" />
     <node concept="1N5Pfh" id="5J57cTDSCsI" role="1Mr941">
       <ref role="1N5Vy1" to="hqsm:1ERTnBTmuSL" />
@@ -380,7 +380,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1i65yRAP1y2">
-    <property role="3GE5qa" value="values" />
+    <property role="3GE5qa" value="expression" />
     <ref role="1M2myG" to="ebqt:RjyNapPtyj" resolve="STuple" />
     <node concept="Um2eU" id="6fymoI4OVnT" role="1kkKnR">
       <node concept="3clFbS" id="6fymoI4OVnU" role="2VODD2">
@@ -412,7 +412,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="5luHlsCq70G">
-    <property role="3GE5qa" value="content" />
+    <property role="3GE5qa" value="misc" />
     <ref role="1M2myG" to="ebqt:1ERTnBTmryq" resolve="SPatternBody" />
     <node concept="osYL8" id="5luHlsCq70H" role="1MLXOK">
       <node concept="3clFbS" id="5luHlsCq70I" role="2VODD2">
@@ -424,7 +424,7 @@
             </node>
             <node concept="2Zo12i" id="5luHlsCrGrR" role="2OqNvi">
               <node concept="chp4Y" id="5luHlsCrGz0" role="2Zo12j">
-                <ref role="cht4Q" to="ebqt:5luHlsCq70i" resolve="ISPatternBodyContent" />
+                <ref role="cht4Q" to="ebqt:5luHlsCq70i" resolve="IStatement" />
               </node>
             </node>
           </node>
@@ -433,6 +433,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="5luHlsCrxwH">
+    <property role="3GE5qa" value="misc" />
     <ref role="1M2myG" to="ebqt:5xy6TexCYF1" resolve="SPatternModel" />
     <node concept="osYL8" id="5luHlsCr$Ym" role="1MLXOK">
       <node concept="3clFbS" id="5luHlsCr$Yn" role="2VODD2">
@@ -567,7 +568,7 @@
                               </node>
                             </node>
                             <node concept="2qgKlT" id="KHoiwD2pEr" role="2OqNvi">
-                              <ref role="37wK5l" to="coho:Tz5AFeEMOV" resolve="comparableWith" />
+                              <ref role="37wK5l" to="coho:Tz5AFeEMOV" resolve="compatibleWith" />
                             </node>
                           </node>
                         </node>
@@ -646,7 +647,7 @@
                               </node>
                             </node>
                             <node concept="2qgKlT" id="KHoiwD2r5k" role="2OqNvi">
-                              <ref role="37wK5l" to="coho:Tz5AFeEMOV" resolve="comparableWith" />
+                              <ref role="37wK5l" to="coho:Tz5AFeEMOV" resolve="compatibleWith" />
                             </node>
                           </node>
                         </node>
@@ -698,7 +699,7 @@
                             </node>
                           </node>
                           <node concept="2qgKlT" id="KHoiwD2sfA" role="2OqNvi">
-                            <ref role="37wK5l" to="coho:Tz5AFeEMOV" resolve="comparableWith" />
+                            <ref role="37wK5l" to="coho:Tz5AFeEMOV" resolve="compatibleWith" />
                           </node>
                         </node>
                       </node>
@@ -738,7 +739,7 @@
                               </node>
                             </node>
                             <node concept="2qgKlT" id="KHoiwD2tp_" role="2OqNvi">
-                              <ref role="37wK5l" to="coho:Tz5AFeEMOV" resolve="comparableWith" />
+                              <ref role="37wK5l" to="coho:Tz5AFeEMOV" resolve="compatibleWith" />
                             </node>
                           </node>
                         </node>
@@ -820,7 +821,7 @@
     <node concept="3Tm1VV" id="Tz5AFeKd_J" role="1B3o_S" />
   </node>
   <node concept="1M2fIO" id="6fymoI4P28M">
-    <property role="3GE5qa" value="constraints" />
+    <property role="3GE5qa" value="expression" />
     <ref role="1M2myG" to="ebqt:RjyNapPkSs" resolve="SPatternCall" />
     <node concept="Um2eU" id="6fymoI4P28N" role="1kkKnR">
       <node concept="3clFbS" id="6fymoI4P28O" role="2VODD2">
@@ -884,7 +885,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="3oMuSXR8wMB">
-    <property role="3GE5qa" value="constraints" />
+    <property role="3GE5qa" value="expression" />
     <ref role="1M2myG" to="ebqt:RjyNapTDgY" resolve="SPathExpression" />
     <node concept="osYL8" id="3oMuSXR8wMC" role="1MLXOK">
       <node concept="3clFbS" id="3oMuSXR8wMD" role="2VODD2">
@@ -920,25 +921,6 @@
         </node>
       </node>
     </node>
-    <node concept="nKS2y" id="39KhnTIfph7" role="1MLUbF">
-      <node concept="3clFbS" id="39KhnTIfph8" role="2VODD2">
-        <node concept="3cpWs6" id="39KhnTIfpm9" role="3cqZAp">
-          <node concept="3clFbC" id="39KhnTIfq6$" role="3cqZAk">
-            <node concept="10Nm6u" id="39KhnTIfqap" role="3uHU7w" />
-            <node concept="2OqwBi" id="39KhnTIfpyd" role="3uHU7B">
-              <node concept="nLn13" id="39KhnTIfprp" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="39KhnTIfpRM" role="2OqNvi">
-                <node concept="1xMEDy" id="39KhnTIfpRO" role="1xVPHs">
-                  <node concept="chp4Y" id="39KhnTIfpXb" role="ri$Ld">
-                    <ref role="cht4Q" to="ebqt:5luHlsCq70s" resolve="SCheckConstraint" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="1M2fIO" id="1fSpEsnLW5p">
     <property role="3GE5qa" value="constraints" />
@@ -948,7 +930,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="4IZiQsKumNJ">
-    <property role="3GE5qa" value="content" />
+    <property role="3GE5qa" value="misc" />
     <ref role="1M2myG" to="ebqt:4IZiQsKumNF" resolve="SParameter" />
     <node concept="nKS2y" id="4IZiQsKumNK" role="1MLUbF">
       <node concept="3clFbS" id="4IZiQsKumNL" role="2VODD2">
