@@ -162,12 +162,15 @@
                     <property role="2Ry0Am" value=".." />
                     <node concept="2Ry0Ak" id="1DxZyGUJaHL" role="2Ry0An">
                       <property role="2Ry0Am" value=".." />
-                      <node concept="2Ry0Ak" id="1DxZyGUJaHM" role="2Ry0An">
-                        <property role="2Ry0Am" value="Applications" />
-                        <node concept="2Ry0Ak" id="1DxZyGUJaHN" role="2Ry0An">
-                          <property role="2Ry0Am" value="MPS_3.3.142.230_miq.app" />
-                          <node concept="2Ry0Ak" id="1DxZyGUJaHO" role="2Ry0An">
-                            <property role="2Ry0Am" value="Contents" />
+                      <node concept="2Ry0Ak" id="7BgI1pOb2Ue" role="2Ry0An">
+                        <property role="2Ry0Am" value=".." />
+                        <node concept="2Ry0Ak" id="7BgI1pOb2Uj" role="2Ry0An">
+                          <property role="2Ry0Am" value="Applications" />
+                          <node concept="2Ry0Ak" id="7BgI1pOb2Uo" role="2Ry0An">
+                            <property role="2Ry0Am" value="MPS_3.3.142.230_miq.app" />
+                            <node concept="2Ry0Ak" id="7BgI1pOb2Ut" role="2Ry0An">
+                              <property role="2Ry0Am" value="Contents" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -1331,6 +1334,12 @@
             <ref role="3bR37D" node="5xy6TexCUFB" resolve="org.eclipse.incquery.mps.sq" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7BgI1pOb301" role="3bR37C">
+          <node concept="3bR9La" id="7BgI1pOb302" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" node="2Zh2tjQSyQt" resolve="org.eclipse.incquery.mps.base.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5xy6TexCQWj" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1442,12 +1451,15 @@
                     <property role="2Ry0Am" value=".." />
                     <node concept="2Ry0Ak" id="1DxZyGUIURf" role="2Ry0An">
                       <property role="2Ry0Am" value=".." />
-                      <node concept="2Ry0Ak" id="1DxZyGUIURk" role="2Ry0An">
-                        <property role="2Ry0Am" value="Applications" />
-                        <node concept="2Ry0Ak" id="1DxZyGUIURp" role="2Ry0An">
-                          <property role="2Ry0Am" value="MPS_3.3.142.230_miq.app" />
-                          <node concept="2Ry0Ak" id="1DxZyGUIURu" role="2Ry0An">
-                            <property role="2Ry0Am" value="Contents" />
+                      <node concept="2Ry0Ak" id="7BgI1pOb39H" role="2Ry0An">
+                        <property role="2Ry0Am" value=".." />
+                        <node concept="2Ry0Ak" id="7BgI1pOb3cy" role="2Ry0An">
+                          <property role="2Ry0Am" value="Applications" />
+                          <node concept="2Ry0Ak" id="7BgI1pOb3cB" role="2Ry0An">
+                            <property role="2Ry0Am" value="MPS_3.3.142.230_miq.app" />
+                            <node concept="2Ry0Ak" id="7BgI1pOb3cG" role="2Ry0An">
+                              <property role="2Ry0Am" value="Contents" />
+                            </node>
                           </node>
                         </node>
                       </node>
