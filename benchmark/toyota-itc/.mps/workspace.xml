@@ -7,114 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1420efe-0d21-4288-bdbf-18693b866ae2" name="Default" comment="">
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/.mps/.name" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/.mps/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/.mps/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/.mps/migration.xml" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/.mps/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/.mps/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/.mps/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/.mps/version.xml" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/build-meta.xml" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/generator/template/main@generator.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/actions.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/behavior.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/constraints.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/dataFlow.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/editor.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/intentions.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/structure.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/textGen.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/models/typesystem.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.mpl" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.gp/generator/template/main@generator.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.gp/models/actions.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.gp/models/behavior.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.gp/models/constraints.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.gp/models/editor.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.gp/models/intentions.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.gp/models/structure.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.gp/models/typesystem.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.gp/org.eclipse.incquery.mps.gp.mpl" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.sq/generator/template/main@generator.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.sq/models/actions.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.sq/models/behavior.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.sq/models/constraints.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.sq/models/editor.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.sq/models/intentions.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.sq/models/structure.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.sq/models/typesystem.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.mpl" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.test/generator/template/main@generator.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.test/languageModels/behavior.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.test/languageModels/constraints.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.test/languageModels/editor.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.test/languageModels/structure.history" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.test/languageModels/structure.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.test/languageModels/typesystem.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/languages/org.eclipse.incquery.mps.test/org.eclipse.incquery.mps.test.mpl" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/com.google.guava_15.0.0.v201403281430.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.apache.log4j_1.2.15.v201012070815.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.emf.common_2.10.0.v20140514-1158.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.emf.ecore_2.10.0.v20140514-1158.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.databinding.runtime.source_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.databinding.runtime_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.base.itc.source_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.base.itc_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.base.source_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.base_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.evm.source_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.evm_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.matchers.source_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.matchers_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.rete.recipes.source_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.rete.recipes_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.rete.source_1.1.0.201510220900.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.rete_1.1.0.201510220900.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime.source_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.incquery.runtime_1.1.0.201509121550.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.osgi_3.10.0.v20140528-2014.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/lib/org.eclipse.xtext.xbase.lib_2.9.0.v201507170721.jar" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/models/org/eclipse/incquery/mps/base/runtime/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.base.runtime/org.eclipse.incquery.mps.base.runtime.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.build.meta/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.build.meta/build/artifacts/org.eclipse.incquery.meta/build.properties" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.build.meta/models/org/eclipse/incquery/mps/build/meta/build.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.build.meta/org.eclipse.incquery.mps.build.meta.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.build/models/org/eclipse/incquery/mps/build.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.core/models/org/eclipse/incquery/mps/core/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.core/org.eclipse.incquery.mps.core.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.gp.runtime/models/org/eclipse/incquery/mps/gp/runtime/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.gp.runtime/org.eclipse.incquery.mps.gp.runtime.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.measurements/models/org/eclipse/incquery/mps/measurements/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.measurements/org.eclipse.incquery.mps.measurements.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.pluginSolution/icons/epackage.gif" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.pluginSolution/icons/load.gif" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.pluginSolution/icons/match.gif" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.pluginSolution/icons/matcher.gif" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.pluginSolution/icons/miq_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.pluginSolution/icons/root.gif" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.pluginSolution/icons/unload.gif" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.pluginSolution/models/org/eclipse/incquery/mps/pluginSolution/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.pluginSolution/org.eclipse.incquery.mps.pluginSolution.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.sq.runtime/models/org/eclipse/incquery/mps/sq/runtime/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.sq.runtime/org.eclipse.incquery.mps.sq.runtime.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.test.gp/models/org/eclipse/incquery/mps/test/gp/basic@tests.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.test.gp/models/org/eclipse/incquery/mps/test/gp/dummy.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.test.gp/org.eclipse.incquery.mps.test.gp.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.test.runtime/models/org/eclipse/incquery/mps/test/runtime/util.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.test.runtime/org.eclipse.incquery.mps.test.runtime.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.test.sq/models/org/eclipse/incquery/mps/test/sq/basic@tests.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.test.sq/models/org/eclipse/incquery/mps/test/sq/dummy.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.test.sq/org.eclipse.incquery.mps.test.sq.msd" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.wb/models/org/eclipse/incquery/mps/wb/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$mbeddr.github.core.home$/code/plugins/inca/solutions/org.eclipse.incquery.mps.wb/org.eclipse.incquery.mps.wb.msd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code.msd" afterPath="$PROJECT_DIR$/code.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/plugin.mps" afterPath="$PROJECT_DIR$/models/plugin.mps" />
+      <change type="MODIFICATION" beforePath="$mbeddr.github.core.home$/code/plugins/inca/code/.mps/workspace.xml" afterPath="$mbeddr.github.core.home$/code/plugins/inca/code/.mps/workspace.xml" />
     </list>
     <ignored path="toyota-itc.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -158,6 +54,9 @@
     </search_options>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$mbeddr.github.core.home$/code/plugins/inca" />
   </component>
@@ -180,7 +79,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -205,6 +104,38 @@
               </list>
             </option>
           </PluginState>
+        </value>
+      </option>
+      <option name="com.mbeddr.analyses.cbmc.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="com.mbeddr.analyses.cbmc.pluginSolution.plugin.cproverPreferences_PreferencesComponent" />
+                  <params>
+                    <option name="numberOfThreads" value="3" />
+                    <option name="timeoutForPartialAnalysis" value="600" />
+                    <option name="timeoutForAnAnalysis" value="600" />
+                    <option name="usedPreprocessor" value="GCC" />
+                    <option name="rebuildModelsBeforeAnalysis" value="true" />
+                    <option name="sliceFormula" value="true" />
+                    <option name="unwindingDepth" value="10" />
+                    <option name="unwindingAssertions" value="false" />
+                    <option name="partialLoops" value="true" />
+                    <option name="useRefinement" value="false" />
+                    <option name="wordWidth" value="default" />
+                    <option name="cStandard" value="C89" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="com.mbeddr.analyses.sat4j.fm.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
         </value>
       </option>
       <option name="com.mbeddr.core.base.plugin.Base_ProjectPlugin">
@@ -394,33 +325,9 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/code.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/code.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin) in IdeaFile{file:///Users/szabta/git/mbeddr.core.incquery/code/plugins/inca/benchmark/toyota-itc/models/plugin.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -472,57 +379,13 @@
       </myJavaRunParameters>
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <MyState>
-        <option name="mySettings">
-          <RemoteConnectionSettings>
-            <option name="hostName" value="localhost" />
-            <option name="port" value="5005" />
-            <option name="sharedMemoryAddress" value="" />
-            <option name="suspend" value="false" />
-            <option name="useSockets" value="true" />
-          </RemoteConnectionSettings>
-        </option>
-      </MyState>
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -540,19 +403,21 @@
       <window_info id="Tree" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Context Sidebar" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43919885" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Query Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -560,12 +425,13 @@
       <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Variabiity Consistency Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CBMC Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CBMC Lifted Results" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UsagesViewTool">
@@ -577,5 +443,136 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="mps://node://code/plugin/HeaderFile">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="273" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_pxyy8o_h1a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/4053941269446031179" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/1116280732397965091" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://code/plugin/FeatureModel">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/1116280732397965091" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/1116280732397965091" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://code/plugin/insign_code">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-66" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Custom_6qawm_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/4053941269446008819" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/1116280732397965091" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://code/plugin/stubs">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="42" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_evgwyu_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/4053941269446027363" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/1116280732397965091" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://code/plugin/cmp_funcadr">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="532">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="185" />
+                <property name="caretXRelative" value="81" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/4053941269446352647" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c249a624-6fdc-449f-bcb6-236db8478c5f(plugin)/4053941269446352647" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
