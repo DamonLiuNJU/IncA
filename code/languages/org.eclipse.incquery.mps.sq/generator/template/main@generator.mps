@@ -64,6 +64,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -253,6 +254,14 @@
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
+      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
+        <child id="1197683466920" name="keyType" index="3rvQeY" />
+        <child id="1197683475734" name="valueType" index="3rvSg0" />
+      </concept>
+      <concept id="1197686869805" name="jetbrains.mps.baseLanguage.collections.structure.HashMapCreator" flags="nn" index="3rGOSV">
+        <child id="1197687026896" name="keyType" index="3rHrn6" />
+        <child id="1197687035757" name="valueType" index="3rHtpV" />
+      </concept>
     </language>
   </registry>
   <node concept="bUwia" id="3oMuSXR7IsQ">
@@ -339,6 +348,26 @@
           </node>
         </node>
         <node concept="3clFbH" id="5te8vJ2H0Cd" role="3cqZAp" />
+        <node concept="3cpWs8" id="3e1iAvwiBZz" role="3cqZAp">
+          <node concept="3cpWsn" id="3e1iAvwiBZD" role="3cpWs9">
+            <property role="TrG5h" value="functionMap" />
+            <node concept="3rvAFt" id="3e1iAvwiBZF" role="1tU5fm">
+              <node concept="3Tqbb2" id="3e1iAvwiCd6" role="3rvSg0">
+                <ref role="ehGHo" to="ebqt:1ERTnBTfavv" resolve="SPattern" />
+              </node>
+              <node concept="17QB3L" id="3e1iAvwiCcU" role="3rvQeY" />
+            </node>
+            <node concept="2ShNRf" id="3e1iAvwiCf3" role="33vP2m">
+              <node concept="3rGOSV" id="3e1iAvwiCeU" role="2ShVmc">
+                <node concept="17QB3L" id="3e1iAvwiCeV" role="3rHrn6" />
+                <node concept="3Tqbb2" id="3e1iAvwiCeW" role="3rHtpV">
+                  <ref role="ehGHo" to="ebqt:1ERTnBTfavv" resolve="SPattern" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3e1iAvwiB5L" role="3cqZAp" />
         <node concept="2Gpval" id="3d69XTNcqde" role="3cqZAp">
           <node concept="2GrKxI" id="3d69XTNcqdg" role="2Gsz3X">
             <property role="TrG5h" value="function" />
@@ -519,6 +548,9 @@
                             <ref role="3cqZAo" node="3d69XTNd2vC" resolve="output" />
                           </node>
                           <node concept="1iwH7S" id="5te8vJ2D44j" role="37wK5m" />
+                          <node concept="37vLTw" id="3e1iAvwiCvc" role="37wK5m">
+                            <ref role="3cqZAo" node="3e1iAvwiBZD" resolve="functionMap" />
+                          </node>
                         </node>
                       </node>
                     </node>

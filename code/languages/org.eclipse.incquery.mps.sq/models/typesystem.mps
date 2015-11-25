@@ -1563,5 +1563,53 @@
       <ref role="1YaFvo" to="ebqt:4Z0VXz29EWA" resolve="Def" />
     </node>
   </node>
+  <node concept="18kY7G" id="7BgI1pOeKVE">
+    <property role="TrG5h" value="check_AssertStatement" />
+    <property role="3GE5qa" value="statement" />
+    <node concept="3clFbS" id="7BgI1pOeKVF" role="18ibNy">
+      <node concept="3cpWs8" id="7BgI1pOeYh1" role="3cqZAp">
+        <node concept="3cpWsn" id="7BgI1pOeYh2" role="3cpWs9">
+          <property role="TrG5h" value="condition" />
+          <node concept="3Tqbb2" id="7BgI1pOeYgY" role="1tU5fm">
+            <ref role="ehGHo" to="ebqt:52HBLukNkpc" resolve="ICondition" />
+          </node>
+          <node concept="2OqwBi" id="7BgI1pOeYh3" role="33vP2m">
+            <node concept="1YBJjd" id="7BgI1pOeYh4" role="2Oq$k0">
+              <ref role="1YBMHb" node="7BgI1pOeKVH" resolve="statement" />
+            </node>
+            <node concept="3TrEf2" id="7BgI1pOeYh5" role="2OqNvi">
+              <ref role="3Tt5mk" to="ebqt:52HBLukNlwv" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="7BgI1pOeKVU" role="3cqZAp">
+        <node concept="3clFbS" id="7BgI1pOeKVV" role="3clFbx">
+          <node concept="2MkqsV" id="7BgI1pOeLxf" role="3cqZAp">
+            <node concept="Xl_RD" id="7BgI1pOeLxu" role="2MkJ7o">
+              <property role="Xl_RC" value="Invalid condition!" />
+            </node>
+            <node concept="37vLTw" id="7BgI1pOeYh7" role="2OEOjV">
+              <ref role="3cqZAo" node="7BgI1pOeYh2" resolve="condition" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="7BgI1pOfb99" role="3clFbw">
+          <node concept="2OqwBi" id="7BgI1pOfbcm" role="3fr31v">
+            <node concept="37vLTw" id="7BgI1pOfb9W" role="2Oq$k0">
+              <ref role="3cqZAo" node="7BgI1pOeYh2" resolve="condition" />
+            </node>
+            <node concept="2qgKlT" id="7BgI1pOfblS" role="2OqNvi">
+              <ref role="37wK5l" to="coho:7BgI1pOeZjv" resolve="isTrueCondition" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7BgI1pOeKVH" role="1YuTPh">
+      <property role="TrG5h" value="statement" />
+      <ref role="1YaFvo" to="ebqt:52HBLukNlug" resolve="AssertStatement" />
+    </node>
+  </node>
 </model>
 

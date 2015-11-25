@@ -1347,5 +1347,30 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="InJBIGIqp0">
+    <property role="3GE5qa" value="condition" />
+    <ref role="1XX52x" to="ebqt:InJBIGIqot" resolve="NotInstanceOf" />
+    <node concept="3EZMnI" id="InJBIGIqp2" role="2wV5jI">
+      <node concept="l2Vlx" id="InJBIGIqp3" role="2iSdaV" />
+      <node concept="3F1sOY" id="InJBIGIqp4" role="3EZMnx">
+        <ref role="1NtTu8" to="ebqt:InJBIGIqoJ" />
+      </node>
+      <node concept="3F0ifn" id="InJBIGIqp5" role="3EZMnx">
+        <property role="3F0ifm" value="not instanceOf" />
+      </node>
+      <node concept="1iCGBv" id="InJBIGIqp6" role="3EZMnx">
+        <ref role="1NtTu8" to="ebqt:InJBIGIqoQ" />
+        <node concept="1sVBvm" id="InJBIGIqp7" role="1sWHZn">
+          <node concept="3F0A7n" id="InJBIGIqp8" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="VechU" id="InJBIGIqp9" role="3F10Kt">
+              <property role="Vb096" value="DARK_GREEN" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

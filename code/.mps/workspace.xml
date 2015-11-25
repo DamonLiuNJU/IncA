@@ -7,10 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797ea8ba-d6e3-43a4-b3d3-6c75028e4f7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$mbeddr.github.core.home$/code/plugins/inca/benchmark/toyota-itc/.mps/workspace.xml" afterPath="$mbeddr.github.core.home$/code/plugins/inca/benchmark/toyota-itc/.mps/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$mbeddr.github.core.home$/code/plugins/inca/benchmark/toyota-itc/code.msd" afterPath="$mbeddr.github.core.home$/code/plugins/inca/benchmark/toyota-itc/code.msd" />
-      <change type="MODIFICATION" beforePath="$mbeddr.github.core.home$/code/plugins/inca/benchmark/toyota-itc/models/plugin.mps" afterPath="$mbeddr.github.core.home$/code/plugins/inca/benchmark/toyota-itc/models/plugin.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.base/models/behavior.mps" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.base/models/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.base/models/constraints.mps" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.base/models/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.base/models/typesystem.mps" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.base/models/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/actions.mps" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/actions.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/behavior.mps" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/editor.mps" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/structure.mps" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/typesystem.mps" afterPath="$PROJECT_DIR$/languages/org.eclipse.incquery.mps.sq/models/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.base.runtime/models/org/eclipse/incquery/mps/base/runtime/plugin.mps" afterPath="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.base.runtime/models/org/eclipse/incquery/mps/base/runtime/plugin.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.measurements/models/org/eclipse/incquery/mps/measurements/plugin.mps" afterPath="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.measurements/models/org/eclipse/incquery/mps/measurements/plugin.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.sq/models/org/eclipse/incquery/mps/test/sq/basic@tests.mps" afterPath="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.sq/models/org/eclipse/incquery/mps/test/sq/basic@tests.mps" />
     </list>
     <ignored path="org.eclipse.incquery.mps.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -35,7 +44,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="kaurqQAABAAHKFyb+oKSlEgVn5l8Xdc9nuEAABdUZW1wTW9kZWxfMTg2Mzg0NTQzODExMBdI5ZQNuOgHR9OB959rf1gDSwAALlRlbXBNb2R1bGVlNTk0MGRiOC1lODA3LTQ3ZDMtODFmNy05ZjZiN2Y1ODAzNGL/////q6urq1paWloAAs6rUZUl6k8im5IQO5XKjAwAABdqZXRicmFpbnMubXBzLmxhbmcuY29yZQABAAABEDluqqQAAA1JTmFtZWRDb25jZXB0ABIAAQAAARA5bsBBAAAEbmFtZQAAAADeGthtblBKArMG1NF/ZMN1AAAaamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2UAAxX7NAUfclosAAALQ29uc29sZVJvb3QAEgAAAAAAAhX7NAUfcluvAAAHaGlzdG9yeQAV+zQFH3JbsQAADWNvbW1hbmRIb2xkZXIABOJxYKy0SEsAAA1Db21tYW5kSG9sZGVyABIAAAAAAAAKg18owaoCvgAAB0hpc3RvcnkAEgAAAAAAAKWlpaUABN4a2G1uUEoCswbU0X9kw3UBAAAABfJmkdIN70wGrsYsuQxK8KQAAB1qZXRicmFpbnMubXBzLmNvbnNvbGUuc2NyaXB0c6Xk3lNGo0TaqrNo/fHDTtAAACFqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHOZWnOUf3ZLi6kpxTRIcIEGAAAmamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHMAAAABF0j7wl3SXaRIOosZcJKOG2LXAAAkamV0YnJhaW5zLm1wcy5kZXZraXQuZ2VuZXJhbC1wdXJwb3NlAAAABAcoNZsdK3fERt+b8rJcvqMiVAAAJGpldGJyYWlucy5tcHMuY29uc29sZS5iYXNlLnN0cnVjdHVyZXD/////ByjnEvNTXDxCiK3Oh8lWpS/7AAAnamV0YnJhaW5zLm1wcy5jb25zb2xlLnNjcmlwdHMuc3RydWN0dXJlcP////8HKBNaYG8DdkxcmrhAMPBRoGIAACtqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHMuc3RydWN0dXJlcP////8HKJBEUgapc0wdt2Aw5cd7dJcAADBqZXRicmFpbnMubXBzLmNvbnNvbGUuaW50ZXJuYWxDb21tYW5kcy5zdHJ1Y3R1cmVw/////7q6uroAAAABAAEYedC4FnQgnaz//3sAAAAAAAAAAAACAAMYedC4FnQgna0AAHsAAAAAAAAAAAAAfQACGHnQuBZ0IJ2uAAF7AAEAAAEAAAAJAAAAAAAAAAB9fQ==" />
+          <option name="history" value="kaurqQAABAAHKDUdWdPs8UTSiRC28YtaSQIAABhUZW1wTW9kZWxfMTU4MDA2MTA0MTMzNjUXSGnm9ueLZkNvtkjmrz133j8AAC5UZW1wTW9kdWxlNjllNmY2ZTctOGI2Ni00MzZmLWI2NDgtZTZhZjNkNzdkZTNm/////6urq6taWlpaAALOq1GVJepPIpuSEDuVyowMAAAXamV0YnJhaW5zLm1wcy5sYW5nLmNvcmUAAQAAARA5bqqkAAANSU5hbWVkQ29uY2VwdAASAAEAAAEQOW7AQQAABG5hbWUAAAAA3hrYbW5QSgKzBtTRf2TDdQAAGmpldGJyYWlucy5tcHMuY29uc29sZS5iYXNlAAMV+zQFH3JaLAAAC0NvbnNvbGVSb290ABIAAAAAAAIV+zQFH3JbrwAAB2hpc3RvcnkAFfs0BR9yW7EAAA1jb21tYW5kSG9sZGVyAATicWCstEhLAAANQ29tbWFuZEhvbGRlcgASAAAAAAAACoNfKMGqAr4AAAdIaXN0b3J5ABIAAAAAAAClpaWlAATeGthtblBKArMG1NF/ZMN1AQAAAAXyZpHSDe9MBq7GLLkMSvCkAAAdamV0YnJhaW5zLm1wcy5jb25zb2xlLnNjcmlwdHOl5N5TRqNE2qqzaP3xw07QAAAhamV0YnJhaW5zLm1wcy5jb25zb2xlLmlkZUNvbW1hbmRzmVpzlH92S4upKcU0SHCBBgAAJmpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRzAAAAARdI+8Jd0l2kSDqLGXCSjhti1wAAJGpldGJyYWlucy5tcHMuZGV2a2l0LmdlbmVyYWwtcHVycG9zZQAAAAQHKDWbHSt3xEbfm/KyXL6jIlQAACRqZXRicmFpbnMubXBzLmNvbnNvbGUuYmFzZS5zdHJ1Y3R1cmVw/////wco5xLzU1w8QoitzofJVqUv+wAAJ2pldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRzLnN0cnVjdHVyZXD/////BygTWmBvA3ZMXJq4QDDwUaBiAAAramV0YnJhaW5zLm1wcy5jb25zb2xlLmlkZUNvbW1hbmRzLnN0cnVjdHVyZXD/////ByiQRFIGqXNMHbdgMOXHe3SXAAAwamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHMuc3RydWN0dXJlcP////+6urq6AAAAAQABGFtv8JeclVv5//97AAAAAAAAAAAAAgADGFtv8JeclVv6AAB7AAAAAAAAAAAAAH0AAhhbb/CXnJVb+wABewABAAABAAAACQAAAAAAAAAAfX0=" />
         </TabState>
       </list>
     </option>
@@ -77,9 +86,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="x" value="1440" />
+    <option name="y" value="-96" />
+    <option name="width" value="1920" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -331,13 +341,71 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.measurements/org.eclipse.incquery.mps.measurements.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="languages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.measurements/org.eclipse.incquery.mps.measurements.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.measurements/org.eclipse.incquery.mps.measurements.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin) in IdeaFile{file:///Users/szabta/git/mbeddr.core.incquery/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.measurements/models/org/eclipse/incquery/mps/measurements/plugin.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,6 +428,30 @@
               <option name="myItemId" value="core" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solutions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
@@ -371,14 +463,25 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.runtime/org.eclipse.incquery.mps.test.runtime.msd" />
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.measurements/org.eclipse.incquery.mps.measurements.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin) in IdeaFile{file:///Users/szabta/git/mbeddr.core.incquery/code/plugins/inca/code/solutions/org.eclipse.incquery.mps.measurements/models/org/eclipse/incquery/mps/measurements/plugin.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="Favorites" />
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
       <pane id="FileSystem" />
+      <pane id="Favorites" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -388,71 +491,524 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
+      <MyState />
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModel" />
+          <option name="myModule" />
+          <option name="myLightExec" value="true" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="/var/folders/52/h6q5crn13kl02q5fg5rf_mcr0000gn/T/mps_test_dir0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="0" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <MyState>
+        <option name="mySettings">
+          <RemoteConnectionSettings>
+            <option name="hostName" value="localhost" />
+            <option name="port" value="5005" />
+            <option name="sharedMemoryAddress" value="" />
+            <option name="suspend" value="false" />
+            <option name="useSockets" value="true" />
+          </RemoteConnectionSettings>
+        </option>
+      </MyState>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
-    <editor active="false" />
+    <frame x="1440" y="-96" width="1920" height="1177" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Diagram Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Search" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Tree" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Diagram Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="14" side_tool="false" content_ui="combo" />
+      <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Search" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Tree" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5028612" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Context Sidebar" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36909872" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Query Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Variabiity Consistency Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CBMC Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="CBMC Lifted Results" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Context Sidebar" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="26" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713756" sideWeight="0.49713877" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30777422" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Query Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Variabiity Consistency Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CBMC Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="25" side_tool="false" content_ui="tabs" />
+      <window_info id="CBMC Lifted Results" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
+      <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Diagram Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="14" side_tool="false" content_ui="combo" />
+      <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Variabiity Consistency Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CBMC Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Search" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Tree" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286119" sideWeight="0.5028612" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286119" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Context Sidebar" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="26" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.49713877" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="25" side_tool="false" content_ui="tabs" />
+      <window_info id="CBMC Lifted Results" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30472103" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Query Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
+      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Graph Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="UsagesViewTool">
     <version id="0.9997" />
-    <tabs />
+    <tabs>
+      <tab>
+        <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
+          <children>
+            <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+              <children />
+              <generated_finder class_name="jetbrains.mps.lang.behavior.findUsages.OverridingMethods_Finder" />
+            </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+          </children>
+        </result_provider>
+        <query>
+          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.GlobalScope" />
+          <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
+            <node ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/2281067221948992847" />
+          </holder>
+        </query>
+        <usage_view>
+          <tree_wrapper>
+            <node_representator />
+            <view_options>
+              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+            </view_options>
+            <contents>
+              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.MainNodeData" caption="" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                <role name="main root" />
+              </data>
+              <children>
+                <child>
+                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" caption="Searched nodes" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                    <role name="searched nodes" />
+                  </data>
+                  <children>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Searched nodes&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.eclipse.incquery.mps.base" info="" excluded="false" expanded="true" isresult="false" results_section="false" module_ref="b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.eclipse.incquery.mps.base.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="false">
+                                <role name="model" />
+                                <model uid="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="IGenNameProvider_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="false" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/4530729936991344597">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="genName():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;IGenNameProvider_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/2281067221948992847">
+                                        <role name="target" />
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                  </children>
+                </child>
+                <child>
+                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" caption="results" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                    <role name="results" />
+                  </data>
+                  <children>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Uncategorized&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Uncategorized" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.eclipse.incquery.mps.base" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.eclipse.incquery.mps.base.behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="IPatternModel_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/4530729936991696679">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="genName():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;IPatternModel_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/298049691244380067">
+                                        <role name="target" />
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Uncategorized&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Uncategorized" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.eclipse.incquery.mps.base" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.eclipse.incquery.mps.base.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="IPattern_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/4530729936991567845">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="genName():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;IPattern_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/5610578079075491073">
+                                        <role name="target" />
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Uncategorized&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Uncategorized" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.eclipse.incquery.mps.sq" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="8c9a2720-9d21-4370-a226-819eb3e76e1e(org.eclipse.incquery.mps.sq)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.eclipse.incquery.mps.sq.behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="SAnonymousParameter_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true" nodePtr="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/6368683143941394988">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="genName():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;SAnonymousParameter_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3694684380672929121">
+                                        <role name="target" />
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Uncategorized&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Uncategorized" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.eclipse.incquery.mps.base" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.eclipse.incquery.mps.base.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="IVariable_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/4530729936991368280">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="genName():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;IVariable_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/399616624544737093">
+                                        <role name="target" />
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Uncategorized&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Uncategorized" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.eclipse.incquery.mps.base" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.eclipse.incquery.mps.base.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="IValue_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690681">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="genName():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;IValue_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690914">
+                                        <role name="target" />
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Uncategorized&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Uncategorized" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.eclipse.incquery.mps.base" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.eclipse.incquery.mps.base.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="VariableReference_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/4530729936991970598">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="genName():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;VariableReference_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/768444928085695600">
+                                        <role name="target" />
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Uncategorized&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Uncategorized" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.eclipse.incquery.mps.base" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.eclipse.incquery.mps.base.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="BaseVariableReference_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/3634481308605756105">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="genName():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;BaseVariableReference_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/3634481308605756108">
+                                        <role name="target" />
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                  </children>
+                </child>
+              </children>
+            </contents>
+          </tree_wrapper>
+        </usage_view>
+      </tab>
+    </tabs>
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="mps://node://org.eclipse.incquery.mps.measurements/org.eclipse.incquery.mps.measurements.plugin/FindBugs">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="type" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin)/5746856838773875339" />
+                <parent cellId="Collection_8ssbmf_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin)/5746856838773875339" />
+                </parent>
+              </errorMarker>
+            </errorMarkers>
+            <collapsed />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -502,6 +1058,1167 @@
             <errorMarkers />
             <collapsed />
           </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.measurements/org.eclipse.incquery.mps.measurements.plugin/FindBugs">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="1700">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="229" />
+                <property name="caretXRelative" value="54" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ReadOnlyModelAccessor_kzbph0_a0a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin)/1080926764620192535" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="82126e13-f937-453d-8546-4f4bc3ef9cc9/r:d1c63adc-663f-40d8-b29c-2f72c6dff141(org.eclipse.incquery.mps.measurements@transient3/org.eclipse.incquery.mps.measurements.plugin@2_0)/2017664281832539889" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.actions/SPatternCall_Create">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="216">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="360" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_x5m1a6_d0" cellNumber="0" isInList="false">
+                  <node node_reference="r:b56a8750-8e4d-46eb-8117-30c51be7513f(org.eclipse.incquery.mps.sq.actions)/7197413610253602783" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:17207093-9cf4-4f01-9c48-e6e0146d6087(org.eclipse.incquery.mps.sq.structure)/996292992024530460" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/PatternCall">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="243" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_6h6dhy_e2a" cellNumber="0" isInList="false">
+                  <node node_reference="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)/996292992028507462" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)/996292992028507462" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)/996292992024566952" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/ExpressionEvaluationValue">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="275" />
+                <property name="caretXRelative" value="49" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_rootable" cellNumber="0" isInList="false">
+                  <node node_reference="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)/996292992024567127" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin)/3634481308603627645" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)/996292992024567127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/ICondition">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="149" />
+                <property name="caretXRelative" value="40" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/8777718080323974577" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin)/3634481308603627645" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/8777718080323974364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/IExpression">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="42" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_fao2ea_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5813477617635750245" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin)/3634481308603627645" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/1036696987215015224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.actions/AssignmentStatement_Create">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="547" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_evgwyu_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:b56a8750-8e4d-46eb-8117-30c51be7513f(org.eclipse.incquery.mps.sq.actions)/5813477617636738373" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin)/8777718080324112541" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.actions/SPathElement_Create">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="729">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="134" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_x5m1a6_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:b56a8750-8e4d-46eb-8117-30c51be7513f(org.eclipse.incquery.mps.sq.actions)/8777718080323873985" />
+                </cellInfo>
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-134" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_y9czm0_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:b56a8750-8e4d-46eb-8117-30c51be7513f(org.eclipse.incquery.mps.sq.actions)/8777718080323873987" />
+                </cellInfo>
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
+                <property name="role" value="statement" />
+                <property name="modelId" value="r:b56a8750-8e4d-46eb-8117-30c51be7513f(org.eclipse.incquery.mps.sq.actions)" />
+                <property name="firstNodeId" value="8777718080323873987" />
+                <property name="parentNodeId" value="1036696987216518632" />
+                <property name="lastNodeId" value="8777718080323880256" />
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:bfba4ac8-4a51-4f98-8612-c1dd34bde0f2(org.eclipse.incquery.mps.measurements.plugin)/8777718080324112541" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.typesystem/typeof_VariableReference_Helper">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="340">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="487" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:57e36c77-4854-4a58-b799-163b27d24428(org.eclipse.incquery.mps.base.typesystem)/2499096735831376487" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:57e36c77-4854-4a58-b799-163b27d24428(org.eclipse.incquery.mps.base.typesystem)/2499096735831376487" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/ITypeConstraintProvider">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-33" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_gmtuod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914040955320" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/835345694288761290" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914040955317" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/AssertStatement">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="18" viewPositionY="33">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="selectionStart" value="0" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretX" value="587" />
+                <property name="selectionEnd" value="11" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="VDNCC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934704286" />
+                </cellInfo>
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-333" />
+                <property name="sideSelectDirection" value="LEFT" />
+                <cellInfo cellId="Collection_vsmugd_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934704286" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934743036" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5813477617634728141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/AssignmentStatement">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="183" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="855" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934720060" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934743036" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5813477617636806186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/Def">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="385">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="820" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934727449" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934743036" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5746856838774043207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/Equality">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="37" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="855" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934731012" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934743036" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5813477617634731139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/EvalValue">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="18" viewPositionY="203">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="265" />
+                <property name="caretXRelative" value="31" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_t6mv7u_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/6291003094669938970" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934743036" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3905319682992591954" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/Inequality">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="37" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="855" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934738829" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934743036" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5813477617634736354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/InstanceOf">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="228">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="936" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934743036" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934743036" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5813477617634745446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/ReturnStatement">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="118" viewPositionY="71">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="936" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934832915" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934841883" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/1036696987215328238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/SLiteralValue">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="18" viewPositionY="51">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="686" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="VDNCC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934835571" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934841883" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5058472606514896583" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/SPathElement">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="1221">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="1051" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934841883" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934841883" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5168759050436344044" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/STuple">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="18" viewPositionY="451">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="714" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934956247" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1b93ee56-a19c-40b4-ae7b-489c132cd837(org.eclipse.incquery.mps.sq.generator.template.main@generator)/3711329377935067084" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5168759050436880732" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/SVariableReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="18" viewPositionY="166">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="686" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="VDNCC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934958332" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1b93ee56-a19c-40b4-ae7b-489c132cd837(org.eclipse.incquery.mps.sq.generator.template.main@generator)/3711329377935067084" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/1036696987215457593" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/Undef">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="18" viewPositionY="297">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="820" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377934966110" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1b93ee56-a19c-40b4-ae7b-489c132cd837(org.eclipse.incquery.mps.sq.generator.template.main@generator)/3711329377935067084" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5813477617635832266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq#4530729936991344015/org.eclipse.incquery.mps.sq.generator.template.main@generator/translate">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="827" />
+                <property name="caretXRelative" value="103" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:1b93ee56-a19c-40b4-ae7b-489c132cd837(org.eclipse.incquery.mps.sq.generator.template.main@generator)/3711329377935067084" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1b93ee56-a19c-40b4-ae7b-489c132cd837(org.eclipse.incquery.mps.sq.generator.template.main@generator)/3711329377935067084" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.test.sq/org.eclipse.incquery.mps.test.sq.basic@tests/SQPatterns">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="24" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_6z83dz_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:6cc1215a-4267-48dc-9737-5a133aac09d5(org.eclipse.incquery.mps.test.sq.basic@tests)/3711329377935498105" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377935612152" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.actions/Condition_Create">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="786">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="456" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:b56a8750-8e4d-46eb-8117-30c51be7513f(org.eclipse.incquery.mps.sq.actions)/3711329377935243543" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:6cc1215a-4267-48dc-9737-5a133aac09d5(org.eclipse.incquery.mps.test.sq.basic@tests)/3711329377935263339" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/org.eclipse.incquery.mps.test.sq/test_gen/org/eclipse/incquery/mps/test/sq/basic/CheckExpression_Test_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/NotInstanceOf">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="131">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="283" />
+                <property name="caretXRelative" value="81" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377935612152" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3711329377935612152" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/835345694288623181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/VariableReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="357">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="363" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_us38sw_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:2c8ba03c-3980-4a62-ad18-50b7c822a241(org.eclipse.incquery.mps.base.constraints)/3560698633099147435" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:2c8ba03c-3980-4a62-ad18-50b7c822a241(org.eclipse.incquery.mps.base.constraints)/3560698633099147435" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:2c8ba03c-3980-4a62-ad18-50b7c822a241(org.eclipse.incquery.mps.base.constraints)/4530729936991824284" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/SPathExpression">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="33" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="emptyPropertiesPlaceHolder" cellNumber="0" isInList="false">
+                  <node node_reference="r:17207093-9cf4-4f01-9c48-e6e0146d6087(org.eclipse.incquery.mps.sq.structure)/996292992025662526" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:2c8ba03c-3980-4a62-ad18-50b7c822a241(org.eclipse.incquery.mps.base.constraints)/5458164179962283914" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:17207093-9cf4-4f01-9c48-e6e0146d6087(org.eclipse.incquery.mps.sq.structure)/996292992025662526" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/SPatternCall">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="780">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="275" />
+                <property name="caretXRelative" value="112" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/1478893914039883374" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:2c8ba03c-3980-4a62-ad18-50b7c822a241(org.eclipse.incquery.mps.base.constraints)/5458164179962283914" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/1478893914039883374" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/SAnonymousParameter">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="373" />
+                <property name="caretXRelative" value="13" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_fao2ea_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3694684380672929121" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/3694684380672929121" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/6368683143941394988" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.gp#4530729936991344011/org.eclipse.incquery.mps.gp.generator.template.main@generator/generate_Pattern">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="680">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="304" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:d7788ae3-4afe-431e-a7ca-f1369bead1e8(org.eclipse.incquery.mps.gp.generator.template.main@generator)/156470876046711408" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690914" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base.runtime/org.eclipse.incquery.mps.base.runtime.plugin/CodeGenerationHelper">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="2220">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-33" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_j4vm40_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:ab008189-f07c-44e4-9434-629f972e973d(org.eclipse.incquery.mps.base.runtime.plugin)/5797722376093077963" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ab008189-f07c-44e4-9434-629f972e973d(org.eclipse.incquery.mps.base.runtime.plugin)/5797722376093077963" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_j4vm40_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="r:ab008189-f07c-44e4-9434-629f972e973d(org.eclipse.incquery.mps.base.runtime.plugin)/5797722376093077963" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base#4530729936991344007/org.eclipse.incquery.mps.base.generator.template.main@generator/switch_TemporaryVariableInstantiation">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="482">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="322" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_fao2ea_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:dadf47ad-7e8d-4c91-82b3-0e585f24ae05(org.eclipse.incquery.mps.base.generator.template.main@generator)/399616624545043398" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dadf47ad-7e8d-4c91-82b3-0e585f24ae05(org.eclipse.incquery.mps.base.generator.template.main@generator)/399616624545043398" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/IGenNameProvider">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="selectionStart" value="0" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretX" value="246" />
+                <property name="selectionEnd" value="7" />
+                <property name="caretXRelative" value="22" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/2281067221948992847" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690914" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/4530729936991344597" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/BaseVariableReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-33" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_gmtuod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/3634481308605756108" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690914" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/3634481308605756105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/IPatternModel">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-33" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_gmtuod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/298049691244380067" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690914" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/4530729936991696679" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/IPattern">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="13">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-33" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_gmtuod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/5610578079075491073" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690914" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/4530729936991567845" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/IValue">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="311" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_gmtuod_i2a" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690914" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690914" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/1478893914041690681" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.base/org.eclipse.incquery.mps.base.structure/IVariable">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="264" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_evgwyu_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/768444928085752170" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/768444928085752170" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)/4530729936991368280" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/STemporaryVariable">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="176" />
+                <property name="caretXRelative" value="9" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_evgwyu_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5058472606515169214" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/5058472606515169214" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/1036696987215455482" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.eclipse.incquery.mps.sq/org.eclipse.incquery.mps.sq.structure/ITransformable">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="628">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="211" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/7581807820806746489" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <collapsed />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/7581807820806746489" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <collapsed />
+          </inspectorMemento>
+          <node node_ref="r:ad5b8223-9439-4270-8687-d790b5c09c3f(org.eclipse.incquery.mps.sq.behavior)/7581807820806154870" />
         </state>
       </provider>
     </entry>
