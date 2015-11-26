@@ -12,6 +12,7 @@
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="76f64958-d3c3-440b-9b5e-58dc117e6c00" name="org.eclipse.incquery.mps.test" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="3" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="ipj7" ref="r:72b2626f-5a0a-40af-a2b4-fbc2ae1b60c1(org.eclipse.incquery.mps.test.structure)" />
@@ -30,10 +31,6 @@
         <child id="1925259677761394831" name="element" index="3zVzRQ" />
       </concept>
       <concept id="6509498303003038373" name="org.eclipse.incquery.mps.sq.structure.SPathElement" flags="ng" index="2qPR2i" />
-      <concept id="835345694288619037" name="org.eclipse.incquery.mps.sq.structure.NotInstanceOf" flags="ng" index="2BbxxA">
-        <reference id="835345694288619062" name="type" index="2Bbxxd" />
-        <child id="835345694288619055" name="expression" index="2Bbxxk" />
-      </concept>
       <concept id="1036696987214522885" name="org.eclipse.incquery.mps.sq.structure.STemporaryVariable" flags="ng" index="30KbLJ" />
       <concept id="1036696987215326970" name="org.eclipse.incquery.mps.sq.structure.ReturnStatement" flags="ng" index="30Nfyg">
         <child id="1036696987215326979" name="expression" index="30Nf_D" />
@@ -741,48 +738,6 @@
   </node>
   <node concept="3TKv5i" id="5xy6TexD3Qj">
     <property role="TrG5h" value="SQPatterns" />
-    <node concept="3zyOaA" id="3e1iAvwjdNA" role="1dubk0">
-      <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="test" />
-      <node concept="1VLyuc" id="3e1iAvwje09" role="1dv5OJ">
-        <property role="TrG5h" value="s" />
-        <node concept="2kdjtB" id="3e1iAvwjeeW" role="1dukDx">
-          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="3e1iAvwjdNB" role="3zVECR">
-        <node concept="34ocy7" id="3e1iAvwjef9" role="1dgzf0">
-          <node concept="2BbxxA" id="3e1iAvwjopF" role="34ocs8">
-            <ref role="2Bbxxd" to="ipj7:7IYto4uIs9G" resolve="Year" />
-            <node concept="30NkWi" id="3e1iAvwjefn" role="2Bbxxk">
-              <ref role="XkjO9" node="3e1iAvwje09" resolve="s" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1XdyHe" id="3e1iAvwjdBf" role="1dubk0" />
-    <node concept="3zyOaA" id="3e1iAvwkhHT" role="1dubk0">
-      <property role="1aKoCf" value="false" />
-      <property role="TrG5h" value="test2" />
-      <node concept="1VLyuc" id="3e1iAvwkhHU" role="1dv5OJ">
-        <property role="TrG5h" value="s" />
-        <node concept="2kdjtB" id="3e1iAvwkhHV" role="1dukDx">
-          <ref role="2UGuZ7" to="ipj7:6h3Ypck6RF4" resolve="Student" />
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="3e1iAvwkhHW" role="3zVECR">
-        <node concept="34ocy7" id="3e1iAvwkhHX" role="1dgzf0">
-          <node concept="2BbxxA" id="3e1iAvwkhHY" role="34ocs8">
-            <ref role="2Bbxxd" to="ipj7:7IYto4uIs9G" resolve="Year" />
-            <node concept="30NkWi" id="3e1iAvwkhHZ" role="2Bbxxk">
-              <ref role="XkjO9" node="3e1iAvwkhHU" resolve="s" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1XdyHe" id="3e1iAvwkhxi" role="1dubk0" />
     <node concept="3zyOaA" id="4QOgZJSQzvi" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="student" />

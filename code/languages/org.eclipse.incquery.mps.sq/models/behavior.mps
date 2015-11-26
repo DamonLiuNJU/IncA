@@ -4,7 +4,6 @@
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -17,17 +16,12 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="3o3z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.collect(MPS.Core/)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="t4sj" ref="r:fc920dcd-3130-40cb-9a1b-95b7ec234932(org.eclipse.incquery.mps.sq.runtime.plugin)" />
     <import index="55iy" ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(org.eclipse.incquery.mps.gp.structure)" />
     <import index="q1l7" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator.template(MPS.Core/)" />
-    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tpd5" ref="r:00000000-0000-4000-0000-011c895902b5(jetbrains.mps.lang.typesystem.dependencies)" />
     <import index="zt8v" ref="r:ab008189-f07c-44e4-9434-629f972e973d(org.eclipse.incquery.mps.base.runtime.plugin)" />
   </imports>
   <registry>
@@ -289,10 +283,6 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
-      <concept id="1176903168877" name="jetbrains.mps.baseLanguage.collections.structure.UnionOperation" flags="nn" index="4Tj9Z" />
-      <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
-        <child id="1176906787974" name="rightExpression" index="576Qk" />
-      </concept>
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
@@ -371,8 +361,8 @@
     <node concept="13i0hz" id="5xy6TexD4L_" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="getReferableParameters" />
-      <ref role="13i0hy" to="gcg1:3VwoHXO8zzZ" resolve="getReferableParameters" />
+      <property role="TrG5h" value="getInParameters" />
+      <ref role="13i0hy" to="gcg1:3VwoHXO8zzZ" resolve="getInParameters" />
       <node concept="3Tm1VV" id="5xy6TexD4LA" role="1B3o_S" />
       <node concept="3clFbS" id="5xy6TexD4LE" role="3clF47">
         <node concept="3cpWs6" id="5xy6TexD4LZ" role="3cqZAp">
@@ -390,34 +380,24 @@
         </node>
       </node>
     </node>
-    <node concept="13i0hz" id="5xy6TexD4LH" role="13h7CS">
+    <node concept="13i0hz" id="4mUOCOhDv$_" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="getAllParameters" />
-      <ref role="13i0hy" to="gcg1:3VwoHXO8$Ke" resolve="getAllParameters" />
-      <node concept="3Tm1VV" id="5xy6TexD4LI" role="1B3o_S" />
-      <node concept="3clFbS" id="5xy6TexD4LM" role="3clF47">
-        <node concept="3cpWs6" id="5xy6TexD7iL" role="3cqZAp">
-          <node concept="2OqwBi" id="5xy6TexD8Jp" role="3cqZAk">
-            <node concept="2OqwBi" id="5xy6TexD7mv" role="2Oq$k0">
-              <node concept="13iPFW" id="5xy6TexD7j1" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="5xy6TexD7Iu" role="2OqNvi">
-                <ref role="3TtcxE" to="hqsm:3VwoHXNB3ZK" />
-              </node>
-            </node>
-            <node concept="4Tj9Z" id="5xy6TexDak1" role="2OqNvi">
-              <node concept="2OqwBi" id="5xy6TexDase" role="576Qk">
-                <node concept="13iPFW" id="5xy6TexDalI" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="5xy6TexDaP5" role="2OqNvi">
-                  <ref role="3TtcxE" to="ebqt:5xy6TexD6_X" />
-                </node>
-              </node>
+      <property role="TrG5h" value="getOutParameters" />
+      <ref role="13i0hy" to="gcg1:4mUOCOhDuui" resolve="getOutParameters" />
+      <node concept="3Tm1VV" id="4mUOCOhDv$A" role="1B3o_S" />
+      <node concept="3clFbS" id="4mUOCOhDv$E" role="3clF47">
+        <node concept="3cpWs6" id="4mUOCOhDw1X" role="3cqZAp">
+          <node concept="2OqwBi" id="4mUOCOhDw6d" role="3cqZAk">
+            <node concept="13iPFW" id="4mUOCOhDw2d" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="4mUOCOhDwlw" role="2OqNvi">
+              <ref role="3TtcxE" to="ebqt:5xy6TexD6_X" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="A3Dl8" id="5xy6TexD4LN" role="3clF45">
-        <node concept="3Tqbb2" id="5xy6TexD4LO" role="A3Ik2">
+      <node concept="A3Dl8" id="4mUOCOhDv$F" role="3clF45">
+        <node concept="3Tqbb2" id="4mUOCOhDv$G" role="A3Ik2">
           <ref role="ehGHo" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
         </node>
       </node>

@@ -14,6 +14,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="m373" ref="r:4095af4f-a097-4799-aaa9-03df087ddfa6(jetbrains.mps.baseLanguage.javadoc.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -381,7 +382,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="3VwoHXO8$dL" role="2OqNvi">
-                    <ref role="37wK5l" to="gcg1:3VwoHXO8zzZ" resolve="getReferableParameters" />
+                    <ref role="37wK5l" to="gcg1:3VwoHXO8zzZ" resolve="getInParameters" />
                   </node>
                 </node>
               </node>
@@ -1493,7 +1494,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="4IZiQsKqst3" role="2OqNvi">
-                    <ref role="37wK5l" to="gcg1:3VwoHXO8zzZ" resolve="getReferableParameters" />
+                    <ref role="37wK5l" to="gcg1:3VwoHXO8zzZ" resolve="getInParameters" />
                   </node>
                 </node>
               </node>
@@ -1721,6 +1722,48 @@
                 </node>
               </node>
               <node concept="10Nm6u" id="39KhnTIfz5G" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="eMPHaLuUGE">
+    <property role="3GE5qa" value="comment" />
+    <ref role="1M2myG" to="hqsm:eMPHaLuU$N" resolve="ParameterCommentTag" />
+    <node concept="1N5Pfh" id="eMPHaLuUSA" role="1Mr941">
+      <ref role="1N5Vy1" to="hqsm:eMPHaLuU$Q" />
+      <node concept="1MUpDS" id="eMPHaLuUSG" role="1N6uqs">
+        <node concept="3clFbS" id="eMPHaLuUSH" role="2VODD2">
+          <node concept="3cpWs6" id="eMPHaLuUTl" role="3cqZAp">
+            <node concept="2OqwBi" id="eMPHaLuVMq" role="3cqZAk">
+              <node concept="2OqwBi" id="eMPHaLuUWX" role="2Oq$k0">
+                <node concept="21POm0" id="eMPHaLuVF1" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="eMPHaLuUZi" role="2OqNvi">
+                  <node concept="1xMEDy" id="eMPHaLuUZk" role="1xVPHs">
+                    <node concept="chp4Y" id="eMPHaLuVGE" role="ri$Ld">
+                      <ref role="cht4Q" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2qgKlT" id="eMPHaLuVV3" role="2OqNvi">
+                <ref role="37wK5l" to="gcg1:3VwoHXO8zzZ" resolve="getInParameters" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="nKS2y" id="eMPHaLuUGF" role="1MLUbF">
+      <node concept="3clFbS" id="eMPHaLuUGG" role="2VODD2">
+        <node concept="3cpWs6" id="eMPHaLuUQq" role="3cqZAp">
+          <node concept="2OqwBi" id="eMPHaLuUQr" role="3cqZAk">
+            <node concept="nLn13" id="eMPHaLuUQs" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="eMPHaLuUQt" role="2OqNvi">
+              <node concept="chp4Y" id="eMPHaLuUQu" role="cj9EA">
+                <ref role="cht4Q" to="m373:4CW56HZFIGO" resolve="MethodDocComment" />
+              </node>
             </node>
           </node>
         </node>

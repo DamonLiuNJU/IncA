@@ -16,6 +16,7 @@
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -108,6 +109,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -119,6 +123,7 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
@@ -236,6 +241,9 @@
         <child id="1226511765987" name="elementType" index="2hN53Y" />
       </concept>
       <concept id="1226516258405" name="jetbrains.mps.baseLanguage.collections.structure.HashSetCreator" flags="nn" index="2i4dXS" />
+      <concept id="1224414427926" name="jetbrains.mps.baseLanguage.collections.structure.SequenceCreator" flags="nn" index="kMnCb">
+        <child id="1224414456414" name="elementType" index="kMuH3" />
+      </concept>
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
@@ -1395,8 +1403,8 @@
     <node concept="13i0hz" id="14BIdL0mZxE" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="getReferableParameters" />
-      <ref role="13i0hy" to="gcg1:3VwoHXO8zzZ" resolve="getReferableParameters" />
+      <property role="TrG5h" value="getInParameters" />
+      <ref role="13i0hy" to="gcg1:3VwoHXO8zzZ" resolve="getInParameters" />
       <node concept="3Tm1VV" id="14BIdL0mZxF" role="1B3o_S" />
       <node concept="3clFbS" id="14BIdL0mZxJ" role="3clF47">
         <node concept="3cpWs6" id="14BIdL0mZZ8" role="3cqZAp">
@@ -1414,27 +1422,61 @@
         </node>
       </node>
     </node>
-    <node concept="13i0hz" id="14BIdL0mZxR" role="13h7CS">
+    <node concept="13i0hz" id="4mUOCOhDuYH" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
-      <property role="TrG5h" value="getAllParameters" />
-      <ref role="13i0hy" to="gcg1:3VwoHXO8$Ke" resolve="getAllParameters" />
-      <node concept="3Tm1VV" id="14BIdL0mZxS" role="1B3o_S" />
-      <node concept="3clFbS" id="14BIdL0mZxW" role="3clF47">
-        <node concept="3cpWs6" id="14BIdL0mZy9" role="3cqZAp">
-          <node concept="2OqwBi" id="14BIdL0mZA3" role="3cqZAk">
-            <node concept="13iPFW" id="14BIdL0mZy_" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="14BIdL0mZY2" role="2OqNvi">
-              <ref role="3TtcxE" to="hqsm:3VwoHXNB3ZK" />
+      <property role="TrG5h" value="getOutParameters" />
+      <ref role="13i0hy" to="gcg1:4mUOCOhDuui" resolve="getOutParameters" />
+      <node concept="3Tm1VV" id="4mUOCOhDuYI" role="1B3o_S" />
+      <node concept="3clFbS" id="4mUOCOhDuYM" role="3clF47">
+        <node concept="3cpWs6" id="4mUOCOhDv6p" role="3cqZAp">
+          <node concept="2ShNRf" id="4mUOCOhDv6J" role="3cqZAk">
+            <node concept="kMnCb" id="4mUOCOhDv6F" role="2ShVmc">
+              <node concept="3Tqbb2" id="4mUOCOhDv6G" role="kMuH3">
+                <ref role="ehGHo" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
+              </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="A3Dl8" id="14BIdL0mZxX" role="3clF45">
-        <node concept="3Tqbb2" id="14BIdL0mZxY" role="A3Ik2">
+      <node concept="A3Dl8" id="4mUOCOhDuYN" role="3clF45">
+        <node concept="3Tqbb2" id="4mUOCOhDuYO" role="A3Ik2">
           <ref role="ehGHo" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="eMPHaLvBc8" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="markDeprecated" />
+      <ref role="13i0hy" to="tpek:6Va_BJexupi" resolve="markDeprecated" />
+      <node concept="3Tm1VV" id="eMPHaLvBc9" role="1B3o_S" />
+      <node concept="3clFbS" id="eMPHaLvBcc" role="3clF47" />
+      <node concept="3cqZAl" id="eMPHaLvBcd" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="eMPHaLvBci" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="unmarkDeprecated" />
+      <ref role="13i0hy" to="tpek:6Va_BJex$aE" resolve="unmarkDeprecated" />
+      <node concept="3Tm1VV" id="eMPHaLvBcj" role="1B3o_S" />
+      <node concept="3clFbS" id="eMPHaLvBcm" role="3clF47" />
+      <node concept="3cqZAl" id="eMPHaLvBcn" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="eMPHaLvBcs" role="13h7CS">
+      <property role="TrG5h" value="isDeprecated" />
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpcu:hOwoPtR" resolve="isDeprecated" />
+      <node concept="3Tm1VV" id="eMPHaLvBcx" role="1B3o_S" />
+      <node concept="3clFbS" id="eMPHaLvBcy" role="3clF47">
+        <node concept="3cpWs6" id="eMPHaLvBob" role="3cqZAp">
+          <node concept="3clFbT" id="eMPHaLvBom" role="3cqZAk">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="eMPHaLvBcz" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="5xy6TexsTTu">

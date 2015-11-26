@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="serg" ref="r:87ed07dc-bdb2-44c5-8db4-8d5a74e959ff(jetbrains.mps.baseLanguage.javadoc.editor)" />
     <import index="hqsm" ref="r:aa4c3470-43ab-4dad-b73e-20da0ee43be1(org.eclipse.incquery.mps.base.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -1121,6 +1122,31 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="eMPHaLuU$X">
+    <property role="3GE5qa" value="comment" />
+    <ref role="1XX52x" to="hqsm:eMPHaLuU$N" resolve="ParameterCommentTag" />
+    <node concept="3EZMnI" id="7lVCwDc$5Yh" role="2wV5jI">
+      <node concept="3F0ifn" id="7lVCwDc$5Yk" role="3EZMnx">
+        <property role="3F0ifm" value="@param" />
+        <ref role="1k5W1q" to="serg:6nHreUlWi7H" resolve="CommentTag" />
+        <ref role="1ERwB7" to="serg:Y_pC_S73zq" resolve="DeleteDocTag" />
+      </node>
+      <node concept="1iCGBv" id="eMPHaLuU_9" role="3EZMnx">
+        <ref role="1NtTu8" to="hqsm:eMPHaLuU$Q" />
+        <node concept="1sVBvm" id="eMPHaLuU_b" role="1sWHZn">
+          <node concept="3F0A7n" id="eMPHaLuU_o" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0A7n" id="7lVCwDc$5Ys" role="3EZMnx">
+        <ref role="1ERwB7" to="serg:Y_pC_S73zq" resolve="DeleteDocTag" />
+        <ref role="1NtTu8" to="hqsm:eMPHaLuU$O" resolve="text" />
+      </node>
+      <node concept="l2Vlx" id="7lVCwDc$5Yj" role="2iSdaV" />
     </node>
   </node>
 </model>

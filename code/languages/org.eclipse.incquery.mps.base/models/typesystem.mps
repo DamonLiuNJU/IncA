@@ -13,13 +13,11 @@
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(org.eclipse.incquery.mps.base.behavior)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="u78q" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typesystem.inference(MPS.Core/)" />
     <import index="4k41" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:org.eclipse.incquery.runtime.api(org.eclipse.incquery.mps.base.runtime/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpd5" ref="r:00000000-0000-4000-0000-011c895902b5(jetbrains.mps.lang.typesystem.dependencies)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
-    <import index="ghoz" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.newTypesystem(MPS.Core/)" />
     <import index="gyfg" ref="bc791f96-4749-4311-a6e4-241e47ca97f9/java:com.google.common.base(org.eclipse.incquery.mps.base.runtime/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -392,7 +390,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="3VwoHXO8_sB" role="2OqNvi">
-                    <ref role="37wK5l" to="gcg1:3VwoHXO8zzZ" resolve="getReferableParameters" />
+                    <ref role="37wK5l" to="gcg1:3VwoHXO8zzZ" resolve="getInParameters" />
                   </node>
                 </node>
               </node>
@@ -2035,7 +2033,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="1ERTnBTcUfY" role="2OqNvi">
-                  <ref role="37wK5l" to="gcg1:3VwoHXO8zzZ" resolve="getReferableParameters" />
+                  <ref role="37wK5l" to="gcg1:3VwoHXO8zzZ" resolve="getInParameters" />
                 </node>
               </node>
               <node concept="34oBXx" id="6WpUQi6QyfL" role="2OqNvi" />

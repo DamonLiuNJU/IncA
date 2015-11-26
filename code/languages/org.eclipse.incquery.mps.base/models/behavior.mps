@@ -15,13 +15,12 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="3o3z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.collect(MPS.Core/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
-    <import index="tpd5" ref="r:00000000-0000-4000-0000-011c895902b5(jetbrains.mps.lang.typesystem.dependencies)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
-    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -269,6 +268,10 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1176903168877" name="jetbrains.mps.baseLanguage.collections.structure.UnionOperation" flags="nn" index="4Tj9Z" />
+      <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
+        <child id="1176906787974" name="rightExpression" index="576Qk" />
+      </concept>
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
@@ -513,7 +516,7 @@
     <node concept="13i0hz" id="3VwoHXO8zzZ" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="getReferableParameters" />
+      <property role="TrG5h" value="getInParameters" />
       <node concept="3Tm1VV" id="3VwoHXO8z$0" role="1B3o_S" />
       <node concept="A3Dl8" id="gySDPO2Ue3" role="3clF45">
         <node concept="3Tqbb2" id="gySDPO2Ue5" role="A3Ik2">
@@ -522,12 +525,37 @@
       </node>
       <node concept="3clFbS" id="3VwoHXO8z$2" role="3clF47" />
     </node>
-    <node concept="13i0hz" id="3VwoHXO8$Ke" role="13h7CS">
+    <node concept="13i0hz" id="4mUOCOhDuui" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getOutParameters" />
+      <node concept="3Tm1VV" id="4mUOCOhDuuj" role="1B3o_S" />
+      <node concept="3clFbS" id="4mUOCOhDuuk" role="3clF47" />
+      <node concept="A3Dl8" id="4mUOCOhDuBo" role="3clF45">
+        <node concept="3Tqbb2" id="4mUOCOhDuBt" role="A3Ik2">
+          <ref role="ehGHo" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="3VwoHXO8$Ke" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
       <property role="TrG5h" value="getAllParameters" />
       <node concept="3Tm1VV" id="3VwoHXO8$Kf" role="1B3o_S" />
-      <node concept="3clFbS" id="3VwoHXO8$Kh" role="3clF47" />
+      <node concept="3clFbS" id="3VwoHXO8$Kh" role="3clF47">
+        <node concept="3cpWs6" id="4mUOCOhDuCg" role="3cqZAp">
+          <node concept="2OqwBi" id="4mUOCOhDuEA" role="3cqZAk">
+            <node concept="BsUDl" id="4mUOCOhDuCA" role="2Oq$k0">
+              <ref role="37wK5l" node="3VwoHXO8zzZ" resolve="getInParameters" />
+            </node>
+            <node concept="4Tj9Z" id="4mUOCOhDuIq" role="2OqNvi">
+              <node concept="BsUDl" id="4mUOCOhDuJF" role="576Qk">
+                <ref role="37wK5l" node="4mUOCOhDuui" resolve="getOutParameters" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="A3Dl8" id="gySDPO2UdV" role="3clF45">
         <node concept="3Tqbb2" id="3VwoHXO8$Kw" role="A3Ik2">
           <ref role="ehGHo" to="hqsm:4IZiQsKumaj" resolve="IParameter" />
