@@ -11,6 +11,7 @@
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base" version="0" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.eclipse.incquery.mps.sq" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="3" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
@@ -199,7 +200,9 @@
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
       </concept>
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <property id="1221565133444" name="isFinal" index="1EXbeo" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -311,6 +314,21 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base">
       <concept id="996292992024565941" name="org.eclipse.incquery.mps.base.structure.IntValue" flags="ng" index="2k1_e7">
         <property id="996292992024565942" name="value" index="2k1_e4" />
@@ -329,6 +347,13 @@
         <reference id="768444928085405086" name="variable" index="XkjO9" />
       </concept>
       <concept id="5058472606515023075" name="org.eclipse.incquery.mps.base.structure.TrueLiteral" flags="ng" index="2Br0bF" />
+      <concept id="266511528377428275" name="org.eclipse.incquery.mps.base.structure.ParameterCommentTag" flags="ng" index="2MMnZx">
+        <property id="266511528377428276" name="text" index="2MMnZA" />
+        <reference id="266511528377428278" name="parameter" index="2MMnZ$" />
+      </concept>
+      <concept id="7996518772785670958" name="org.eclipse.incquery.mps.base.structure.DataTypeReference" flags="ng" index="2PmbLq">
+        <reference id="7996518772785671445" name="type" index="2PmbDx" />
+      </concept>
       <concept id="7241148409043933760" name="org.eclipse.incquery.mps.base.structure.MPSIncQueryMatcherInstantiation" flags="ng" index="2UzQ1s">
         <reference id="7241148409043933812" name="pattern" index="2UzQ1C" />
         <child id="8066520122896896506" name="model" index="HflyE" />
@@ -350,6 +375,7 @@
         <child id="4530729936991567856" name="parameters" index="1dv5OJ" />
         <child id="1925259677761359694" name="bodies" index="3zVECR" />
       </concept>
+      <concept id="5024559837613016203" name="org.eclipse.incquery.mps.base.structure.IPatternComment" flags="ng" index="1k99o6" />
       <concept id="3634481308605751419" name="org.eclipse.incquery.mps.base.structure.BaseVariableReference" flags="ng" index="1sjAk5">
         <reference id="3634481308605751420" name="variable" index="1sjAk2" />
       </concept>
@@ -465,7 +491,7 @@
   </registry>
   <node concept="sE7Ow" id="7M7$7ZOJJ9j">
     <property role="TrG5h" value="DisposeAllEnginesAction" />
-    <property role="2uzpH1" value="UTIL - Dispose All IncQuery Engines" />
+    <property role="2uzpH1" value="EVAL - Dispose All IncA Computation Graphs" />
     <property role="3GE5qa" value="actions" />
     <node concept="tnohg" id="7M7$7ZOJJ9k" role="tncku">
       <node concept="3clFbS" id="7M7$7ZOJJ9l" role="2VODD2">
@@ -481,80 +507,6 @@
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
       <node concept="1oajcY" id="7M7$7ZOJJ9n" role="1oa70y" />
-    </node>
-  </node>
-  <node concept="sE7Ow" id="2dP1NM5LDnC">
-    <property role="TrG5h" value="PrintTimers" />
-    <property role="2uzpH1" value="UTIL - Print Timers" />
-    <property role="3GE5qa" value="actions" />
-    <node concept="1DS2jV" id="2dP1NM5LDnD" role="1NuT2Z">
-      <property role="TrG5h" value="currentProject" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
-      <node concept="1oajcY" id="2dP1NM5LDnE" role="1oa70y" />
-    </node>
-    <node concept="tnohg" id="2dP1NM5LDnF" role="tncku">
-      <node concept="3clFbS" id="2dP1NM5LDnG" role="2VODD2">
-        <node concept="3clFbF" id="2dP1NM5LDsx" role="3cqZAp">
-          <node concept="2OqwBi" id="2dP1NM5LDsu" role="3clFbG">
-            <node concept="10M0yZ" id="2dP1NM5LDsv" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="2dP1NM5LDsw" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="2dP1NM5LDCm" role="37wK5m">
-                <node concept="10M0yZ" id="2dP1NM5LDE8" role="3uHU7w">
-                  <ref role="3cqZAo" to="pzen:3In27rMM2wV" resolve="traversal" />
-                  <ref role="1PxDUh" to="pzen:3In27rMM2uw" resolve="Runtime" />
-                </node>
-                <node concept="Xl_RD" id="2dP1NM5LDtt" role="3uHU7B">
-                  <property role="Xl_RC" value="Traversal: " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2dP1NM5LDOs" role="3cqZAp">
-          <node concept="2OqwBi" id="2dP1NM5LDOt" role="3clFbG">
-            <node concept="10M0yZ" id="2dP1NM5LDOu" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="2dP1NM5LDOv" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="2dP1NM5LDOw" role="37wK5m">
-                <node concept="10M0yZ" id="2dP1NM5LDOx" role="3uHU7w">
-                  <ref role="3cqZAo" to="pzen:3In27rMM2yU" resolve="query" />
-                  <ref role="1PxDUh" to="pzen:3In27rMM2uw" resolve="Runtime" />
-                </node>
-                <node concept="Xl_RD" id="2dP1NM5LDOy" role="3uHU7B">
-                  <property role="Xl_RC" value="Query: " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="sE7Ow" id="2dP1NM5LvJe">
-    <property role="TrG5h" value="ResetTimers" />
-    <property role="2uzpH1" value="UTIL - Reset Timers" />
-    <property role="3GE5qa" value="actions" />
-    <node concept="1DS2jV" id="2dP1NM5LvJf" role="1NuT2Z">
-      <property role="TrG5h" value="currentProject" />
-      <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
-      <node concept="1oajcY" id="2dP1NM5LvJg" role="1oa70y" />
-    </node>
-    <node concept="tnohg" id="2dP1NM5LvJl" role="tncku">
-      <node concept="3clFbS" id="2dP1NM5LvJm" role="2VODD2">
-        <node concept="3clFbF" id="2dP1NM5LCOV" role="3cqZAp">
-          <node concept="2YIFZM" id="2dP1NM5LDmM" role="3clFbG">
-            <ref role="1Pybhc" to="pzen:3In27rMM2uw" resolve="Runtime" />
-            <ref role="37wK5l" to="pzen:3In27rMM2_5" resolve="reset" />
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="tC5Ba" id="4eWR0HOKhjr">
@@ -1447,6 +1399,7 @@
   </node>
   <node concept="312cEu" id="3CE75__e$RZ">
     <property role="TrG5h" value="MeasurementUtil" />
+    <property role="1EXbeo" value="true" />
     <node concept="2tJIrI" id="3CE75__e$Sd" role="jymVt" />
     <node concept="2YIFZL" id="3CE75__eBsL" role="jymVt">
       <property role="TrG5h" value="getRootNodes" />
@@ -2496,9 +2449,6 @@
   </node>
   <node concept="3TKv5i" id="4oNjwzxjpaM">
     <property role="TrG5h" value="FindBugs" />
-    <node concept="1XdyHb" id="39KhnTIhLCP" role="1dubk0">
-      <property role="1dubkF" value="Class is final but declares protected field" />
-    </node>
     <node concept="3zyOaA" id="4oNjwzxjpaR" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="CI_CONFUSED_INHERITANCE" />
@@ -2559,11 +2509,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiwmN" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiwmO" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiwmP" role="1dT_Ay">
+            <property role="1dT_AB" value="Class is final but declares protected field" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiwmQ" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="4Z0VXz28xGz" resolve="class" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="4oNjwzxkuIO" role="1dubk0" />
-    <node concept="1XdyHb" id="39KhnTIhJYb" role="1dubk0">
-      <property role="1dubkF" value="Abstract class defines covariant equals() method" />
-    </node>
     <node concept="3zyOaA" id="4oNjwzxkuYu" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="EQ_ABSTRACT_SELF" />
@@ -2612,24 +2570,16 @@
             </node>
           </node>
         </node>
-        <node concept="34odk1" id="4Z0VXz28EZM" role="1dgzf0">
-          <node concept="30KbLJ" id="4Z0VXz28ESr" role="34ocZn">
-            <property role="TrG5h" value="type" />
-          </node>
-          <node concept="2kdhWc" id="4Z0VXz28F4J" role="34ocZk">
-            <node concept="2qPR2i" id="4Z0VXz28F6t" role="3zVzRQ">
-              <ref role="3zVwH8" to="tpee:fzclF7X" />
-            </node>
-            <node concept="30NkWi" id="4Z0VXz28F36" role="2kdhYM">
-              <ref role="XkjO9" node="4Z0VXz28Ehm" resolve="method" />
-            </node>
-          </node>
-        </node>
         <node concept="34ocy7" id="7BgI1pOeGFf" role="1dgzf0">
           <node concept="34oehE" id="7BgI1pOeHEo" role="34ocs8">
             <ref role="34o0ic" to="tpee:f_0P_4Y" resolve="BooleanType" />
-            <node concept="30NkWi" id="7BgI1pOeHc$" role="34oecr">
-              <ref role="XkjO9" node="4Z0VXz28ESr" resolve="type" />
+            <node concept="2kdhWc" id="2bPJNFdiChS" role="34oecr">
+              <node concept="2qPR2i" id="2bPJNFdiChT" role="3zVzRQ">
+                <ref role="3zVwH8" to="tpee:fzclF7X" />
+              </node>
+              <node concept="30NkWi" id="2bPJNFdiChU" role="2kdhYM">
+                <ref role="XkjO9" node="4Z0VXz28Ehm" resolve="method" />
+              </node>
             </node>
           </node>
         </node>
@@ -2726,11 +2676,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiAQl" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiAQm" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiAQn" role="1dT_Ay">
+            <property role="1dT_AB" value="Abstract class defines covariant equals() method" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiAQo" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="4Z0VXz28Ec1" resolve="class" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="39KhnTI7xd6" role="1dubk0" />
-    <node concept="1XdyHb" id="39KhnTIhIgC" role="1dubk0">
-      <property role="1dubkF" value="Covariant compareTo() method defined" />
-    </node>
     <node concept="3zyOaA" id="39KhnTI7xN5" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="CO_SELF_NO_OBJECT" />
@@ -2795,42 +2753,30 @@
             </node>
           </node>
         </node>
-        <node concept="34odk1" id="4IP8Ul59fY3" role="1dgzf0">
-          <node concept="30KbLJ" id="4IP8Ul59eck" role="34ocZn">
-            <property role="TrG5h" value="type" />
-          </node>
-          <node concept="2kdhWc" id="4IP8Ul59gXt" role="34ocZk">
-            <node concept="2qPR2i" id="4IP8Ul59hpL" role="3zVzRQ">
-              <ref role="3zVwH8" to="tpee:fzclF7X" />
-            </node>
-            <node concept="30NkWi" id="4IP8Ul59gwY" role="2kdhYM">
-              <ref role="XkjO9" node="4Z0VXz28YUW" resolve="method" />
+        <node concept="34ocy7" id="2bPJNFdiF15" role="1dgzf0">
+          <node concept="34oehE" id="2bPJNFdiI0r" role="34ocs8">
+            <ref role="34o0ic" to="tpee:f_0OyhT" resolve="IntegerType" />
+            <node concept="2kdhWc" id="2bPJNFdiIVK" role="34oecr">
+              <node concept="2qPR2i" id="2bPJNFdiK9N" role="3zVzRQ">
+                <ref role="3zVwH8" to="tpee:fzclF7X" />
+              </node>
+              <node concept="30NkWi" id="2bPJNFdiH_z" role="2kdhYM">
+                <ref role="XkjO9" node="4Z0VXz28YUW" resolve="method" />
+              </node>
             </node>
           </node>
         </node>
         <node concept="34ocy7" id="4Z0VXz291Un" role="1dgzf0">
           <node concept="11bN8U" id="4Z0VXz2921j" role="34ocs8">
             <node concept="2k1_p_" id="4Z0VXz2921k" role="11bN8K">
-              <node concept="1Wc70l" id="4Z0VXz292a9" role="2k1_pE">
-                <node concept="2OqwBi" id="4Z0VXz292aa" role="3uHU7w">
-                  <node concept="1sjAk5" id="4Z0VXz292ab" role="2Oq$k0">
-                    <ref role="1sjAk2" node="4IP8Ul59eck" resolve="type" />
-                  </node>
-                  <node concept="1mIQ4w" id="4Z0VXz292ac" role="2OqNvi">
-                    <node concept="chp4Y" id="4Z0VXz292ad" role="cj9EA">
-                      <ref role="cht4Q" to="tpee:f_0OyhT" resolve="IntegerType" />
-                    </node>
-                  </node>
+              <node concept="2OqwBi" id="4Z0VXz292ae" role="2k1_pE">
+                <node concept="1sjAk5" id="4Z0VXz292af" role="2Oq$k0">
+                  <ref role="1sjAk2" node="4Z0VXz290uI" resolve="name" />
                 </node>
-                <node concept="2OqwBi" id="4Z0VXz292ae" role="3uHU7B">
-                  <node concept="1sjAk5" id="4Z0VXz292af" role="2Oq$k0">
-                    <ref role="1sjAk2" node="4Z0VXz290uI" resolve="name" />
-                  </node>
-                  <node concept="liA8E" id="4Z0VXz292ag" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="Xl_RD" id="4Z0VXz292ah" role="37wK5m">
-                      <property role="Xl_RC" value="compareTo" />
-                    </node>
+                <node concept="liA8E" id="4Z0VXz292ag" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="Xl_RD" id="4Z0VXz292ah" role="37wK5m">
+                    <property role="Xl_RC" value="compareTo" />
                   </node>
                 </node>
               </node>
@@ -2942,11 +2888,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiDay" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiDaz" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiDa$" role="1dT_Ay">
+            <property role="1dT_AB" value="Class defines covariant compareTo() method" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiDa_" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="4Z0VXz28Y4L" resolve="class" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="39KhnTIevRt" role="1dubk0" />
-    <node concept="1XdyHb" id="39KhnTIeyIj" role="1dubk0">
-      <property role="1dubkF" value="Class is Serializable but its superclass doesn't define a void constructor" />
-    </node>
     <node concept="3zyOaA" id="39KhnTIexb6" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="SE_NO_SUITABLE_CONSTRUCTOR" />
@@ -2986,11 +2940,11 @@
           </node>
         </node>
         <node concept="34ocy7" id="W0eiDpp0Qw" role="1dgzf0">
-          <node concept="2dT$3Y" id="W0eiDpp0S9" role="34ocs8">
-            <node concept="2k1GkI" id="W0eiDpp0Sb" role="2dT$1H">
-              <node concept="2k1_uq" id="W0eiDpp0Tc" role="2nKVj6">
+          <node concept="34sUYq" id="2bPJNFdiMUx" role="34ocs8">
+            <node concept="2k1GkI" id="2bPJNFdiMUz" role="34sUSb">
+              <node concept="2k1_uq" id="2bPJNFdiMVs" role="2nKVj6">
                 <ref role="2nKBpL" node="39KhnTIeMN2" resolve="serializables" />
-                <node concept="30NkWi" id="W0eiDpp0TX" role="2nKBpO">
+                <node concept="30NkWi" id="2bPJNFdiMW5" role="2nKBpO">
                   <ref role="XkjO9" node="4Z0VXz29eFt" resolve="superClass" />
                 </node>
               </node>
@@ -2998,11 +2952,11 @@
           </node>
         </node>
         <node concept="34ocy7" id="4Z0VXz2a1Wd" role="1dgzf0">
-          <node concept="2dT$3Y" id="4Z0VXz2a2me" role="34ocs8">
-            <node concept="2k1GkI" id="4Z0VXz2a2mg" role="2dT$1H">
-              <node concept="2k1_uq" id="4Z0VXz2a2JN" role="2nKVj6">
+          <node concept="34sUYq" id="2bPJNFdiN80" role="34ocs8">
+            <node concept="2k1GkI" id="2bPJNFdiN82" role="34sUSb">
+              <node concept="2k1_uq" id="2bPJNFdiN8S" role="2nKVj6">
                 <ref role="2nKBpL" node="39KhnTIf9IE" resolve="noArgConstructor" />
-                <node concept="30NkWi" id="4Z0VXz2a2JO" role="2nKBpO">
+                <node concept="30NkWi" id="2bPJNFdiN90" role="2nKBpO">
                   <ref role="XkjO9" node="4Z0VXz29eFt" resolve="superClass" />
                 </node>
               </node>
@@ -3010,11 +2964,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiLLt" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiLLu" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiLLv" role="1dT_Ay">
+            <property role="1dT_AB" value="Class is Serializable but its superclass doesn't define a void constructor" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiLLw" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="4Z0VXz29eCU" resolve="class" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1fSpEsnIuZs" role="1dubk0" />
-    <node concept="1XdyHb" id="1fSpEsnNIin" role="1dubk0">
-      <property role="1dubkF" value="Dubious catching of IllegalMonitorStateException" />
-    </node>
     <node concept="3zyOaA" id="1fSpEsnNfH3" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="IMSE_DONT_CATCH_IMSE" />
@@ -3118,11 +3080,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdjeHc" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdjeHd" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdjeHe" role="1dT_Ay">
+            <property role="1dT_AB" value="Enumerates methods which performdDubious catching of IllegalMonitorStateException" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdjeHf" role="3nqlJM">
+          <property role="2MMnZA" value="the method" />
+          <ref role="2MMnZ$" node="4Z0VXz29fXz" resolve="method" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="58plafYkIZl" role="1dubk0" />
-    <node concept="1XdyHb" id="58plafYkM7I" role="1dubk0">
-      <property role="1dubkF" value="Unused field" />
-    </node>
     <node concept="3zyOaA" id="58plafYkKR9" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="UUF_UNUSED_FIELD" />
@@ -3146,11 +3116,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdjdHB" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdjdHC" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdjdHD" role="1dT_Ay">
+            <property role="1dT_AB" value="Enumerates unused fields" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdjdHE" role="3nqlJM">
+          <property role="2MMnZA" value="the field" />
+          <ref role="2MMnZ$" node="4Z0VXz29iFL" resolve="field" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="58plafYl42c" role="1dubk0" />
-    <node concept="1XdyHb" id="58plafYl6WA" role="1dubk0">
-      <property role="1dubkF" value="A class's finalize() method should have protected access, not public." />
-    </node>
     <node concept="3zyOaA" id="58plafYl5tl" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="FI_PUBLIC_SHOULD_BE_PROTECTED" />
@@ -3281,11 +3259,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdjcCl" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdjcCm" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdjcCn" role="1dT_Ay">
+            <property role="1dT_AB" value="A class's finalize() method should have protected access, not public." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdjcCo" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="4Z0VXz29iKx" resolve="class" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="58plafYlk3Y" role="1dubk0" />
-    <node concept="1XdyHb" id="58plafYlCwc" role="1dubk0">
-      <property role="1dubkF" value="Method invokes dangerous method runFinalizersOnExit" />
-    </node>
     <node concept="3zyOaA" id="58plafYll$p" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="DM_RUN_FINALIZERS_ON_EXIT" />
@@ -3416,11 +3402,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdjbuA" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdjbuB" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdjbuC" role="1dT_Ay">
+            <property role="1dT_AB" value="Method invokes dangerous method runFinalizersOnExit" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdjbuD" role="3nqlJM">
+          <property role="2MMnZA" value="the class which contains the method" />
+          <ref role="2MMnZ$" node="4Z0VXz29_HE" resolve="class" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1K0bJ_EBJAN" role="1dubk0" />
-    <node concept="1XdyHb" id="5UO6_TUQ7XQ" role="1dubk0">
-      <property role="1dubkF" value="Class defines equals() and does not define Object.hashCode()" />
-    </node>
     <node concept="3zyOaA" id="1K0bJ_EBLsh" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="HE_EQUALS_USE_HASHCODE" />
@@ -3456,11 +3450,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdjauk" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdjaul" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdjaum" role="1dT_Ay">
+            <property role="1dT_AB" value="Class defines equals() and does not define Object.hashCode()" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdjaun" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="4Z0VXz2a3BM" resolve="class" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1K0bJ_EE3yO" role="1dubk0" />
-    <node concept="1XdyHb" id="5UO6_TUQ5vY" role="1dubk0">
-      <property role="1dubkF" value="Comparison of String objects using == or != " />
-    </node>
     <node concept="3zyOaA" id="1K0bJ_EE5P0" role="1dubk0">
       <property role="1aKoCf" value="false" />
       <property role="TrG5h" value="ES_COMPARING_STRINGS_WITH_EQ" />
@@ -3512,6 +3514,17 @@
               <ref role="XkjO9" node="4Z0VXz2bmIN" resolve="op" />
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="1k99o6" id="2bPJNFdj8VW" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdj8VX" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdj8VY" role="1dT_Ay">
+            <property role="1dT_AB" value="Enumerates binary operations which compare String objects using == or != " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdj8VZ" role="3nqlJM">
+          <property role="2MMnZA" value="the binary operation" />
+          <ref role="2MMnZ$" node="4Z0VXz2bmIN" resolve="op" />
         </node>
       </node>
     </node>
@@ -3769,15 +3782,33 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdj9Vn" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdj9Vo" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdj9Vp" role="1dT_Ay">
+            <property role="1dT_AB" value="Helper function of ES_COMPARING_STRINGS_WITH_EQ" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2bPJNFdja76" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdja77" role="1dT_Ay">
+            <property role="1dT_AB" value="Looks up string literals or string-typed variable references on the" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2bPJNFdjaiF" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdjaiG" role="1dT_Ay">
+            <property role="1dT_AB" value="two sides of the binary operation" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdj9Vq" role="3nqlJM">
+          <property role="2MMnZA" value="the binary operation" />
+          <ref role="2MMnZ$" node="4IP8Ul59Yge" resolve="op" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="58plafYkNiF" role="1dubk0" />
     <node concept="1XdyHb" id="39KhnTIhGeJ" role="1dubk0">
       <property role="1dubkF" value="HELPER FUNCTIONS" />
     </node>
     <node concept="1XdyHe" id="39KhnTIhu$C" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul59Xit" role="1dubk0">
-      <property role="1dubkF" value="enumerates the left and right hand side expressions of the given binary operation" />
-    </node>
     <node concept="3zyOaA" id="5UO6_TUQEXU" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="getBinaryParts" />
@@ -3835,11 +3866,22 @@
           <ref role="2UGuZ7" to="tpee:fz3vP1J" resolve="Expression" />
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdj7Mj" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdj7Mk" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdj7Ml" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the left and right hand side expressions of a binary operation" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdj7Mm" role="3nqlJM">
+          <property role="2MMnZA" value="the binary operation" />
+          <ref role="2MMnZ$" node="4IP8Ul59UeA" resolve="op" />
+        </node>
+        <node concept="x79VA" id="2bPJNFdj7Mn" role="3nqlJM">
+          <property role="x79VB" value="the left and right hand side expressions" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="5UO6_TUQDwF" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul59OdI" role="1dubk0">
-      <property role="1dubkF" value="enumerates variable declaration with string type" />
-    </node>
     <node concept="3zyOaA" id="5UO6_TUQqzi" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="getVariablesWithStringType" />
@@ -3864,11 +3906,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdj6Be" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdj6Bf" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdj6Bg" role="1dT_Ay">
+            <property role="1dT_AB" value="Enumerates the variable declarations with string type" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdj6Bh" role="3nqlJM">
+          <property role="2MMnZA" value="the variable declaration" />
+          <ref role="2MMnZ$" node="4IP8Ul59PbI" resolve="var" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="5UO6_TUQpob" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul59IuU" role="1dubk0">
-      <property role="1dubkF" value="returns the equals() method of the given class" />
-    </node>
     <node concept="3zyOaA" id="1K0bJ_EBOrL" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="getEqualsMethod" />
@@ -3917,42 +3967,30 @@
             </node>
           </node>
         </node>
-        <node concept="34odk1" id="4Z0VXz2a6v7" role="1dgzf0">
-          <node concept="30KbLJ" id="4Z0VXz2a6lj" role="34ocZn">
-            <property role="TrG5h" value="type" />
-          </node>
-          <node concept="2kdhWc" id="4Z0VXz2a6$y" role="34ocZk">
-            <node concept="2qPR2i" id="4Z0VXz2a6Dh" role="3zVzRQ">
-              <ref role="3zVwH8" to="tpee:fzclF7X" />
-            </node>
-            <node concept="30NkWi" id="4Z0VXz2a6$t" role="2kdhYM">
-              <ref role="XkjO9" node="4Z0VXz2a4PH" resolve="method" />
+        <node concept="34ocy7" id="2bPJNFdiWyY" role="1dgzf0">
+          <node concept="34oehE" id="2bPJNFdiXhs" role="34ocs8">
+            <ref role="34o0ic" to="tpee:f_0P_4Y" resolve="BooleanType" />
+            <node concept="2kdhWc" id="2bPJNFdiY8$" role="34oecr">
+              <node concept="2qPR2i" id="2bPJNFdiYv$" role="3zVzRQ">
+                <ref role="3zVwH8" to="tpee:fzclF7X" />
+              </node>
+              <node concept="30NkWi" id="2bPJNFdiWUS" role="2kdhYM">
+                <ref role="XkjO9" node="4Z0VXz2a4PH" resolve="method" />
+              </node>
             </node>
           </node>
         </node>
         <node concept="34ocy7" id="4Z0VXz2a6Zw" role="1dgzf0">
           <node concept="11bN8U" id="4Z0VXz2a74w" role="34ocs8">
             <node concept="2k1_p_" id="4Z0VXz2a74x" role="11bN8K">
-              <node concept="1Wc70l" id="1K0bJ_EBPzk" role="2k1_pE">
-                <node concept="2OqwBi" id="1K0bJ_EBPzl" role="3uHU7B">
-                  <node concept="1sjAk5" id="1K0bJ_EBPzm" role="2Oq$k0">
-                    <ref role="1sjAk2" node="4Z0VXz2a5Pd" resolve="name" />
-                  </node>
-                  <node concept="liA8E" id="1K0bJ_EBPzn" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="Xl_RD" id="1K0bJ_EBPzo" role="37wK5m">
-                      <property role="Xl_RC" value="equals" />
-                    </node>
-                  </node>
+              <node concept="2OqwBi" id="1K0bJ_EBPzl" role="2k1_pE">
+                <node concept="1sjAk5" id="1K0bJ_EBPzm" role="2Oq$k0">
+                  <ref role="1sjAk2" node="4Z0VXz2a5Pd" resolve="name" />
                 </node>
-                <node concept="2OqwBi" id="1K0bJ_EBPzp" role="3uHU7w">
-                  <node concept="1sjAk5" id="1K0bJ_EBPzq" role="2Oq$k0">
-                    <ref role="1sjAk2" node="4Z0VXz2a6lj" resolve="type" />
-                  </node>
-                  <node concept="1mIQ4w" id="1K0bJ_EBPzr" role="2OqNvi">
-                    <node concept="chp4Y" id="1K0bJ_EBPzs" role="cj9EA">
-                      <ref role="cht4Q" to="tpee:f_0P_4Y" resolve="BooleanType" />
-                    </node>
+                <node concept="liA8E" id="1K0bJ_EBPzn" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="Xl_RD" id="1K0bJ_EBPzo" role="37wK5m">
+                    <property role="Xl_RC" value="equals" />
                   </node>
                 </node>
               </node>
@@ -4063,11 +4101,22 @@
           <ref role="2UGuZ7" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiULm" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiULn" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiULo" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the equals method of a class" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiULp" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="7oCdOCUWQqi" resolve="class" />
+        </node>
+        <node concept="x79VA" id="2bPJNFdiULq" role="3nqlJM">
+          <property role="x79VB" value="the equals method" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1K0bJ_ECNq4" role="1dubk0" />
-    <node concept="1XdyHb" id="4IP8Ul59KmO" role="1dubk0">
-      <property role="1dubkF" value="returns the hashCode method of the given class" />
-    </node>
     <node concept="3zyOaA" id="1K0bJ_ECPBx" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="getHashCodeMethod" />
@@ -4180,11 +4229,22 @@
           <ref role="2UGuZ7" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiTH4" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiTH5" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiTH6" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the hashCode method of a class" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiTH7" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="7oCdOCUWO2u" resolve="class" />
+        </node>
+        <node concept="x79VA" id="2bPJNFdiTH8" role="3nqlJM">
+          <property role="x79VB" value="the hashCode method" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="1K0bJ_EBNvp" role="1dubk0" />
-    <node concept="1XdyHb" id="W0eiDpprvM" role="1dubk0">
-      <property role="1dubkF" value="enumerates the variable declarations which are referenced through a variable reference" />
-    </node>
     <node concept="3zyOaA" id="58plafYkPSs" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="referencedVariables" />
@@ -4219,6 +4279,17 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiSGK" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiSGL" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiSGM" role="1dT_Ay">
+            <property role="1dT_AB" value="Enumerates variables which are referenced " />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiSGN" role="3nqlJM">
+          <property role="2MMnZA" value="the variable" />
+          <ref role="2MMnZ$" node="W0eiDppdPF" resolve="variable" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="58plafYkPfy" role="1dubk0" />
     <node concept="1XdyHb" id="W0eiDppgBS" role="1dubk0">
@@ -4228,7 +4299,7 @@
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="getSuperClass" />
       <node concept="1VLyuc" id="7oCdOCUWEWN" role="1dv5OJ">
-        <property role="TrG5h" value="sub" />
+        <property role="TrG5h" value="c" />
         <node concept="2kdjtB" id="7oCdOCUWEXV" role="1dukDx">
           <ref role="2UGuZ7" to="tpee:fz12cDA" resolve="ClassConcept" />
         </node>
@@ -4236,7 +4307,7 @@
       <node concept="3zV_Rz" id="39KhnTIhweW" role="3zVECR">
         <node concept="34odk1" id="4Z0VXz28OHX" role="1dgzf0">
           <node concept="30KbLJ" id="4Z0VXz28OGg" role="34ocZn">
-            <property role="TrG5h" value="sup" />
+            <property role="TrG5h" value="s" />
           </node>
           <node concept="2kdhWc" id="4Z0VXz28OJr" role="34ocZk">
             <node concept="2qPR2i" id="4Z0VXz28OK2" role="3zVzRQ">
@@ -4246,7 +4317,7 @@
               </node>
             </node>
             <node concept="30NkWi" id="4Z0VXz28OIQ" role="2kdhYM">
-              <ref role="XkjO9" node="7oCdOCUWEWN" resolve="sub" />
+              <ref role="XkjO9" node="7oCdOCUWEWN" resolve="c" />
             </node>
           </node>
         </node>
@@ -4254,13 +4325,13 @@
           <node concept="34oehE" id="4Z0VXz28OQb" role="34ocs8">
             <ref role="34o0ic" to="tpee:fz12cDA" resolve="ClassConcept" />
             <node concept="30NkWi" id="4Z0VXz28OPn" role="34oecr">
-              <ref role="XkjO9" node="4Z0VXz28OGg" resolve="sup" />
+              <ref role="XkjO9" node="4Z0VXz28OGg" resolve="s" />
             </node>
           </node>
         </node>
         <node concept="30Nfyg" id="39KhnTIhzlI" role="1dgzf0">
           <node concept="30NkWi" id="4Z0VXz28OV8" role="30Nf_D">
-            <ref role="XkjO9" node="4Z0VXz28OGg" resolve="sup" />
+            <ref role="XkjO9" node="4Z0VXz28OGg" resolve="s" />
           </node>
         </node>
       </node>
@@ -4269,11 +4340,22 @@
           <ref role="2UGuZ7" to="tpee:fz12cDA" resolve="ClassConcept" />
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiSEt" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiSEu" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiSEv" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the superclass of a class" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiSEw" role="3nqlJM">
+          <property role="2MMnZA" value="the subclass" />
+          <ref role="2MMnZ$" node="7oCdOCUWEWN" resolve="c" />
+        </node>
+        <node concept="x79VA" id="2bPJNFdiSEx" role="3nqlJM">
+          <property role="x79VB" value="the superclass" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="39KhnTIf8fw" role="1dubk0" />
-    <node concept="1XdyHb" id="W0eiDppjno" role="1dubk0">
-      <property role="1dubkF" value="returns the no-arg constructor of the given class" />
-    </node>
     <node concept="3zyOaA" id="39KhnTIf9IE" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="noArgConstructor" />
@@ -4319,16 +4401,14 @@
             </node>
           </node>
         </node>
-        <node concept="34ocy7" id="4Z0VXz28Ohq" role="1dgzf0">
-          <node concept="11bN8U" id="4Z0VXz28OjF" role="34ocs8">
-            <node concept="2k1_p_" id="4Z0VXz28OjG" role="11bN8K">
-              <node concept="3clFbC" id="4Z0VXz28OqO" role="2k1_pE">
-                <node concept="3cmrfG" id="4Z0VXz28OtE" role="3uHU7w">
-                  <property role="3cmrfH" value="0" />
-                </node>
-                <node concept="1sjAk5" id="4Z0VXz28Oly" role="3uHU7B">
-                  <ref role="1sjAk2" node="4Z0VXz28O0z" resolve="count" />
-                </node>
+        <node concept="34ocy7" id="2bPJNFdiOlf" role="1dgzf0">
+          <node concept="34ofUU" id="2bPJNFdiOut" role="34ocs8">
+            <node concept="30NkWi" id="2bPJNFdiOql" role="34ocZn">
+              <ref role="XkjO9" node="4Z0VXz28O0z" resolve="count" />
+            </node>
+            <node concept="2Brx2E" id="2bPJNFdiOxS" role="34ocZk">
+              <node concept="2k1_e7" id="2bPJNFdiO_e" role="2Brx2B">
+                <property role="2k1_e4" value="0" />
               </node>
             </node>
           </node>
@@ -4344,11 +4424,22 @@
           <ref role="2UGuZ7" to="tpee:fzclF84" resolve="ConstructorDeclaration" />
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiNdl" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiNdm" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiNdn" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the no-arg constructor of a class." />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiNdo" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="7oCdOCUWJu7" resolve="class" />
+        </node>
+        <node concept="x79VA" id="2bPJNFdiNdp" role="3nqlJM">
+          <property role="x79VB" value="the no-arg constructor" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="3oMuSXR8v8A" role="1dubk0" />
-    <node concept="1XdyHb" id="W0eiDppbwM" role="1dubk0">
-      <property role="1dubkF" value="enumerates the classes which implement the Comparable interface" />
-    </node>
     <node concept="3zyOaA" id="39KhnTIeH$j" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="comparables" />
@@ -4405,11 +4496,19 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiOIY" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiOIZ" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiOJ0" role="1dT_Ay">
+            <property role="1dT_AB" value="Enumerates the classes which implement the Comparable interface" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiOJ1" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="W0eiDpp178" resolve="class" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="39KhnTIeLtC" role="1dubk0" />
-    <node concept="1XdyHb" id="W0eiDpp6YD" role="1dubk0">
-      <property role="1dubkF" value="enumerates the classes which implement the Serializable interface" />
-    </node>
     <node concept="3zyOaA" id="39KhnTIeMN2" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="serializables" />
@@ -4466,11 +4565,20 @@
           </node>
         </node>
       </node>
+      <node concept="1k99o6" id="2bPJNFdiQaO" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiQaP" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiQgL" role="1dT_Ay">
+            <property role="1dT_AB" value="Enumerates the classes which implement the Serializable interface" />
+          </node>
+          <node concept="1dT_AC" id="2bPJNFdiQaQ" role="1dT_Ay" />
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiQaR" role="3nqlJM">
+          <property role="2MMnZA" value="the class" />
+          <ref role="2MMnZ$" node="W0eiDpoXMc" resolve="class" />
+        </node>
+      </node>
     </node>
     <node concept="1XdyHe" id="39KhnTIeM6P" role="1dubk0" />
-    <node concept="1XdyHb" id="W0eiDppmMZ" role="1dubk0">
-      <property role="1dubkF" value="enumerates the parameters of the given method" />
-    </node>
     <node concept="3zyOaA" id="3oMuSXR8vC9" role="1dubk0">
       <property role="1aKoCf" value="true" />
       <property role="TrG5h" value="getParameters" />
@@ -4495,6 +4603,49 @@
       <node concept="3TL$xT" id="3oMuSXR8vCc" role="3TLBbI">
         <node concept="2kdjtB" id="3oMuSXR8vYB" role="1dukDx">
           <ref role="2UGuZ7" to="tpee:fz7vLUk" resolve="ParameterDeclaration" />
+        </node>
+      </node>
+      <node concept="1k99o6" id="2bPJNFdiRgM" role="lGtFl">
+        <node concept="TZ5HA" id="2bPJNFdiRgN" role="TZ5H$">
+          <node concept="1dT_AC" id="2bPJNFdiRgO" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the parameter(s) of a method" />
+          </node>
+        </node>
+        <node concept="2MMnZx" id="2bPJNFdiRgP" role="3nqlJM">
+          <property role="2MMnZA" value="the method" />
+          <ref role="2MMnZ$" node="7oCdOCUWgjk" resolve="method" />
+        </node>
+        <node concept="x79VA" id="2bPJNFdiRgQ" role="3nqlJM">
+          <property role="x79VB" value="the parameter(s)" />
+        </node>
+      </node>
+    </node>
+    <node concept="1XdyHe" id="2bPJNFdkesD" role="1dubk0" />
+    <node concept="3zyOaA" id="2bPJNFdkfLl" role="1dubk0">
+      <property role="1aKoCf" value="true" />
+      <property role="TrG5h" value="getParameterCount" />
+      <node concept="3TL$xT" id="2bPJNFdkh0_" role="3TLBbI">
+        <node concept="2PmbLq" id="2bPJNFdkh1M" role="1dukDx">
+          <ref role="2PmbDx" to="tpck:fKAQMTA" resolve="integer" />
+        </node>
+      </node>
+      <node concept="1VLyuc" id="2bPJNFdkgU3" role="1dv5OJ">
+        <property role="TrG5h" value="method" />
+        <node concept="2kdjtB" id="2bPJNFdkgZB" role="1dukDx">
+          <ref role="2UGuZ7" to="tpee:fzclF7W" resolve="BaseMethodDeclaration" />
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="2bPJNFdkfLm" role="3zVECR">
+        <node concept="30Nfyg" id="2bPJNFdkh3n" role="1dgzf0">
+          <node concept="2k1GkI" id="2bPJNFdkh5o" role="30Nf_D">
+            <property role="114$vH" value="true" />
+            <node concept="2k1_uq" id="2bPJNFdkh5p" role="2nKVj6">
+              <ref role="2nKBpL" node="3oMuSXR8vC9" resolve="getParameters" />
+              <node concept="30NkWi" id="2bPJNFdkh7X" role="2nKBpO">
+                <ref role="XkjO9" node="2bPJNFdkgU3" resolve="method" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
