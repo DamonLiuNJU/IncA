@@ -147,7 +147,7 @@
     <language id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.eclipse.incquery.mps.base">
       <concept id="996292992024566952" name="org.eclipse.incquery.mps.base.structure.PatternCall" flags="ng" index="2k1_uq">
         <property id="996292992028507456" name="transitive" index="2nKBpM" />
-        <reference id="996292992028507459" name="patternRef" index="2nKBpL" />
+        <reference id="996292992028507459" name="pattern" index="2nKBpL" />
         <child id="996292992028507462" name="arguments" index="2nKBpO" />
       </concept>
       <concept id="996292992024530443" name="org.eclipse.incquery.mps.base.structure.CompareConstraint" flags="ng" index="2k1GkT">
@@ -1624,7 +1624,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="7IYto4uHO8w">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/plugins/mps-incquery" />
+    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/plugins/inca" />
   </node>
   <node concept="1lH9Xt" id="7f_LHgkGL$x">
     <property role="TrG5h" value="TransitiveClosure_Test" />

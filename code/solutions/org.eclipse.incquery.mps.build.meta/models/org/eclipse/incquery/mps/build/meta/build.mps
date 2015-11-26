@@ -76,7 +76,7 @@
     <node concept="55IIr" id="5lNzHoKgaG3" role="auvoZ" />
     <node concept="1l3spV" id="5lNzHoKgaG4" role="1l3spN" />
     <node concept="398rNT" id="2Zh2tjQSyQa" role="1l3spd">
-      <property role="TrG5h" value="mps.incquery" />
+      <property role="TrG5h" value="inca" />
       <node concept="55IIr" id="69NMDwEeR0p" role="398pKh">
         <node concept="2Ry0Ak" id="5lNzHoKggdP" role="iGT6I">
           <property role="2Ry0Am" value="solutions" />
@@ -130,7 +130,7 @@
       <property role="3LESm3" value="952631b6-abf7-4216-aaa0-43838b433fe2" />
       <property role="2GAjPV" value="false" />
       <node concept="398BVA" id="5lNzHoKgaPU" role="3LF7KH">
-        <ref role="398BVh" node="2Zh2tjQSyQa" resolve="mps.incquery" />
+        <ref role="398BVh" node="2Zh2tjQSyQa" resolve="inca" />
         <node concept="2Ry0Ak" id="5lNzHoKgaQ6" role="iGT6I">
           <property role="2Ry0Am" value="org.eclipse.incquery.mps.build" />
           <node concept="2Ry0Ak" id="5lNzHoKgaQd" role="2Ry0An">

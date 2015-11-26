@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/org.eclipse.incquery.mps.meta" />
   <property name="build.layout" location="${build.dir}/artifacts/org.eclipse.incquery.mps.meta" />
-  <property name="mps.incquery" location="${basedir}/solutions" />
+  <property name="inca" location="${basedir}/solutions" />
   <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS_3.3.142.230_miq.app/Contents" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -111,12 +111,12 @@
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <chunk>
-        <module file="${mps.incquery}/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" />
+        <module file="${inca}/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" />
       </chunk>
       <jvmargs>
         <arg value="-Xmx512m" />
       </jvmargs>
-      <macro name="mps.incquery" path="${mps.incquery}" />
+      <macro name="inca" path="${inca}" />
       <macro name="mps.home" path="${mps.home}" />
     </generate>
   </target>
@@ -128,18 +128,18 @@
   <target name="makeDependents" />
   
   <target name="java.compile.org.eclipse.incquery.mps.build">
-    <mkdir dir="${mps.incquery}/org.eclipse.incquery.mps.build/source_gen" />
+    <mkdir dir="${inca}/org.eclipse.incquery.mps.build/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.eclipse.incquery.mps.build" />
     <javac destdir="${build.tmp}/java/out/org.eclipse.incquery.mps.build" fork="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${mps.incquery}/org.eclipse.incquery.mps.build/source_gen" />
+        <path location="${inca}/org.eclipse.incquery.mps.build/source_gen" />
       </src>
       <classpath />
     </javac>
   </target>
   
   <target name="cleanSources">
-    <delete dir="${mps.incquery}/org.eclipse.incquery.mps.build/source_gen" />
+    <delete dir="${inca}/org.eclipse.incquery.mps.build/source_gen" />
   </target>
 </project>

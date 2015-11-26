@@ -291,7 +291,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="7IYto4uHO8w">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/plugins/mps-incquery" />
+    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/plugins/inca" />
   </node>
   <node concept="1lH9Xt" id="7f_LHgkHu8G">
     <property role="TrG5h" value="CheckExpression_Test" />
