@@ -17,7 +17,6 @@
       <dependencies>
         <dependency reexport="false">cd2909da-ecb4-49dc-b176-33e5c619e516(org.eclipse.incquery.mps.gp)</dependency>
         <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
-        <dependency reexport="false">44851301-9e9d-4b21-9608-3740a9f299a4(org.eclipse.incquery.mps.gp#4530729936991344011)</dependency>
       </dependencies>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
@@ -60,9 +59,7 @@
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
         <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.eclipse.incquery.mps.base)" version="0" />
         <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.eclipse.incquery.mps.base.runtime)" version="0" />
-        <module reference="7766a138-716a-422a-9c88-131459fb8d6a(org.eclipse.incquery.mps.core)" version="0" />
         <module reference="cd2909da-ecb4-49dc-b176-33e5c619e516(org.eclipse.incquery.mps.gp)" version="0" />
-        <module reference="44851301-9e9d-4b21-9608-3740a9f299a4(org.eclipse.incquery.mps.gp#4530729936991344011)" version="0" />
         <module reference="8c9a2720-9d21-4370-a226-819eb3e76e1e(org.eclipse.incquery.mps.sq)" version="0" />
         <module reference="8f5e7b65-fd75-4aa6-b49e-44ecf418fcb5(org.eclipse.incquery.mps.sq#4530729936991344015)" version="0" />
         <module reference="22355160-0462-42a7-b4f6-c5057d6e9d54(org.eclipse.incquery.mps.sq.runtime)" version="0" />

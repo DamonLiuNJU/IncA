@@ -392,12 +392,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lh7" resolve="jetbrains.mps.typesystemEngine" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7oCdOCUXyJE" role="3bR37C">
-          <node concept="3bR9La" id="7oCdOCUXyJF" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="eMPHaLyo5f" role="3bR37C">
           <node concept="3bR9La" id="eMPHaLyo5g" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -407,6 +401,18 @@
         <node concept="1SiIV0" id="eMPHaLyo5h" role="3bR37C">
           <node concept="1Busua" id="eMPHaLyo5i" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:7Kfy9QB6L1S" resolve="jetbrains.mps.baseLanguage.javadoc" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Rbh1GGgWQP" role="3bR37C">
+          <node concept="3bR9La" id="1Rbh1GGgWQQ" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Rbh1GGgWQR" role="3bR37C">
+          <node concept="3bR9La" id="1Rbh1GGgWQS" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
       </node>
@@ -520,12 +526,6 @@
             <node concept="3bR9La" id="6fymoI4P4FY" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="5xy6TexCPVH" resolve="org.eclipse.incquery.mps.gp" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="3oMuSXRcaoN" role="3bR37C">
-            <node concept="3bR9La" id="3oMuSXRcaoO" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="5xy6TexCPW4" resolve="org.eclipse.incquery.mps.gp#4530729936991344011" />
             </node>
           </node>
         </node>
