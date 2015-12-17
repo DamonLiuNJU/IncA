@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.eclipse.incquery.mps.meta" />
   <property name="build.layout" location="${build.dir}/artifacts/org.eclipse.incquery.mps.meta" />
   <property name="inca" location="${basedir}/solutions" />
-  <property name="mps.home" location="${basedir}/../../../../../../../Applications/MPS_3.3.142.230_miq.app/Contents" />
+  <property name="mps.home" location="${basedir}/../../../../../../../../Applications/MPS_3.3_143.742_inca.app/Contents" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -13,6 +13,8 @@
   <property name="mps.teamcity.buildConfName" value="${import.mps.mps.teamcity.buildConfName}" />
   <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
   <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
+  <property name="env.JAVA_HOME" value="${java.home}/.." />
+  <property name="jdk.home" value="${env.JAVA_HOME}" />
   
   <path id="path.mps.ant.path">
     <pathelement location="${artifacts.mps}/lib/ant/lib/ant-mps.jar" />
