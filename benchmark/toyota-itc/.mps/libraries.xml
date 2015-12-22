@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="mbeddr.doc">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.doc" />
+              <option name="path" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.doc" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mbeddr.var">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.var" />
+              <option name="path" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.cc" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
