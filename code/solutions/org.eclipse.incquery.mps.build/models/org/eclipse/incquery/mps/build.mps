@@ -167,7 +167,7 @@
                         <node concept="2Ry0Ak" id="7BgI1pOb2Uj" role="2Ry0An">
                           <property role="2Ry0Am" value="Applications" />
                           <node concept="2Ry0Ak" id="7BgI1pOb2Uo" role="2Ry0An">
-                            <property role="2Ry0Am" value="MPS_3.3_143.1025_inca.app" />
+                            <property role="2Ry0Am" value="MPS_3.3_143.1160_inca.app" />
                             <node concept="2Ry0Ak" id="7BgI1pOb2Ut" role="2Ry0An">
                               <property role="2Ry0Am" value="Contents" />
                             </node>
@@ -465,6 +465,12 @@
             <node concept="3bR9La" id="5xy6TexCRYu" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="2Zh2tjQSBex" resolve="org.eclipse.incquery.mps.base#4530729936991344007" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="20a5fkvsPBa" role="3bR37C">
+            <node concept="3bR9La" id="20a5fkvsPBb" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L8Y" resolve="jetbrains.mps.lang.project" />
             </node>
           </node>
         </node>
@@ -1419,7 +1425,7 @@
                         <node concept="2Ry0Ak" id="7BgI1pOb3cy" role="2Ry0An">
                           <property role="2Ry0Am" value="Applications" />
                           <node concept="2Ry0Ak" id="7BgI1pOb3cB" role="2Ry0An">
-                            <property role="2Ry0Am" value="MPS_3.3_143.1025_inca.app" />
+                            <property role="2Ry0Am" value="MPS_3.3_143.1160_inca.app" />
                             <node concept="2Ry0Ak" id="7BgI1pOb3cG" role="2Ry0An">
                               <property role="2Ry0Am" value="Contents" />
                             </node>
