@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/org.eclipse.incquery.mps.meta" />
   <property name="build.layout" location="${build.dir}/artifacts/org.eclipse.incquery.mps.meta" />
   <property name="inca" location="${basedir}/solutions" />
-  <property name="mps.home" location="${basedir}/../../../../../../../../Applications/MPS_3.3_143.1160_inca.app/Contents" />
+  <property name="mps.home" location="${basedir}/../../../../../../../../Applications/MPS_3.3_143.1187_inca.app/Contents" />
   <property name="artifacts.mps" location="${mps.home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
