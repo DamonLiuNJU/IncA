@@ -493,7 +493,7 @@
     <property role="3GE5qa" value="tool" />
   </node>
   <node concept="sEfby" id="6_pEy8QykK9">
-    <property role="TrG5h" value="Query Explorer" />
+    <property role="TrG5h" value="IncA Explorer" />
     <property role="3GE5qa" value="tool" />
     <node concept="2BZ0e9" id="4$anqIi0kA_" role="2XNbBz">
       <property role="TrG5h" value="queryExplorer" />
@@ -588,7 +588,7 @@
   </node>
   <node concept="sE7Ow" id="SiDpbq0oxh">
     <property role="TrG5h" value="OpenQueryExplorer" />
-    <property role="2uzpH1" value="Query Explorer" />
+    <property role="2uzpH1" value="IncA Explorer" />
     <property role="3GE5qa" value="tool" />
     <node concept="tnohg" id="SiDpbq0uE5" role="tncku">
       <node concept="3clFbS" id="SiDpbq0uE6" role="2VODD2">
@@ -596,7 +596,7 @@
           <node concept="3cpWsn" id="SiDpbq1nQB" role="3cpWs9">
             <property role="TrG5h" value="queryExplorer" />
             <node concept="1xUVSX" id="SiDpbq1nQz" role="1tU5fm">
-              <ref role="1xYkEM" node="6_pEy8QykK9" resolve="Query Explorer" />
+              <ref role="1xYkEM" node="6_pEy8QykK9" resolve="IncA Explorer" />
             </node>
             <node concept="2OqwBi" id="SiDpbq1q24" role="33vP2m">
               <node concept="2OqwBi" id="SiDpbq1o6U" role="2Oq$k0">
@@ -606,7 +606,7 @@
                 </node>
               </node>
               <node concept="LR4U6" id="SiDpbq1r_b" role="2OqNvi">
-                <ref role="LR4U5" node="6_pEy8QykK9" resolve="Query Explorer" />
+                <ref role="LR4U5" node="6_pEy8QykK9" resolve="IncA Explorer" />
               </node>
             </node>
           </node>
@@ -2154,7 +2154,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="7aUOHOSQV31" role="2OqNvi">
-                      <ref role="37wK5l" to="nfh9:~BasePatternMatch.toString():java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="4k41:~GenericPatternMatch.prettyPrint():java.lang.String" resolve="prettyPrint" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="7aUOHOSQSIK" role="37vLTJ">
@@ -5595,7 +5595,7 @@
                 <ref role="37wK5l" node="7aUOHOT4Y0D" resolve="QueryExplorerPatternRegistry.CompositePatternSegment" />
                 <node concept="10Nm6u" id="7aUOHOT5QhE" role="37wK5m" />
                 <node concept="Xl_RD" id="7aUOHOT5QkD" role="37wK5m">
-                  <property role="Xl_RC" value="Patterns" />
+                  <property role="Xl_RC" value="Pattern Functions" />
                 </node>
               </node>
             </node>
